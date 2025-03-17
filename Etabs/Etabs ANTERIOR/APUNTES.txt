@@ -1,0 +1,4 @@
+Cota de cimentación, a partir de la columna que se tiene enterrada ya se esta considerando un empotramiento entonces no se toma en cuenta 
+
+Cuando si se toma en cuenta es cuando se hace un analisis de interaccion suelo-estructura ISE donde si se consideran los efectos de la zapata 
+
