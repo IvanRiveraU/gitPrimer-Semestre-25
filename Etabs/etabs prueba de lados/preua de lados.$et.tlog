@@ -1,0 +1,12 @@
+﻿Object reference not set to an instance of an object.
+   at atf.ch(String A_0)Object reference not set to an instance of an object.
+   at abj.s(Object A_0, EventArgs A_1)
+   at System.Windows.Forms.Form.OnResize(EventArgs e)
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.WmWindowPosChanged(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmWindowPosChanged(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, MessageId msg, WPARAM wparam, LPARAM lparam)

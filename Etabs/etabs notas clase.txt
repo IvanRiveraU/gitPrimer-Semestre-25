@@ -1,0 +1,30 @@
+Resistencia esperada
+quien es el que define el sistema dimensional de guatemala DIACO
+losa se llama elemento de area 
+plate lo quitaron y tambien el de membrana  para converstirsze y unirse en la tipo shell 
+
+placa delgada se resiste a la cortante
+placa gruesa no se resiste al cortante 
+recubrimiento minimo 4 cm
+estribo minimo  1cm 
+mitad de la barra longitudinal 1cm 
+todo eso suma 6cm minimo 
+
+NO todos los aceros se pueden utilizar para una estructura sismo resistente 
+
+Carga de techo son 3 tipos
+	carga de techo de uso 
+	carga de tefra volcanica
+	santiaguito al cunoc 12 kim, 
+	si teneemos un radio de 10km se tiene considerar la carga de tefra volcanica 
+
+	::::::::::::::::::::7 abril::::::::::::::::
+a veces pregunta cortante por piso 
+
+Coeficiente sismico
+	en qeu punto del espectrotuvimos aceleracion 
+
+Metodo estatico equivalente coeficiente sismico Cs:
+	Cs en cada direccion de analisis se establecera de la manera siguiente 
+
+K se calcula en base al periodo Ta 
