@@ -1,4 +1,4 @@
-$ File D:\Ubicacion C a D\Documentos\gitPrimer-Semetre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.$et saved 31/05/2025 09:24:37
+$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.$et saved 31/05/2025 17:12:40
  
 $ PROGRAM INFORMATION
   PROGRAM  "ETABS"  VERSION "22.1.0"  
@@ -109,13 +109,10 @@ $ LINE CONNECTIVITIES
 
 $ POINT ASSIGNS
   POINTASSIGN  "1"  "Base"  RESTRAINT "UX UY UZ"  
-  POINTASSIGN  "4"  "Base"  RESTRAINT "UX UY UZ"  
-  POINTASSIGN  "2"  "Base"  RESTRAINT "UX UY UZ"  
-  POINTASSIGN  "3"  "Base"  RESTRAINT "UX UY UZ"  
+  POINTASSIGN  "4"  "Base"  RESTRAINT "UY UZ"  
 
 $ LINE ASSIGNS
   LINEASSIGN  "D1"  "Story1"  SECTION "C40X40"  RELEASE "TI M2I M2J M3I M3J"MINNUMSTA 3 AUTOMESH "YES"  MESHATINTERSECTIONS "YES"  
-  LINEASSIGN  "B1"  "Story1"  SECTION "C40X40"  RELEASE "TI M2I M2J M3I M3J"CARDINALPT 8  MAXSTASPC 500 AUTOMESH "YES"  MESHATINTERSECTIONS "YES"  
   LINEASSIGN  "D2"  "Story1"  SECTION "C40X40"  RELEASE "TI M2I M2J M3I M3J"MINNUMSTA 3 AUTOMESH "YES"  MESHATINTERSECTIONS "YES"  
   LINEASSIGN  "B2"  "Base"  SECTION "C40X40"  RELEASE "TI M2I M2J M3I M3J"CARDINALPT 8  MAXSTASPC 500 AUTOMESH "YES"  MESHATINTERSECTIONS "YES"  
   LINEASSIGN  "C1"  "Story1"  SECTION "C40X40"  RELEASE "TI M2I M2J M3I M3J"MINNUMSTA 3 AUTOMESH "YES"  MESHATINTERSECTIONS "YES"  
@@ -123,17 +120,20 @@ $ LINE ASSIGNS
   LINEASSIGN  "C2"  "Story1"  SECTION "C40X40"  RELEASE "TI M2I M2J M3I M3J"MINNUMSTA 3 AUTOMESH "YES"  MESHATINTERSECTIONS "YES"  
   LINEASSIGN  "D4"  "Story1"  SECTION "C40X40"  RELEASE "TI M2I M2J M3I M3J"MINNUMSTA 3 AUTOMESH "YES"  MESHATINTERSECTIONS "YES"  
   LINEASSIGN  "B3"  "Base"  SECTION "C40X40"  RELEASE "TI M2I M2J M3I M3J"CARDINALPT 8  MAXSTASPC 500 AUTOMESH "YES"  MESHATINTERSECTIONS "YES"  
+  LINEASSIGN  "B1"  "Story1"  SECTION "C40X40"  RELEASE "TI M2I M2J M3I M3J"CARDINALPT 8  MAXSTASPC 500 AUTOMESH "YES"  MESHATINTERSECTIONS "YES"  
 
 $ LOAD PATTERNS
   LOADPATTERN "Dead"  TYPE  "Dead"  SELFWEIGHT  1
   LOADPATTERN "Live"  TYPE  "Live"  SELFWEIGHT  0
 
 $ POINT OBJECT LOADS
+  POINTLOAD  "2"  "Base"  TYPE "FORCE"  LC "Live"    FZ -39226.6
+  POINTLOAD  "3"  "Base"  TYPE "FORCE"  LC "Live"    FZ -39226.6
 
 $ FRAME OBJECT LOADS
 
 $ ANALYSIS OPTIONS
-  ACTIVEDOF "UX UY UZ RX RY RZ"  
+  ACTIVEDOF "UX UZ RY"  
   MODELHINGESINLINKS "Yes"  HINGEDAMPINGOPTION "KT"  
   PDELTA  METHOD "NONE"  
   AUTOMESHOPTIONS  MESHTYPE  "GENERAL"  FLOORMESHMAXSIZE  1250 WALLMESHMAXSIZE  1250 
@@ -246,6 +246,20 @@ ETABS Ultimate  22.1.0 File saved as D:\Ubicacion C a D\Documentos\gitPrimer-Sem
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 30/05/2025 18:22:28
 ETABS Ultimate  22.1.0 File saved as D:\Ubicacion C a D\Documentos\gitPrimer-Semetre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 09:24:34
 ETABS Ultimate  22.1.0 File saved as D:\Ubicacion C a D\Documentos\gitPrimer-Semetre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 09:24:37
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 13:29:03
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 16:04:04
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 16:04:06
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 16:37:09
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 16:39:09
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 16:39:12
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 16:39:12
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 16:39:21
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 17:00:06
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 17:00:07
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 17:05:31
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 17:05:33
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 17:12:36
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto 2 Etabs\Proyecto 2 Etabs.EDB at 31/05/2025 17:12:40
   ENDCOMMENTS  
 
   END
