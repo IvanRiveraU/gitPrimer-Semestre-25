@@ -4,4 +4,10 @@
    at System.Windows.Forms.Control.WmMouseMove(Message& m)
    at System.Windows.Forms.Control.WndProc(Message& m)
    at System.Windows.Forms.UserControl.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, MessageId msg, WPARAM wparam, LPARAM lparam)Object reference not set to an instance of an object.
+   at CSI.CSICommon.ToolBarManager.GetDockedArea(ToolBarDockHolder holder)
+   at CSI.CSICommon.ToolBarManager.ToolBarMouseMove(Object sender, MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseMove(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.UserControl.WndProc(Message& m)
    at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, MessageId msg, WPARAM wparam, LPARAM lparam)
