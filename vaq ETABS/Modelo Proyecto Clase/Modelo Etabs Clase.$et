@@ -1,4 +1,4 @@
-$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.$et saved 5/06/2025 23:09:57
+$ File D:\Ubicacion C a D\Documentos\gitPrimer-Semetre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.$et saved 6/06/2025 08:36:31
  
 $ PROGRAM INFORMATION
   PROGRAM  "ETABS"  VERSION "22.1.0"  
@@ -61,6 +61,10 @@ $ MATERIAL PROPERTIES
   MATERIAL  "Concreto210"    FC 20.593966
   MATERIAL  "Concreto210"  TIMEDEPCONCCODE "CEBFIP90"  
   MATERIAL  "Concreto210"  HYSTYPE "Concrete"  ENERGYDEGFACT 0 SSTYPE "Mander"  STRAINATFC 0.00192183 STRAINATULTIMATE 0.005 FINALSLOPE -0.1 IOTENSION 0.01 LSTENSION 0.02 CPTENSION 0.05 IOCOMPRESSION 0.003 LSCOMPRESSION 0.006 CPCOMPRESSION 0.015 
+  MATERIAL  "AceroG60"    TYPE "Rebar"    GRADE "Grade 60"    WEIGHTPERVOLUME 7.6972865E-05
+  MATERIAL  "AceroG60"    SYMTYPE "Uniaxial"  E 199947.98  A 1.1699999959091656E-05
+  MATERIAL  "AceroG60"  FY 413.6855  FU 620.5282 FYE 455.05402  FUE 682.58105
+  MATERIAL  "AceroG60"  HYSTYPE "Kinematic"  SSTYPE "Simple"  STRAINATHARDENING 0.01 STRAINATULTIMATE 0.09 FINALSLOPE -0.1 IOTENSION 0.01 LSTENSION 0.02 CPTENSION 0.05 IOCOMPRESSION 0.005 LSCOMPRESSION 0.01 CPCOMPRESSION 0.02 
 
 $ REBAR DEFINITIONS
   REBARDEFINITION  "#2"  AREA  32.258 DIA  6.35 
@@ -647,6 +651,10 @@ ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Proyecto Clase\Modelo Etabs Clase.EDB at 5/06/2025 18:54:38
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 5/06/2025 23:09:53
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 5/06/2025 23:09:57
+ETABS Ultimate  22.1.0 File saved as D:\Ubicacion C a D\Documentos\gitPrimer-Semetre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 5/06/2025 23:49:48
+ETABS Ultimate  22.1.0 File saved as D:\Ubicacion C a D\Documentos\gitPrimer-Semetre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 5/06/2025 23:55:06
+ETABS Ultimate  22.1.0 File saved as D:\Ubicacion C a D\Documentos\gitPrimer-Semetre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 08:36:31
+ETABS Ultimate  22.1.0 File saved as D:\Ubicacion C a D\Documentos\gitPrimer-Semetre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 08:36:31
   ENDCOMMENTS  
 
   END
