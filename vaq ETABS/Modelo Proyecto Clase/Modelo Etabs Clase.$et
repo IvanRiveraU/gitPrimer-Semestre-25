@@ -1,4 +1,4 @@
-$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.$et saved 6/06/2025 15:26:27
+$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.$et saved 6/06/2025 18:21:13
  
 $ PROGRAM INFORMATION
   PROGRAM  "ETABS"  VERSION "22.1.0"  
@@ -531,8 +531,10 @@ $ AREA ASSIGNS
   AREAASSIGN  "F22"  "Nivel2"  SECTION "Losa12cm"  OBJMESHTYPE "DEFAULT"  ADDRESTRAINT "No"  CARDINALPOINT "TOP"  TRANSFORMSTIFFNESSFOROFFSETS "No"  
 
 $ LOAD PATTERNS
-  LOADPATTERN "Dead"  TYPE  "Dead"  SELFWEIGHT  1
-  LOADPATTERN "Live"  TYPE  "Live"  SELFWEIGHT  0
+  LOADPATTERN "PP"  TYPE  "Dead"  SELFWEIGHT  1
+  LOADPATTERN "SC"  TYPE  "Super Dead"  SELFWEIGHT  0
+  LOADPATTERN "V"  TYPE  "Live"  SELFWEIGHT  0
+  LOADPATTERN "Vt"  TYPE  "Roof Live"  SELFWEIGHT  0
 
 $ POINT OBJECT LOADS
 
@@ -562,12 +564,13 @@ $ FUNCTIONS
 $ GENERALIZED DISPLACEMENTS
 
 $ LOAD CASES
-  LOADCASE "Modal"  TYPE  "Modal - Eigen"  INITCOND  "PRESET"  
-  LOADCASE "Modal"  MAXMODES  12 MINMODES  1 EIGENSHIFTFREQ  0 EIGENCUTOFF  0 EIGENTOL  1E-09 
-  LOADCASE "Dead"  TYPE  "Linear Static"  INITCOND  "PRESET"  
-  LOADCASE "Dead"  LOADPAT  "Dead"  SF  1 
-  LOADCASE "Live"  TYPE  "Linear Static"  INITCOND  "PRESET"  
-  LOADCASE "Live"  LOADPAT  "Live"  SF  1 
+  LOADCASE "M"  TYPE  "Linear Static"  INITCOND  "PRESET"  
+  LOADCASE "M"  LOADPAT  "PP"  SF  1 
+  LOADCASE "M"  LOADPAT  "SC"  SF  1 
+  LOADCASE "V"  TYPE  "Linear Static"  INITCOND  "PRESET"  
+  LOADCASE "V"  LOADPAT  "V"  SF  1 
+  LOADCASE "Vt"  TYPE  "Linear Static"  INITCOND  "PRESET"  
+  LOADCASE "Vt"  LOADPAT  "Vt"  SF  1 
 
 $ STEEL DESIGN PREFERENCES
   STEELPREFERENCE  CODE "AISC 360-16"  THDESIGN "EVERYSTEP-ALL"  FRAMETYPE "SMF"  
@@ -668,6 +671,11 @@ ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 15:26:16
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 15:26:19
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 15:26:27
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 18:14:01
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 18:14:03
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 18:14:12
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 18:15:07
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 18:21:13
   ENDCOMMENTS  
 
   END
