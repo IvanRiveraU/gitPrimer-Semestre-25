@@ -1,4 +1,4 @@
-$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.$et saved 6/06/2025 18:21:13
+$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.$et saved 10/06/2025 16:06:06
  
 $ PROGRAM INFORMATION
   PROGRAM  "ETABS"  VERSION "22.1.0"  
@@ -212,6 +212,123 @@ $ AREA CONNECTIVITIES
   AREA "F20"  FLOOR  4  "14"  "12"  "48"  "13"  0  0  0  0  
   AREA "F21"  FLOOR  4  "12"  "11"  "8"  "48"  0  0  0  0  
   AREA "F22"  FLOOR  4  "11"  "10"  "52"  "8"  0  0  0  0  
+
+$ GROUPS
+  GROUP "VigasPerimetro"  
+  GROUP "VigasPerimetro"  LINE "B1"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B2"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B3"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B10"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B11"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B13"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B14"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B15"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B16"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B12"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B17"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B18"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B19"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B27"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B30"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B31"  "Nivel1"  
+  GROUP "VigasPerimetro"  LINE "B1"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B2"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B3"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B10"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B11"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B13"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B14"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B15"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B16"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B12"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B17"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B18"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B19"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B27"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B30"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B31"  "Nivel4"  
+  GROUP "VigasPerimetro"  LINE "B1"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B2"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B3"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B10"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B11"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B13"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B14"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B15"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B16"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B12"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B17"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B18"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B19"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B27"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B30"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B31"  "Nivel3"  
+  GROUP "VigasPerimetro"  LINE "B1"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B2"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B3"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B10"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B11"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B13"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B14"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B15"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B16"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B12"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B17"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B18"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B19"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B27"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B30"  "Nivel2"  
+  GROUP "VigasPerimetro"  LINE "B31"  "Nivel2"  
+  GROUP "VigasInterioresOficinas"  
+  GROUP "VigasInterioresOficinas"  POINT "48"  "Nivel2"  
+  GROUP "VigasInterioresOficinas"  POINT "48"  "Nivel3"  
+  GROUP "VigasInterioresOficinas"  POINT "48"  "Nivel4"  
+  GROUP "VigasInterioresOficinas"  POINT "6"  "Nivel2"  
+  GROUP "VigasInterioresOficinas"  POINT "6"  "Nivel3"  
+  GROUP "VigasInterioresOficinas"  POINT "6"  "Nivel4"  
+  GROUP "VigasInterioresOficinas"  POINT "5"  "Nivel2"  
+  GROUP "VigasInterioresOficinas"  POINT "5"  "Nivel3"  
+  GROUP "VigasInterioresOficinas"  POINT "5"  "Nivel4"  
+  GROUP "VigasInterioresOficinas"  POINT "8"  "Nivel2"  
+  GROUP "VigasInterioresOficinas"  POINT "8"  "Nivel3"  
+  GROUP "VigasInterioresOficinas"  POINT "8"  "Nivel4"  
+  GROUP "VigasInterioresOficinas"  POINT "19"  "Nivel4"  
+  GROUP "VigasInterioresOficinas"  POINT "20"  "Nivel4"  
+  GROUP "VigasInterioresOficinas"  POINT "19"  "Nivel3"  
+  GROUP "VigasInterioresOficinas"  POINT "20"  "Nivel3"  
+  GROUP "VigasInterioresOficinas"  POINT "19"  "Nivel2"  
+  GROUP "VigasInterioresOficinas"  POINT "20"  "Nivel2"  
+  GROUP "VigasInterioresOficinas"  LINE "B5"  "Nivel4"  
+  GROUP "VigasInterioresOficinas"  LINE "B8"  "Nivel4"  
+  GROUP "VigasInterioresOficinas"  LINE "B21"  "Nivel4"  
+  GROUP "VigasInterioresOficinas"  LINE "B29"  "Nivel4"  
+  GROUP "VigasInterioresOficinas"  LINE "B5"  "Nivel3"  
+  GROUP "VigasInterioresOficinas"  LINE "B8"  "Nivel3"  
+  GROUP "VigasInterioresOficinas"  LINE "B21"  "Nivel3"  
+  GROUP "VigasInterioresOficinas"  LINE "B29"  "Nivel3"  
+  GROUP "VigasInterioresOficinas"  LINE "B5"  "Nivel2"  
+  GROUP "VigasInterioresOficinas"  LINE "B8"  "Nivel2"  
+  GROUP "VigasInterioresOficinas"  LINE "B21"  "Nivel2"  
+  GROUP "VigasInterioresOficinas"  LINE "B29"  "Nivel2"  
+  GROUP "VigasInterioresComercio"  
+  GROUP "VigasInterioresComercio"  POINT "4"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  POINT "52"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  POINT "48"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  POINT "6"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  POINT "5"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  POINT "8"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  POINT "7"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  POINT "13"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  POINT "19"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  POINT "20"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  LINE "B4"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  LINE "B5"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  LINE "B6"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  LINE "B7"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  LINE "B8"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  LINE "B9"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  LINE "B21"  "Nivel1"  
+  GROUP "VigasInterioresComercio"  LINE "B29"  "Nivel1"  
 
 $ POINT ASSIGNS
   POINTASSIGN  "3"  "Base"  RESTRAINT "UX UY UZ"  
@@ -535,12 +652,43 @@ $ LOAD PATTERNS
   LOADPATTERN "SC"  TYPE  "Super Dead"  SELFWEIGHT  0
   LOADPATTERN "V"  TYPE  "Live"  SELFWEIGHT  0
   LOADPATTERN "Vt"  TYPE  "Roof Live"  SELFWEIGHT  0
+  LOADPATTERN "Sx"  TYPE  "Seismic"  SELFWEIGHT  0
+  LOADPATTERN "Sy"  TYPE  "Seismic"  SELFWEIGHT  0
+  LOADPATTERN "SxDeriva"  TYPE  "Seismic (Drift)"  SELFWEIGHT  0
+  LOADPATTERN "SyDeriva"  TYPE  "Seismic (Drift)"  SELFWEIGHT  0
+  SEISMIC "Sx"  "User Coefficient"    DIR "X"    TOPSTORY "Nivel5"    BOTTOMSTORY "Base"    SHEARCOEFF 0.127875  HEIGHTEXPONENT 1
+  SEISMIC "Sy"  "User Coefficient"    DIR "Y"    TOPSTORY "Nivel5"    BOTTOMSTORY "Base"    SHEARCOEFF 0.127875  HEIGHTEXPONENT 1
+  SEISMIC "SxDeriva"  "User Coefficient"    DIR "X"    TOPSTORY "Nivel5"    BOTTOMSTORY "Base"    SHEARCOEFF 0.127875  HEIGHTEXPONENT 1
+  SEISMIC "SyDeriva"  "User Coefficient"    DIR "Y"    TOPSTORY "Nivel5"    BOTTOMSTORY "Base"    SHEARCOEFF 0.127875  HEIGHTEXPONENT 1
 
 $ POINT OBJECT LOADS
 
 $ FRAME OBJECT LOADS
 
+$ SHELL UNIFORM LOAD SETS
+  SHELLUNIFORMLOADSET "Almacen"  LOADPAT "SC"  VALUE 0.0015249341
+  SHELLUNIFORMLOADSET "Almacen"  LOADPAT "V"  VALUE 0.004903325
+  SHELLUNIFORMLOADSET "PasillosComercio"  LOADPAT "SC"  VALUE 0.0015249341
+  SHELLUNIFORMLOADSET "PasillosComercio"  LOADPAT "V"  VALUE 0.004903325
+  SHELLUNIFORMLOADSET "Pasillos"  LOADPAT "SC"  VALUE 0.0015249341
+  SHELLUNIFORMLOADSET "Pasillos"  LOADPAT "V"  VALUE 0.0029419952
+  SHELLUNIFORMLOADSET "Oficina"  LOADPAT "SC"  VALUE 0.0015249341
+  SHELLUNIFORMLOADSET "Oficina"  LOADPAT "V"  VALUE 0.0024516624
+  SHELLUNIFORMLOADSET "Cafeteria"  LOADPAT "SC"  VALUE 0.0015249341
+  SHELLUNIFORMLOADSET "Cafeteria"  LOADPAT "V"  VALUE 0.004903325
+  SHELLUNIFORMLOADSET "Techo"  LOADPAT "SC"  VALUE 0.0008433719
+  SHELLUNIFORMLOADSET "Techo"  LOADPAT "V"  VALUE 0.000980665
+
 $ SHELL OBJECT LOADS
+  AREALOAD  "F12"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
+  AREALOAD  "F13"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
+  AREALOAD  "F14"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
+  AREALOAD  "F15"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
+  AREALOAD  "F16"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
+  AREALOAD  "F17"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
+  AREALOAD  "F20"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
+  AREALOAD  "F21"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
+  AREALOAD  "F22"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
 
 $ ANALYSIS OPTIONS
   ACTIVEDOF "UX UY UZ RX RY RZ"  
@@ -549,7 +697,10 @@ $ ANALYSIS OPTIONS
   AUTOMESHOPTIONS  MESHTYPE  "GENERAL"  FLOORMESHMAXSIZE  1250 WALLMESHMAXSIZE  1250 
 
 $ MASS SOURCE
-  MASSSOURCE  "MsSrc1"    INCLUDEELEMENTS "Yes"    INCLUDEADDEDMASS "Yes"    INCLUDELOADS "No"    INCLUDEMOVE "No"    INCLUDELATERALMASS "Yes"    INCLUDEVERTICALMASS "No"    LUMPATSTORIES "Yes"    ISDEFAULT "Yes"  
+  MASSSOURCE  "MasaSismica"    INCLUDEELEMENTS "No"    INCLUDEADDEDMASS "Yes"    INCLUDELOADS "Yes"    INCLUDEMOVE "No"    INCLUDELATERALMASS "Yes"    INCLUDEVERTICALMASS "No"    LUMPATSTORIES "Yes"    ISDEFAULT "Yes"  
+  MASSSOURCELOAD  "MasaSismica"  "SC"  1 
+  MASSSOURCELOAD  "MasaSismica"  "V"  0.25 
+  MASSSOURCELOAD  "MasaSismica"  "PP"  1 
 
 $ FUNCTIONS
   FUNCTION "RampTH"  FUNCTYPE "HISTORY"  HISTTYPE "USER"  
@@ -571,6 +722,14 @@ $ LOAD CASES
   LOADCASE "V"  LOADPAT  "V"  SF  1 
   LOADCASE "Vt"  TYPE  "Linear Static"  INITCOND  "PRESET"  
   LOADCASE "Vt"  LOADPAT  "Vt"  SF  1 
+  LOADCASE "Sx"  TYPE  "Linear Static"  INITCOND  "PRESET"  
+  LOADCASE "Sx"  LOADPAT  "Sx"  SF  1 
+  LOADCASE "Sy"  TYPE  "Linear Static"  INITCOND  "PRESET"  
+  LOADCASE "Sy"  LOADPAT  "Sy"  SF  1 
+  LOADCASE "SxDeriva"  TYPE  "Linear Static"  INITCOND  "PRESET"  
+  LOADCASE "SxDeriva"  LOADPAT  "SxDeriva"  SF  1 
+  LOADCASE "SyDeriva"  TYPE  "Linear Static"  INITCOND  "PRESET"  
+  LOADCASE "SyDeriva"  LOADPAT  "SyDeriva"  SF  1 
 
 $ STEEL DESIGN PREFERENCES
   STEELPREFERENCE  CODE "AISC 360-16"  THDESIGN "EVERYSTEP-ALL"  FRAMETYPE "SMF"  
@@ -676,6 +835,8 @@ ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 18:14:12
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 18:15:07
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 18:21:13
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 10/06/2025 16:06:04
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 10/06/2025 16:06:06
   ENDCOMMENTS  
 
   END
