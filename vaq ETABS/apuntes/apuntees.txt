@@ -1,3 +1,4 @@
+10 de JUNIO------------------------------------------------------------------------------
 cual es la cantidad de personas en el area de cada ambiente en la NSE1, 
 
 consideramos que nuestro edificio no llega a 300 personas en uso simultaneo 
@@ -16,6 +17,11 @@ masourse origen de masa
 primera opcion considera la mas que estamoas ttrabajando
 masas aodicionames que le coloquemos ala estructura 
 
+patrones de carga de sismo 
+
+en la deriva creo que se confundio 
+
+____________________________________________________________________
 
 
 
