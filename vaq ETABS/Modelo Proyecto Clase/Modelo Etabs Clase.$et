@@ -1,4 +1,4 @@
-$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.$et saved 10/06/2025 16:06:06
+$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.$et saved 11/06/2025 11:05:54
  
 $ PROGRAM INFORMATION
   PROGRAM  "ETABS"  VERSION "22.1.0"  
@@ -664,6 +664,106 @@ $ LOAD PATTERNS
 $ POINT OBJECT LOADS
 
 $ FRAME OBJECT LOADS
+  LINELOAD  "B1"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B2"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B3"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B4"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B5"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B6"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B7"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B8"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B9"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B10"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B11"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B13"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B14"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B15"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B16"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B12"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B17"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B18"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B19"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B21"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B27"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B29"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B30"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B31"  "Nivel1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B1"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B2"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B3"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B10"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B11"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B13"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B14"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B15"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B16"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B12"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B17"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B18"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B19"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B27"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B30"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B31"  "Nivel5"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B1"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B2"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B3"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B5"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B8"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B10"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B11"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B13"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B14"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B15"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B16"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B12"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B17"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B18"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B19"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B21"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B27"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B29"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B30"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B31"  "Nivel4"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B1"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B2"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B3"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B5"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B8"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B10"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B11"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B13"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B14"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B15"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B16"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B12"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B17"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B18"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B19"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B21"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B27"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B29"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B30"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B31"  "Nivel3"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B1"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B2"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B3"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B5"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B8"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B10"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B11"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B13"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B14"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B15"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B16"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B12"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B17"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B18"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B19"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B21"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B27"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B29"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 3.92266
+  LINELOAD  "B30"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
+  LINELOAD  "B31"  "Nivel2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 5.3936577
 
 $ SHELL UNIFORM LOAD SETS
   SHELLUNIFORMLOADSET "Almacen"  LOADPAT "SC"  VALUE 0.0015249341
@@ -686,9 +786,55 @@ $ SHELL OBJECT LOADS
   AREALOAD  "F15"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
   AREALOAD  "F16"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
   AREALOAD  "F17"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
+  AREALOAD  "F18"  "Nivel1"  TYPE "UNIFLOADSET"  "PasillosComercio"  
+  AREALOAD  "F19"  "Nivel1"  TYPE "UNIFLOADSET"  "PasillosComercio"  
   AREALOAD  "F20"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
   AREALOAD  "F21"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
   AREALOAD  "F22"  "Nivel1"  TYPE "UNIFLOADSET"  "Almacen"  
+  AREALOAD  "F12"  "Nivel5"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F13"  "Nivel5"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F14"  "Nivel5"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F15"  "Nivel5"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F16"  "Nivel5"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F17"  "Nivel5"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F18"  "Nivel5"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F19"  "Nivel5"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F20"  "Nivel5"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F21"  "Nivel5"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F22"  "Nivel5"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F12"  "Nivel4"  TYPE "UNIFLOADSET"  "Cafeteria"  
+  AREALOAD  "F13"  "Nivel4"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F14"  "Nivel4"  TYPE "UNIFLOADSET"  "Cafeteria"  
+  AREALOAD  "F15"  "Nivel4"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F16"  "Nivel4"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F17"  "Nivel4"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F18"  "Nivel4"  TYPE "UNIFLOADSET"  "Pasillos"  
+  AREALOAD  "F19"  "Nivel4"  TYPE "UNIFLOADSET"  "Pasillos"  
+  AREALOAD  "F20"  "Nivel4"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F21"  "Nivel4"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F22"  "Nivel4"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F12"  "Nivel3"  TYPE "UNIFLOADSET"  "Cafeteria"  
+  AREALOAD  "F13"  "Nivel3"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F14"  "Nivel3"  TYPE "UNIFLOADSET"  "Cafeteria"  
+  AREALOAD  "F15"  "Nivel3"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F16"  "Nivel3"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F17"  "Nivel3"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F18"  "Nivel3"  TYPE "UNIFLOADSET"  "Pasillos"  
+  AREALOAD  "F19"  "Nivel3"  TYPE "UNIFLOADSET"  "Pasillos"  
+  AREALOAD  "F20"  "Nivel3"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F21"  "Nivel3"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F22"  "Nivel3"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F12"  "Nivel2"  TYPE "UNIFLOADSET"  "Cafeteria"  
+  AREALOAD  "F13"  "Nivel2"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F14"  "Nivel2"  TYPE "UNIFLOADSET"  "Cafeteria"  
+  AREALOAD  "F15"  "Nivel2"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F16"  "Nivel2"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F17"  "Nivel2"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F18"  "Nivel2"  TYPE "UNIFLOADSET"  "Pasillos"  
+  AREALOAD  "F19"  "Nivel2"  TYPE "UNIFLOADSET"  "Pasillos"  
+  AREALOAD  "F20"  "Nivel2"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F21"  "Nivel2"  TYPE "UNIFLOADSET"  "Oficina"  
+  AREALOAD  "F22"  "Nivel2"  TYPE "UNIFLOADSET"  "Oficina"  
 
 $ ANALYSIS OPTIONS
   ACTIVEDOF "UX UY UZ RX RY RZ"  
@@ -837,6 +983,13 @@ ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 6/06/2025 18:21:13
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 10/06/2025 16:06:04
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 10/06/2025 16:06:06
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 11/06/2025 11:00:33
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 11/06/2025 11:00:36
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 11/06/2025 11:04:30
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 11/06/2025 11:05:43
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 11/06/2025 11:05:44
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 11/06/2025 11:05:47
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Proyecto Clase\Modelo Etabs Clase.EDB at 11/06/2025 11:05:54
   ENDCOMMENTS  
 
   END
