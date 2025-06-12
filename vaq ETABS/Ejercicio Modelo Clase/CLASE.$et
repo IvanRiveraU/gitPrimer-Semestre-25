@@ -1,4 +1,4 @@
-$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Ejercicio Modelo Clase\CLASE.$et saved 11/06/2025 14:19:26
+$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Ejercicio Modelo Clase\CLASE.$et saved 12/06/2025 08:10:23
  
 $ PROGRAM INFORMATION
   PROGRAM  "ETABS"  VERSION "22.1.0"  
@@ -10,8 +10,8 @@ $ CONTROLS
   RLLF  METHOD "ASCE7-10"  USEDEFAULTMIN "YES"  
 
 $ STORIES - IN SEQUENCE FROM TOP
-  STORY "Story2"  HEIGHT 3000 
-  STORY "Story1"  HEIGHT 4500 
+  STORY "Story2"  HEIGHT 3000 MASTERSTORY "Yes"  
+  STORY "Story1"  HEIGHT 4500 MASTERSTORY "Yes"  
   STORY "Base"  ELEV 0 
 
 $ GRIDS
@@ -168,6 +168,48 @@ $ AREA CONNECTIVITIES
   AREA "F11"  FLOOR  4  "11"  "12"  "7"  "8"  0  0  0  0  
   AREA "F12"  FLOOR  4  "10"  "11"  "8"  "9"  0  0  0  0  
 
+$ GROUPS
+  GROUP "Vigas Perimetro"  
+  GROUP "Vigas Perimetro"  LINE "B1"  "Story1"  
+  GROUP "Vigas Perimetro"  LINE "B2"  "Story1"  
+  GROUP "Vigas Perimetro"  LINE "B3"  "Story1"  
+  GROUP "Vigas Perimetro"  LINE "B7"  "Story1"  
+  GROUP "Vigas Perimetro"  LINE "B8"  "Story1"  
+  GROUP "Vigas Perimetro"  LINE "B9"  "Story1"  
+  GROUP "Vigas Perimetro"  LINE "B10"  "Story1"  
+  GROUP "Vigas Perimetro"  LINE "B11"  "Story1"  
+  GROUP "Vigas Perimetro"  LINE "B16"  "Story1"  
+  GROUP "Vigas Perimetro"  LINE "B17"  "Story1"  
+  GROUP "Vigas Interiores"  
+  GROUP "Vigas Interiores"  LINE "B4"  "Story1"  
+  GROUP "Vigas Interiores"  LINE "B5"  "Story1"  
+  GROUP "Vigas Interiores"  LINE "B6"  "Story1"  
+  GROUP "Vigas Interiores"  LINE "B12"  "Story1"  
+  GROUP "Vigas Interiores"  LINE "B13"  "Story1"  
+  GROUP "Vigas Interiores"  LINE "B14"  "Story1"  
+  GROUP "Vigas Interiores"  LINE "B15"  "Story1"  
+  GROUP "Vigas Perimetro 2do nivel"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B1"  "Story2"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B2"  "Story2"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B3"  "Story2"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B7"  "Story2"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B8"  "Story2"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B9"  "Story2"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B10"  "Story2"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B11"  "Story2"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B16"  "Story2"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B17"  "Story2"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B1"  "Story1"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B2"  "Story1"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B3"  "Story1"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B7"  "Story1"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B8"  "Story1"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B9"  "Story1"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B10"  "Story1"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B11"  "Story1"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B16"  "Story1"  
+  GROUP "Vigas Perimetro 2do nivel"  LINE "B17"  "Story1"  
+
 $ POINT ASSIGNS
   POINTASSIGN  "10"  "Story2"  USERJOINT  "Yes"  
   POINTASSIGN  "11"  "Story2"  USERJOINT  "Yes"  
@@ -277,8 +319,53 @@ $ LOAD PATTERNS
 $ POINT OBJECT LOADS
 
 $ FRAME OBJECT LOADS
+  LINELOAD  "B1"  "Story2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B2"  "Story2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B3"  "Story2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B7"  "Story2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B8"  "Story2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B9"  "Story2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B10"  "Story2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B11"  "Story2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B16"  "Story2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B17"  "Story2"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B1"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B2"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B3"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B4"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 2.9419951
+  LINELOAD  "B5"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 2.9419951
+  LINELOAD  "B6"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 2.9419951
+  LINELOAD  "B7"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B8"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B9"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B10"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B11"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B12"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 2.9419951
+  LINELOAD  "B13"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 2.9419951
+  LINELOAD  "B14"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 2.9419951
+  LINELOAD  "B15"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 2.9419951
+  LINELOAD  "B16"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+  LINELOAD  "B17"  "Story1"  TYPE "UNIFF"  DIR "GRAV"  LC "SC"  FVAL 1.4709976
+
+$ SHELL UNIFORM LOAD SETS
+  SHELLUNIFORMLOADSET "Habitaciones"  LOADPAT "SC"  VALUE 0.001765197
+  SHELLUNIFORMLOADSET "Habitaciones"  LOADPAT "V"  VALUE 0.0034323276
+  SHELLUNIFORMLOADSET "Techo"  LOADPAT "SC"  VALUE 0.0010787315
+  SHELLUNIFORMLOADSET "Techo"  LOADPAT "V"  VALUE 0.00196133
 
 $ SHELL OBJECT LOADS
+  AREALOAD  "F7"  "Story2"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F8"  "Story2"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F9"  "Story2"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F10"  "Story2"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F11"  "Story2"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F12"  "Story2"  TYPE "UNIFLOADSET"  "Techo"  
+  AREALOAD  "F7"  "Story1"  TYPE "UNIFLOADSET"  "Habitaciones"  
+  AREALOAD  "F8"  "Story1"  TYPE "UNIFLOADSET"  "Habitaciones"  
+  AREALOAD  "F9"  "Story1"  TYPE "UNIFLOADSET"  "Habitaciones"  
+  AREALOAD  "F10"  "Story1"  TYPE "UNIFLOADSET"  "Habitaciones"  
+  AREALOAD  "F11"  "Story1"  TYPE "UNIFLOADSET"  "Habitaciones"  
+  AREALOAD  "F12"  "Story1"  TYPE "UNIFLOADSET"  "Habitaciones"  
 
 $ ANALYSIS OPTIONS
   ACTIVEDOF "UX UY UZ RX RY RZ"  
@@ -405,6 +492,13 @@ ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Ejercicio Modelo Clase\CLASE.EDB at 11/06/2025 14:00:58
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Ejercicio Modelo Clase\CLASE.EDB at 11/06/2025 14:19:25
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Ejercicio Modelo Clase\CLASE.EDB at 11/06/2025 14:19:26
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Ejercicio Modelo Clase\CLASE.EDB at 12/06/2025 07:29:54
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Ejercicio Modelo Clase\CLASE.EDB at 12/06/2025 07:29:55
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Ejercicio Modelo Clase\CLASE.EDB at 12/06/2025 08:06:27
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Ejercicio Modelo Clase\CLASE.EDB at 12/06/2025 08:06:27
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Ejercicio Modelo Clase\CLASE.EDB at 12/06/2025 08:06:37
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Ejercicio Modelo Clase\CLASE.EDB at 12/06/2025 08:07:22
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Ejercicio Modelo Clase\CLASE.EDB at 12/06/2025 08:10:22
   ENDCOMMENTS  
 
   END
