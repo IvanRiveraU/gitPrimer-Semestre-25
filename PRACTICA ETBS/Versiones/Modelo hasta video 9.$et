@@ -1,4 +1,4 @@
-$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.$et saved 13/06/2025 16:09:55
+$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\PRACTICA ETBS\Versiones\Modelo hasta video 9.$et saved 13/06/2025 12:51:41
  
 $ PROGRAM INFORMATION
   PROGRAM  "ETABS"  VERSION "22.1.0"  
@@ -885,46 +885,6 @@ $ LOAD CASES
   LOADCASE "SC"  TYPE  "Linear Static"  INITCOND  "PRESET"  
   LOADCASE "SC"  LOADPAT  "SC"  SF  1 
 
-$ LOAD COMBINATIONS
-  COMBO "CR1-1.4M"  TYPE "Linear Add"  
-  COMBO "CR1-1.4M"  LOADCASE "M"  SF 1.4 
-  COMBO "CR2-1.2M+1.6V+0.5V"  TYPE "Linear Add"  
-  COMBO "CR2-1.2M+1.6V+0.5V"  LOADCASE "M"  SF 1.2 
-  COMBO "CR2-1.2M+1.6V+0.5V"  LOADCASE "V"  SF 1.6 
-  COMBO "CR2-1.2M+1.6V+0.5V"  LOADCASE "Vt"  SF 0.5 
-  COMBO "CR3-1.2M+V+1.6Vt"  TYPE "Linear Add"  
-  COMBO "CR3-1.2M+V+1.6Vt"  LOADCASE "M"  SF 1.2 
-  COMBO "CR3-1.2M+V+1.6Vt"  LOADCASE "V"  SF 1 
-  COMBO "CR3-1.2M+V+1.6Vt"  LOADCASE "Vt"  SF 1.6 
-  COMBO "CR4-1.4M+V+Sx-0.3Sy"  TYPE "Linear Add"  
-  COMBO "CR4-1.4M+V+Sx-0.3Sy"  LOADCASE "M"  SF 1.4 
-  COMBO "CR4-1.4M+V+Sx-0.3Sy"  LOADCASE "V"  SF 1 
-  COMBO "CR4-1.4M+V+Sx-0.3Sy"  LOADCASE "Sx"  SF 1 
-  COMBO "CR4-1.4M+V+Sx-0.3Sy"  LOADCASE "Sy"  SF -0.3 
-  COMBO "CR4-1.4M+V-Sx-0.3Sy"  TYPE "Linear Add"  
-  COMBO "CR4-1.4M+V-Sx-0.3Sy"  LOADCASE "M"  SF 1.4 
-  COMBO "CR4-1.4M+V-Sx-0.3Sy"  LOADCASE "V"  SF 1 
-  COMBO "CR4-1.4M+V-Sx-0.3Sy"  LOADCASE "Sx"  SF -1 
-  COMBO "CR4-1.4M+V-Sx-0.3Sy"  LOADCASE "Sy"  SF -0.3 
-  COMBO "CR4-1.4M+V-Sx+0.3Sy"  TYPE "Linear Add"  
-  COMBO "CR4-1.4M+V-Sx+0.3Sy"  LOADCASE "M"  SF 1.4 
-  COMBO "CR4-1.4M+V-Sx+0.3Sy"  LOADCASE "V"  SF 1 
-  COMBO "CR4-1.4M+V-Sx+0.3Sy"  LOADCASE "Sx"  SF -1 
-  COMBO "CR4-1.4M+V-Sx+0.3Sy"  LOADCASE "Sy"  SF 0.3 
-  COMBO "CR4-1.4M+V+Sx+0.3Sy"  TYPE "Linear Add"  
-  COMBO "CR4-1.4M+V+Sx+0.3Sy"  LOADCASE "M"  SF 1.4 
-  COMBO "CR4-1.4M+V+Sx+0.3Sy"  LOADCASE "V"  SF 1 
-  COMBO "CR4-1.4M+V+Sx+0.3Sy"  LOADCASE "Sx"  SF 1 
-  COMBO "CR4-1.4M+V+Sx+0.3Sy"  LOADCASE "Sy"  SF 0.3 
-  COMBO "CR5-0.8M+0.3Sx+Sy"  TYPE "Linear Add"  
-  COMBO "CR5-0.8M+0.3Sx+Sy"  LOADCASE "M"  SF 0.8 
-  COMBO "CR5-0.8M+0.3Sx+Sy"  LOADCASE "Sx"  SF 0.3 
-  COMBO "CR5-0.8M+0.3Sx+Sy"  LOADCASE "Sy"  SF 1 
-  COMBO "Envolvente"  TYPE "Envelope"  
-  COMBO "Envolvente"  LOADCOMBO "CR1-1.4M"  SF 1 
-  COMBO "Envolvente"  LOADCOMBO "CR2-1.2M+1.6V+0.5V"  SF 1 
-  COMBO "Envolvente"  LOADCOMBO "CR3-1.2M+V+1.6Vt"  SF 1 
-
 $ STEEL DESIGN PREFERENCES
   STEELPREFERENCE  CODE "AISC 360-16"  THDESIGN "EVERYSTEP-ALL"  FRAMETYPE "SMF"  
   STEELPREFERENCE  SDC "D"  IMPORTANCEFACTOR 1 SYSTEMRHO 1 SYSTEMSDS 0.5 
@@ -1047,17 +1007,9 @@ ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 10:59:00
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 10:59:02
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 10:59:03
-ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 12:52:56
-ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 12:53:05
-ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 12:53:11
-ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 12:53:11
-ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 12:53:20
-ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 15:30:00
-ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 15:30:03
-ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 16:09:10
-ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 16:09:11
-ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 16:09:18
-ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Modelo Principal Clase\Modelo Etabs Clase.EDB at 13/06/2025 16:09:55
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\PRACTICA ETBS\Versiones\Modelo hasta video 9.EDB at 13/06/2025 12:51:27
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\PRACTICA ETBS\Versiones\Modelo hasta video 9.EDB at 13/06/2025 12:51:36
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\PRACTICA ETBS\Versiones\Modelo hasta video 9.EDB at 13/06/2025 12:51:41
   ENDCOMMENTS  
 
   END

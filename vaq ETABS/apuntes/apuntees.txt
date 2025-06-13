@@ -27,5 +27,17 @@ en la deriva creo que se confundio
 
 ____________________________________________________________________
 
+JUEVES 12 JUNIO
+
+Examen hasta lo ultimo que vimos el dia martes 
+
+0.020hp Esta es la deriva maxima 
+
+la deriva maxima tiene que estar por encima del valor  de Axp
+
+doble deriva doble de rigidez
+
+verifiacion deriva de piso 
+
 
 

@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2025/06/12  05:26:02
+ B E G I N   A N A L Y S I S                                2025/06/12  17:19:45
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -37,11 +37,11 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           2
 
 
- E L E M E N T   F O R M A T I O N                                      05:26:02
+ E L E M E N T   F O R M A T I O N                                      17:19:45
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        05:26:02
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        17:19:45
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -74,7 +74,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  05:26:02
+ L I N E A R   S T A T I C   C A S E S                                  17:19:45
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -88,7 +88,7 @@
  CASE: ~LLRF
 
 
- E I G E N   M O D A L   A N A L Y S I S                                05:26:02
+ E I G E N   M O D A L   A N A L Y S I S                                17:19:45
 
  CASE: MODAL
 
@@ -114,6 +114,9 @@
  Original stiffness at shift : EV= 0.0000000E+00, f=     .000000, T=  -INFINITY-
  Number of eigenvalues below shift =      0
 
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+       1   1.3458293E+07 5.7155305E+07 2.4339795E+08 5.7385233E+08 6.8976320E+08
+
  Found mode      1 of      5:  EV= 1.3458293E+07, f=  583.868591, T=    0.001713
  Found mode      2 of      5:  EV= 5.7155305E+07, f=    1203.229, T=    0.000831
  Found mode      3 of      5:  EV= 2.4339795E+08, f=    2483.011, T=    0.000403
@@ -125,4 +128,4 @@
  NUMBER OF STIFFNESS SHIFTS                =           0
 
 
- A N A L Y S I S   C O M P L E T E                          2025/06/12  05:26:02
+ A N A L Y S I S   C O M P L E T E                          2025/06/12  17:19:45
