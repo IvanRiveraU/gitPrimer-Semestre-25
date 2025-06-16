@@ -1,0 +1,60 @@
+
+
+ ETABS Ultimate 64-bit 22.1.0 Build 3673 (Analysis Build 9964/64)               
+ File: C:\Users\Ivan\Documents...S\Ejercicio Modelo Clase\MODELO ETABS\CLASE.OUT
+                                                                     
+                                                                       
+
+ 2, CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+           71.481646   71.481646     .000000     .000000     .000000  1.6049E+09
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X      6279.320    6279.320    6493.430
+     Y      4868.101    4868.101    4747.783
+     Z      7500.000    7500.000    7500.000
+
+ 3, CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+          121.396587  121.396587     .000000     .000000     .000000  2.9866E+09
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X      6332.716    6332.716    6493.878
+     Y      4873.254    4873.254    4747.826
+     Z      4500.000    4500.000    4500.000
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+       1 TO      44    +   +   A   A   A   +
+      29 TO      48    -   -   -   -   -   -
+      11 TO      12    +   +   -   -   -   +
+     ~39 TO    ~250    +   +   A   A   A   +
+    NULL                                    
+
+  CONSTRAINTS         U1  U2  U3  R1  R2  R3
+ 2       TO 3          A   A               A
