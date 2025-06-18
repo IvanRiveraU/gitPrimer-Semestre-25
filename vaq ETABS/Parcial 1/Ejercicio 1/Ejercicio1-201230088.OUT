@@ -1,0 +1,22 @@
+
+
+ ETABS Ultimate 64-bit 22.1.0 Build 3673 (Analysis Build 9964/64)               
+ File: C:\Users\Ivan\Documents...\Parcial 1\Ejercicio 1\Ejercicio1-201230088.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+       2               A       A       A    
+       3               -   -   A       A    
+       4 TO      13    A       A       A    
+      14               A       A            
+      15 TO      18    A       A       A    
+      19               -   -   A       A    
