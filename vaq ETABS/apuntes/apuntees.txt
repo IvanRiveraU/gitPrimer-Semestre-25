@@ -40,4 +40,11 @@ doble deriva doble de rigidez
 verifiacion deriva de piso 
 
 
+Martes 17 de Junio_______________________________________________________
+
+Coeficiente sismico era de 0.12 luego a 0.09 
+chequeo con 0.12 y con columnas de 65x55
+
+Los casos de carga fueron las de dr
+
 
