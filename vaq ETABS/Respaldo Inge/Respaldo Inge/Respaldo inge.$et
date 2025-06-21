@@ -1,4 +1,4 @@
-$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Respaldo Inge\Respaldo Inge\Respaldo inge.$et saved 18/06/2025 16:01:32
+$ File D:\Ubicacion C a D\Documentos\gitPrimer-Semetre-25\vaq ETABS\Respaldo Inge\Respaldo Inge\Respaldo inge.$et saved 20/06/2025 15:45:44
  
 $ PROGRAM INFORMATION
   PROGRAM  "ETABS"  VERSION "22.1.0"  
@@ -840,7 +840,7 @@ $ GENERALIZED DISPLACEMENTS
 
 $ LOAD CASES
   LOADCASE "Modal"  TYPE  "Modal - Eigen"  INITCOND  "PRESET"  
-  LOADCASE "Modal"  MAXMODES  12 MINMODES  1 EIGENSHIFTFREQ  0 EIGENCUTOFF  0 EIGENTOL  1E-09 
+  LOADCASE "Modal"  MAXMODES  15 MINMODES  1 EIGENSHIFTFREQ  0 EIGENCUTOFF  0 EIGENTOL  1E-09 
   LOADCASE "M"  TYPE  "Linear Static"  INITCOND  "PRESET"  
   LOADCASE "M"  LOADPAT  "PP"  SF  1 
   LOADCASE "M"  LOADPAT  "SC"  SF  1 
@@ -1045,6 +1045,10 @@ ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Respaldo Inge\Respaldo Inge\Respaldo inge.EDB at 18/06/2025 14:37:50
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Respaldo Inge\Respaldo Inge\Respaldo inge.EDB at 18/06/2025 16:01:28
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Respaldo Inge\Respaldo Inge\Respaldo inge.EDB at 18/06/2025 16:01:32
+ETABS Ultimate  22.1.0 File saved as D:\Ubicacion C a D\Documentos\gitPrimer-Semetre-25\vaq ETABS\Respaldo Inge\Respaldo Inge\Respaldo inge.EDB at 19/06/2025 00:46:45
+ETABS Ultimate  22.1.0 File saved as D:\Ubicacion C a D\Documentos\gitPrimer-Semetre-25\vaq ETABS\Respaldo Inge\Respaldo Inge\Respaldo inge.EDB at 20/06/2025 12:19:48
+ETABS Ultimate  22.1.0 File saved as D:\Ubicacion C a D\Documentos\gitPrimer-Semetre-25\vaq ETABS\Respaldo Inge\Respaldo Inge\Respaldo inge.EDB at 20/06/2025 12:19:57
+ETABS Ultimate  22.1.0 File saved as D:\Ubicacion C a D\Documentos\gitPrimer-Semetre-25\vaq ETABS\Respaldo Inge\Respaldo Inge\Respaldo inge.EDB at 20/06/2025 15:45:44
   ENDCOMMENTS  
 
   END
