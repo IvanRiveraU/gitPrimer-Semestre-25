@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2025/06/18  14:22:07
+ B E G I N   A N A L Y S I S                                2025/06/18  18:39:36
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -39,13 +39,13 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           2
 
 
- E L E M E N T   F O R M A T I O N                                      14:22:07
+ E L E M E N T   F O R M A T I O N                                      18:39:36
 
 
  NUMBER OF COUPLED CONSTRAINT EQUATIONS    =           0
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        14:22:08
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        18:39:37
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
  USING MASS SOURCE: MasaSismica
@@ -63,7 +63,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  14:22:08
+ L I N E A R   S T A T I C   C A S E S                                  18:39:38
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -84,7 +84,7 @@
  CASE: ~LLRF
 
 
- E I G E N   M O D A L   A N A L Y S I S                                14:22:10
+ E I G E N   M O D A L   A N A L Y S I S                                18:39:39
 
  CASE: MODAL
 
@@ -125,4 +125,4 @@
  NUMBER OF STIFFNESS SHIFTS                =           0
 
 
- A N A L Y S I S   C O M P L E T E                          2025/06/18  14:22:11
+ A N A L Y S I S   C O M P L E T E                          2025/06/18  18:39:41
