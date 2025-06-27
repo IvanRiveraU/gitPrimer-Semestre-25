@@ -1,0 +1,100 @@
+
+
+ ETABS Ultimate 64-bit 22.1.0 Build 3673 (Analysis Build 9964/64)
+ File: C:\Users\Ivan\Documents...BS\PROYECTO\Modelo Proyecto\Modelo Proyecto.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2025/06/26  15:16:21
+
+
+ RUNNING ANALYSIS AS A SEPARATE PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =        6147
+    WITH RESTRAINTS                        =          27
+    WITH MASS                              =          27
+ NUMBER OF FRAME/TENDON ELEMENTS           =        1734
+ NUMBER OF SHELL ELEMENTS                  =        5652
+ NUMBER OF CONSTRAINTS/WELDS               =           6
+ NUMBER OF LOAD PATTERNS                   =           9
+ NUMBER OF ACCELERATION LOADS              =          12
+ NUMBER OF LOAD CASES                      =          11
+ NUMBER OF MASS SOURCES                    =           2
+
+ UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = kgf, m, °C, sec
+ GRAVITATIONAL ACCELERATION                =    9.806650
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =      15.882 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+  (Env. variable SAPFIRE_NUM_THREADS not set)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =           2
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           2
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =           2
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           2
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           2
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           2
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =           2
+
+
+ E L E M E N T   F O R M A T I O N                                      15:16:21
+
+
+ NUMBER OF COUPLED CONSTRAINT EQUATIONS    =           0
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        15:16:22
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+ USING MASS SOURCE: MasaSismica
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =       18378
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =      300834
+
+ ---------------------------------
+ BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY,
+     SUCH AS REVIEWING EIGEN MODES FOR MECHANISMS AND RIGID-BODY MOTION)
+
+    NUMBER OF NEGATIVE EIGENVALUES         =           0,  OK.
+ ---------------------------------
+
+
+ L I N E A R   S T A T I C   C A S E S                                  15:16:23
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF CASES TO SOLVE            =          10
+ NUMBER OF CASES TO SOLVE PER BLOCK        =          10
+
+ LINEAR STATIC CASES TO BE SOLVED:
+
+ CASE: M
+ CASE: V
+ CASE: VT
+ CASE: SX
+ CASE: SY
+ CASE: SXDERIVA
+ CASE: SYDERIVA
+ CASE: PP
+ CASE: SC
+ CASE: ~LLRF
+
+
+ C E N T E R   O F   R I G I D I T Y  A N A L Y S I S                   15:16:24
+
+ CASE: ~CENTER OF RIGIDITY
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF LOADS                           =          18
+
+
+ Solving loads:       1 to      18
+ NUMBER OF LOADS SAVED                     =          18
+
+
+ A N A L Y S I S   C O M P L E T E                          2025/06/26  15:16:25

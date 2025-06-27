@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2025/06/15  17:04:20
+ B E G I N   A N A L Y S I S                                2025/06/24  00:27:07
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -39,13 +39,13 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           2
 
 
- E L E M E N T   F O R M A T I O N                                      17:04:20
+ E L E M E N T   F O R M A T I O N                                      00:27:07
 
 
  NUMBER OF COUPLED CONSTRAINT EQUATIONS    =           0
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        17:04:20
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        00:27:07
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -62,7 +62,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  17:04:20
+ L I N E A R   S T A T I C   C A S E S                                  00:27:07
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -82,7 +82,7 @@
  CASE: ~LLRF
 
 
- C E N T E R   O F   R I G I D I T Y  A N A L Y S I S                   17:04:20
+ C E N T E R   O F   R I G I D I T Y  A N A L Y S I S                   00:27:08
 
  CASE: ~CENTER OF RIGIDITY
 
@@ -95,4 +95,4 @@
  NUMBER OF LOADS SAVED                     =           6
 
 
- A N A L Y S I S   C O M P L E T E                          2025/06/15  17:04:20
+ A N A L Y S I S   C O M P L E T E                          2025/06/24  00:27:08
