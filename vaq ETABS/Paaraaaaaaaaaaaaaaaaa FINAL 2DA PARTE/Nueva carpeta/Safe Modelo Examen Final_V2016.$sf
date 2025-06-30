@@ -1,0 +1,147 @@
+File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Paaraaaaaaaaaaaaaaaaa FINAL 2DA PARTE\Nueva carpeta\Safe Modelo Examen Final_V2016.$sf was saved on 6/29/25 at 11:48:50
+ 
+TABLE:  "ADVANCED MODELING OPTIONS"
+   2DOnly=No   RigDiaTop=No   NoOffsets=Yes
+ 
+TABLE:  "ADVANCED SAPFIRE OPTIONS"
+   SolverOpt=Advanced   ProcessOpt=Auto   Always32Bit=No
+ 
+TABLE:  "AUTOMATIC SLAB MESH OPTIONS"
+   MeshOpt=Rectangular   Localize=Yes   Merge=Yes   MaxSize=1.2
+ 
+TABLE:  "BEAM PROPERTIES 01 - GENERAL"
+   Beam=BEAM1   Type=Rectangular   Color=Cyan   GUID=3dda3ab6-b55f-44c5-9e3f-4c1563fad4e2
+ 
+TABLE:  "BEAM PROPERTIES 02 - RECTANGULAR BEAM"
+   Beam=BEAM1   MatProp=CSAC30   Depth=0.6   WidthTop=0.3   WidthBot=0.3
+ 
+TABLE:  "BEAM PROPERTIES 06 - DESIGN DATA"
+   Beam=BEAM1   MatRebarL=CSA-G30.18Gr400   MatRebarS=CSA-G30.18Gr400   FlngWOpt="Analysis Property"   CoverTop=0.075   CoverBot=0.075   NoDesign=No
+ 
+TABLE:  "COLUMN PROPERTIES 01 - GENERAL"
+   Column=COL1   Type=Rectangular   Color=Cyan   GUID=a792894d-e622-413c-98a0-44ceb00eaafb
+ 
+TABLE:  "COLUMN PROPERTIES 02 - RECTANGULAR"
+   Column=COL1   MatProp=CSAC30   SecDim2=0.6   SecDim3=0.3   AutoRigid=No   AutoDrop=No   IncludeCap=No
+ 
+TABLE:  "COORDINATE SYSTEMS"
+   CoordSys=GLOBAL   Type=Cartesian   OriginGx=0   OriginGy=0   RotAngle=0
+ 
+TABLE:  "CRACKING ANALYSIS REINFORCEMENT"
+   ReinfOpt="FE Design"   MinReinfT=0.0018   MinReinfC=0
+ 
+TABLE:  "DESIGN PREFERENCES 01 - RESISTANCE FACTORS"
+   PhiTen=0.9   PhiComp=0.65   PhiShear=0.75
+ 
+TABLE:  "DESIGN PREFERENCES 02 - REBAR COVER - SLABS"
+   CoverTop=0.015   CoverBot=0.015   BarSize=18   InnerLayer=B   PTCGSTop=0.025   PTCGSBotExt=0.04   PTCGSBotInt=0.025   SlabType="Two Way"
+ 
+TABLE:  "DESIGN PREFERENCES 03 - REBAR COVER - BEAMS"
+   CoverTop=0.04   CoverBot=0.04   BarSizeF=28   BarSizeS=12   PTCGSTop=0.05   PTCGSBot=0.05
+ 
+TABLE:  "DESIGN PREFERENCES 04 - PRESTRESS DATA"
+   UserStress=No   InitConcRat=0.8   LLFraction=0.5
+ 
+TABLE:  "GRID LINES"
+   CoordSys=GLOBAL   AxisDir=X   GridID=A   Ordinate=0   Visible=Yes   BubbleLoc=End   GridColor=10461087   BubbleSize=1.25   HideAll=No
+   CoordSys=GLOBAL   AxisDir=X   GridID=B   Ordinate=5   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=X   GridID=C   Ordinate=9.5   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=X   GridID=D   Ordinate=15   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=X   GridID=E   Ordinate=20   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=X   GridID=F   Ordinate=26   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=1   Ordinate=0   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=2   Ordinate=2   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=3   Ordinate=5.5   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=4   Ordinate=10.5   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=5   Ordinate=16   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=6   Ordinate=20   Visible=Yes   BubbleLoc=End
+ 
+TABLE:  "GROUP DEFINITIONS"
+   Group=ALL   Color=Red
+ 
+TABLE:  "LOAD CASES 01 - GENERAL"
+   LoadCase=DEAD   Type=LinStatic   DesignOpt=Auto   DesignType=DEAD
+   LoadCase=LIVE   Type=LinStatic   DesignOpt=Auto   DesignType=LIVE
+ 
+TABLE:  "LOAD CASES 02 - STATIC"
+   LoadCase=DEAD   InitialCond=Zero   AType=Linear
+   LoadCase=LIVE   InitialCond=Zero   AType=Linear
+ 
+TABLE:  "LOAD CASES 06 - LOADS APPLIED"
+   LoadCase=DEAD   LoadPat=DEAD   SF=1
+   LoadCase=LIVE   LoadPat=LIVE   SF=1
+ 
+TABLE:  "LOAD PATTERNS"
+   LoadPat=DEAD   Type=DEAD   SelfWtMult=1   GUID=27c816cb-ff5e-4a13-a854-1c2e45c756a4
+   LoadPat=LIVE   Type=LIVE   SelfWtMult=0   GUID=2b9a4d68-f946-42ee-9bf5-37fb96e8c880
+ 
+TABLE:  "MASS SOURCE"
+   LoadPat=DEAD   Multiplier=1
+ 
+TABLE:  "MATERIAL PROPERTIES 01 - GENERAL"
+   Material=A416MGr186   Type=Tendon   Color=Magenta   Notes="ASTM A416 Metric Grade 186 added 29/06/2025 11:48:49"
+   Material=CSA-G30.18Gr400   Type=Rebar   Color=Cyan   Notes="CSA-G30.18 Grade 400 added 29/06/2025 11:48:49"
+   Material=CSAC30   Type=Concrete   Color=Blue   Notes="Normalweight C30 added 29/06/2025 11:48:49"
+ 
+TABLE:  "MATERIAL PROPERTIES 03 - CONCRETE"
+   Material=CSAC30   E=2719309019.4041   U=0.2   A=9.9E-06   UnitWt=2402.76966501002   Fc=3059148.57666726   LtWtConc=No   UserModRup=No
+ 
+TABLE:  "MATERIAL PROPERTIES 04 - REBAR"
+   Material=CSA-G30.18Gr400   E=20394323844.4484   UnitWt=7849.04757236607   Fy=40788647.6888968   Fu=50985809.611121
+ 
+TABLE:  "MATERIAL PROPERTIES 05 - TENDON"
+   Material=A416MGr186   E=20037484344.9687   UnitWt=7849.04757236607   Fy=172332036.485589   Fu=189667211.75337
+ 
+TABLE:  "PROGRAM CONTROL"
+   ProgramName="SAFE 2016"   Version=16.0.2   CurrUnits="Kgf, m, C"   MergeTol=0.0025   ModelDatum=0   StHtAbove=0   StHtBelow=0   ConcCode="ACI 318-14"
+ 
+TABLE:  "PROJECT INFORMATION"
+   Item="Client Name"   Data=ARC
+   Item="Project Name"   Data=20250627-Mod_Final
+   Item="Project Number"
+   Item="Company Name"
+   Item=Engineer
+   Item=Checker
+   Item=Supervisor
+   Item="Model Name"
+   Item="Model Description"
+   Item="Revision Number"
+   Item="Issue Number"
+ 
+TABLE:  "REINFORCING BAR SIZES"
+   RebarID=6   Area=2.82999992370605E-05   Diameter=0.006
+   RebarID=8   Area=5.02999992370605E-05   Diameter=0.008
+   RebarID=10   Area=7.85E-05   Diameter=0.01
+   RebarID=12   Area=0.000113099998474121   Diameter=0.012
+   RebarID=14   Area=0.000153899993896484   Diameter=0.014
+   RebarID=16   Area=0.000201100006103516   Diameter=0.016
+   RebarID=18   Area=0.0002545   Diameter=0.018
+   RebarID=20   Area=0.000314200012207031   Diameter=0.02
+   RebarID=22   Area=0.000380100006103516   Diameter=0.022
+   RebarID=25   Area=0.000490899993896484   Diameter=0.025
+   RebarID=26   Area=0.000530900024414063   Diameter=0.026
+   RebarID=28   Area=0.000615799987792969   Diameter=0.028
+   RebarID=32   Area=0.000804200012207031   Diameter=0.032
+   RebarID=36   Area=0.00101790002441406   Diameter=0.036
+   RebarID=40   Area=0.00125659997558594   Diameter=0.04
+   RebarID=50   Area=0.0019635   Diameter=0.05
+ 
+TABLE:  "SLAB PROPERTIES 01 - GENERAL"
+   Slab=SLAB1   Type=Slab   ThickPlate=Yes   Color=Blue   GUID=1f2c2104-e61a-4f7e-b680-8eddec8b2962
+ 
+TABLE:  "SLAB PROPERTIES 02 - SOLID SLABS"
+   Slab=SLAB1   Type=Slab   MatProp=CSAC30   Thickness=0.2   Ortho=No
+ 
+TABLE:  "SOIL PROPERTIES"
+   Soil=SOIL1   Subgrade=2039432.38444484   NonlinOpt="Compression Only"   Color=Cyan
+ 
+TABLE:  "SPRING PROPERTIES - LINE"
+   Spring=LSPR1   VertStiff=1   RotStiff=1   NonlinOpt="None (Linear)"   Color=Yellow
+ 
+TABLE:  "SPRING PROPERTIES - POINT"
+   Spring=PSPR1   Ux=0   Uy=0   Uz=1   Rx=0   Ry=0   Rz=0   NonlinOpt="None (Linear)"   Color=Blue
+ 
+TABLE:  "WALL PROPERTIES"
+   Wall=WALL1   MatProp=CSAC30   Thickness=0.3   AutoRigid=No   OutOfPlane=Yes   Color=Magenta   GUID=558ed69e-9fa5-4389-8af6-77e0c70a1db4
+ 
+END TABLE DATA

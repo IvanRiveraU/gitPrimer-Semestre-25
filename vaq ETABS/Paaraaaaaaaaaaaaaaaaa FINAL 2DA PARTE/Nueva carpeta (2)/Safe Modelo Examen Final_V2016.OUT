@@ -1,0 +1,56 @@
+
+
+ SAFE Post Tensioning 64-bit 22.1.0 Build 2728 (Analysis Build 9964/64)         
+ File: C:\Users\Ivan\Documents... carpeta (2)\Safe Modelo Examen Final_V2016.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+       1 TO      24    A   A   A   A   A   A
+      25                                    
+      26 TO     ~45    A   A   A   A   A   A
+ 30~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 38~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 34~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 40~Link TO 39~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 35~Link TO 31~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 41~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 37~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 42~Link TO 43~Link    -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 36~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 44~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 33~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 45~Link               -   -   -   -   -   -
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 32~Link               -   -   -   -   -   -

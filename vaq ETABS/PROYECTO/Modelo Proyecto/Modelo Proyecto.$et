@@ -1,4 +1,4 @@
-$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.$et saved 26/06/2025 15:19:47
+$ File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.$et saved 28/06/2025 12:31:27
  
 $ PROGRAM INFORMATION
   PROGRAM  "ETABS"  VERSION "22.1.0"  
@@ -98,7 +98,7 @@ $ FRAME SECTIONS
   FRAMESECTION  "VY 50X50"  MATERIAL "Concreto280"  SHAPE "Concrete Rectangular"  D 0.5 B 0.5 
   FRAMESECTION  "VX 50X50"  MATERIAL "Concreto280"  SHAPE "Concrete Rectangular"  D 0.5 B 0.5 
   FRAMESECTION  "Vvoladizo40X40"  MATERIAL "Concreto210"  SHAPE "Concrete Rectangular"  D 0.4 B 0.4 
-  FRAMESECTION  "C65x65"  MATERIAL "Concreto280"  SHAPE "Concrete Rectangular"  D 0.65 B 0.65 
+  FRAMESECTION  "C65x65"  MATERIAL "Concreto280"  SHAPE "Concrete Rectangular"  D 0.7 B 0.7 
   FRAMESECTION  "Velevador40X40"  JMOD 0.25 I2MOD 0.35 I3MOD 0.35 
   FRAMESECTION  "VY 50X50"  JMOD 0.25 I2MOD 0.35 I3MOD 0.35 
   FRAMESECTION  "VX 50X50"  JMOD 0.25 I2MOD 0.35 I3MOD 0.35 
@@ -735,10 +735,10 @@ $ LOAD PATTERNS
   LOADPATTERN "Sy"  TYPE  "Seismic"  SELFWEIGHT  0
   LOADPATTERN "SxDeriva"  TYPE  "Seismic (Drift)"  SELFWEIGHT  0
   LOADPATTERN "SyDeriva"  TYPE  "Seismic (Drift)"  SELFWEIGHT  0
-  SEISMIC "Sx"  "User Coefficient"    DIR "X"    TOPSTORY "Nivel5"    BOTTOMSTORY "Base"    SHEARCOEFF 0.121  HEIGHTEXPONENT 1
-  SEISMIC "Sy"  "User Coefficient"    DIR "Y"    TOPSTORY "Nivel5"    BOTTOMSTORY "Base"    SHEARCOEFF 0.121  HEIGHTEXPONENT 1
-  SEISMIC "SxDeriva"  "User Coefficient"    DIR "X"    TOPSTORY "Nivel5"    BOTTOMSTORY "Base"    SHEARCOEFF 0.121  HEIGHTEXPONENT 1
-  SEISMIC "SyDeriva"  "User Coefficient"    DIR "Y"    TOPSTORY "Nivel5"    BOTTOMSTORY "Base"    SHEARCOEFF 0.121  HEIGHTEXPONENT 1
+  SEISMIC "Sx"  "User Coefficient"    DIR "X X+ECC X-ECC"  ECC 0.05  TOPSTORY "Nivel6"    BOTTOMSTORY "Base"    SHEARCOEFF 0.121  HEIGHTEXPONENT 1
+  SEISMIC "Sy"  "User Coefficient"    DIR "Y Y+ECC Y-ECC"  ECC 0.05  TOPSTORY "Nivel6"    BOTTOMSTORY "Base"    SHEARCOEFF 0.121  HEIGHTEXPONENT 1
+  SEISMIC "SxDeriva"  "User Coefficient"    DIR "X X+ECC X-ECC"  ECC 0.05  TOPSTORY "Nivel6"    BOTTOMSTORY "Base"    SHEARCOEFF 0.121  HEIGHTEXPONENT 1
+  SEISMIC "SyDeriva"  "User Coefficient"    DIR "Y Y+ECC Y-ECC"  ECC 0.05  TOPSTORY "Nivel6"    BOTTOMSTORY "Base"    SHEARCOEFF 0.121  HEIGHTEXPONENT 1
 
 $ POINT OBJECT LOADS
 
@@ -888,15 +888,15 @@ $ SHELL UNIFORM LOAD SETS
   SHELLUNIFORMLOADSET "Dormitorio"  LOADPAT "SC"  VALUE 155.5
   SHELLUNIFORMLOADSET "Dormitorio"  LOADPAT "V"  VALUE 200
   SHELLUNIFORMLOADSET "Cocina"  LOADPAT "SC"  VALUE 155.5
-  SHELLUNIFORMLOADSET "Cocina"  LOADPAT "V"  VALUE 500
+  SHELLUNIFORMLOADSET "Cocina"  LOADPAT "V"  VALUE 200
   SHELLUNIFORMLOADSET "Pasillos"  LOADPAT "SC"  VALUE 155.5
   SHELLUNIFORMLOADSET "Pasillos"  LOADPAT "V"  VALUE 200
   SHELLUNIFORMLOADSET "Sala"  LOADPAT "SC"  VALUE 155.5
   SHELLUNIFORMLOADSET "Sala"  LOADPAT "V"  VALUE 200
   SHELLUNIFORMLOADSET "Comedor"  LOADPAT "SC"  VALUE 155.5
-  SHELLUNIFORMLOADSET "Comedor"  LOADPAT "V"  VALUE 500
+  SHELLUNIFORMLOADSET "Comedor"  LOADPAT "V"  VALUE 200
   SHELLUNIFORMLOADSET "Cocina y Comedor"  LOADPAT "SC"  VALUE 155.5
-  SHELLUNIFORMLOADSET "Cocina y Comedor"  LOADPAT "V"  VALUE 500
+  SHELLUNIFORMLOADSET "Cocina y Comedor"  LOADPAT "V"  VALUE 200
   SHELLUNIFORMLOADSET "Balcon"  LOADPAT "SC"  VALUE 155.5
   SHELLUNIFORMLOADSET "Balcon"  LOADPAT "V"  VALUE 300
   SHELLUNIFORMLOADSET "Techo Con Acceso"  LOADPAT "SC"  VALUE 86
@@ -1338,6 +1338,53 @@ ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 26/06/2025 15:16:19
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 26/06/2025 15:16:28
 ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 26/06/2025 15:19:46
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:22:00
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:22:12
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:22:12
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:22:31
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:42:11
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:42:19
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:42:20
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:42:30
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:46:59
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:47:06
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:47:06
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:47:20
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:52:27
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:52:34
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:52:35
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:52:48
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:56:22
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:56:31
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:56:31
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:56:43
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:57:44
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:57:50
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:57:51
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:58:03
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:59:06
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:59:12
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:59:12
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 10:59:25
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 11:01:01
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 11:14:34
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 27/06/2025 11:14:42
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 10:20:18
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 10:20:38
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 10:20:45
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 10:20:46
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 10:21:01
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 10:35:51
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 10:35:56
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 10:35:56
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 10:36:06
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 12:11:52
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 12:11:54
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 12:19:44
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 12:30:25
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 12:31:04
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 12:31:07
+ETABS Ultimate  22.1.0 File saved as C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Modelo Proyecto\Modelo Proyecto.EDB at 28/06/2025 12:31:27
   ENDCOMMENTS  
 
   END

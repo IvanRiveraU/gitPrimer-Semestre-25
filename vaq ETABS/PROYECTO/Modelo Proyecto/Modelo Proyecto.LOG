@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2025/06/26  15:16:21
+ B E G I N   A N A L Y S I S                                2025/06/28  10:35:57
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -18,9 +18,9 @@
  NUMBER OF FRAME/TENDON ELEMENTS           =        1734
  NUMBER OF SHELL ELEMENTS                  =        5652
  NUMBER OF CONSTRAINTS/WELDS               =           6
- NUMBER OF LOAD PATTERNS                   =           9
+ NUMBER OF LOAD PATTERNS                   =          21
  NUMBER OF ACCELERATION LOADS              =          12
- NUMBER OF LOAD CASES                      =          11
+ NUMBER OF LOAD CASES                      =          12
  NUMBER OF MASS SOURCES                    =           2
 
  UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = kgf, m, °C, sec
@@ -39,13 +39,13 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           2
 
 
- E L E M E N T   F O R M A T I O N                                      15:16:21
+ E L E M E N T   F O R M A T I O N                                      10:35:58
 
 
  NUMBER OF COUPLED CONSTRAINT EQUATIONS    =           0
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        15:16:22
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        10:35:59
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
  USING MASS SOURCE: MasaSismica
@@ -63,28 +63,24 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  15:16:23
+ L I N E A R   S T A T I C   C A S E S                                  10:35:59
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
- TOTAL NUMBER OF CASES TO SOLVE            =          10
- NUMBER OF CASES TO SOLVE PER BLOCK        =          10
+ TOTAL NUMBER OF CASES TO SOLVE            =           6
+ NUMBER OF CASES TO SOLVE PER BLOCK        =           6
 
  LINEAR STATIC CASES TO BE SOLVED:
 
  CASE: M
  CASE: V
  CASE: VT
- CASE: SX
- CASE: SY
- CASE: SXDERIVA
- CASE: SYDERIVA
  CASE: PP
  CASE: SC
  CASE: ~LLRF
 
 
- C E N T E R   O F   R I G I D I T Y  A N A L Y S I S                   15:16:24
+ C E N T E R   O F   R I G I D I T Y  A N A L Y S I S                   10:36:00
 
  CASE: ~CENTER OF RIGIDITY
 
@@ -97,4 +93,97 @@
  NUMBER OF LOADS SAVED                     =          18
 
 
- A N A L Y S I S   C O M P L E T E                          2025/06/26  15:16:25
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      10:36:00
+
+ CASE: SX
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF LOAD STEPS                      =           3
+
+
+ Solving load steps:       1 to       3
+ NUMBER OF OUTPUT STEPS SAVED              =           3
+
+
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      10:36:01
+
+ CASE: SY
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF LOAD STEPS                      =           3
+
+
+ Solving load steps:       1 to       3
+ NUMBER OF OUTPUT STEPS SAVED              =           3
+
+
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      10:36:01
+
+ CASE: SXDERIVA
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF LOAD STEPS                      =           3
+
+
+ Solving load steps:       1 to       3
+ NUMBER OF OUTPUT STEPS SAVED              =           3
+
+
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      10:36:02
+
+ CASE: SYDERIVA
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF LOAD STEPS                      =           3
+
+
+ Solving load steps:       1 to       3
+ NUMBER OF OUTPUT STEPS SAVED              =           3
+
+
+ E I G E N   M O D A L   A N A L Y S I S                                10:36:02
+
+ CASE: MODAL
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+ USING MASS SOURCE: MasaSismica
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =       18378
+ NUMBER OF MASS DEGREES OF FREEDOM         =          18
+ MAXIMUM NUMBER OF EIGEN MODES SOUGHT      =          12
+ MINIMUM NUMBER OF EIGEN MODES SOUGHT      =           1
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0
+ NUMBER OF SUBSPACE VECTORS USED           =          18
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-09
+
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =  -INFINITY-
+ ALLOW AUTOMATIC FREQUENCY SHIFTING        =         YES
+
+
+ Original stiffness at shift : EV= 0.0000000E+00, f=     .000000, T=  -INFINITY-
+ Number of eigenvalues below shift =      0
+
+ Found mode      1 of     12:  EV= 3.4607220E+01, f=    0.936275, T=    1.068062
+ Found mode      2 of     12:  EV= 3.6356182E+01, f=    0.959642, T=    1.042055
+ Found mode      3 of     12:  EV= 4.7701965E+01, f=    1.099229, T=    0.909728
+ Found mode      4 of     12:  EV= 4.1085305E+02, f=    3.225993, T=    0.309982
+ Found mode      5 of     12:  EV= 4.2704845E+02, f=    3.288961, T=    0.304047
+ Found mode      6 of     12:  EV= 5.4527210E+02, f=    3.716437, T=    0.269075
+ Found mode      7 of     12:  EV= 1.7326484E+03, f=    6.624839, T=    0.150947
+ Found mode      8 of     12:  EV= 1.7761988E+03, f=    6.707581, T=    0.149085
+ Found mode      9 of     12:  EV= 2.1926099E+03, f=    7.452480, T=    0.134184
+ Found mode     10 of     12:  EV= 5.1741075E+03, f=   11.448217, T=    0.087350
+ Found mode     11 of     12:  EV= 5.2550553E+03, f=   11.537422, T=    0.086674
+ Found mode     12 of     12:  EV= 6.3589106E+03, f=   12.691457, T=    0.078793
+
+ NUMBER OF EIGEN MODES FOUND               =          12
+ NUMBER OF ITERATIONS PERFORMED            =           1
+ NUMBER OF STIFFNESS SHIFTS                =           0
+
+
+ A N A L Y S I S   C O M P L E T E                          2025/06/28  10:36:04

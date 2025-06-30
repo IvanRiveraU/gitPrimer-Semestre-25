@@ -1,0 +1,471 @@
+File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\Paaraaaaaaaaaaaaaaaaa FINAL 2DA PARTE\Nueva carpeta (2)\Safe Modelo Examen Final_V2016.$sf was saved on 29/06/2025 at 13:46:48
+ 
+TABLE:  "ANALYSIS MODELING OPTIONS"
+   "Two Dimensional Only"=No   "Rigid Diaphragm At Top"=No   "Ignore Vertical Offsets"=Yes
+ 
+TABLE:  "ANALYSIS OPTIONS - AUTOMATIC MESH SETTINGS FOR FLOORS"
+   "Mesh Option"=Rectangular   "Use Localized Meshing"=Yes   "Merge Joints"=Yes   "Maximum Mesh Size"=1.2
+ 
+TABLE:  "ANALYSIS OPTIONS - AUTOMATIC RECTANGULAR MESH OPTIONS FOR WALLS"
+   "Maximum Mesh Size"=1.2
+ 
+TABLE:  "ANALYSIS OPTIONS - CRACKING ANALYSIS OPTIONS"
+   "Reinforcement Source"="User and Designed"   "Minimum Tension Ratio"=0.0018   "Minimum Compression Ratio"=0
+ 
+TABLE:  "ANALYSIS OPTIONS - DESIGN AND RESPONSE RECOVERY OPTIONS"
+   "Number Design Threads"=0   "Number Recovery Threads"=0   "Use Memory Mapped Files"="Program Determined"   "Allow Model Differences"=No
+ 
+TABLE:  "ANALYSIS OPTIONS - SAPFIRE OPTIONS"
+   "Solver Option"=Advanced   "Analysis Process"=Auto   "Number Analysis Threads"=0   "Max File Size"=0
+ 
+TABLE:  "AREA ASSIGNMENTS - AREA SPRINGS"
+   UniqueName=1   "Spring Property"=SOIL1
+ 
+TABLE:  "AREA ASSIGNMENTS - AUTO EDGE CONSTRAINTS"
+   UniqueName=1   Constraint=Yes
+   UniqueName=2   Constraint=Yes
+ 
+TABLE:  "AREA ASSIGNMENTS - FLOOR AUTO MESH OPTIONS"
+   UniqueName=1   "Mesh Option"=Default   "Add Restraints"=No
+   UniqueName=2   "Mesh Option"=Default   "Add Restraints"=No
+ 
+TABLE:  "AREA ASSIGNMENTS - INSERTION POINT"
+   UniqueName=1   "Cardinal Point"=Top   Transform=No
+   UniqueName=2   "Cardinal Point"=Top   Transform=No
+ 
+TABLE:  "AREA ASSIGNMENTS - SECTION PROPERTIES"
+   UniqueName=1   "Section Property"=Z50cm   "Property Type"=Slab
+   UniqueName=2   "Section Property"=SLAB1   "Property Type"=Slab
+ 
+TABLE:  "AREA LOAD ASSIGNMENTS - UNIFORM"
+   UniqueName=1   "Load Pattern"=SC   Direction=Gravity   Load=20000.000000000004   GUID=5fcf3df2-eb9e-437d-9833-0a117d2a094d
+ 
+TABLE:  "COMPOSITE BEAM DESIGN PREFERENCES - AISC 360-16"
+   Shored?=No   "Middle Range"=70   "Pattern Live Load Factor"=0.75   "D/C Ratio Limit"=1   "Minimum PCC"=25   "Maximum PCC"=100   "Single Segment?"=No   "Min. Long. Spacing"=0.1143   "Max. Long. Spacing"=0.9144 _
+        "Min. Trans. Spacing"=0.07619999999999999   "Max. Studs Per Row"=3   "Position of Studs"="Middle of the Ribs"   Camber?=Yes   "Camber DL"=80   "Min. Beam Depth"=0.3429   "Min. Web Thick."=0.00635   "Min. Beam Span"=7.315200000000001 _
+        "Min. Camber, abs"=0.019049999999999997   "Minimum Camber, L/"=900   "Camber Abs. Max Limit"=0.15239999999999998   "Camber Max Ratio"=180   "Camber Interval"=0.00635   "Round Camber Down?"=Yes   "Pre-Comp DL Ratio"=0 _
+        "SDL+LL Ratio"=240   "LL Ratio"=360   "Net Ratio"=240   "Ieff reduction Factor"=1   "Vibration Criterion"=Walking   "Occupancy Category"="Paper Office"   "Walking Acceleration Limit, a0/g"=0.005   "Damping Ratio - Walking"=0.025 _
+        "Optimize Price?"=Yes   "Steel Price ($)"=2.2046224760379585   "Stud Price ($)"=2   "Camber Price ($)"=0.22046224760379585   phi-b=0.9   phi-bcpp=0.9   phi-v=0.9   "Reaction Factor"=1
+ 
+TABLE:  "CONCRETE DESIGN PREFERENCES - ACI 318-14"
+   PhiTen=0.9   PhiComp=0.65   PhiShear=0.75   "Ignore Pu?"=No   "Pattern Live Load Factor"=0.75   CoverTop=0.015   CoverBot=0.015   BarSize=#6   InnerLayer="Layer B"   PTCGSTop=0.025   PTCGSBotExt=0.04   PTCGSBotInt=0.025 _
+        SlabType="Two Way"   "Cover Beam Top"=0.04   "Cover Beam Bottom"=0.04   "Bar Size Beam Flexure"=#18   "Bar Size Beam Shear"=#5   "PTCGS Beam Top"=0.05   "PTCGS Beam Bottom"=0.05   UserStress=No   InitConcRat=0.8   LLFraction=0.5
+ 
+TABLE:  "CONCRETE SLAB DESIGN LOAD COMBINATION DATA"
+   "Combo Type"=Strength   "Combo Name"="CR1 - M"
+   "Combo Type"=Strength   "Combo Name"="CR2 - M+V"
+   "Combo Type"=Strength   "Combo Name"="CR4 - 1M+V-0.7Sx-.21Sy"
+   "Combo Type"=Strength   "Combo Name"="CR4 - 1M+V-0.70Sx+.21Sy"
+   "Combo Type"=Strength   "Combo Name"="CR4 - M+V-Sx-0.3Sy"
+   "Combo Type"=Strength   "Combo Name"="CR4 - M+V-.7Sx+0.21Sy"
+   "Combo Type"=Strength   "Combo Name"="CR4 - 1M+V+0.7Sx-.21Sy"
+   "Combo Type"=Strength   "Combo Name"="CR4 - 1M+V+0.7Sx+.21Sy"
+   "Combo Type"=Strength   "Combo Name"="CR4 - 1M+V+Sx-0.3Sy"
+   "Combo Type"=Strength   "Combo Name"="CR4 - 1M+V+Sx+0.3Sy"
+ 
+TABLE:  "CONCRETE SLAB DESIGN OVERWRITES - FINITE ELEMENT BASED"
+   "Unique Name"=1   "Rebar Material"=CSA-G30.18Gr400   "Cover Specification Type"="From Preferences"   LLRF=1   Design?=Yes   "Ignote PT?"=No
+   "Unique Name"=2   "Rebar Material"=CSA-G30.18Gr400   "Cover Specification Type"="From Preferences"   LLRF=1   Design?=Yes   "Ignote PT?"=No
+ 
+TABLE:  "CONCRETE SLAB DESIGN OVERWRITES - PUNCHING SHEAR - GENERAL"
+   "Unique Name"=1   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=2   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=3   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=4   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=5   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=6   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=7   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=8   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=9   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=10   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=11   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=12   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=13   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=14   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=15   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=16   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=17   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=18   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=19   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=20   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=21   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=22   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=23   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=24   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=25   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=26   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=27   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=28   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+   "Unique Name"=29   "Check Punching Shear?"="Program Determined"   "Location Type"=Auto   "Perimeter Type"=Auto   "Effective Depth Type"=Auto   "Opening Definition"=Auto   "Reinforcement Type"=None
+ 
+TABLE:  "FLOOR OBJECT CONNECTIVITY"
+   "Unique Name"=1   UniquePt1=30   UniquePt2=31   UniquePt3=32   UniquePt4=33   GUID=cd9bb0e3-0075-431e-92e6-234f17b9a050
+   "Unique Name"=2   UniquePt1=34   UniquePt2=35   UniquePt3=36   UniquePt4=37   GUID=2a027da4-f499-462d-b049-ed78914c96b8
+ 
+TABLE:  "FRAME SECTION PROPERTY DEFINITIONS - CONCRETE RECTANGULAR"
+   Name=BEAM1   Material=CSAC30   "From File?"=No   Depth=0.6   Width=0.3   "Rigid Zone?"=No   "Column Drop Panel?"=No   "Automatic Drop Panel Column 2-Axis"=0   "Automatic Drop Panel Column 3-Axis"=0   "Column Drop Panel Slab Property"=0 _
+        "Notional Size Type"=User   "Notional User Size"=0.1   "Section Type"=Beam   "Longitudinal Rebar Material"=CSA-G30.18Gr400   "Shear Rebar Material"=CSA-G30.18Gr400   "Flange Dimension Option"="Analysis Property"   "Cover Top"=0.075 _
+        "Cover Bottom"=0.075   "Area Modifier"=1   "As2 Modifier"=1   "As3 Modifier"=1   "J Modifier"=1   "I22 Modifier"=1   "I33 Modifier"=1   "Mass Modifier"=1   "Weight Modifier"=1   Color=Cyan   GUID=3c920ba3-6531-469c-8809-d8ea37f6bc9a
+   Name=COL1   Material=CSAC30   "From File?"=No   Depth=0.6   Width=0.3   "Rigid Zone?"=No   "Column Drop Panel?"=No   "Automatic Drop Panel Column 2-Axis"=1.2   "Automatic Drop Panel Column 3-Axis"=1.2 _
+        "Column Drop Panel Slab Property"=0   "Notional Size Type"=User   "Notional User Size"=0.1   "Section Type"=Column   "Area Modifier"=1   "As2 Modifier"=1   "As3 Modifier"=1   "J Modifier"=1   "I22 Modifier"=1   "I33 Modifier"=1 _
+        "Mass Modifier"=1   "Weight Modifier"=1   Color=Cyan   GUID=6feb4cc3-8a8d-49f8-91ae-9615af7ac0b9
+ 
+TABLE:  "GRID DEFINITIONS - GENERAL"
+   Name=GLOBAL   Type=Cartesian   Ux=0   Uy=0   Rz=0   "Datum Name"=Story1   "Story Name Below"=Base   "Model Datum"=0   "Story Height Below"=3   "Bubble Size"=1.25   Color=10461087   GUID=8249a26d-4f38-479c-9bc9-187e8840e106
+ 
+TABLE:  "GRID DEFINITIONS - GRID LINES"
+   Name=GLOBAL   "Grid Line Type"="X (Cartesian)"   ID=A   Ordinate=0   "Bubble Location"=End   Visible=Yes
+   Name=GLOBAL   "Grid Line Type"="X (Cartesian)"   ID=B   Ordinate=5   "Bubble Location"=End   Visible=Yes
+   Name=GLOBAL   "Grid Line Type"="X (Cartesian)"   ID=C   Ordinate=9.5   "Bubble Location"=End   Visible=Yes
+   Name=GLOBAL   "Grid Line Type"="X (Cartesian)"   ID=D   Ordinate=15   "Bubble Location"=End   Visible=Yes
+   Name=GLOBAL   "Grid Line Type"="X (Cartesian)"   ID=E   Ordinate=20   "Bubble Location"=End   Visible=Yes
+   Name=GLOBAL   "Grid Line Type"="X (Cartesian)"   ID=F   Ordinate=26   "Bubble Location"=End   Visible=Yes
+   Name=GLOBAL   "Grid Line Type"="Y (Cartesian)"   ID=1   Ordinate=0   "Bubble Location"=End   Visible=Yes
+   Name=GLOBAL   "Grid Line Type"="Y (Cartesian)"   ID=2   Ordinate=2   "Bubble Location"=End   Visible=Yes
+   Name=GLOBAL   "Grid Line Type"="Y (Cartesian)"   ID=3   Ordinate=5.5   "Bubble Location"=End   Visible=Yes
+   Name=GLOBAL   "Grid Line Type"="Y (Cartesian)"   ID=4   Ordinate=10.5   "Bubble Location"=End   Visible=Yes
+   Name=GLOBAL   "Grid Line Type"="Y (Cartesian)"   ID=5   Ordinate=16   "Bubble Location"=End   Visible=Yes
+   Name=GLOBAL   "Grid Line Type"="Y (Cartesian)"   ID=6   Ordinate=20   "Bubble Location"=End   Visible=Yes
+ 
+TABLE:  "GROUP DEFINITIONS"
+   Name=ALL   Color=Red   "Steel Design?"=No   "Concrete Design?"=No   "Composite Design?"=No   GUID=bf812fc8-770c-4e95-8d83-2bf2d8720654
+ 
+TABLE:  "JOINT LOADS ASSIGNMENTS - FORCE"
+   UniqueName=1   "Load Pattern"=M_ABOVE   FX=-572.14325   FY=-185.2434   FZ=-38595.137   MX=224.21127   MY=-765.4975   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=5a67f39f-f62a-45c5-bed9-2c543b456339
+   UniqueName=2   "Load Pattern"=M_ABOVE   FX=-656.75037   FY=-83.9618   FZ=-43957.5   MX=93.35067   MY=-873.17535   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=b7386a2c-0421-40c2-8456-9340928376ca
+   UniqueName=3   "Load Pattern"=M_ABOVE   FX=-615.8783   FY=218.1341   FZ=-41337.625   MX=-296.97153   MY=-818.5643   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=423efdcb-5c26-47be-aa68-d8a74dc60b68
+   UniqueName=4   "Load Pattern"=M_ABOVE   FX=-334.06516   FY=244.46837   FZ=-26735.303   MX=-330.99667   MY=-453.13748   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=173701e6-6dda-4105-b828-20beaf402b43
+   UniqueName=5   "Load Pattern"=M_ABOVE   FX=294.25372   FY=-430.49695   FZ=-48722.07   MX=542.72906   MY=353.9284   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=0c5ee8c0-60b4-4e09-8e8b-77f1a0b24941
+   UniqueName=6   "Load Pattern"=M_ABOVE   FX=146.82437   FY=-136.59563   FZ=-64502.805   MX=162.99464   MY=165.08128   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=42df76a3-684d-4136-b82a-5e08638c5bf7
+   UniqueName=7   "Load Pattern"=M_ABOVE   FX=135.65341   FY=355.5079   FZ=-60043.19   MX=-472.82642   MY=152.45033   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=4485408c-ee5b-4c0b-8950-09e61bce3fb2
+   UniqueName=8   "Load Pattern"=M_ABOVE   FX=64.15302   FY=385.68887   FZ=-36110.535   MX=-511.82166   MY=61.379295   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=9bb09de9-14bf-4416-9907-2c6567264312
+   UniqueName=9   "Load Pattern"=M_ABOVE   FX=103.71484   FY=-73.059074   FZ=-18433.71   MX=86.1093   MY=112.9527   MZ=-0.94803375   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=0f971f13-5ee3-43a3-9da7-83a6420336af
+   UniqueName=10   "Load Pattern"=M_ABOVE   FX=-181.25441   FY=-564.3771   FZ=-43519.387   MX=717.1833   MY=-260.45062   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=455085e9-322e-43c0-b844-eb8d97370ffd
+   UniqueName=11   "Load Pattern"=M_ABOVE   FX=-285.04785   FY=-130.06949   FZ=-66800.766   MX=156.0373   MY=-392.9181   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=0631f48a-4b97-4fce-bcc1-652e643fde0f
+   UniqueName=12   "Load Pattern"=M_ABOVE   FX=-263.30817   FY=362.00827   FZ=-62040.04   MX=-479.7505   MY=-363.02695   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=6ada5814-4980-4f45-b6e0-9af7d2fbc27b
+   UniqueName=13   "Load Pattern"=M_ABOVE   FX=-138.0641   FY=395.03076   FZ=-37119.19   MX=-522.4171   MY=-199.8948   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=c9a13b94-4602-4050-9288-a150b28d26a5
+   UniqueName=14   "Load Pattern"=M_ABOVE   FX=-391.2153   FY=-481.39905   FZ=-30768.986   MX=611.7742   MY=-533.53253   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=438d87ac-074e-4c49-85f8-39e2e46cd8dd
+   UniqueName=15   "Load Pattern"=M_ABOVE   FX=-184.485   FY=-877.5749   FZ=-47624.164   MX=1125.2906   MY=-266.42715   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=c9743c88-b108-4b6c-8960-586dba5f9b3b
+   UniqueName=16   "Load Pattern"=M_ABOVE   FX=583.77765   FY=-532.036   FZ=-33600.535   MX=680.80444   MY=726.20465   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=3b57824b-0c2d-4a90-b3f7-242acb593a2c
+   UniqueName=17   "Load Pattern"=M_ABOVE   FX=63.872223   FY=409.78372   FZ=-38308.633   MX=-539.67615   MY=61.01649   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=af3bfd09-4fbc-4f10-a128-cef9a96a6bf5
+   UniqueName=18   "Load Pattern"=M_ABOVE   FX=325.05472   FY=245.20457   FZ=-26769.729   MX=-325.39355   MY=398.47665   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=9ac5236f-b9c1-4fb6-9137-ce3339426a78
+   UniqueName=19   "Load Pattern"=M_ABOVE   FX=140.84659   FY=370.14322   FZ=-64365.105   MX=-488.45877   MY=159.16014   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=dd309276-81b5-4672-8d67-ead1f22e5528
+   UniqueName=20   "Load Pattern"=M_ABOVE   FX=13.81567   FY=597.83636   FZ=-57656.996   MX=-781.0105   MY=-4.9698176   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=d0b94e9a-1abd-49d6-87d7-617bac309c07
+   UniqueName=21   "Load Pattern"=M_ABOVE   FX=584.5584   FY=535.8093   FZ=-33626.105   MX=-698.90234   MY=732.45685   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=39524620-4053-4ac4-a7f7-d73e6fa11e06
+   UniqueName=22   "Load Pattern"=M_ABOVE   FX=169.37874   FY=-146.63727   FZ=-68944.16   MX=179.2461   MY=194.2226   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=b84b9989-12e9-4986-9746-4a27e4952362
+   UniqueName=23   "Load Pattern"=M_ABOVE   FX=-347.73364   FY=-187.36476   FZ=-71771.85   MX=233.50655   MY=-473.9111   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=df3a2d8f-3b88-44d3-8e3c-659d0609001f
+   UniqueName=24   "Load Pattern"=M_ABOVE   FX=981.0627   FY=-116.15017   FZ=-48907.01   MX=143.4602   MY=1242.9568   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=9071d9d9-543b-410c-81d3-56f867345859
+   UniqueName=25   "Load Pattern"=M_ABOVE   FX=-186.26022   FY=-168.88483   FZ=-57492.723   MX=207.99101   MY=-266.9184   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=39df54f9-a3b9-405d-9c3c-2bf7207dcb67
+   UniqueName=26   "Load Pattern"=M_ABOVE   FX=-326.51627   FY=211.1535   FZ=-72256.93   MX=-281.39795   MY=-448.13583   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=b0bccf6a-893d-4e2f-918e-fcd22017aa4b
+   UniqueName=27   "Load Pattern"=M_ABOVE   FX=980.1758   FY=120.041275   FZ=-48892.52   MX=-161.71033   MY=1240.1722   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=604df138-a9ec-4850-a4ab-f09ddc7ba42f
+   UniqueName=28   "Load Pattern"=M_ABOVE   FX=209.98462   FY=-161.19353   FZ=-27712.566   MX=194.7763   MY=243.90172   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=26fe7057-0be1-4636-a527-90d38623307c
+   UniqueName=29   "Load Pattern"=M_ABOVE   FX=-314.4045   FY=-175.76633   FZ=-25403.682   MX=211.96648   MY=-433.6339   MZ=-0.657584   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=012c3dad-458f-4ce5-add1-9cecf9d9a262
+   UniqueName=1   "Load Pattern"=V_ABOVE   FX=-363.07306   FY=-91.84909   FZ=-12759.767   MX=109.5001   MY=-486.4857   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=49d33028-8970-45f2-b748-5b2f199ab0d6
+   UniqueName=2   "Load Pattern"=V_ABOVE   FX=-426.91522   FY=-43.618694   FZ=-15556.192   MX=47.18414   MY=-568.06757   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=d934e137-1ba0-4717-9c73-3acd9f40ac82
+   UniqueName=3   "Load Pattern"=V_ABOVE   FX=-396.19812   FY=108.93454   FZ=-14207.522   MX=-149.92186   MY=-527.384   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=9a6d60a8-41e5-4805-81a4-390d4db964c8
+   UniqueName=4   "Load Pattern"=V_ABOVE   FX=-163.81984   FY=118.68502   FZ=-5763.3975   MX=-162.51994   MY=-226.41606   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=23c3e824-164b-4911-9d84-464ce454c5cc
+   UniqueName=5   "Load Pattern"=V_ABOVE   FX=208.08878   FY=-286.0794   FZ=-19572.664   MX=361.36005   MY=251.4825   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=3a362753-c843-46ad-a9bc-12dd32670478
+   UniqueName=6   "Load Pattern"=V_ABOVE   FX=97.84072   FY=-87.34157   FZ=-30374.344   MX=104.58134   MY=109.94196   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=7fb70cf8-1f3e-4073-a7a0-1c303652ee09
+   UniqueName=7   "Load Pattern"=V_ABOVE   FX=89.13085   FY=224.74756   FZ=-27541.666   MX=-298.65262   MY=99.684074   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=37d46427-1e7a-417c-a475-ef87456627af
+   UniqueName=8   "Load Pattern"=V_ABOVE   FX=31.829018   FY=238.30183   FZ=-11139.333   MX=-316.16537   MY=26.371527   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=4b6d83da-267d-4395-a92d-0b84e65327b1
+   UniqueName=9   "Load Pattern"=V_ABOVE   FX=-2.3782363   FY=0.63322294   FZ=-62.977024   MX=-7.9371333   MY=-21.143934   MZ=-0.7384378   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=0e2a7118-eacf-498a-9b81-220f47a7d2e6
+   UniqueName=10   "Load Pattern"=V_ABOVE   FX=-84.41526   FY=-394.6717   FZ=-14622.737   MX=502.48105   MY=-126.44657   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=142a3665-28aa-45d8-bcda-6bfefd7144f4
+   UniqueName=11   "Load Pattern"=V_ABOVE   FX=-188.3497   FY=-82.79116   FZ=-31887.764   MX=99.51665   MY=-259.82965   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=2f2ec84a-958f-4cb5-b0a8-4bb069706718
+   UniqueName=12   "Load Pattern"=V_ABOVE   FX=-172.03731   FY=229.94427   FZ=-28835.035   MX=-304.55234   MY=-237.75757   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=f6244018-e6e3-48ea-b6ed-2f243c8aebc0
+   UniqueName=13   "Load Pattern"=V_ABOVE   FX=-69.72449   FY=245.23645   FZ=-11637.805   MX=-324.31058   MY=-104.840416   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=456dc934-32c0-485a-90d5-aa2c53107eb7
+   UniqueName=14   "Load Pattern"=V_ABOVE   FX=-206.79718   FY=-239.75798   FZ=-7881.2095   MX=303.3209   MY=-285.5655   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=346d812e-2d43-46ad-a3d2-b2012ddbc724
+   UniqueName=15   "Load Pattern"=V_ABOVE   FX=-101.108215   FY=-561.05756   FZ=-18212.014   MX=719.36035   MY=-149.01035   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=43f8968b-f7d5-4409-9d6c-f81e29cdc604
+   UniqueName=16   "Load Pattern"=V_ABOVE   FX=314.70786   FY=-277.53326   FZ=-9491.2705   MX=354.11972   MY=388.24368   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=e92e660a-818a-40f2-b4e5-df0dc4c0f432
+   UniqueName=17   "Load Pattern"=V_ABOVE   FX=31.2598   FY=255.81741   FZ=-12261.754   MX=-336.986   MY=25.636072   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=42770be3-49bc-4a0c-b86f-c53bb8fb9921
+   UniqueName=18   "Load Pattern"=V_ABOVE   FX=158.29115   FY=118.43639   FZ=-5766.7627   MX=-158.57803   MY=189.7666   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=676d1030-af0a-4fcf-a64b-027e5abecc56
+   UniqueName=19   "Load Pattern"=V_ABOVE   FX=92.51687   FY=236.73634   FZ=-30364.36   MX=-312.33237   MY=104.05897   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=c17962f5-6243-4686-93ab-2e642c932799
+   UniqueName=20   "Load Pattern"=V_ABOVE   FX=68.91541   FY=416.85614   FZ=-24180.916   MX=-544.15045   MY=73.56477   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=bd212dda-d350-4346-afdb-f09e86b8e56a
+   UniqueName=21   "Load Pattern"=V_ABOVE   FX=314.51996   FY=280.29337   FZ=-9504.795   MX=-366.6187   MY=390.8975   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=16ab1baf-d8a1-4ad9-b971-5a74a2664745
+   UniqueName=22   "Load Pattern"=V_ABOVE   FX=113.28664   FY=-94.42403   FZ=-33300.2   MX=115.54254   MY=129.89882   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=93d24fd9-2a40-4c39-90ed-a5cff7431e5d
+   UniqueName=23   "Load Pattern"=V_ABOVE   FX=-231.50008   FY=-123.85992   FZ=-35195.33   MX=154.48029   MY=-315.58197   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=5e4cab8d-891f-4fd8-b7e6-7797d17ea51b
+   UniqueName=24   "Load Pattern"=V_ABOVE   FX=643.01117   FY=-65.770424   FZ=-18862   MX=80.51211   MY=814.328   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=f140bd9e-1a07-48ab-824b-323ac456b2f8
+   UniqueName=25   "Load Pattern"=V_ABOVE   FX=-178.08261   FY=-168.07475   FZ=-23659.307   MX=210.70276   MY=-247.46924   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=837a0a2e-6e6b-4a68-ac43-cd394e2cc3d7
+   UniqueName=26   "Load Pattern"=V_ABOVE   FX=-216.30678   FY=140.2135   FZ=-35547.547   MX=-186.71509   MY=-296.8567   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=9cbe4df8-c2c6-410b-aa7d-968df049eed3
+   UniqueName=27   "Load Pattern"=V_ABOVE   FX=642.5417   FY=68.585266   FZ=-18852.078   MX=-93.08181   MY=812.8162   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=0ab65d4c-ae4e-4b30-8c97-78c34ccc8ad2
+   UniqueName=28   "Load Pattern"=V_ABOVE   FX=143.18372   FY=-83.22576   FZ=-5096.2744   MX=99.26352   MY=166.98846   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=eb46040a-1fc6-42ef-9e8f-5aa02f4b5b42
+   UniqueName=29   "Load Pattern"=V_ABOVE   FX=-148.4175   FY=-83.36602   FZ=-5062.9814   MX=98.539566   MY=-209.77412   MZ=-0.36325514   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=d3f6cf0f-5887-4de8-85ee-92b848fe8f0e
+   UniqueName=1   "Load Pattern"=Sx_ABOVE   FX=6898.307   FY=142.79546   FZ=9875.508   MX=-353.0731   MY=33900.555   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=133f1bd3-6c9b-45da-9f6e-70e664e67b88
+   UniqueName=2   "Load Pattern"=Sx_ABOVE   FX=6969.075   FY=134.74466   FZ=10008.896   MX=-342.67108   MY=34061.66   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=faea7cdb-0456-4eac-a138-d293603949a4
+   UniqueName=3   "Load Pattern"=Sx_ABOVE   FX=7014.664   FY=127.0552   FZ=9848.668   MX=-332.73593   MY=34197.2   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=4f265999-8b68-45fd-a3bd-5a8be30de847
+   UniqueName=4   "Load Pattern"=Sx_ABOVE   FX=6942.5317   FY=105.94474   FZ=8580.685   MX=-305.46024   MY=34159.74   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=db012e65-78e5-4f25-9658-dc7fa1d5cd4e
+   UniqueName=5   "Load Pattern"=Sx_ABOVE   FX=7677.43   FY=104.62996   FZ=884.78754   MX=-234.091   MY=34907.22   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=e20ee68a-d12c-4e69-a2c0-0655f4900782
+   UniqueName=6   "Load Pattern"=Sx_ABOVE   FX=7852.3984   FY=77.274254   FZ=2202.7832   MX=-198.74614   MY=35202.953   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=47a61ff5-7f92-4847-91a2-7b6099d9541b
+   UniqueName=7   "Load Pattern"=Sx_ABOVE   FX=7894.791   FY=79.0508   FZ=2179.3623   MX=-201.0415   MY=35334.367   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=5248191b-823f-44f8-a4f9-cc636fb45acc
+   UniqueName=8   "Load Pattern"=Sx_ABOVE   FX=7722.2866   FY=72.75632   FZ=2105.5952   MX=-192.90874   MY=35167.22   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=1a8b81cf-76a3-45c4-92bb-fb3eed76eee2
+   UniqueName=9   "Load Pattern"=Sx_ABOVE   FX=6651.2925   FY=29.2172   FZ=-9275.532   MX=-73.41605   MY=33466.227   MZ=-28.118147   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=0edc73ee-2e63-4523-bd88-0bb437d39b2b
+   UniqueName=10   "Load Pattern"=Sx_ABOVE   FX=7506.7417   FY=21.13343   FZ=-3827.524   MX=-63.5061   MY=34686.68   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=15e33bcc-52ea-46c9-a58c-bf64b6c3eadc
+   UniqueName=11   "Load Pattern"=Sx_ABOVE   FX=7767.5845   FY=26.781275   FZ=-4131.211   MX=-70.80338   MY=35093.37   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=1365a382-159d-47c4-9b14-637738a123c6
+   UniqueName=12   "Load Pattern"=Sx_ABOVE   FX=7810.4243   FY=32.1685   FZ=-4106.2534   MX=-77.76393   MY=35225.36   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=baa6fde6-b629-4597-b554-c8f40a0bd62a
+   UniqueName=13   "Load Pattern"=Sx_ABOVE   FX=7646.5884   FY=36.426437   FZ=-3711.721   MX=-83.26539   MY=35069.414   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=cb9c5ee3-c15c-4492-9c64-088e77704412
+   UniqueName=14   "Load Pattern"=Sx_ABOVE   FX=6754.613   FY=-0.62503594   FZ=8749.933   MX=41.24439   MY=33638.258   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=77d73411-c00b-4ff3-9d5f-e61ad1921d5c
+   UniqueName=15   "Load Pattern"=Sx_ABOVE   FX=7325.836   FY=-93.88215   FZ=-2784.8462   MX=231.40747   MY=34376.305   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=ee8c8c87-eb69-41db-976b-e4d3fb57474d
+   UniqueName=16   "Load Pattern"=Sx_ABOVE   FX=6623.088   FY=-168.48282   FZ=-5934.6753   MX=411.39963   MY=33468.32   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=b90aa486-fd0a-4903-8112-7b0349336906
+   UniqueName=17   "Load Pattern"=Sx_ABOVE   FX=7563.6104   FY=-38.14347   FZ=1652.58   MX=89.719986   MY=34962.2   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=80ac8075-b54a-452e-bf54-08f96c657c28
+   UniqueName=18   "Load Pattern"=Sx_ABOVE   FX=6944.861   FY=-63.79799   FZ=-8525.212   MX=192.53731   MY=34162.746   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=2fc52509-81f1-41ff-83fd-4d3aa06973f1
+   UniqueName=19   "Load Pattern"=Sx_ABOVE   FX=7720.1025   FY=-33.98673   FZ=1836.2762   MX=84.34927   MY=35108.66   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=225c29d1-64d6-467e-a972-26670b16c047
+   UniqueName=20   "Load Pattern"=Sx_ABOVE   FX=7584.9478   FY=-107.38876   FZ=-3907.3235   MX=248.85866   MY=34934.035   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=a5b8df77-2675-413e-90b6-02f88f8bf6be
+   UniqueName=21   "Load Pattern"=Sx_ABOVE   FX=6786.5938   FY=-122.62501   FZ=-5983.8076   MX=352.14917   MY=33902.523   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=4eb335c6-9284-4a50-8aa9-13d85e5cf6ed
+   UniqueName=22   "Load Pattern"=Sx_ABOVE   FX=7674.994   FY=-31.047667   FZ=1780.6577   MX=80.55187   MY=34973.74   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=e1bb3399-113a-4dd7-b807-b67e702393f3
+   UniqueName=23   "Load Pattern"=Sx_ABOVE   FX=7626.3457   FY=-86.91074   FZ=-2891.8027   MX=222.40009   MY=34910.883   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=14f326c3-6221-4aad-96e9-91ce99554284
+   UniqueName=24   "Load Pattern"=Sx_ABOVE   FX=6829.1025   FY=-155.58711   FZ=-6959.3228   MX=394.73776   MY=33880.81   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=3a87f591-b23e-408d-9fdd-2b12a5e87407
+   UniqueName=25   "Load Pattern"=Sx_ABOVE   FX=7533.5156   FY=-58.508144   FZ=3015.0334   MX=116.032104   MY=34721.273   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=55323999-dd26-4ceb-a0a8-ddee042309cf
+   UniqueName=26   "Load Pattern"=Sx_ABOVE   FX=7577.8296   FY=-85.34638   FZ=-2999.509   MX=220.37886   MY=34778.527   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=546c79f6-1639-4cc0-be21-a018a4bb7a1c
+   UniqueName=27   "Load Pattern"=Sx_ABOVE   FX=6777.4805   FY=-150.62413   FZ=-6949.859   MX=388.32535   MY=33744.438   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=ace9d460-f901-406e-a571-11a737013299
+   UniqueName=28   "Load Pattern"=Sx_ABOVE   FX=7435.364   FY=56.637043   FZ=804.53204   MX=-172.08188   MY=34545.688   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=2cd4448a-c084-4767-aa3f-e7a31f73c54e
+   UniqueName=29   "Load Pattern"=Sx_ABOVE   FX=6753.4614   FY=150.34085   FZ=8463.304   MX=-362.8221   MY=33664.637   MZ=-27.959599   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=2121c244-7dba-4ee1-ba2f-099d0b73b406
+   UniqueName=1   "Load Pattern"=Sy_ABOVE   FX=184.79063   FY=7241.711   FZ=-8782.761   MX=-27209.05   MY=1098.381   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=d8a00b35-1d1f-499b-bdfe-118666e34d3a
+   UniqueName=2   "Load Pattern"=Sy_ABOVE   FX=-9.310076   FY=6780.4155   FZ=-1429.7668   MX=-26613.033   MY=-15.486591   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=83c44286-97cc-494c-a4f0-06bb0f041ac5
+   UniqueName=3   "Load Pattern"=Sy_ABOVE   FX=-221.26549   FY=7012.5537   FZ=6054.209   MX=-26912.967   MY=-1238.7313   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=287f15f8-6036-4e6c-89b5-4748a3980c24
+   UniqueName=4   "Load Pattern"=Sy_ABOVE   FX=-417.22656   FY=6348.791   FZ=-13506.878   MX=-26055.355   MY=-2182.3865   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=166636e9-df87-464b-ae76-b05ad39f995a
+   UniqueName=5   "Load Pattern"=Sy_ABOVE   FX=258.31418   FY=7582.8525   FZ=-8919.124   MX=-28512.9   MY=1193.3768   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=ee4a023d-5693-4f66-98bb-282937866670
+   UniqueName=6   "Load Pattern"=Sy_ABOVE   FX=-8.877597   FY=7158.89   FZ=-1666.082   MX=-27965.121   MY=-14.927808   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=604f55b9-f7f4-4808-828b-fe47a3868332
+   UniqueName=7   "Load Pattern"=Sy_ABOVE   FX=-268.0166   FY=7411.315   FZ=7210.7183   MX=-28291.266   MY=-1299.136   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=3caa6061-f307-4716-a1cb-c78423c1011e
+   UniqueName=8   "Load Pattern"=Sy_ABOVE   FX=-444.34146   FY=6657.913   FZ=-14892.315   MX=-27317.836   MY=-2217.4202   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=7be53885-568a-47de-adf5-c3262b618a13
+   UniqueName=9   "Load Pattern"=Sy_ABOVE   FX=343.46057   FY=6818.208   FZ=17147.975   MX=-28264.861   MY=1906.9033   MZ=408.7576   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=070323f3-049c-4f90-9dd1-0fd50f079d70
+   UniqueName=10   "Load Pattern"=Sy_ABOVE   FX=225.4888   FY=7759.9883   FZ=-8169.2583   MX=-29518.541   MY=1150.965   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=10cc38e5-47ad-4562-8e0a-ba18843fdc29
+   UniqueName=11   "Load Pattern"=Sy_ABOVE   FX=-8.391986   FY=7398.7583   FZ=-1866.5546   MX=-29051.814   MY=-14.300376   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=8761bd53-0c1d-4037-a5cb-b1b0462d89d2
+   UniqueName=12   "Load Pattern"=Sy_ABOVE   FX=-261.5235   FY=7654.9805   FZ=7869.0005   MX=-29382.865   MY=-1290.7466   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=7c14ca75-6ef9-4afb-a724-2ade55706bb5
+   UniqueName=13   "Load Pattern"=Sy_ABOVE   FX=-445.12988   FY=6868.4785   FZ=-15288.169   MX=-28366.668   MY=-2218.439   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=d2d1f5c0-6bd3-4143-92e1-f09524d3e354
+   UniqueName=14   "Load Pattern"=Sy_ABOVE   FX=439.30725   FY=6688.4346   FZ=8495.037   MX=-29083.432   MY=2376.6167   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=708d6fc7-83ab-451a-ae9e-073af1baa602
+   UniqueName=15   "Load Pattern"=Sy_ABOVE   FX=467.58417   FY=6987.6367   FZ=8847.843   MX=-30333.096   MY=2413.1519   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=1e1d37a6-a021-46fb-adc1-f873faf7ebf0
+   UniqueName=16   "Load Pattern"=Sy_ABOVE   FX=394.46487   FY=7162.2803   FZ=8286.516   MX=-31594.44   MY=2318.6782   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=30cfce00-091c-4dd4-b2fe-09c4df5cb47e
+   UniqueName=17   "Load Pattern"=Sy_ABOVE   FX=-434.5725   FY=7127.5015   FZ=-16650.707   MX=-29650.727   MY=-2204.7983   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=6259f931-8682-4535-8313-9b03e72ae258
+   UniqueName=18   "Load Pattern"=Sy_ABOVE   FX=-368.53485   FY=7260.3965   FZ=-15497.171   MX=-30685.514   MY=-2119.4744   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=7a194f4a-cf15-47f2-8c7d-9081c621d5e9
+   UniqueName=19   "Load Pattern"=Sy_ABOVE   FX=-261.74255   FY=7953.582   FZ=8112.1646   MX=-30718.062   MY=-1291.0295   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=df37710e-4e24-4ca8-8c9c-2aebd2cfd9ba
+   UniqueName=20   "Load Pattern"=Sy_ABOVE   FX=-291.20462   FY=8141.666   FZ=7329.7856   MX=-31824.154   MY=-1329.096   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=893ffd29-ca35-4a2b-b4a4-e4571dc5909a
+   UniqueName=21   "Load Pattern"=Sy_ABOVE   FX=-209.1773   FY=7163.7393   FZ=-8484.24   MX=-31596.324   MY=-1223.1128   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=e1b013da-a107-49c4-baff-af8dd8594934
+   UniqueName=22   "Load Pattern"=Sy_ABOVE   FX=-4.684218   FY=7683.8594   FZ=-1945.7424   MX=-30369.566   MY=-9.509764   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=d5b01c88-1298-4b5f-babd-0719e94d8e3f
+   UniqueName=23   "Load Pattern"=Sy_ABOVE   FX=-3.4642613   FY=7946.408   FZ=-1870.7961   MX=-31571.873   MY=-7.933522   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=4dd2cf19-0e1f-4eec-ab80-e4baa18d38aa
+   UniqueName=24   "Load Pattern"=Sy_ABOVE   FX=-5.163469   FY=8107.442   FZ=-1780.5515   MX=-32815.633   MY=-10.128979   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=94c894b1-9425-47db-819a-881bb4655488
+   UniqueName=25   "Load Pattern"=Sy_ABOVE   FX=206.52623   FY=7629.5254   FZ=2587.887   MX=-30299.365   MY=1126.4644   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=4e417d30-c504-44a9-a09a-f29f83e83ce9
+   UniqueName=26   "Load Pattern"=Sy_ABOVE   FX=224.69943   FY=7960.6724   FZ=1583.5619   MX=-31590.303   MY=1149.9451   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=d0b9ee70-bc7d-4abf-90d6-ddda2568d6db
+   UniqueName=27   "Load Pattern"=Sy_ABOVE   FX=195.58151   FY=8107.732   FZ=1508.9534   MX=-32816.008   MY=1112.3232   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=ca136c2d-ee7b-45aa-96fb-f3b8be740fa3
+   UniqueName=28   "Load Pattern"=Sy_ABOVE   FX=353.8301   FY=6741.5273   FZ=18125.998   MX=-27425.87   MY=1920.9441   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=902f15e0-e037-48db-a296-cad679160900
+   UniqueName=29   "Load Pattern"=Sy_ABOVE   FX=368.5792   FY=6508.6016   FZ=17590.467   MX=-26261.838   MY=1940.0006   MZ=346.36447   "X Dimension"=0.65   "Y Dimension"=0.65   GUID=e92355f7-8856-459c-9a3f-6a74e2c46b02
+ 
+TABLE:  "LOAD CASE DEFINITIONS - LINEAR STATIC"
+   Name=M   "Exclude Group"=None   "Initial Condition"="Nonlinear Case"   "Nonlinear Case"=None   "Load Type"=Load   "Load Name"=PP   "Load SF"=1   "Design Type"="Program Determined"   GUID=93ffc1dd-ce71-4626-a6fc-4c4133c07e2c
+   Name=M   "Load Type"=Load   "Load Name"=SC   "Load SF"=1
+   Name=M   "Load Type"=Load   "Load Name"=M_ABOVE   "Load SF"=1
+   Name=Sx   "Exclude Group"=None   "Initial Condition"="Nonlinear Case"   "Nonlinear Case"=None   "Load Type"=Load   "Load Name"=Sx   "Load SF"=1   "Design Type"="Program Determined"   GUID=a2372232-548f-481d-a5ac-2b2228da599a
+   Name=Sx   "Load Type"=Load   "Load Name"=Sx_ABOVE   "Load SF"=1
+   Name=Sy   "Exclude Group"=None   "Initial Condition"="Nonlinear Case"   "Nonlinear Case"=None   "Load Type"=Load   "Load Name"=Sy   "Load SF"=1   "Design Type"="Program Determined"   GUID=6345eb97-ded5-4e0b-8f39-39b4e45b7e8e
+   Name=Sy   "Load Type"=Load   "Load Name"=Sy_ABOVE   "Load SF"=1
+   Name=V   "Exclude Group"=None   "Initial Condition"="Nonlinear Case"   "Nonlinear Case"=None   "Load Type"=Load   "Load Name"=V   "Load SF"=1   "Design Type"="Program Determined"   GUID=c9fe38cb-7040-4355-978c-a598215447a6
+   Name=V   "Load Type"=Load   "Load Name"=V_ABOVE   "Load SF"=1
+   Name=Vt   "Exclude Group"=None   "Initial Condition"="Nonlinear Case"   "Nonlinear Case"=None   "Load Type"=Load   "Load Name"=Vt   "Load SF"=1   "Design Type"="Program Determined"   GUID=f0b1212e-5664-46fa-b716-71475ce7c67e
+   Name=Vt   "Load Type"=Load   "Load Name"=Vt_ABOVE   "Load SF"=1
+ 
+TABLE:  "LOAD COMBINATION DEFINITIONS"
+   Name="CR1 - M"   Type="Linear Add"   "Is Auto"=No   "Load Name"=M   SF=1   GUID=6e24386a-38ee-441d-97cb-17abc0cef84d
+   Name="CR2 - M+V"   Type="Linear Add"   "Is Auto"=No   "Load Name"=M   SF=1   GUID=cdb45e5d-f2fc-4c74-bff4-583bccf63013
+   Name="CR2 - M+V"   "Load Name"=V   SF=1
+   Name="CR4 - 1M+V-0.7Sx-.21Sy"   Type="Linear Add"   "Is Auto"=No   "Load Name"=M   SF=1   GUID=92ea00b2-b411-4157-96bd-5fea623e690e
+   Name="CR4 - 1M+V-0.7Sx-.21Sy"   "Load Name"=V   SF=1
+   Name="CR4 - 1M+V-0.7Sx-.21Sy"   "Load Name"=Sx   SF=-0.7
+   Name="CR4 - 1M+V-0.7Sx-.21Sy"   "Load Name"=Sy   SF=-0.21
+   Name="CR4 - 1M+V-0.70Sx+.21Sy"   Type="Linear Add"   "Is Auto"=No   "Load Name"=M   SF=1   GUID=d49ee213-2419-4af0-8cc3-d52016d7f90c
+   Name="CR4 - 1M+V-0.70Sx+.21Sy"   "Load Name"=V   SF=1
+   Name="CR4 - 1M+V-0.70Sx+.21Sy"   "Load Name"=Sx   SF=-0.7
+   Name="CR4 - 1M+V-0.70Sx+.21Sy"   "Load Name"=Sy   SF=0.21
+   Name="CR4 - 1M+V+0.7Sx-.21Sy"   Type="Linear Add"   "Is Auto"=No   "Load Name"=M   SF=1   GUID=43fba6f4-ff7c-493d-8043-2c555577f4f0
+   Name="CR4 - 1M+V+0.7Sx-.21Sy"   "Load Name"=V   SF=1
+   Name="CR4 - 1M+V+0.7Sx-.21Sy"   "Load Name"=Sx   SF=0.7
+   Name="CR4 - 1M+V+0.7Sx-.21Sy"   "Load Name"=Sy   SF=-0.21
+   Name="CR4 - 1M+V+0.7Sx+.21Sy"   Type="Linear Add"   "Is Auto"=No   "Load Name"=M   SF=1   GUID=9fb4b515-6d20-4fc0-9732-e1c2f2a1a876
+   Name="CR4 - 1M+V+0.7Sx+.21Sy"   "Load Name"=V   SF=1
+   Name="CR4 - 1M+V+0.7Sx+.21Sy"   "Load Name"=Sx   SF=0.7
+   Name="CR4 - 1M+V+0.7Sx+.21Sy"   "Load Name"=Sy   SF=0.21
+   Name="CR4 - 1M+V+Sx-0.3Sy"   Type="Linear Add"   "Is Auto"=No   "Load Name"=M   SF=1   GUID=d3097e02-945c-4fde-92f6-601967f2815d
+   Name="CR4 - 1M+V+Sx-0.3Sy"   "Load Name"=V   SF=1
+   Name="CR4 - 1M+V+Sx-0.3Sy"   "Load Name"=Sx   SF=0.7
+   Name="CR4 - 1M+V+Sx-0.3Sy"   "Load Name"=Sy   SF=-0.21
+   Name="CR4 - 1M+V+Sx+0.3Sy"   Type="Linear Add"   "Is Auto"=No   "Load Name"=M   SF=1   GUID=c0a0cbd3-f286-419b-b92d-d69b2f8ab18e
+   Name="CR4 - 1M+V+Sx+0.3Sy"   "Load Name"=V   SF=1
+   Name="CR4 - 1M+V+Sx+0.3Sy"   "Load Name"=Sx   SF=0.7
+   Name="CR4 - 1M+V+Sx+0.3Sy"   "Load Name"=Sy   SF=0.21
+   Name="CR4 - M+V-.7Sx+0.21Sy"   Type="Linear Add"   "Is Auto"=No   "Load Name"=M   SF=1   GUID=6079325a-2c88-4f42-a75b-e2ff44ff3082
+   Name="CR4 - M+V-.7Sx+0.21Sy"   "Load Name"=V   SF=1
+   Name="CR4 - M+V-.7Sx+0.21Sy"   "Load Name"=Sx   SF=-0.7
+   Name="CR4 - M+V-.7Sx+0.21Sy"   "Load Name"=Sy   SF=0.21
+   Name="CR4 - M+V-Sx-0.3Sy"   Type="Linear Add"   "Is Auto"=No   "Load Name"=M   SF=1   GUID=af8439d9-3347-4480-affe-3e5823976c4c
+   Name="CR4 - M+V-Sx-0.3Sy"   "Load Name"=V   SF=1
+   Name="CR4 - M+V-Sx-0.3Sy"   "Load Name"=Sx   SF=-1
+   Name="CR4 - M+V-Sx-0.3Sy"   "Load Name"=Sy   SF=-0.3
+ 
+TABLE:  "LOAD PATTERN DEFINITIONS"
+   Name=~LLRF   "Is Auto Load"=No   Type=Other   "Self Weight Multiplier"=0   GUID=81b0b76e-ece3-4ec4-a069-a42b07ad21a7
+   Name=M_ABOVE   "Is Auto Load"=No   Type=Dead   "Self Weight Multiplier"=0   GUID=90e5f5a6-2f89-4a56-b4bb-cbb6972c1472
+   Name=PP   "Is Auto Load"=No   Type=Dead   "Self Weight Multiplier"=1   GUID=397d0361-4240-4a11-b15b-91d303b9feab
+   Name=SC   "Is Auto Load"=No   Type="Super Dead"   "Self Weight Multiplier"=0   GUID=86562a28-37a3-42b9-a963-24d127fef5cc
+   Name=Sx   "Is Auto Load"=No   Type=Seismic   "Self Weight Multiplier"=0   GUID=72a21228-a726-4e62-b260-c99c54638f1d
+   Name=Sx_ABOVE   "Is Auto Load"=No   Type=Seismic   "Self Weight Multiplier"=0   GUID=d0e121a4-b8f9-45fd-9428-f4b3f735ddca
+   Name=Sy   "Is Auto Load"=No   Type=Seismic   "Self Weight Multiplier"=0   GUID=2a1e5dde-acca-479c-a166-a1181778d15a
+   Name=Sy_ABOVE   "Is Auto Load"=No   Type=Seismic   "Self Weight Multiplier"=0   GUID=88b1dfa6-9e9a-4060-a439-4050ccc68241
+   Name=V   "Is Auto Load"=No   Type=Live   "Self Weight Multiplier"=0   GUID=d10aa464-2921-441d-a663-8acf2bd2405e
+   Name=V_ABOVE   "Is Auto Load"=No   Type=Live   "Self Weight Multiplier"=0   GUID=9c4ecca2-ebe9-459e-aada-836a11b70098
+   Name=Vt   "Is Auto Load"=No   Type=Live   "Self Weight Multiplier"=0   GUID=405d5e9b-9870-4d9b-bfa3-ae37803255cd
+   Name=Vt_ABOVE   "Is Auto Load"=No   Type=Live   "Self Weight Multiplier"=0   GUID=79d65b70-9f2b-4647-bab3-ea43fee17975
+ 
+TABLE:  "MASS SOURCE DEFINITION"
+   Name=MsSrc1   "Is Default"=Yes   "Include Lateral Mass?"=No   "Include Vertical Mass?"=Yes   "Lump Mass?"=Yes   "Source Self Mass?"=Yes   "Source Added Mass?"=Yes   "Source Load Patterns?"=No   "Move Mass Centroid?"=No   GUID=8148fab5-6057-486f-936f-b1c79919ebbc
+ 
+TABLE:  "MATERIAL PROPERTIES - BASIC MECHANICAL PROPERTIES"
+   Material=3000Psi   DensityType=Weight   UnitWeight=2402.769665133043   UnitMass=245.01430729992447   E1=2194996449.901792   G12=914581854.1257467   U12=0.2   A1=9.9E-06
+   Material=4000Psi   DensityType=Weight   UnitWeight=2402.769665133043   UnitMass=245.01430729992447   E1=2534563541.488313   G12=1056068142.2867972   U12=0.2   A1=9.9E-06
+   Material=A416MGr186   DensityType=Mass   UnitWeight=7849.04757236607   UnitMass=800.3800706866095   E1=20037484344.968693   A1=1.1699999999999998E-05
+   Material=A992Fy50   DensityType=Weight   UnitWeight=7849.047572366075   UnitMass=800.3800706866098   E1=20389019158.03832   G12=7841930445.399353   U12=0.3   A1=1.1699999999999998E-05
+   Material=CSA-G30.18Gr400   DensityType=Mass   UnitWeight=7849.04757236607   UnitMass=800.3800706866095   E1=20394323844.44841   A1=1.1699999999999998E-05
+   Material=CSAC30   DensityType=Mass   UnitWeight=2402.7696650100215   UnitMass=245.01430735304373   E1=2719309019.4040985   G12=1133045424.7517078   U12=0.2   A1=9.9E-06
+   Material="grado 60"   DensityType=Weight   UnitWeight=7849.047572366075   UnitMass=800.3800706866098   E1=42000000   A1=1.1699999999999998E-05
+ 
+TABLE:  "MATERIAL PROPERTIES - CONCRETE DATA"
+   Material=3000Psi   Fc=2109208.878417757   LtWtConc=No   IsUserFr=No   SSCurveOpt=Mander   SSHysType=Concrete   SFc=0.00192183   SCap=0.005   FinalSlope=-0.1   FAngle=0   DAngle=0
+   Material=4000Psi   Fc=2812278.5045570093   LtWtConc=No   IsUserFr=No   SSCurveOpt=Mander   SSHysType=Concrete   SFc=0.00221914   SCap=0.005   FinalSlope=-0.1   FAngle=0   DAngle=0
+   Material=CSAC30   Fc=3059148.5766672613   LtWtConc=No   IsUserFr=No   SSCurveOpt=Simple   SSHysType=Kinematic   SFc=0.0022499455228061093   SCap=0.005   FinalSlope=-0.1   FAngle=0   DAngle=0
+ 
+TABLE:  "MATERIAL PROPERTIES - GENERAL"
+   Material=3000Psi   Type=Concrete   SymType=Isotropic   Grade="f'c 3000 psi"   Color=Yellow   GUID=c977f33a-67c4-4400-affe-fac7f4932c48
+   Material=4000Psi   Type=Concrete   SymType=Isotropic   Grade="f'c 4000 psi"   Color=Magenta   GUID=e1ee8ffb-edc4-4c95-955a-b18b5618a7d2
+   Material=A416MGr186   Type=Tendon   SymType=Uniaxial   Grade=Unknown   Color=Magenta   GUID=c7cd7d52-8bb4-49ec-8f1f-552f63e5eaf6   Notes="ASTM A416 Metric Grade 186 added 29/06/2025 11:51:47"
+   Material=A992Fy50   Type=Steel   SymType=Isotropic   Grade="Grade 50"   Color=Magenta   GUID=41bc1e60-b13a-417d-b571-4f5835352513
+   Material=CSA-G30.18Gr400   Type=Rebar   SymType=Uniaxial   Grade=Unknown   Color=Cyan   GUID=e452bd93-6da4-446f-8b23-550852b6c6a0   Notes="CSA-G30.18 Grade 400 added 29/06/2025 11:51:47"
+   Material=CSAC30   Type=Concrete   SymType=Isotropic   Grade=Unknown   Color=Blue   GUID=3f3bc163-f7a2-4140-a699-898c5e49d0c4   Notes="Normalweight C30 added 29/06/2025 11:51:47"
+   Material="grado 60"   Type=Rebar   SymType=Uniaxial   Grade="Grade 60"   Color=Yellow   GUID=9f489797-b3bf-4be7-af3f-5cd3cf8c10ca
+ 
+TABLE:  "MATERIAL PROPERTIES - REBAR DATA"
+   Material=CSA-G30.18Gr400   Fy=40788647.68889682   Fu=50985809.61112103   Fye=44867512.45778651   Fue=56084390.57223313   SSCurveOpt=Simple   SSHysType=Kinematic   SHard=0.015   SCap=0.1   FinalSlope=-0.1
+   Material="grado 60"   Fy=42184177.56835514   Fu=63276266.35253271   Fye=46402595.325190656   Fue=69603892.98778598   SSCurveOpt=Simple   SSHysType=Kinematic   SHard=0.01   SCap=0.09   FinalSlope=-0.1
+ 
+TABLE:  "MATERIAL PROPERTIES - STEEL DATA"
+   Material=A992Fy50   Fy=35153481.30696262   Fu=45699525.6990514   Fye=38668829.437658876   Fue=50269478.26895654   SSCurveOpt=Simple   SSHysType=Kinematic   SHard=0.015   SMax=0.11   SRup=0.17   FinalSlope=-0.1
+ 
+TABLE:  "MATERIAL PROPERTIES - TENDON DATA"
+   Material=A416MGr186   Fy=172332036.48558906   Fu=189667211.75337023   SSCurveOpt="270 ksi"   SSHysType=Kinematic   FinalSlope=-0.1
+ 
+TABLE:  "MISCELLANEOUS OPTIONS"
+   "Start Page"=Yes   "Value at Cursor"=Yes   "Frame Info"=Yes   "Bounding Plane"=No   "Architectural Dimensioning"=No   "Moments on Tension Side"=Yes   "Animation Sound"=Yes   "Auto Save"=No   Crosshairs=No   "Model Explorer"=Yes
+ 
+TABLE:  "OPTIONS - COLORS - DISPLAY"
+   "Device Type"=Screen   ColorColumns=10507331   ColorBeams=10507331   ColorBraces=10507331   ColorLinks=10507331   ColorSprings=Black   ColorTendons=DarkCyan   ColorSlabPanels=Green   ColorWalls=Red   ColorFloors=Gray4 _
+        ColorNullObjects=Gray8Dark   ColorOpenings=Black   ColorColStripA=Red   ColorColStripB=Blue   ColorMidStripA=Yellow   ColorMidStripB=Cyan   ColorStripEdge=16744703   ColorOtherStripFill=Green   ColorSupportLines=13816320 _
+        ColorDimLines=10461087   ColorText=2105376   ColorGridLines=Gray6   ColorBackground=White   ColorUserMeshEdge=5065984   ColorStlDesign=DarkCyan   ColorCompDesign=Cyan   ColorConcDesign=4227327   ColorNoDesign=4227327 _
+        TransColumns=0.5   TransBeams=0.5   TransBraces=0.5   TransFloors=0.5   TransWalls=0.4   TransLinks=0.5   Darkness=0.3
+   "Device Type"=Printer   ColorColumns=Black   ColorBeams=Black   ColorBraces=Black   ColorLinks=Gray8Dark   ColorSprings=Gray8Dark   ColorTendons=Black   ColorSlabPanels=Green   ColorWalls=Gray4   ColorFloors=Gray4 _
+        ColorNullObjects=Gray4   ColorOpenings=Gray8Dark   ColorColStripA=Black   ColorColStripB=Black   ColorMidStripA=Black   ColorMidStripB=Black   ColorStripEdge=Black   ColorOtherStripFill=Black   ColorSupportLines=Black _
+        ColorDimLines=Gray4   ColorText=Black   ColorGridLines=Gray4   ColorBackground=White   ColorUserMeshEdge=Gray4   ColorStlDesign=Black   ColorCompDesign=Gray4   ColorConcDesign=Gray8Dark   ColorNoDesign=Gray4   TransColumns=0.5 _
+        TransBeams=0.5   TransBraces=0.5   TransFloors=0.5   TransWalls=0.4   TransLinks=0.5   Darkness=0.5
+   "Device Type"="Color Printer"   ColorColumns=Blue   ColorBeams=Blue   ColorBraces=Blue   ColorLinks=10516060   ColorSprings=DarkCyan   ColorTendons=DarkCyan   ColorSlabPanels=Green   ColorWalls=14865869   ColorFloors=Gray4 _
+        ColorNullObjects=Gray8Dark   ColorOpenings=Black   ColorColStripA=DarkCyan   ColorColStripB=DarkCyan   ColorMidStripA=DarkCyan   ColorMidStripB=DarkCyan   ColorStripEdge=DarkCyan   ColorOtherStripFill=DarkCyan _
+        ColorSupportLines=DarkCyan   ColorDimLines=10461087   ColorText=Black   ColorGridLines=Gray8Dark   ColorBackground=White   ColorUserMeshEdge=5065984   ColorStlDesign=DarkCyan   ColorCompDesign=Cyan   ColorConcDesign=4227327 _
+        ColorNoDesign=4227327   TransColumns=0.5   TransBeams=0.5   TransBraces=0.5   TransFloors=0.5   TransWalls=0.4   TransLinks=0.5   Darkness=0.3
+ 
+TABLE:  "OPTIONS - COLORS - OUTPUT"
+   "Device Type"="Screen Classic"   Contour1=13107400   Contour2=6553828   Contour3=Red   Contour4=16639   Contour5=Orange   Contour6=43775   Contour7=54527   Contour8=Yellow   Contour9=65408   Contour10=Green   Contour11=8453888 _
+        Contour12=Cyan   Contour13=16755200   Contour14=16733440   Contour15=Blue   TransContours=0   Ratio1=Cyan   Ratio2=Green   Ratio3=Yellow   Ratio4=Magenta   Ratio5=Red   RatioNotD=Gray4   RatioVal1=0.5   RatioVal2=0.7   RatioVal3=0.9 _
+        RatioVal4=1   HState1=Gray2   HState2=Green   HState3=Yellow   HState4=Cyan   HState5=Blue   HStatus1=Gray2   HStatus2=Green   HStatus3=Cyan   HStatus4=Red   DFillPos=Yellow   DFillNeg=Red   DFillRange=Blue   TransDiag=0.2
+   "Device Type"="Screen GrayScale"   Contour1=Black   Contour2=3158064   Contour3=4210752   Contour4=5263440   Contour5=6316128   Contour6=7368816   Contour7=Gray8Dark   Contour8=Gray7   Contour9=Gray6   Contour10=Gray5   Contour11=Gray4 _
+        Contour12=Gray3   Contour13=Gray2   Contour14=Gray1Light   Contour15=White   TransContours=0   Ratio1=Gray2   Ratio2=Gray4   Ratio3=Gray8Dark   Ratio4=4210752   Ratio5=Black   RatioNotD=Gray4   RatioVal1=0.5   RatioVal2=0.7 _
+        RatioVal3=0.9   RatioVal4=1   HState1=Gray3   HState2=Gray5   HState3=Gray7   HState4=7368816   HState5=5263440   HStatus1=Gray2   HStatus2=Gray4   HStatus3=Gray8Dark   HStatus4=4210752   DFillPos=Gray8Dark   DFillNeg=Gray8Dark _
+        DFillRange=4210752   TransDiag=0.2
+   "Device Type"=Printer   Contour1=Black   Contour2=3158064   Contour3=4210752   Contour4=5263440   Contour5=6316128   Contour6=7368816   Contour7=Gray8Dark   Contour8=Gray7   Contour9=Gray6   Contour10=Gray5   Contour11=Gray4 _
+        Contour12=Gray3   Contour13=Gray2   Contour14=Gray1Light   Contour15=White   TransContours=0   Ratio1=Gray2   Ratio2=Gray4   Ratio3=Gray8Dark   Ratio4=4210752   Ratio5=Black   RatioNotD=Gray4   RatioVal1=0.5   RatioVal2=0.7 _
+        RatioVal3=0.9   RatioVal4=1   HState1=Gray3   HState2=Gray5   HState3=Gray7   HState4=7368816   HState5=5263440   HStatus1=Gray2   HStatus2=Gray4   HStatus3=Gray8Dark   HStatus4=4210752   DFillPos=Gray8Dark   DFillNeg=Gray8Dark _
+        DFillRange=4210752   TransDiag=0.2
+   "Device Type"="Color Printer"   Contour1=13107400   Contour2=6553828   Contour3=Red   Contour4=16639   Contour5=Orange   Contour6=43775   Contour7=54527   Contour8=Yellow   Contour9=65408   Contour10=Green   Contour11=8453888 _
+        Contour12=Cyan   Contour13=16755200   Contour14=16733440   Contour15=Blue   TransContours=0   Ratio1=Cyan   Ratio2=Green   Ratio3=Yellow   Ratio4=Magenta   Ratio5=Red   RatioNotD=Gray4   RatioVal1=0.5   RatioVal2=0.7   RatioVal3=0.9 _
+        RatioVal4=1   HState1=Gray2   HState2=Green   HState3=Yellow   HState4=Cyan   HState5=Blue   HStatus1=Gray2   HStatus2=Green   HStatus3=Cyan   HStatus4=Red   DFillPos=Yellow   DFillNeg=Red   DFillRange=Blue   TransDiag=0.2
+ 
+TABLE:  "POINT OBJECT CONNECTIVITY"
+   UniqueName=1   "Is Auto Point"=No   IsSpecial=Yes   X=0   Y=5.5   Z=0   GUID=cc20289f-95ad-42f5-a647-503fbd400c67
+   UniqueName=2   "Is Auto Point"=No   IsSpecial=Yes   X=0   Y=10.5   Z=0   GUID=7bb0bb4e-cd5b-4ef5-860a-faa1f1d653a1
+   UniqueName=3   "Is Auto Point"=No   IsSpecial=Yes   X=0   Y=16   Z=0   GUID=bdb87a70-e0bc-476c-8b60-a1e11ffba89a
+   UniqueName=4   "Is Auto Point"=No   IsSpecial=Yes   X=0   Y=20   Z=0   GUID=db249e95-4486-46a4-8771-cc1f7a775b0a
+   UniqueName=5   "Is Auto Point"=No   IsSpecial=Yes   X=5   Y=5.5   Z=0   GUID=66f62522-7007-46f8-bd81-37377bd43fc2
+   UniqueName=6   "Is Auto Point"=No   IsSpecial=Yes   X=5   Y=10.5   Z=0   GUID=4532a24f-2e13-41a4-8dc3-808dda15f2c1
+   UniqueName=7   "Is Auto Point"=No   IsSpecial=Yes   X=5   Y=16   Z=0   GUID=0265ae96-b832-4f82-8f2b-9677240a1ca0
+   UniqueName=8   "Is Auto Point"=No   IsSpecial=Yes   X=5   Y=20   Z=0   GUID=b13b2a74-ae17-44b6-9015-8e56ba360c1f
+   UniqueName=9   "Is Auto Point"=No   IsSpecial=Yes   X=9.5   Y=2   Z=0   GUID=42285c0e-84dd-4189-bd62-6f894608f72f
+   UniqueName=10   "Is Auto Point"=No   IsSpecial=Yes   X=9.5   Y=5.5   Z=0   GUID=8781eeca-400e-4a94-ab47-2d382925b605
+   UniqueName=11   "Is Auto Point"=No   IsSpecial=Yes   X=9.5   Y=10.5   Z=0   GUID=6e9b5291-2338-4115-a1eb-2c3a45f4139e
+   UniqueName=12   "Is Auto Point"=No   IsSpecial=Yes   X=9.5   Y=16   Z=0   GUID=1a6f6cca-66dd-4cb7-93a2-e741f8742850
+   UniqueName=13   "Is Auto Point"=No   IsSpecial=Yes   X=9.5   Y=20   Z=0   GUID=48ea7731-a6de-4694-bbb2-ca607c9ec862
+   UniqueName=14   "Is Auto Point"=No   IsSpecial=Yes   X=15   Y=0   Z=0   GUID=a3ee1962-9a70-4be7-8e12-d269cdea71e8
+   UniqueName=15   "Is Auto Point"=No   IsSpecial=Yes   X=20   Y=0   Z=0   GUID=615672ca-1f1e-4c48-8ef1-43b4d39f19c4
+   UniqueName=16   "Is Auto Point"=No   IsSpecial=Yes   X=26   Y=0   Z=0   GUID=664077fb-a3ed-4eab-89b9-8fdbdbd31a85
+   UniqueName=17   "Is Auto Point"=No   IsSpecial=Yes   X=15   Y=20   Z=0   GUID=777afba1-0664-4808-8c6f-c321766c5870
+   UniqueName=18   "Is Auto Point"=No   IsSpecial=Yes   X=20   Y=20   Z=0   GUID=2e1aa70b-6022-4999-8bf6-f7518cd34827
+   UniqueName=19   "Is Auto Point"=No   IsSpecial=Yes   X=15   Y=16   Z=0   GUID=c2b367e1-77da-4bd6-bd3f-abe6f1a6d7e1
+   UniqueName=20   "Is Auto Point"=No   IsSpecial=Yes   X=20   Y=16   Z=0   GUID=b220b0a9-3b3f-4a4f-98f3-5ee7ec2ee608
+   UniqueName=21   "Is Auto Point"=No   IsSpecial=Yes   X=26   Y=16   Z=0   GUID=6877d809-3f94-4f81-af63-2b55710c5e35
+   UniqueName=22   "Is Auto Point"=No   IsSpecial=Yes   X=15   Y=10.5   Z=0   GUID=795b0a74-af75-4123-a16e-f5ff6a3f9918
+   UniqueName=23   "Is Auto Point"=No   IsSpecial=Yes   X=20   Y=10.5   Z=0   GUID=56cdd471-361d-47b1-be83-2ce7a81bbae6
+   UniqueName=24   "Is Auto Point"=No   IsSpecial=Yes   X=26   Y=10.5   Z=0   GUID=76a44481-a577-4213-97e4-a06674c5793e
+   UniqueName=25   "Is Auto Point"=No   IsSpecial=Yes   X=15   Y=5.5   Z=0   GUID=65a68c6a-d6b8-4028-9062-660e853453bb
+   UniqueName=26   "Is Auto Point"=No   IsSpecial=Yes   X=20   Y=5.5   Z=0   GUID=6bef40bf-7af8-4eee-9bbf-2bfc6bf22960
+   UniqueName=27   "Is Auto Point"=No   IsSpecial=Yes   X=26   Y=5.5   Z=0   GUID=4a54c615-0ff7-44a2-8470-8450078c91f0
+   UniqueName=28   "Is Auto Point"=No   IsSpecial=Yes   X=5   Y=2   Z=0   GUID=8e9fb3d3-451b-4df7-99b4-c019cc14847a
+   UniqueName=29   "Is Auto Point"=No   IsSpecial=Yes   X=0   Y=2   Z=0   GUID=12ac1ea7-3091-4cbf-a1d2-c108dcc25ed5
+   UniqueName=30   "Is Auto Point"=No   IsSpecial=No   X=13.75   Y=4.25   Z=0   GUID=5d6c9b39-6383-4b41-974f-0582ff89ae2c
+   UniqueName=31   "Is Auto Point"=No   IsSpecial=No   X=16.25   Y=4.25   Z=0   GUID=ae0e4c6b-e5ed-446c-aace-b2c79d11b1cd
+   UniqueName=32   "Is Auto Point"=No   IsSpecial=No   X=16.25   Y=6.75   Z=0   GUID=c2ee4e7b-f45f-4d0c-8cc2-e9e36b3be649
+   UniqueName=33   "Is Auto Point"=No   IsSpecial=No   X=13.75   Y=6.75   Z=0   GUID=bd31a0a5-4c71-465f-beb6-43242ef40b54
+   UniqueName=34   "Is Auto Point"=No   IsSpecial=No   X=14.675   Y=5.175   Z=0   GUID=d9256925-e7b9-4b57-9c51-14a13f40baa8
+   UniqueName=35   "Is Auto Point"=No   IsSpecial=No   X=15.325   Y=5.175   Z=0   GUID=42f87689-829c-4190-8e06-09174ea28824
+   UniqueName=36   "Is Auto Point"=No   IsSpecial=No   X=15.325   Y=5.825   Z=0   GUID=ad577424-b034-4411-a2fb-3064e662b75e
+   UniqueName=37   "Is Auto Point"=No   IsSpecial=No   X=14.675   Y=5.825   Z=0   GUID=6c7068f9-dcbd-425c-89bc-97fdbba764fc
+ 
+TABLE:  "PREFERENCES - GRAPHICS"
+   MaxFontSize=8   MinFontSize=3   MinSLineThick=1   MinPLineThick=4   AntiAliasing?=Yes   ConstantLineThick?=Yes   ShadingWithinElement?=No   AutoZoomStep=10   ShrinkFactor=70
+ 
+TABLE:  "PREFERENCES - TOLERANCE"
+   MergeTol=0.0025   MaxInclVertCol=1   MaxInclHorzBmFlr=20
+ 
+TABLE:  "PROGRAM CONTROL"
+   ProgramName=SAFE   Version=22.1.0   CurrUnits="kgf, m, C"   CompBmCode="AISC 360-16"   ConcFrmCode="ACI 318-14"   ConcSlbCode="ACI 318-14"
+ 
+TABLE:  "PROJECT INFORMATION"
+   "Client Name"=ARC   "Project Name"=20250627-Mod_Final   "Model Name"="Safe Modelo Examen Final_V2016"
+ 
+TABLE:  "REINFORCING BAR SIZES"
+   Name=#2   Diameter=0.00635   Area=3.2258E-05
+   Name=#3   Diameter=0.009524999999999999   Area=7.096759961545467E-05
+   Name=#4   Diameter=0.0127   Area=0.00012903200192272663
+   Name=#5   Diameter=0.015875   Area=0.0001999996015381813
+   Name=#6   Diameter=0.019049999999999997   Area=0.0002838703984618187
+   Name=#7   Diameter=0.022224999999999998   Area=0.00038709601538181303
+   Name=#8   Diameter=0.0254   Area=0.0005096764138436317
+   Name=#9   Diameter=0.02865120053291321   Area=0.00064516
+   Name=#10   Diameter=0.032257999515533445   Area=0.0008193531876945496
+   Name=#11   Diameter=0.03581399915218353   Area=0.0010064495630836487
+   Name=#14   Diameter=0.04300219895839691   Area=0.0014516099999999999
+   Name=#18   Diameter=0.057327799224853516   Area=0.00258064
+ 
+TABLE:  "SLAB PROPERTY DEFINITIONS"
+   Name=SLAB1   "Modeling Type"=Shell-Thick   "Property Type"=Slab   Material=CSAC30   "Slab Thickness"=0.2   "Notional Size Type"=User   "Notional User Size"=0.1   "f11 Modifier"=1   "f22 Modifier"=1   "f12 Modifier"=1   "m11 Modifier"=1 _
+        "m22 Modifier"=1   "m12 Modifier"=1   "v13 Modifier"=1   "v23 Modifier"=1   "Mass Modifier"=1   "Weight Modifier"=1   Color=Blue   GUID=5f6d88ce-6bfa-49b2-9ed1-a6b7a1752a3f   Orthotropic?=No
+   Name=Z50cm   "Modeling Type"=Shell-Thin   "Property Type"=Footing   Material=4000Psi   "Slab Thickness"=0.5   "Notional Size Type"=Auto   "Notional Auto Factor"=1   "f11 Modifier"=1   "f22 Modifier"=1   "f12 Modifier"=1 _
+        "m11 Modifier"=1   "m22 Modifier"=1   "m12 Modifier"=1   "v13 Modifier"=1   "v23 Modifier"=1   "Mass Modifier"=1   "Weight Modifier"=1   Color=Red   GUID=fd975f94-d18a-4095-8207-e5d0f9b00438   Orthotropic?=No
+ 
+TABLE:  "SPRING PROPERTY DEFINITIONS - AREA SPRINGS"
+   Name=SOIL1   "Subgrade Modulus"=3000000   "Nonlinear Option"="Compression Only"   Color=Cyan   GUID=637d95d5-fc03-48b0-8efd-ab4aa5a49646
+ 
+TABLE:  "SPRING PROPERTY DEFINITIONS - LINE SPRINGS"
+   Name=LSPR1   "Vertical Stffness"=1   "Rotational Stffness"=1   "Nonlinear Option"="None (Linear)"   Color=Yellow   GUID=65e89cc9-29b8-4d9e-9744-178c65937404
+ 
+TABLE:  "SPRING PROPERTY DEFINITIONS - POINT SPRINGS"
+   Name=PSPR1   "Stiffness UX"=0   "Stiffness UY"=0   "Stiffness UZ"=1   "Stiffness RX"=0   "Stiffness RY"=0   "Stiffness RZ"=0   "Nonlinear Option"="None (Linear)"   Color=Blue   GUID=426d340d-c5b3-4a49-a97d-42cc94d9ae8c
+ 
+TABLE:  "TENDON SECTION PROPERTIES"
+   Name=Tendon1   Material=A416MGr186   StrandArea=9.870948E-05   Color=Cyan   GUID=6075b98b-47d2-41f9-b0cb-48071d4f066f
+ 
+TABLE:  "WALL PROPERTY DEFINITIONS - SPECIFIED"
+   Name=WALL1   "Modeling Type"=Shell-Thick   Material=CSAC30   "Wall Thickness"=0.3   "Include Auto Rigid Zone?"=No   "Notional Size Type"=User   "Notional User Size"=0.1   "f11 Modifier"=1   "f22 Modifier"=1   "f12 Modifier"=1 _
+        "m11 Modifier"=1   "m22 Modifier"=1   "m12 Modifier"=1   "v13 Modifier"=1   "v23 Modifier"=1   "Mass Modifier"=1   "Weight Modifier"=1   Color=Magenta   GUID=99bb00b5-3da1-44bd-be98-c5aff87c6693
+ 
+END TABLE DATA
