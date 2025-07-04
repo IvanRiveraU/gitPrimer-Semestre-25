@@ -1,0 +1,18 @@
+ SAFE 2016 Standard 16.0.2 (Analysis Build 9548/32)                             
+ File: C:\Users\Ivan\Documents...modelo safe modificado 4.8\con 4.8 diametro.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+     149 TO     159    -   -   -   -   -   -
+     160               A   A   A   A   A   A
+     161 TO     163    -   -   -   -   -   -
+      24 TO     ~63    A   A   A   A   A   A

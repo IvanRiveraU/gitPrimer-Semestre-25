@@ -1,0 +1,822 @@
+File C:\Users\Ivan\Documents\gitPrimer-Semestre-25\vaq ETABS\PROYECTO\Cuarto Avance\modelo safe modificado 4.8\con 4.8 diametro.$sf was saved on 4/17/17 at 12:49:45
+ 
+TABLE:  "ADVANCED MODELING OPTIONS"
+   2DOnly=No   RigDiaTop=No   NoOffsets=Yes
+ 
+TABLE:  "ADVANCED SAPFIRE OPTIONS"
+   SolverOpt=Advanced   ProcessOpt=Auto   Always32Bit=No
+ 
+TABLE:  "AUTOMATIC SLAB MESH OPTIONS"
+   MeshOpt=Rectangular   Localize=Yes   Merge=Yes   MaxSize=1.2
+ 
+TABLE:  "BEAM PROPERTIES 01 - GENERAL"
+   Beam=BEAM1   Type=Rectangular   Color=Cyan   GUID=c0893051-bc4a-4940-9add-2e4ee1a8e28d
+ 
+TABLE:  "BEAM PROPERTIES 02 - RECTANGULAR BEAM"
+   Beam=BEAM1   MatProp=CSAC30   Depth=0.6   WidthTop=0.3   WidthBot=0.3
+ 
+TABLE:  "BEAM PROPERTIES 06 - DESIGN DATA"
+   Beam=BEAM1   MatRebarL=Grado60   MatRebarS=Grado60   FlngWOpt="Analysis Property"   CoverTop=0.075   CoverBot=0.075   NoDesign=No
+ 
+TABLE:  "COLUMN PROPERTIES 01 - GENERAL"
+   Column=COL1   Type=Rectangular   Color=Cyan   GUID=daf8feab-a677-48d9-abbe-565fef611b8b
+ 
+TABLE:  "COLUMN PROPERTIES 02 - RECTANGULAR"
+   Column=COL1   MatProp=CSAC30   SecDim2=0.6   SecDim3=0.3   AutoRigid=No   AutoDrop=No   IncludeCap=No
+ 
+TABLE:  "COORDINATE SYSTEMS"
+   CoordSys=GLOBAL   Type=Cartesian   OriginGx=0   OriginGy=0   RotAngle=0
+ 
+TABLE:  "CRACKING ANALYSIS REINFORCEMENT"
+   ReinfOpt="FE Design"   MinReinfT=0.0018   MinReinfC=0
+ 
+TABLE:  "DESIGN PREFERENCES 01 - RESISTANCE FACTORS"
+   PhiTen=0.9   PhiComp=0.65   PhiShear=0.75
+ 
+TABLE:  "DESIGN PREFERENCES 02 - REBAR COVER - SLABS"
+   CoverTop=0.075   CoverBot=0.075   BarSize=#7   InnerLayer=B   PTCGSTop=0.025   PTCGSBotExt=0.04   PTCGSBotInt=0.025   SlabType="Two Way"
+ 
+TABLE:  "DESIGN PREFERENCES 03 - REBAR COVER - BEAMS"
+   CoverTop=0.04   CoverBot=0.04   BarSizeF=#9   BarSizeS=#4   PTCGSTop=0.05   PTCGSBot=0.05
+ 
+TABLE:  "DESIGN PREFERENCES 04 - PRESTRESS DATA"
+   UserStress=No   InitConcRat=0.8   LLFraction=0.5
+ 
+TABLE:  "GRID LINES"
+   CoordSys=GLOBAL   AxisDir=X   GridID=A   Ordinate=0   Visible=Yes   BubbleLoc=End   GridColor=10461087   BubbleSize=1.25   HideAll=No
+   CoordSys=GLOBAL   AxisDir=X   GridID=B   Ordinate=6   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=X   GridID=C   Ordinate=11   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=X   GridID=D   Ordinate=16   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=X   GridID=E   Ordinate=17.5   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=1   Ordinate=0   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=2   Ordinate=5.5   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=3   Ordinate=10.5   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=4   Ordinate=16   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=6   Ordinate=8   Visible=Yes   BubbleLoc=End
+ 
+TABLE:  "GROUP DEFINITIONS"
+   Group=ALL   Color=Red
+ 
+TABLE:  "LOAD ASSIGNMENTS - POINT LOADS"
+   Point=149   LoadPat=M_ABOVE   Fx=-913.9055   Fy=831.8917   Fgrav=89144.266   Mx=-920.7592   My=-690.24524   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=149   LoadPat=V_ABOVE   Fx=-197.82423   Fy=184.01125   Fgrav=8822.035   Mx=-178.02745   My=-139.56897   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=149   LoadPat=Sx(1/3)_ABOVE   Fx=13439.166   Fy=-133.32959   Fgrav=-27996.64   Mx=-163.084   My=66879.05   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=149   LoadPat=Sx(2/3)_ABOVE   Fx=14766.8   Fy=1076.1172   Fgrav=-27799.385   Mx=-5860.875   My=73197.17   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=149   LoadPat=Sx(3/3)_ABOVE   Fx=12111.533   Fy=-1342.7764   Fgrav=-28193.896   Mx=5534.707   My=60560.918   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=149   LoadPat=Sy(1/3)_ABOVE   Fx=-229.43721   Fy=13460.251   Fgrav=32545.383   Mx=-65426.57   My=-297.77112   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=149   LoadPat=Sy(2/3)_ABOVE   Fx=-1681.5365   Fy=12137.419   Fgrav=32329.635   Mx=-59194.613   My=-7208.222   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=149   LoadPat=Sy(3/3)_ABOVE   Fx=1222.662   Fy=14783.084   Fgrav=32761.133   Mx=-71658.53   My=6612.68   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=149   LoadPat=PP_ABOVE   Fx=-523.91113   Fy=483.4616   Fgrav=64087.95   Mx=-492.1375   My=-299.35312   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=149   LoadPat=SC_ABOVE   Fx=-389.9944   Fy=348.43015   Fgrav=25056.32   Mx=-428.6217   My=-390.8921   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=150   LoadPat=M_ABOVE   Fx=477.27374   Fy=1306.1088   Fgrav=121334.13   Mx=-1725.5383   My=1319.1838   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=150   LoadPat=V_ABOVE   Fx=122.35041   Fy=352.96805   Fgrav=15995.757   Mx=-454.45953   My=322.89352   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=150   LoadPat=Sx(1/3)_ABOVE   Fx=15612.34   Fy=-498.20523   Fgrav=-8466.291   Mx=259.96854   My=70017.99   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=150   LoadPat=Sx(2/3)_ABOVE   Fx=17134.697   Fy=-266.19434   Fgrav=-8412.519   Mx=-1006.1456   My=76617.375   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=150   LoadPat=Sx(3/3)_ABOVE   Fx=14089.981   Fy=-730.2161   Fgrav=-8520.064   Mx=1526.0828   My=63418.6   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=150   LoadPat=Sy(1/3)_ABOVE   Fx=-686.74023   Fy=13843.1   Fgrav=42942.54   Mx=-66293.62   My=-958.3028   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=150   LoadPat=Sy(2/3)_ABOVE   Fx=-2351.819   Fy=13589.337   Fgrav=42883.727   Mx=-64908.81   My=-8176.3833   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=150   LoadPat=Sy(3/3)_ABOVE   Fx=978.3386   Fy=14096.861   Fgrav=43001.355   Mx=-67678.43   My=6259.7773   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=150   LoadPat=PP_ABOVE   Fx=300.7058   Fy=790.50464   Fgrav=83092.97   Mx=-1031.7615   My=891.7293   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=150   LoadPat=SC_ABOVE   Fx=176.56795   Fy=515.60406   Fgrav=38241.16   Mx=-693.77673   My=427.4545   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=151   LoadPat=M_ABOVE   Fx=320.6203   Fy=553.03186   Fgrav=133029.6   Mx=-737.63617   My=1202.7445   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=151   LoadPat=V_ABOVE   Fx=131.98575   Fy=121.77985   Fgrav=20051.045   Mx=-147.52106   My=366.5014   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=151   LoadPat=Sx(1/3)_ABOVE   Fx=16551.318   Fy=199.92882   Fgrav=4111.395   Mx=-835.0681   My=71469.57   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=151   LoadPat=Sx(2/3)_ABOVE   Fx=17134.87   Fy=-403.7539   Fgrav=4602.892   Mx=1622.4506   My=73944.734   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=151   LoadPat=Sx(3/3)_ABOVE   Fx=15967.77   Fy=803.6115   Fgrav=3619.8982   Mx=-3292.587   My=68994.414   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=151   LoadPat=Sy(1/3)_ABOVE   Fx=-68.72661   Fy=16866.072   Fgrav=-13810.007   Mx=-70921.74   My=222.24936   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=151   LoadPat=Sy(2/3)_ABOVE   Fx=-706.9838   Fy=17526.35   Fgrav=-14347.582   Mx=-73609.65   My=-2484.957   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=151   LoadPat=Sy(3/3)_ABOVE   Fx=569.5306   Fy=16205.794   Fgrav=-13272.433   Mx=-68233.83   My=2929.4556   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=151   LoadPat=PP_ABOVE   Fx=305.95697   Fy=331.51117   Fgrav=94110.43   Mx=-448.89554   My=987.4323   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=151   LoadPat=SC_ABOVE   Fx=14.663315   Fy=221.52072   Fgrav=38919.168   Mx=-288.74066   My=215.31221   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=152   LoadPat=M_ABOVE   Fx=293.03278   Fy=877.98004   Fgrav=103871.14   Mx=-1306.8408   My=1162.897   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=152   LoadPat=V_ABOVE   Fx=58.65428   Fy=238.1197   Fgrav=14077.448   Mx=-342.55457   My=260.5809   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=152   LoadPat=Sx(1/3)_ABOVE   Fx=14003.802   Fy=264.43216   Fgrav=42608.24   Mx=-1014.88416   My=67789.92   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=152   LoadPat=Sx(2/3)_ABOVE   Fx=14519.431   Fy=-1057.4283   Fgrav=40400.93   Mx=4996.527   My=70166.98   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=152   LoadPat=Sx(3/3)_ABOVE   Fx=13488.173   Fy=1586.2926   Fgrav=44815.547   Mx=-7026.295   My=65412.863   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=152   LoadPat=Sy(1/3)_ABOVE   Fx=-99.88186   Fy=14395.704   Fgrav=43169.496   Mx=-67615.24   My=177.24852   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=152   LoadPat=Sy(2/3)_ABOVE   Fx=-663.8509   Fy=15841.489   Fgrav=45583.74   Mx=-74190.23   My=-2422.6555   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=152   LoadPat=Sy(3/3)_ABOVE   Fx=464.08716   Fy=12949.92   Fgrav=40755.25   Mx=-61040.26   My=2777.1523   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=152   LoadPat=PP_ABOVE   Fx=125.66037   Fy=553.6649   Fgrav=74394.9   Mx=-849.88336   My=727.0106   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=152   LoadPat=SC_ABOVE   Fx=167.3724   Fy=324.3151   Fgrav=29476.24   Mx=-456.9575   My=435.8863   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=153   LoadPat=M_ABOVE   Fx=205.5968   Fy=196.9774   Fgrav=157667.2   Mx=-323.19592   My=1136.4512   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=153   LoadPat=V_ABOVE   Fx=78.32299   Fy=52.40144   Fgrav=29637.86   Mx=-74.301796   My=315.98193   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=153   LoadPat=Sx(1/3)_ABOVE   Fx=14214.709   Fy=271.98196   Fgrav=43301.523   Mx=-1025.7892   My=68181.2   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=153   LoadPat=Sx(2/3)_ABOVE   Fx=13923.169   Fy=-1246.8503   Fgrav=43208.08   Mx=5270.1294   My=66875.83   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=153   LoadPat=Sx(3/3)_ABOVE   Fx=14506.248   Fy=1790.8142   Fgrav=43394.973   Mx=-7321.7075   My=69486.58   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=153   LoadPat=Sy(1/3)_ABOVE   Fx=118.78783   Fy=16620.715   Fgrav=-6763.2183   Mx=-70829.06   My=754.8138   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=153   LoadPat=Sy(2/3)_ABOVE   Fx=437.6588   Fy=18281.938   Fgrav=-6661.012   Mx=-77715.23   My=2182.568   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=153   LoadPat=Sy(3/3)_ABOVE   Fx=-200.08315   Fy=14959.492   Fgrav=-6865.4243   Mx=-63942.902   My=-672.9405   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=153   LoadPat=PP_ABOVE   Fx=-1.6126436   Fy=132.03195   Fgrav=111036.55   Mx=-240.87376   My=623.284   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=153   LoadPat=SC_ABOVE   Fx=207.20944   Fy=64.94544   Fgrav=46630.664   Mx=-82.32214   My=513.1671   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=154   LoadPat=M_ABOVE   Fx=307.354   Fy=-1055.5063   Fgrav=108655.375   Mx=1485.9004   My=1393.262   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=154   LoadPat=V_ABOVE   Fx=66.88784   Fy=-290.34238   Fgrav=15477.611   Mx=420.75977   My=329.15546   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=154   LoadPat=Sx(1/3)_ABOVE   Fx=14237.642   Fy=188.23906   Fgrav=41526.62   Mx=-904.8303   My=68309.64   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=154   LoadPat=Sx(2/3)_ABOVE   Fx=13067.646   Fy=-1109.7845   Fgrav=41563.258   Mx=5072.1504   My=62967.207   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=154   LoadPat=Sx(3/3)_ABOVE   Fx=15407.637   Fy=1486.2627   Fgrav=41489.98   Mx=-6881.811   My=73652.07   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=154   LoadPat=Sy(1/3)_ABOVE   Fx=311.49838   Fy=14136.15   Fgrav=-35112.367   Mx=-67240.34   My=1321.0552   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=154   LoadPat=Sy(2/3)_ABOVE   Fx=1591.1805   Fy=15555.863   Fgrav=-35152.44   Mx=-73777.664   My=7164.3374   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=154   LoadPat=Sy(3/3)_ABOVE   Fx=-968.1837   Fy=12716.437   Fgrav=-35072.293   Mx=-60703.016   My=-4522.227   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=154   LoadPat=PP_ABOVE   Fx=135.5914   Fy=-660.97833   Fgrav=77643.01   Mx=904.55585   My=909.5806   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=154   LoadPat=SC_ABOVE   Fx=171.76262   Fy=-394.528   Fgrav=31012.363   Mx=581.34454   My=483.68137   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=155   LoadPat=M_ABOVE   Fx=174.98479   Fy=-993.0855   Fgrav=109853.88   Mx=1495.5865   My=1202.067   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=155   LoadPat=V_ABOVE   Fx=41.94923   Fy=-337.39636   Fgrav=15916.643   Mx=515.71625   My=293.13397   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=155   LoadPat=Sx(1/3)_ABOVE   Fx=16617.81   Fy=125.948975   Fgrav=-611.7296   Mx=-728.2111   My=71747.57   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=155   LoadPat=Sx(2/3)_ABOVE   Fx=15275.054   Fy=-375.2631   Fgrav=466.00024   Mx=1581.2982   My=66155.6   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=155   LoadPat=Sx(3/3)_ABOVE   Fx=17960.566   Fy=627.161   Fgrav=-1689.4595   Mx=-3037.7205   My=77339.54   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=155   LoadPat=Sy(1/3)_ABOVE   Fx=319.43152   Fy=13859.998   Fgrav=-34237.47   Mx=-66579.75   My=1332.5138   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=155   LoadPat=Sy(2/3)_ABOVE   Fx=1788.0712   Fy=14408.198   Fgrav=-35416.234   Mx=-69105.77   My=7448.7275   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=155   LoadPat=Sy(3/3)_ABOVE   Fx=-1149.2081   Fy=13311.797   Fgrav=-33058.7   Mx=-64053.723   My=-4783.7   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=155   LoadPat=PP_ABOVE   Fx=132.50037   Fy=-726.4343   Fgrav=80984.266   Mx=1079.2083   My=905.1159   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=155   LoadPat=SC_ABOVE   Fx=42.48443   Fy=-266.6512   Fgrav=28869.613   Mx=416.3783   My=296.95105   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=156   LoadPat=M_ABOVE   Fx=467.21304   Fy=-1277.9701   Fgrav=123281.8   Mx=2006.9232   My=1624.1635   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=156   LoadPat=V_ABOVE   Fx=106.22388   Fy=-370.93707   Fgrav=16610.365   Mx=591.1541   My=385.97272   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=156   LoadPat=Sx(1/3)_ABOVE   Fx=16164.271   Fy=26.028591   Fgrav=-14055.849   Mx=-497.23843   My=71092.48   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=156   LoadPat=Sx(2/3)_ABOVE   Fx=14855.191   Fy=303.4599   Fgrav=-13805.024   Mx=-1828.9583   My=65549.15   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=156   LoadPat=Sx(3/3)_ABOVE   Fx=17473.352   Fy=-251.40271   Fgrav=-14306.673   Mx=834.4813   My=76635.8   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=156   LoadPat=Sy(1/3)_ABOVE   Fx=305.76154   Fy=13723   Fgrav=-34603.863   Mx=-66120.15   My=1312.7688   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=156   LoadPat=Sy(2/3)_ABOVE   Fx=1737.5677   Fy=13419.56   Fgrav=-34878.203   Mx=-64663.58   My=7375.7803   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=156   LoadPat=Sy(3/3)_ABOVE   Fx=-1126.0447   Fy=14026.44   Fgrav=-34329.527   Mx=-67576.72   My=-4750.2427   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=156   LoadPat=PP_ABOVE   Fx=299.54764   Fy=-784.69403   Fgrav=85006.26   Mx=1243.4664   My=1146.4001   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=156   LoadPat=SC_ABOVE   Fx=167.6654   Fy=-493.27615   Fgrav=38275.543   Mx=763.45685   My=477.7633   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=157   LoadPat=M_ABOVE   Fx=-872.71826   Fy=-896.76886   Fgrav=89571.555   Mx=1576.1302   My=-311.2426   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=157   LoadPat=V_ABOVE   Fx=-186.36697   Fy=-204.32716   Fgrav=8972.048   Mx=382.89127   My=-36.647552   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=157   LoadPat=Sx(1/3)_ABOVE   Fx=13771.824   Fy=-81.92948   Fgrav=-29295.23   Mx=-237.32668   My=67636.805   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=157   LoadPat=Sx(2/3)_ABOVE   Fx=12646.897   Fy=1128.012   Fgrav=-29960.916   Mx=-5935.832   My=62359.477   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=157   LoadPat=Sx(3/3)_ABOVE   Fx=14896.75   Fy=-1291.871   Fgrav=-28629.545   Mx=5461.1787   My=72914.14   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=157   LoadPat=Sy(1/3)_ABOVE   Fx=300.0111   Fy=13460.361   Fgrav=-33551.05   Mx=-65426.73   My=1304.4629   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=157   LoadPat=Sy(2/3)_ABOVE   Fx=1530.3995   Fy=12136.988   Fgrav=-32822.957   Mx=-59193.992   My=7076.545   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=157   LoadPat=Sy(3/3)_ABOVE   Fx=-930.3773   Fy=14783.735   Fgrav=-34279.145   Mx=-71659.47   My=-4467.619   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=157   LoadPat=PP_ABOVE   Fx=-491.17627   Fy=-531.28973   Fgrav=64388.957   Mx=973.5764   My=4.273044   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=157   LoadPat=SC_ABOVE   Fx=-381.542   Fy=-365.47913   Fgrav=25182.6   Mx=602.55383   My=-315.5157   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=158   LoadPat=M_ABOVE   Fx=-1363.1721   Fy=109.89818   Fgrav=124275.59   Mx=122.093346   My=-1129.4897   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=158   LoadPat=V_ABOVE   Fx=-395.6757   Fy=22.790909   Fgrav=17114.355   Mx=54.840336   My=-368.66507   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=158   LoadPat=Sx(1/3)_ABOVE   Fx=13732.132   Fy=-92.11474   Fgrav=-29820.326   Mx=-222.61502   My=67484.164   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=158   LoadPat=Sx(2/3)_ABOVE   Fx=13450.3545   Fy=1316.0206   Fgrav=-29919.863   Mx=-6207.393   My=66192.89   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=158   LoadPat=Sx(3/3)_ABOVE   Fx=14013.909   Fy=-1500.25   Fgrav=-29720.787   Mx=5762.163   My=68775.44   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=158   LoadPat=Sy(1/3)_ABOVE   Fx=111.8683   Fy=15764.124   Fgrav=-7811.3735   Mx=-68754.305   My=744.81915   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=158   LoadPat=Sy(2/3)_ABOVE   Fx=420.06226   Fy=14223.977   Fgrav=-7702.504   Mx=-62208.45   My=2157.1514   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=158   LoadPat=Sy(3/3)_ABOVE   Fx=-196.32567   Fy=17304.271   Fgrav=-7920.2437   Mx=-75300.16   My=-667.5131   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=158   LoadPat=PP_ABOVE   Fx=-820.8914   Fy=58.15004   Fgrav=85634.664   Mx=122.18549   My=-560.08795   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=158   LoadPat=SC_ABOVE   Fx=-542.28076   Fy=51.74814   Fgrav=38640.93   Mx=-0.0921431   My=-569.4018   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=159   LoadPat=M_ABOVE   Fx=-1375.4254   Fy=-206.29329   Fgrav=124216.75   Mx=578.8025   My=-1247.0358   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=159   LoadPat=V_ABOVE   Fx=-399.84155   Fy=-52.94848   Fgrav=17130.562   Mx=164.23885   My=-401.67365   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=159   LoadPat=Sx(1/3)_ABOVE   Fx=13627.279   Fy=-77.85401   Fgrav=-29573.95   Mx=-243.21332   My=67246.07   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=159   LoadPat=Sx(2/3)_ABOVE   Fx=14112.767   Fy=1330.3936   Fgrav=-29960.86   Mx=-6228.1533   My=69579.586   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=159   LoadPat=Sx(3/3)_ABOVE   Fx=13141.792   Fy=-1486.1016   Fgrav=-29187.037   Mx=5741.727   My=64912.547   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=159   LoadPat=Sy(1/3)_ABOVE   Fx=-43.445324   Fy=15764.18   Fgrav=6768.6265   Mx=-68754.38   My=258.76584   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=159   LoadPat=Sy(2/3)_ABOVE   Fx=-574.4475   Fy=14223.909   Fgrav=7191.8105   Mx=-62208.355   My=-2293.5205   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=159   LoadPat=Sy(3/3)_ABOVE   Fx=487.55685   Fy=17304.451   Fgrav=6345.4424   Mx=-75300.414   My=2811.0522   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=159   LoadPat=PP_ABOVE   Fx=-831.6921   Fy=-128.92776   Fgrav=85655.945   Mx=392.40198   My=-655.7959   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=159   LoadPat=SC_ABOVE   Fx=-543.73334   Fy=-77.36552   Fgrav=38560.8   Mx=186.40051   My=-591.2398   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=160   LoadPat=M_ABOVE   Fx=733.06964   Fy=-220.91339   Fgrav=165560.44   Mx=480.1031   My=1798.4893   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=160   LoadPat=V_ABOVE   Fx=201.93343   Fy=-106.834305   Fgrav=30997.37   Mx=209.68222   My=467.53433   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=160   LoadPat=Sx(1/3)_ABOVE   Fx=16225.215   Fy=-8.743064   Fgrav=-16313.824   Mx=-447.014   My=70998.55   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=160   LoadPat=Sx(2/3)_ABOVE   Fx=16797.062   Fy=319.27094   Fgrav=-16624.725   Mx=-1851.7958   My=73456.805   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=160   LoadPat=Sx(3/3)_ABOVE   Fx=15653.367   Fy=-336.75708   Fgrav=-16002.924   Mx=957.76776   My=68540.29   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=160   LoadPat=Sy(1/3)_ABOVE   Fx=8.920201   Fy=16108.488   Fgrav=5900.028   Mx=-69565.766   My=334.40295   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=160   LoadPat=Sy(2/3)_ABOVE   Fx=-616.5382   Fy=15749.723   Fgrav=6240.075   Mx=-68029.28   My=-2354.3167   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=160   LoadPat=Sy(3/3)_ABOVE   Fx=634.3786   Fy=16467.254   Fgrav=5559.981   Mx=-71102.24   My=3023.1226   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=160   LoadPat=PP_ABOVE   Fx=394.0589   Fy=-117.60925   Fgrav=117788.195   Mx=279.92456   My=1114.6874   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=160   LoadPat=SC_ABOVE   Fx=339.01074   Fy=-103.30413   Fgrav=47772.234   Mx=200.17854   My=683.8019   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=161   LoadPat=M_ABOVE   Fx=783.28534   Fy=264.8256   Fgrav=166995.44   Mx=-221.50168   My=1970.8685   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=161   LoadPat=V_ABOVE   Fx=276.43723   Fy=151.6587   Fgrav=26225.428   Mx=-163.68689   My=602.1395   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=161   LoadPat=Sx(1/3)_ABOVE   Fx=16258.736   Fy=100.50596   Fgrav=-14859.114   Mx=-604.8141   My=71133.61   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=161   LoadPat=Sx(2/3)_ABOVE   Fx=15932.63   Fy=427.84598   Fgrav=-14825.312   Mx=-2008.6223   My=69778.305   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=161   LoadPat=Sx(3/3)_ABOVE   Fx=16584.842   Fy=-226.83408   Fgrav=-14892.917   Mx=798.9942   My=72488.914   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=161   LoadPat=Sy(1/3)_ABOVE   Fx=115.117325   Fy=16057.967   Fgrav=-6984.3193   Mx=-69492.79   My=749.5121   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=161   LoadPat=Sy(2/3)_ABOVE   Fx=471.79584   Fy=15699.939   Fgrav=-7021.2905   Mx=-67957.375   My=2231.8757   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=161   LoadPat=Sy(3/3)_ABOVE   Fx=-241.56119   Fy=16415.996   Fgrav=-6947.3477   Mx=-71028.2   My=-732.8516   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=161   LoadPat=PP_ABOVE   Fx=527.2346   Fy=186.16936   Fgrav=111329.39   Mx=-158.8554   My=1387.1547   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=161   LoadPat=SC_ABOVE   Fx=256.05075   Fy=78.656235   Fgrav=55666.043   Mx=-62.646282   My=583.7138   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=162   LoadPat=M_ABOVE   Fx=-30.444471   Fy=132.61638   Fgrav=145355.5   Mx=-130.38507   My=795.5115   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=162   LoadPat=V_ABOVE   Fx=-77.04926   Fy=148.6278   Fgrav=24765.482   Mx=-186.30043   My=91.561165   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=162   LoadPat=Sx(1/3)_ABOVE   Fx=16720.205   Fy=93.445175   Fgrav=747.0943   Mx=-681.2624   My=71800.16   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=162   LoadPat=Sx(2/3)_ABOVE   Fx=16385.129   Fy=-488.2134   Fgrav=1028.7426   Mx=1744.4445   My=70431.9   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=162   LoadPat=Sx(3/3)_ABOVE   Fx=17055.281   Fy=675.10376   Fgrav=465.4461   Mx=-3106.9692   My=73168.414   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=162   LoadPat=Sy(1/3)_ABOVE   Fx=170.48682   Fy=16196.8   Fgrav=-6947.1885   Mx=-69955.04   My=829.48816   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=162   LoadPat=Sy(2/3)_ABOVE   Fx=536.97644   Fy=16832.988   Fgrav=-7255.241   Mx=-72608.16   My=2326.0232   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=162   LoadPat=Sy(3/3)_ABOVE   Fx=-196.00279   Fy=15560.611   Fgrav=-6639.1357   Mx=-67301.92   My=-667.0468   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=162   LoadPat=PP_ABOVE   Fx=-26.86966   Fy=187.84541   Fgrav=104980.484   Mx=-241.3837   My=586.8026   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=162   LoadPat=SC_ABOVE   Fx=-3.574812   Fy=-55.22904   Fgrav=40375.008   Mx=110.99863   My=208.70885   Mz=8.905755   XDim=0.8   YDim=0.8
+   Point=163   LoadPat=M_ABOVE   Fx=793.23535   Fy=377.20764   Fgrav=80261.625   Mx=-483.6744   My=1800.5227   Mz=45.04659   XDim=0.8   YDim=0.8
+   Point=163   LoadPat=V_ABOVE   Fx=172.01265   Fy=90.42802   Fgrav=8080.9907   Mx=-102.23625   My=401.37384   Mz=12.177297   XDim=0.8   YDim=0.8
+   Point=163   LoadPat=Sx(1/3)_ABOVE   Fx=13726.619   Fy=-378.33456   Fgrav=38698.082   Mx=0.17955728   My=67315.91   Mz=39.09119   XDim=0.8   YDim=0.8
+   Point=163   LoadPat=Sx(2/3)_ABOVE   Fx=14901.37   Fy=-953.63226   Fgrav=40038.7   Mx=2416.6987   My=72784.07   Mz=-1096.2627   XDim=0.8   YDim=0.8
+   Point=163   LoadPat=Sx(3/3)_ABOVE   Fx=12551.867   Fy=196.96313   Fgrav=37357.46   Mx=-2416.3396   My=61847.74   Mz=1174.4451   XDim=0.8   YDim=0.8
+   Point=163   LoadPat=Sy(1/3)_ABOVE   Fx=-633.65173   Fy=14646.157   Fgrav=48494.785   Mx=-67715.28   My=-816.19214   Mz=118.07496   XDim=0.8   YDim=0.8
+   Point=163   LoadPat=Sy(2/3)_ABOVE   Fx=-1918.5364   Fy=15275.389   Fgrav=47028.484   Mx=-70358.35   My=-6796.998   Mz=1359.8683   XDim=0.8   YDim=0.8
+   Point=163   LoadPat=Sy(3/3)_ABOVE   Fx=651.2329   Fy=14016.925   Fgrav=49961.086   Mx=-65072.21   My=5164.614   Mz=-1123.7184   XDim=0.8   YDim=0.8
+   Point=163   LoadPat=PP_ABOVE   Fx=474.89716   Fy=226.5943   Fgrav=59181.207   Mx=-297.35284   My=1163.3594   Mz=36.140835   XDim=0.8   YDim=0.8
+   Point=163   LoadPat=SC_ABOVE   Fx=318.33817   Fy=150.61336   Fgrav=21080.42   Mx=-186.32156   My=637.1634   Mz=8.905755   XDim=0.8   YDim=0.8
+ 
+TABLE:  "LOAD ASSIGNMENTS - SURFACE LOADS"
+   Area=1   LoadPat=SC   Dir=Gravity   UnifLoad=1950   A=0   B=0   C=0
+ 
+TABLE:  "LOAD CASES 01 - GENERAL"
+   LoadCase=M   Type=LinStatic   DesignOpt=Auto   DesignType=DEAD
+   LoadCase=V   Type=LinStatic   DesignOpt=Auto   DesignType=LIVE
+   LoadCase=Vt   Type=LinStatic   DesignOpt=Auto   DesignType=LIVE
+   LoadCase=Sx(1/3)   Type=LinStatic   DesignOpt=Auto   DesignType=QUAKE
+   LoadCase=Sx(2/3)   Type=LinStatic   DesignOpt=Auto   DesignType=QUAKE
+   LoadCase=Sx(3/3)   Type=LinStatic   DesignOpt=Auto   DesignType=QUAKE
+   LoadCase=Sy(1/3)   Type=LinStatic   DesignOpt=Auto   DesignType=QUAKE
+   LoadCase=Sy(2/3)   Type=LinStatic   DesignOpt=Auto   DesignType=QUAKE
+   LoadCase=Sy(3/3)   Type=LinStatic   DesignOpt=Auto   DesignType=QUAKE
+   LoadCase=PP   Type=LinStatic   DesignOpt=Auto   DesignType=DEAD
+   LoadCase=SC   Type=LinStatic   DesignOpt=Auto   DesignType="SUPER DEAD"
+ 
+TABLE:  "LOAD CASES 02 - STATIC"
+   LoadCase=M   InitialCond=Zero   AType=Linear
+   LoadCase=V   InitialCond=Zero   AType=Linear
+   LoadCase=Vt   InitialCond=Zero   AType=Linear
+   LoadCase=Sx(1/3)   InitialCond=Zero   AType=Linear
+   LoadCase=Sx(2/3)   InitialCond=Zero   AType=Linear
+   LoadCase=Sx(3/3)   InitialCond=Zero   AType=Linear
+   LoadCase=Sy(1/3)   InitialCond=Zero   AType=Linear
+   LoadCase=Sy(2/3)   InitialCond=Zero   AType=Linear
+   LoadCase=Sy(3/3)   InitialCond=Zero   AType=Linear
+   LoadCase=PP   InitialCond=Zero   AType=Linear
+   LoadCase=SC   InitialCond=Zero   AType=Linear
+ 
+TABLE:  "LOAD CASES 06 - LOADS APPLIED"
+   LoadCase=M   LoadPat=PP   SF=1
+   LoadCase=M   LoadPat=SC   SF=1
+   LoadCase=M   LoadPat=M_ABOVE   SF=1
+   LoadCase=V   LoadPat=V   SF=1
+   LoadCase=V   LoadPat=V_ABOVE   SF=1
+   LoadCase=Vt   LoadPat=Vt   SF=1
+   LoadCase=Vt   LoadPat=Vt_ABOVE   SF=1
+   LoadCase=Sx(1/3)   LoadPat=Sx(1/3)   SF=1
+   LoadCase=Sx(1/3)   LoadPat=Sx(1/3)_ABOVE   SF=1
+   LoadCase=Sx(2/3)   LoadPat=Sx(2/3)   SF=1
+   LoadCase=Sx(2/3)   LoadPat=Sx(2/3)_ABOVE   SF=1
+   LoadCase=Sx(3/3)   LoadPat=Sx(3/3)   SF=1
+   LoadCase=Sx(3/3)   LoadPat=Sx(3/3)_ABOVE   SF=1
+   LoadCase=Sy(1/3)   LoadPat=Sy(1/3)   SF=1
+   LoadCase=Sy(1/3)   LoadPat=Sy(1/3)_ABOVE   SF=1
+   LoadCase=Sy(2/3)   LoadPat=Sy(2/3)   SF=1
+   LoadCase=Sy(2/3)   LoadPat=Sy(2/3)_ABOVE   SF=1
+   LoadCase=Sy(3/3)   LoadPat=Sy(3/3)   SF=1
+   LoadCase=Sy(3/3)   LoadPat=Sy(3/3)_ABOVE   SF=1
+   LoadCase=PP   LoadPat=PP   SF=1
+   LoadCase=PP   LoadPat=PP_ABOVE   SF=1
+   LoadCase=SC   LoadPat=SC   SF=1
+   LoadCase=SC   LoadPat=SC_ABOVE   SF=1
+ 
+TABLE:  "LOAD COMBINATIONS"
+   Combo="CCS1 M"   Load=M   SF=1   Type="Linear Add"   DSStrength=No   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes="Added 18/04/2017 00:08:04"   GUID=a0b07217-4cb3-4240-a8d3-a0bcb513286e
+   Combo="CCS2 M+V+Vt"   Load=M   SF=1   Type="Linear Add"   DSStrength=No   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes="Added 18/04/2017 00:09:54"   GUID=3ef5aaed-d5dc-4981-9aa6-31032d0576bb
+   Combo="CCS2 M+V+Vt"   Load=V   SF=1
+   Combo="CCS2 M+V+Vt"   Load=Vt   SF=1
+   Combo="CCS3 1.15M+V+0.21Sx+0.7Sy"   Load=M   SF=1.15   Type="Linear Add"   DSStrength=No   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes="Added 18/04/2017 00:16:53"   GUID=85394bfd-6b3e-4c0f-a480-e85304dab94b
+   Combo="CCS3 1.15M+V+0.21Sx+0.7Sy"   Load=V   SF=1
+   Combo="CCS3 1.15M+V+0.21Sx+0.7Sy"   Load=Sx(1/3)   SF=0.21
+   Combo="CCS3 1.15M+V+0.21Sx+0.7Sy"   Load=Sy(1/3)   SF=0.7
+   Combo="CCS3 1.15M+V+0.7Sx+0.21Sy"   Load=M   SF=1.15   Type="Linear Add"   DSStrength=No   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes="Added 18/04/2017 00:15:17"   GUID=85394bfd-6b3e-4c0f-a480-e85304dab94b
+   Combo="CCS3 1.15M+V+0.7Sx+0.21Sy"   Load=V   SF=1
+   Combo="CCS3 1.15M+V+0.7Sx+0.21Sy"   Load=Sx(1/3)   SF=0.7
+   Combo="CCS3 1.15M+V+0.7Sx+0.21Sy"   Load=Sy(1/3)   SF=0.21
+   Combo="CCS4 M+0.21Sx+0.7Sy"   Load=M   SF=1.15   Type="Linear Add"   DSStrength=No   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes="Added 18/04/2017 00:22:45"   GUID=85394bfd-6b3e-4c0f-a480-e85304dab94b
+   Combo="CCS4 M+0.21Sx+0.7Sy"   Load=Sx(1/3)   SF=0.21
+   Combo="CCS4 M+0.21Sx+0.7Sy"   Load=Sy(1/3)   SF=0.7
+   Combo="CCS4 M+0.7Sx+0.21Sy"   Load=M   SF=1.15   Type="Linear Add"   DSStrength=No   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   Notes="Added 18/04/2017 00:19:35"   GUID=85394bfd-6b3e-4c0f-a480-e85304dab94b
+   Combo="CCS4 M+0.7Sx+0.21Sy"   Load=Sx(1/3)   SF=0.7
+   Combo="CCS4 M+0.7Sx+0.21Sy"   Load=Sy(1/3)   SF=0.21
+   Combo="CR1 - 1.4M"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=a7c9c7b0-b05d-4189-aa00-dbfc6a1f9760
+   Combo="CR2 - 1.2M+1.6V+0.5Vt"   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=bb53754e-46f3-4649-a0a4-6d7ce72d6801
+   Combo="CR2 - 1.2M+1.6V+0.5Vt"   Load=V   SF=1.6
+   Combo="CR2 - 1.2M+1.6V+0.5Vt"   Load=Vt   SF=0.5
+   Combo="CR2 - 1.2M+1.6V+0.5Vt"   Load=V   SF=1.6
+   Combo="CR2 - 1.2M+1.6V+0.5Vt"   Load=Vt   SF=0.5
+   Combo="CR3 - 1.2M+V+1.6Vt"   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=44591cc9-4b99-4681-b0e0-866fa89547a9
+   Combo="CR3 - 1.2M+V+1.6Vt"   Load=V   SF=1
+   Combo="CR3 - 1.2M+V+1.6Vt"   Load=Vt   SF=1.6
+   Combo="CR3 - 1.2M+V+1.6Vt"   Load=V   SF=1
+   Combo="CR3 - 1.2M+V+1.6Vt"   Load=Vt   SF=1.6
+   Combo="CR4 - 1.4M+V+0.3Sx+Sy(1/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=a07ca9f2-716f-4b1b-a7fe-a19c88f6c2f0
+   Combo="CR4 - 1.4M+V+0.3Sx+Sy(1/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+0.3Sx+Sy(1/3)"   Load=Sx(1/3)   SF=0.3
+   Combo="CR4 - 1.4M+V+0.3Sx+Sy(1/3)"   Load=Sy(1/3)   SF=1
+   Combo="CR4 - 1.4M+V+0.3Sx+Sy(2/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=8003f6a4-af8d-4b3c-8621-9a290138bda1
+   Combo="CR4 - 1.4M+V+0.3Sx+Sy(2/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+0.3Sx+Sy(2/3)"   Load=Sx(2/3)   SF=0.3
+   Combo="CR4 - 1.4M+V+0.3Sx+Sy(2/3)"   Load=Sy(2/3)   SF=1
+   Combo="CR4 - 1.4M+V+0.3Sx+Sy(3/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=a98e5e0d-a51f-4109-af44-b8b011ce2ecb
+   Combo="CR4 - 1.4M+V+0.3Sx+Sy(3/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+0.3Sx+Sy(3/3)"   Load=Sx(3/3)   SF=0.3
+   Combo="CR4 - 1.4M+V+0.3Sx+Sy(3/3)"   Load=Sy(3/3)   SF=1
+   Combo="CR4 - 1.4M+V+0.3Sx-Sy(1/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=9d51c244-4435-4e20-a327-e3eb7e51d9f7
+   Combo="CR4 - 1.4M+V+0.3Sx-Sy(1/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+0.3Sx-Sy(1/3)"   Load=Sx(1/3)   SF=0.3
+   Combo="CR4 - 1.4M+V+0.3Sx-Sy(1/3)"   Load=Sy(1/3)   SF=-1
+   Combo="CR4 - 1.4M+V+0.3Sx-Sy(2/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=c4d14d7c-1bdf-4d19-81f3-75ac444dc21a
+   Combo="CR4 - 1.4M+V+0.3Sx-Sy(2/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+0.3Sx-Sy(2/3)"   Load=Sx(2/3)   SF=0.3
+   Combo="CR4 - 1.4M+V+0.3Sx-Sy(2/3)"   Load=Sy(2/3)   SF=-1
+   Combo="CR4 - 1.4M+V+0.3Sx-Sy(3/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=9d795f3e-3b31-446a-b8aa-2f8e63dce5b2
+   Combo="CR4 - 1.4M+V+0.3Sx-Sy(3/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+0.3Sx-Sy(3/3)"   Load=Sx(3/3)   SF=0.3
+   Combo="CR4 - 1.4M+V+0.3Sx-Sy(3/3)"   Load=Sy(3/3)   SF=-1
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(1/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=3d47c50f-83c1-4b69-892b-1be66d30b317
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(1/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(1/3)"   Load=Sx(1/3)   SF=1
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(1/3)"   Load=Sy(1/3)   SF=0.3
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(1/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(1/3)"   Load=Sx(1/3)   SF=1
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(1/3)"   Load=Sy(1/3)   SF=0.3
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(2/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=fba8b26b-579d-48c4-bdae-6a7215d8df8a
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(2/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(2/3)"   Load=Sx(2/3)   SF=1
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(2/3)"   Load=Sy(2/3)   SF=0.3
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(2/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(2/3)"   Load=Sx(2/3)   SF=1
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(2/3)"   Load=Sy(2/3)   SF=0.3
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(3/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=df729d6e-2a5d-4f9c-a060-48e81c000446
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(3/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(3/3)"   Load=Sx(3/3)   SF=1
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(3/3)"   Load=Sy(3/3)   SF=0.3
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(3/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(3/3)"   Load=Sx(3/3)   SF=1
+   Combo="CR4 - 1.4M+V+Sx+0.3Sy(3/3)"   Load=Sy(3/3)   SF=0.3
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(1/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=7eaad840-3ec6-4ae2-a716-87de5ac0c19a
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(1/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(1/3)"   Load=Sx(1/3)   SF=1
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(1/3)"   Load=Sy(1/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(1/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(1/3)"   Load=Sx(1/3)   SF=1
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(1/3)"   Load=Sy(1/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(2/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=f8906f26-5d0b-4037-94db-258bafd757c9
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(2/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(2/3)"   Load=Sx(2/3)   SF=1
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(2/3)"   Load=Sy(2/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(2/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(2/3)"   Load=Sx(2/3)   SF=1
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(2/3)"   Load=Sy(2/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(3/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=9a682344-cb85-452e-b05c-b5b4f0db2a47
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(3/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(3/3)"   Load=Sx(3/3)   SF=1
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(3/3)"   Load=Sy(3/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(3/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(3/3)"   Load=Sx(3/3)   SF=1
+   Combo="CR4 - 1.4M+V+Sx-0.3Sy(3/3)"   Load=Sy(3/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V-0.3Sx+Sy(1/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=0ec04001-cabc-46a9-9382-db5b9786b8ce
+   Combo="CR4 - 1.4M+V-0.3Sx+Sy(1/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-0.3Sx+Sy(1/3)"   Load=Sx(1/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V-0.3Sx+Sy(1/3)"   Load=Sy(1/3)   SF=1
+   Combo="CR4 - 1.4M+V-0.3Sx+Sy(2/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=444087ef-27b7-4517-948f-58e696fdd984
+   Combo="CR4 - 1.4M+V-0.3Sx+Sy(2/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-0.3Sx+Sy(2/3)"   Load=Sx(2/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V-0.3Sx+Sy(2/3)"   Load=Sy(2/3)   SF=1
+   Combo="CR4 - 1.4M+V-0.3Sx+Sy(3/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=bcde4d28-8175-4c9d-b861-943401925695
+   Combo="CR4 - 1.4M+V-0.3Sx+Sy(3/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-0.3Sx+Sy(3/3)"   Load=Sx(3/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V-0.3Sx+Sy(3/3)"   Load=Sy(3/3)   SF=1
+   Combo="CR4 - 1.4M+V-0.3Sx-Sy(1/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=9f8a0ce4-0b40-4803-913a-df1e730778bb
+   Combo="CR4 - 1.4M+V-0.3Sx-Sy(1/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-0.3Sx-Sy(1/3)"   Load=Sx(1/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V-0.3Sx-Sy(1/3)"   Load=Sy(1/3)   SF=-1
+   Combo="CR4 - 1.4M+V-0.3Sx-Sy(2/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=0df63c08-edfb-4a01-a4da-2f4fbb5bc70b
+   Combo="CR4 - 1.4M+V-0.3Sx-Sy(2/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-0.3Sx-Sy(2/3)"   Load=Sx(2/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V-0.3Sx-Sy(2/3)"   Load=Sy(2/3)   SF=-1
+   Combo="CR4 - 1.4M+V-0.3Sx-Sy(3/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=6d507aa9-c7ed-48ca-aa66-dab37fb3c4e7
+   Combo="CR4 - 1.4M+V-0.3Sx-Sy(3/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-0.3Sx-Sy(3/3)"   Load=Sx(3/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V-0.3Sx-Sy(3/3)"   Load=Sy(3/3)   SF=-1
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(1/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=6cd3515f-c8ff-4598-a977-2ceb7a0c1800
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(1/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(1/3)"   Load=Sx(1/3)   SF=-1
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(1/3)"   Load=Sy(1/3)   SF=0.3
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(1/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(1/3)"   Load=Sx(1/3)   SF=-1
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(1/3)"   Load=Sy(1/3)   SF=0.3
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(2/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=58496022-7c14-4511-bc42-c72ff08991e0
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(2/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(2/3)"   Load=Sx(2/3)   SF=-1
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(2/3)"   Load=Sy(2/3)   SF=0.3
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(2/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(2/3)"   Load=Sx(2/3)   SF=-1
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(2/3)"   Load=Sy(2/3)   SF=0.3
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(3/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=e4bd3ae8-867d-4736-8d1a-b0164a78d407
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(3/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(3/3)"   Load=Sx(3/3)   SF=-1
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(3/3)"   Load=Sy(3/3)   SF=0.3
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(3/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(3/3)"   Load=Sx(3/3)   SF=-1
+   Combo="CR4 - 1.4M+V-Sx+0.3Sy(3/3)"   Load=Sy(3/3)   SF=0.3
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(1/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=97078235-c36c-4e1f-8c2f-d613c75f799a
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(1/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(1/3)"   Load=Sx(1/3)   SF=-1
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(1/3)"   Load=Sy(1/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(1/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(1/3)"   Load=Sx(1/3)   SF=-1
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(1/3)"   Load=Sy(1/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(2/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=fbbc3b16-4a42-4bde-9cd6-a6f8ecf4e649
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(2/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(2/3)"   Load=Sx(2/3)   SF=-1
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(2/3)"   Load=Sy(2/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(2/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(2/3)"   Load=Sx(2/3)   SF=-1
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(2/3)"   Load=Sy(2/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(3/3)"   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=e47548fb-ed3a-4eb6-9a7e-a68ca7681aaa
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(3/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(3/3)"   Load=Sx(3/3)   SF=-1
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(3/3)"   Load=Sy(3/3)   SF=-0.3
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(3/3)"   Load=V   SF=1
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(3/3)"   Load=Sx(3/3)   SF=-1
+   Combo="CR4 - 1.4M+V-Sx-0.3Sy(3/3)"   Load=Sy(3/3)   SF=-0.3
+   Combo="CR5 - 0.8M+0.3Sx+Sy(1/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=2c709afe-7b21-4bb1-b8da-6acba63a7014
+   Combo="CR5 - 0.8M+0.3Sx+Sy(1/3)"   Load=Sx(1/3)   SF=0.3
+   Combo="CR5 - 0.8M+0.3Sx+Sy(1/3)"   Load=Sy(1/3)   SF=1
+   Combo="CR5 - 0.8M+0.3Sx+Sy(1/3)"   Load=Sx(1/3)   SF=0.3
+   Combo="CR5 - 0.8M+0.3Sx+Sy(1/3)"   Load=Sy(1/3)   SF=1
+   Combo="CR5 - 0.8M+0.3Sx+Sy(2/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=1a430656-1a39-4f78-9176-2dea575c1ce8
+   Combo="CR5 - 0.8M+0.3Sx+Sy(2/3)"   Load=Sx(2/3)   SF=0.3
+   Combo="CR5 - 0.8M+0.3Sx+Sy(2/3)"   Load=Sy(2/3)   SF=1
+   Combo="CR5 - 0.8M+0.3Sx+Sy(2/3)"   Load=Sx(2/3)   SF=0.3
+   Combo="CR5 - 0.8M+0.3Sx+Sy(2/3)"   Load=Sy(2/3)   SF=1
+   Combo="CR5 - 0.8M+0.3Sx+Sy(3/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=6e1096f0-849a-45bc-9844-b2db9f638723
+   Combo="CR5 - 0.8M+0.3Sx+Sy(3/3)"   Load=Sx(3/3)   SF=0.3
+   Combo="CR5 - 0.8M+0.3Sx+Sy(3/3)"   Load=Sy(3/3)   SF=1
+   Combo="CR5 - 0.8M+0.3Sx+Sy(3/3)"   Load=Sx(3/3)   SF=0.3
+   Combo="CR5 - 0.8M+0.3Sx+Sy(3/3)"   Load=Sy(3/3)   SF=1
+   Combo="CR5 - 0.8M+0.3Sx-Sy(1/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=77b48fe9-900d-40aa-a2bc-7e835402a244
+   Combo="CR5 - 0.8M+0.3Sx-Sy(1/3)"   Load=Sx(1/3)   SF=0.3
+   Combo="CR5 - 0.8M+0.3Sx-Sy(1/3)"   Load=Sy(1/3)   SF=-1
+   Combo="CR5 - 0.8M+0.3Sx-Sy(2/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=7cdaa05e-bb2d-4cfa-bbc5-62bb8493c50a
+   Combo="CR5 - 0.8M+0.3Sx-Sy(2/3)"   Load=Sx(2/3)   SF=0.3
+   Combo="CR5 - 0.8M+0.3Sx-Sy(2/3)"   Load=Sy(2/3)   SF=-1
+   Combo="CR5 - 0.8M+0.3Sx-Sy(3/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=708d66e2-c310-4dc9-82b4-cae29e53e94c
+   Combo="CR5 - 0.8M+0.3Sx-Sy(3/3)"   Load=Sx(3/3)   SF=0.3
+   Combo="CR5 - 0.8M+0.3Sx-Sy(3/3)"   Load=Sy(3/3)   SF=-1
+   Combo="CR5 - 0.8M+Sx+0.3Sy(1/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=fb433bb2-3c7e-47d6-b93c-cb6479048edf
+   Combo="CR5 - 0.8M+Sx+0.3Sy(1/3)"   Load=Sx(1/3)   SF=1
+   Combo="CR5 - 0.8M+Sx+0.3Sy(1/3)"   Load=Sy(1/3)   SF=0.3
+   Combo="CR5 - 0.8M+Sx+0.3Sy(2/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=f48d2025-274a-4229-a1e7-d07b9ced644c
+   Combo="CR5 - 0.8M+Sx+0.3Sy(2/3)"   Load=Sx(2/3)   SF=1
+   Combo="CR5 - 0.8M+Sx+0.3Sy(2/3)"   Load=Sy(2/3)   SF=0.3
+   Combo="CR5 - 0.8M+Sx+0.3Sy(3/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=c0d1714a-5d55-4619-8d9d-492b62eaa6eb
+   Combo="CR5 - 0.8M+Sx+0.3Sy(3/3)"   Load=Sx(3/3)   SF=1
+   Combo="CR5 - 0.8M+Sx+0.3Sy(3/3)"   Load=Sy(3/3)   SF=0.3
+   Combo="CR5 - 0.8M+Sx-0.3Sy(1/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=87f9882a-54ed-4876-9ac9-397189af3850
+   Combo="CR5 - 0.8M+Sx-0.3Sy(1/3)"   Load=Sx(1/3)   SF=1
+   Combo="CR5 - 0.8M+Sx-0.3Sy(1/3)"   Load=Sy(1/3)   SF=-0.3
+   Combo="CR5 - 0.8M+Sx-0.3Sy(2/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=61589809-a525-43ca-8e75-5552e5d3eea1
+   Combo="CR5 - 0.8M+Sx-0.3Sy(2/3)"   Load=Sx(2/3)   SF=1
+   Combo="CR5 - 0.8M+Sx-0.3Sy(2/3)"   Load=Sy(2/3)   SF=-0.3
+   Combo="CR5 - 0.8M+Sx-0.3Sy(3/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=35b12846-763f-43af-bfd0-491ea8650b1d
+   Combo="CR5 - 0.8M+Sx-0.3Sy(3/3)"   Load=Sx(3/3)   SF=1
+   Combo="CR5 - 0.8M+Sx-0.3Sy(3/3)"   Load=Sy(3/3)   SF=-0.3
+   Combo="CR5 - 0.8M-0.3Sx+Sy(1/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=058c7edd-b6a0-44ca-8074-a30a7c7daef4
+   Combo="CR5 - 0.8M-0.3Sx+Sy(1/3)"   Load=Sx(1/3)   SF=-0.3
+   Combo="CR5 - 0.8M-0.3Sx+Sy(1/3)"   Load=Sy(1/3)   SF=1
+   Combo="CR5 - 0.8M-0.3Sx+Sy(2/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=61eeba5c-55e0-4d95-b284-023fdf67ccdf
+   Combo="CR5 - 0.8M-0.3Sx+Sy(2/3)"   Load=Sx(2/3)   SF=-0.3
+   Combo="CR5 - 0.8M-0.3Sx+Sy(2/3)"   Load=Sy(2/3)   SF=1
+   Combo="CR5 - 0.8M-0.3Sx+Sy(3/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=5204d891-126b-419c-9d86-9d05eb7eda39
+   Combo="CR5 - 0.8M-0.3Sx+Sy(3/3)"   Load=Sx(3/3)   SF=-0.3
+   Combo="CR5 - 0.8M-0.3Sx+Sy(3/3)"   Load=Sy(3/3)   SF=1
+   Combo="CR5 - 0.8M-0.3Sx-Sy(1/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=1334847a-cf18-4581-af1f-889c6fbbc3b4
+   Combo="CR5 - 0.8M-0.3Sx-Sy(1/3)"   Load=Sx(1/3)   SF=-0.3
+   Combo="CR5 - 0.8M-0.3Sx-Sy(1/3)"   Load=Sy(1/3)   SF=-1
+   Combo="CR5 - 0.8M-0.3Sx-Sy(2/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=1e670b2d-55e5-45fd-b3fa-92cc23453424
+   Combo="CR5 - 0.8M-0.3Sx-Sy(2/3)"   Load=Sx(2/3)   SF=-0.3
+   Combo="CR5 - 0.8M-0.3Sx-Sy(2/3)"   Load=Sy(2/3)   SF=-1
+   Combo="CR5 - 0.8M-0.3Sx-Sy(3/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=e07e8ceb-27b0-499a-b2b0-1e8480a9f3e6
+   Combo="CR5 - 0.8M-0.3Sx-Sy(3/3)"   Load=Sx(3/3)   SF=-0.3
+   Combo="CR5 - 0.8M-0.3Sx-Sy(3/3)"   Load=Sy(3/3)   SF=-1
+   Combo="CR5 - 0.8M-Sx+0.3Sy(1/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=0f73cc8b-1882-4035-a07b-a6b6d2bf2d07
+   Combo="CR5 - 0.8M-Sx+0.3Sy(1/3)"   Load=Sx(1/3)   SF=-1
+   Combo="CR5 - 0.8M-Sx+0.3Sy(1/3)"   Load=Sy(1/3)   SF=0.3
+   Combo="CR5 - 0.8M-Sx+0.3Sy(2/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=2c999bfe-e8dd-4897-8f74-e41c2e435693
+   Combo="CR5 - 0.8M-Sx+0.3Sy(2/3)"   Load=Sx(2/3)   SF=-1
+   Combo="CR5 - 0.8M-Sx+0.3Sy(2/3)"   Load=Sy(2/3)   SF=0.3
+   Combo="CR5 - 0.8M-Sx+0.3Sy(3/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=bf5432e8-b1b4-4700-ade2-ee3183bd52a7
+   Combo="CR5 - 0.8M-Sx+0.3Sy(3/3)"   Load=Sx(3/3)   SF=-1
+   Combo="CR5 - 0.8M-Sx+0.3Sy(3/3)"   Load=Sy(3/3)   SF=0.3
+   Combo="CR5 - 0.8M-Sx-0.3Sy(1/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=0e95fc90-9a12-4bdc-8b20-2fd2489c072b
+   Combo="CR5 - 0.8M-Sx-0.3Sy(1/3)"   Load=Sx(1/3)   SF=-1
+   Combo="CR5 - 0.8M-Sx-0.3Sy(1/3)"   Load=Sy(1/3)   SF=-0.3
+   Combo="CR5 - 0.8M-Sx-0.3Sy(2/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=14b6806e-9934-417d-bbe7-37bd2a56f445
+   Combo="CR5 - 0.8M-Sx-0.3Sy(2/3)"   Load=Sx(2/3)   SF=-1
+   Combo="CR5 - 0.8M-Sx-0.3Sy(2/3)"   Load=Sy(2/3)   SF=-0.3
+   Combo="CR5 - 0.8M-Sx-0.3Sy(3/3)"   Load=M   SF=0.8   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=No   GUID=1f72164e-9057-42d0-a776-583f5365e9bf
+   Combo="CR5 - 0.8M-Sx-0.3Sy(3/3)"   Load=Sx(3/3)   SF=-1
+   Combo="CR5 - 0.8M-Sx-0.3Sy(3/3)"   Load=Sy(3/3)   SF=-0.3
+   Combo=DCONU1   Load=M   SF=1.4   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=8356ad2e-4a58-43d0-acdd-13a4862ed509
+   Combo=DCONU1   Load=PP   SF=1.4
+   Combo=DCONU1   Load=SC   SF=1.4
+   Combo=DCONU10   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=6d10ecbf-74d5-445b-8fbf-8730da94ae6e
+   Combo=DCONU10   Load=V   SF=1
+   Combo=DCONU10   Load=Vt   SF=1
+   Combo=DCONU10   Load=PP   SF=1.2
+   Combo=DCONU10   Load=SC   SF=1.2
+   Combo=DCONU10   Load=Sy(1/3)   SF=-1
+   Combo=DCONU11   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=8a98eb76-7b79-4a9c-9689-91787a42f9f5
+   Combo=DCONU11   Load=V   SF=1
+   Combo=DCONU11   Load=Vt   SF=1
+   Combo=DCONU11   Load=PP   SF=1.2
+   Combo=DCONU11   Load=SC   SF=1.2
+   Combo=DCONU11   Load=Sy(2/3)   SF=1
+   Combo=DCONU12   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=0f39dfee-ca93-417a-88f7-3d07d6645ed0
+   Combo=DCONU12   Load=V   SF=1
+   Combo=DCONU12   Load=Vt   SF=1
+   Combo=DCONU12   Load=PP   SF=1.2
+   Combo=DCONU12   Load=SC   SF=1.2
+   Combo=DCONU12   Load=Sy(2/3)   SF=-1
+   Combo=DCONU13   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=7ff6dd85-b05d-492a-9577-3fe7ab0ec406
+   Combo=DCONU13   Load=V   SF=1
+   Combo=DCONU13   Load=Vt   SF=1
+   Combo=DCONU13   Load=PP   SF=1.2
+   Combo=DCONU13   Load=SC   SF=1.2
+   Combo=DCONU13   Load=Sy(3/3)   SF=1
+   Combo=DCONU14   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=0ea2227c-08b5-4c16-8fbc-6400ec2ff5ab
+   Combo=DCONU14   Load=V   SF=1
+   Combo=DCONU14   Load=Vt   SF=1
+   Combo=DCONU14   Load=PP   SF=1.2
+   Combo=DCONU14   Load=SC   SF=1.2
+   Combo=DCONU14   Load=Sy(3/3)   SF=-1
+   Combo=DCONU15   Load=M   SF=0.9   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=25efbe84-2cc2-493d-ac47-7e74996ed7d7
+   Combo=DCONU15   Load=PP   SF=0.9
+   Combo=DCONU15   Load=Sx(1/3)   SF=1
+   Combo=DCONU16   Load=M   SF=0.9   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=97f479a9-f2f3-487e-a150-d54a8ce613ff
+   Combo=DCONU16   Load=PP   SF=0.9
+   Combo=DCONU16   Load=Sx(1/3)   SF=-1
+   Combo=DCONU17   Load=M   SF=0.9   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=507a3a49-6834-48c1-93e4-db8502bd7bc2
+   Combo=DCONU17   Load=PP   SF=0.9
+   Combo=DCONU17   Load=Sx(2/3)   SF=1
+   Combo=DCONU18   Load=M   SF=0.9   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=70675fa8-874e-4603-8680-bb54a67b41df
+   Combo=DCONU18   Load=PP   SF=0.9
+   Combo=DCONU18   Load=Sx(2/3)   SF=-1
+   Combo=DCONU19   Load=M   SF=0.9   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=dd548cc8-e012-4d65-81ce-e45f80cf9eee
+   Combo=DCONU19   Load=PP   SF=0.9
+   Combo=DCONU19   Load=Sx(3/3)   SF=1
+   Combo=DCONU2   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=ad6811aa-74dc-47e3-ba5d-e6021c27fb2f
+   Combo=DCONU2   Load=V   SF=1.6
+   Combo=DCONU2   Load=Vt   SF=1.6
+   Combo=DCONU2   Load=PP   SF=1.2
+   Combo=DCONU2   Load=SC   SF=1.2
+   Combo=DCONU20   Load=M   SF=0.9   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=e8c0a049-5f2d-4d6e-9b7e-75660d79bd12
+   Combo=DCONU20   Load=PP   SF=0.9
+   Combo=DCONU20   Load=Sx(3/3)   SF=-1
+   Combo=DCONU21   Load=M   SF=0.9   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=8cbd52bc-3818-4058-a718-f6304bc667e9
+   Combo=DCONU21   Load=PP   SF=0.9
+   Combo=DCONU21   Load=Sy(1/3)   SF=1
+   Combo=DCONU22   Load=M   SF=0.9   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=d7eed15c-0a5e-4424-ab5e-74c5fe9ccdea
+   Combo=DCONU22   Load=PP   SF=0.9
+   Combo=DCONU22   Load=Sy(1/3)   SF=-1
+   Combo=DCONU23   Load=M   SF=0.9   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=fa260b69-dcdd-4f03-bb98-4386225c9001
+   Combo=DCONU23   Load=PP   SF=0.9
+   Combo=DCONU23   Load=Sy(2/3)   SF=1
+   Combo=DCONU24   Load=M   SF=0.9   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=fd7bfcea-9667-4abd-a30b-a1a254584caa
+   Combo=DCONU24   Load=PP   SF=0.9
+   Combo=DCONU24   Load=Sy(2/3)   SF=-1
+   Combo=DCONU25   Load=M   SF=0.9   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=172e8b91-06d6-4343-b50d-3170d625da2f
+   Combo=DCONU25   Load=PP   SF=0.9
+   Combo=DCONU25   Load=Sy(3/3)   SF=1
+   Combo=DCONU26   Load=M   SF=0.9   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=60d97816-20b6-432e-beb7-75f64d0cdea8
+   Combo=DCONU26   Load=PP   SF=0.9
+   Combo=DCONU26   Load=Sy(3/3)   SF=-1
+   Combo=DCONU3   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=ba75079c-b611-4d44-b882-1b99c7f0591c
+   Combo=DCONU3   Load=V   SF=1
+   Combo=DCONU3   Load=Vt   SF=1
+   Combo=DCONU3   Load=PP   SF=1.2
+   Combo=DCONU3   Load=SC   SF=1.2
+   Combo=DCONU3   Load=Sx(1/3)   SF=1
+   Combo=DCONU4   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=7f2f3393-87fd-4694-b025-50c7a319fb9d
+   Combo=DCONU4   Load=V   SF=1
+   Combo=DCONU4   Load=Vt   SF=1
+   Combo=DCONU4   Load=PP   SF=1.2
+   Combo=DCONU4   Load=SC   SF=1.2
+   Combo=DCONU4   Load=Sx(1/3)   SF=-1
+   Combo=DCONU5   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=3aa36df7-acef-457c-9c16-26a1c9262152
+   Combo=DCONU5   Load=V   SF=1
+   Combo=DCONU5   Load=Vt   SF=1
+   Combo=DCONU5   Load=PP   SF=1.2
+   Combo=DCONU5   Load=SC   SF=1.2
+   Combo=DCONU5   Load=Sx(2/3)   SF=1
+   Combo=DCONU6   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=73dc6da1-c994-4776-a4d9-828e61cefedc
+   Combo=DCONU6   Load=V   SF=1
+   Combo=DCONU6   Load=Vt   SF=1
+   Combo=DCONU6   Load=PP   SF=1.2
+   Combo=DCONU6   Load=SC   SF=1.2
+   Combo=DCONU6   Load=Sx(2/3)   SF=-1
+   Combo=DCONU7   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=a1d50b7a-e82d-406a-8273-8ca35b490128
+   Combo=DCONU7   Load=V   SF=1
+   Combo=DCONU7   Load=Vt   SF=1
+   Combo=DCONU7   Load=PP   SF=1.2
+   Combo=DCONU7   Load=SC   SF=1.2
+   Combo=DCONU7   Load=Sx(3/3)   SF=1
+   Combo=DCONU8   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=74cbcd37-de08-4a3f-9c45-0158d79e6f55
+   Combo=DCONU8   Load=V   SF=1
+   Combo=DCONU8   Load=Vt   SF=1
+   Combo=DCONU8   Load=PP   SF=1.2
+   Combo=DCONU8   Load=SC   SF=1.2
+   Combo=DCONU8   Load=Sx(3/3)   SF=-1
+   Combo=DCONU9   Load=M   SF=1.2   Type="Linear Add"   DSStrength=Yes   DSServInit=No   DSServNorm=No   DSServLong=No   AutoDesign=Yes   GUID=4d62502f-5c30-44d6-84da-7071e4444257
+   Combo=DCONU9   Load=V   SF=1
+   Combo=DCONU9   Load=Vt   SF=1
+   Combo=DCONU9   Load=PP   SF=1.2
+   Combo=DCONU9   Load=SC   SF=1.2
+   Combo=DCONU9   Load=Sy(1/3)   SF=1
+ 
+TABLE:  "LOAD PATTERNS"
+   LoadPat=PP   Type=DEAD   SelfWtMult=1   GUID=d8dcfa8e-698e-415c-9219-bee9e1b084af
+   LoadPat=V   Type=LIVE   SelfWtMult=0   GUID=5a785757-d964-4de3-b2dc-abcc8ab5af20
+   LoadPat=SC   Type="SUPER DEAD"   SelfWtMult=0   GUID=8a12403c-5391-43b0-b03f-3a8695fdbf66
+   LoadPat=Vt   Type=LIVE   SelfWtMult=0   GUID=6c8099d4-126b-48d6-a025-d4c67ede233b
+   LoadPat=Sx(1/3)   Type=QUAKE   SelfWtMult=0   GUID=2276d69b-66b9-4bd0-aacf-91327d747de7
+   LoadPat=Sx(2/3)   Type=QUAKE   SelfWtMult=0   GUID=18bfbff7-b23e-44b3-8751-a98cd64d0185
+   LoadPat=Sx(3/3)   Type=QUAKE   SelfWtMult=0   GUID=5e4cdc01-b015-4d7e-a9c6-6b74d4e79bad
+   LoadPat=Sy(1/3)   Type=QUAKE   SelfWtMult=0   GUID=8d9b9fb1-9435-46a7-930a-f99f2f9bd592
+   LoadPat=Sy(2/3)   Type=QUAKE   SelfWtMult=0   GUID=f188cc2c-ad26-4515-859d-58ea784e8cca
+   LoadPat=Sy(3/3)   Type=QUAKE   SelfWtMult=0   GUID=949add7b-dac4-4e61-97c4-fbc4a16cde40
+   LoadPat=M_ABOVE   Type=DEAD   SelfWtMult=0   GUID=86b18ec7-ec08-49e1-ae03-f36b1170bdee
+   LoadPat=V_ABOVE   Type=LIVE   SelfWtMult=0   GUID=aaace885-1dea-4aff-bb1f-9db95b9bac23
+   LoadPat=Vt_ABOVE   Type=LIVE   SelfWtMult=0   GUID=57ac33f9-0464-4c48-a826-692f74aa75a5
+   LoadPat=Sx(1/3)_ABOVE   Type=QUAKE   SelfWtMult=0   GUID=93c6d1d5-f6c0-415f-8159-5fe1043a1f98
+   LoadPat=Sx(2/3)_ABOVE   Type=QUAKE   SelfWtMult=0   GUID=d05bf360-ecb4-4c30-a3b8-df436b94b8d9
+   LoadPat=Sx(3/3)_ABOVE   Type=QUAKE   SelfWtMult=0   GUID=cdd76402-4246-44a1-b334-5bb01ad560ca
+   LoadPat=Sy(1/3)_ABOVE   Type=QUAKE   SelfWtMult=0   GUID=33bddda4-929e-44a6-8105-39d91d8459a8
+   LoadPat=Sy(2/3)_ABOVE   Type=QUAKE   SelfWtMult=0   GUID=47b844ab-68b1-4986-81e7-67444200a368
+   LoadPat=Sy(3/3)_ABOVE   Type=QUAKE   SelfWtMult=0   GUID=c93a1e20-1d08-4c9d-bbc9-1a1e3c8cd29c
+   LoadPat=PP_ABOVE   Type=DEAD   SelfWtMult=0   GUID=bbf106c6-5856-4cec-bbc4-dc6b8bc697e0
+   LoadPat=SC_ABOVE   Type="SUPER DEAD"   SelfWtMult=0   GUID=c2be1e33-edad-4384-af35-6868774a05ba
+ 
+TABLE:  "MASS SOURCE"
+   LoadPat=M_ABOVE   Multiplier=1
+   LoadPat=PP   Multiplier=1
+   LoadPat=PP_ABOVE   Multiplier=1
+ 
+TABLE:  "MATERIAL PROPERTIES 01 - GENERAL"
+   Material=3000Psi   Type=Concrete   Color=Yellow   Notes="Normalweight f'c = 3 ksi added 17/04/2017 23:21:42"
+   Material=4000Psi   Type=Concrete   Color=Yellow   Notes="Normalweight f'c = 4 ksi added 17/04/2017 23:12:46"
+   Material=A416MGr186   Type=Tendon   Color=Magenta   Notes="ASTM A416 Metric Grade 186 added 17/04/2017 22:52:38"
+   Material=CSAC30   Type=Concrete   Color=Blue   Notes="Normalweight C30 added 17/04/2017 22:52:38"
+   Material=Grado60   Type=Rebar   Color=Cyan   Notes="CSA-G30.18 Grade 400 added 17/04/2017 22:52:38"
+ 
+TABLE:  "MATERIAL PROPERTIES 03 - CONCRETE"
+   Material=3000Psi   E=2194996434.2792   U=0.2   A=9.9E-06   UnitWt=2402.76966501002   Fc=2109208.87841776   LtWtConc=No   UserModRup=No
+   Material=4000Psi   E=2534563564.40273   U=0.2   A=9.9E-06   UnitWt=2402.76966501002   Fc=2812278.50455701   LtWtConc=No   UserModRup=No
+   Material=CSAC30   E=2719309019.4041   U=0.2   A=9.9E-06   UnitWt=2402.76966501002   Fc=3059148.57666726   LtWtConc=No   UserModRup=No
+ 
+TABLE:  "MATERIAL PROPERTIES 04 - REBAR"
+   Material=Grado60   E=20394323844.4484   UnitWt=7849.04757236607   Fy=42000000   Fu=50985809.611121
+ 
+TABLE:  "MATERIAL PROPERTIES 05 - TENDON"
+   Material=A416MGr186   E=20037484344.9687   UnitWt=7849.04757236607   Fy=172332036.485589   Fu=189667211.75337
+ 
+TABLE:  "OBJECT GEOMETRY - AREAS 01 - GENERAL"
+   Area=1   Point1=48   Point2=49   Point3=50   Point4=51   Auto=No   GUID=162315ca-74c0-4705-b319-878082ebe3d4
+   Area=6   Point1=24   Point2=25   Point3=26   Point4=27   Auto=No   GUID=54a22b6c-0fa3-4179-bff6-961080fc3c40
+ 
+TABLE:  "OBJECT GEOMETRY - DESIGN STRIPS"
+   Strip=CSA1   Point=46   WALeft=0.75   WARight=0.75   AutoWiden=No
+   Strip=CSA1   Point=47   WBLeft=0.75   WBRight=0.75
+   Strip=CSA2   Point=57   WALeft=0.75   WARight=0.75   AutoWiden=No
+   Strip=CSA2   Point=66   WBLeft=0.75   WBRight=0.75
+   Strip=CSA3   Point=58   WALeft=0.75   WARight=0.75   AutoWiden=No
+   Strip=CSA3   Point=67   WBLeft=0.75   WBRight=0.75
+   Strip=CSB3   Point=62   WALeft=0.75   WARight=0.75   AutoWiden=No
+   Strip=CSB3   Point=63   WBLeft=0.75   WBRight=0.75
+   Strip=CSB4   Point=65   WALeft=0.75   WARight=0.75   AutoWiden=No
+   Strip=CSB4   Point=68   WBLeft=0.75   WBRight=0.75
+   Strip=CSB5   Point=64   WALeft=0.75   WARight=0.75   AutoWiden=No
+   Strip=CSB5   Point=69   WBLeft=0.75   WBRight=0.75
+ 
+TABLE:  "OBJECT GEOMETRY - DIMENSION LINES"
+   AlignType=Parallel   GlobalX1=3.6   GlobalY1=8.1   GlobalX2=3.6   GlobalY2=12.9   GlobalX3=2.6864545423574   GlobalY3=8.1   GlobalX4=2.6864545423574   GlobalY4=12.9
+   AlignType=Parallel   GlobalX1=3.6   GlobalY1=12.9   GlobalX2=8.4   GlobalY2=12.9   GlobalX3=3.6   GlobalY3=13.7062392657647   GlobalX4=8.4   GlobalY4=13.7062392657647
+ 
+TABLE:  "OBJECT GEOMETRY - POINT COORDINATES"
+   Point=10   GlobalX=3.6   GlobalY=11.25   GlobalZ=0   SpecialPt=Yes
+   Point=24   GlobalX=5.6   GlobalY=10.1   GlobalZ=0   SpecialPt=No
+   Point=25   GlobalX=6.4   GlobalY=10.1   GlobalZ=0   SpecialPt=No
+   Point=26   GlobalX=6.4   GlobalY=10.9   GlobalZ=0   SpecialPt=No
+   Point=27   GlobalX=5.6   GlobalY=10.9   GlobalZ=0   SpecialPt=No
+   Point=46   GlobalX=3.6   GlobalY=10.5   GlobalZ=0   SpecialPt=No
+   Point=47   GlobalX=8.4   GlobalY=10.5   GlobalZ=0   SpecialPt=No
+   Point=48   GlobalX=3.6   GlobalY=8.1   GlobalZ=0   SpecialPt=No
+   Point=49   GlobalX=8.4   GlobalY=8.1   GlobalZ=0   SpecialPt=No
+   Point=50   GlobalX=8.4   GlobalY=12.9   GlobalZ=0   SpecialPt=No
+   Point=51   GlobalX=3.6   GlobalY=12.9   GlobalZ=0   SpecialPt=No
+   Point=55   GlobalX=3.6   GlobalY=13.5   GlobalZ=0   SpecialPt=Yes
+   Point=57   GlobalX=3.6   GlobalY=12   GlobalZ=0   SpecialPt=Yes
+   Point=58   GlobalX=3.6   GlobalY=9   GlobalZ=0   SpecialPt=Yes
+   Point=59   GlobalX=7.5   GlobalY=8   GlobalZ=0   SpecialPt=Yes
+   Point=62   GlobalX=6   GlobalY=8.1   GlobalZ=0   SpecialPt=No
+   Point=63   GlobalX=6   GlobalY=12.9   GlobalZ=0   SpecialPt=No
+   Point=64   GlobalX=7.5   GlobalY=8.1   GlobalZ=0   SpecialPt=Yes
+   Point=65   GlobalX=4.5   GlobalY=8.1   GlobalZ=0   SpecialPt=Yes
+   Point=66   GlobalX=8.4   GlobalY=12   GlobalZ=0   SpecialPt=No
+   Point=67   GlobalX=8.4   GlobalY=9   GlobalZ=0   SpecialPt=No
+   Point=68   GlobalX=4.5   GlobalY=12.9   GlobalZ=0   SpecialPt=No
+   Point=69   GlobalX=7.5   GlobalY=12.9   GlobalZ=0   SpecialPt=No
+   Point=149   GlobalX=0   GlobalY=16   GlobalZ=0   SpecialPt=Yes
+   Point=150   GlobalX=6   GlobalY=16   GlobalZ=0   SpecialPt=Yes
+   Point=151   GlobalX=11   GlobalY=10.5   GlobalZ=0   SpecialPt=Yes
+   Point=152   GlobalX=16   GlobalY=10.5   GlobalZ=0   SpecialPt=Yes
+   Point=153   GlobalX=16   GlobalY=5.5   GlobalZ=0   SpecialPt=Yes
+   Point=154   GlobalX=16   GlobalY=0   GlobalZ=0   SpecialPt=Yes
+   Point=155   GlobalX=11   GlobalY=0   GlobalZ=0   SpecialPt=Yes
+   Point=156   GlobalX=6   GlobalY=0   GlobalZ=0   SpecialPt=Yes
+   Point=157   GlobalX=0   GlobalY=0   GlobalZ=0   SpecialPt=Yes
+   Point=158   GlobalX=0   GlobalY=5.5   GlobalZ=0   SpecialPt=Yes
+   Point=159   GlobalX=0   GlobalY=10.5   GlobalZ=0   SpecialPt=Yes
+   Point=160   GlobalX=6   GlobalY=10.5   GlobalZ=0   SpecialPt=Yes
+   Point=161   GlobalX=6   GlobalY=5.5   GlobalZ=0   SpecialPt=Yes
+   Point=162   GlobalX=11   GlobalY=5.5   GlobalZ=0   SpecialPt=Yes
+   Point=163   GlobalX=11   GlobalY=14.75   GlobalZ=0   SpecialPt=Yes
+ 
+TABLE:  "PROGRAM CONTROL"
+   ProgramName="SAFE 2016"   Version=16.0.2   CurrUnits="Kgf, m, C"   MergeTol=0.0025   ModelDatum=0   StHtAbove=0   StHtBelow=144   ConcCode="ACI 318-14"
+ 
+TABLE:  "PROJECT INFORMATION"
+   Item="Client Name"   Data=Simpson
+   Item="Project Name"   Data=202506-Modelo_Grilla
+   Item="Project Number"
+   Item="Company Name"
+   Item=Engineer
+   Item=Checker
+   Item=Supervisor
+   Item="Model Name"
+   Item="Model Description"
+   Item="Revision Number"
+   Item="Issue Number"
+ 
+TABLE:  "PUNCHING SHEAR DESIGN OVERWRITES 01 - GENERAL"
+   Point=149   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=150   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=151   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=152   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=153   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=154   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=155   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=156   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=157   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=158   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=159   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=160   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=161   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=162   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+   Point=163   Check="Program Determined"   LocType=Auto   Perimeter=Auto   EffDepth=Auto   Openings=Auto   ReinfType=None
+ 
+TABLE:  "REINFORCING BAR SIZES"
+   RebarID=#2   Area=3.2258E-05   Diameter=0.00635
+   RebarID=#3   Area=7.09675996154547E-05   Diameter=0.009525
+   RebarID=#4   Area=0.000129032001922727   Diameter=0.0127
+   RebarID=#5   Area=0.000199999601538181   Diameter=0.015875
+   RebarID=#6   Area=0.000283870398461819   Diameter=0.01905
+   RebarID=#7   Area=0.000387096015381813   Diameter=0.022225
+   RebarID=#8   Area=0.000509676413843632   Diameter=0.0254
+   RebarID=#9   Area=0.00064516   Diameter=0.0286512005329132
+   RebarID=#10   Area=0.00081935318769455   Diameter=0.0322579995155334
+   RebarID=#11   Area=0.00100644956308365   Diameter=0.0358139991521835
+   RebarID=#14   Area=0.00145161   Diameter=0.0430021989583969
+   RebarID=#18   Area=0.00258064   Diameter=0.0573277992248535
+ 
+TABLE:  "SLAB DESIGN OVERWRITES 01 - STRIP BASED"
+   Strip=CSA1   Layer=A   DesignType=Column   RLLF=1   Design=Yes   IgnorePT=No   RebarMat=Grado60   CoverType=Preferences
+   Strip=CSA2   Layer=A   DesignType=Column   RLLF=1   Design=Yes   IgnorePT=No   RebarMat=Grado60   CoverType=Preferences
+   Strip=CSA3   Layer=A   DesignType=Column   RLLF=1   Design=Yes   IgnorePT=No   RebarMat=Grado60   CoverType=Preferences
+   Strip=CSB3   Layer=B   DesignType=Column   RLLF=1   Design=Yes   IgnorePT=No   RebarMat=Grado60   CoverType=Preferences
+   Strip=CSB4   Layer=B   DesignType=Column   RLLF=1   Design=Yes   IgnorePT=No   RebarMat=Grado60   CoverType=Preferences
+   Strip=CSB5   Layer=B   DesignType=Column   RLLF=1   Design=Yes   IgnorePT=No   RebarMat=Grado60   CoverType=Preferences
+ 
+TABLE:  "SLAB DESIGN OVERWRITES 02 - FINITE ELEMENT BASED"
+   Area=1   RebarMat=Grado60   CoverType=Preferences   RLLF=1   Design=Yes   IgnorePT=No
+   Area=6   RebarMat=Grado60   CoverType=Preferences   RLLF=1   Design=Yes   IgnorePT=No
+ 
+TABLE:  "SLAB PROPERTIES 01 - GENERAL"
+   Slab=SLAB1   Type=Slab   ThickPlate=Yes   Color=Blue   GUID=b4805f96-a8cf-433e-b068-d8f760eb2a95
+   Slab=Z40cm   Type=Footing   ThickPlate=Yes   Color=Blue   Notes="Added 17/04/2017 23:18:22"
+   Slab=ZR40cm   Type=Stiff   ThickPlate=Yes   Color=Blue   GUID=b4805f96-a8cf-433e-b068-d8f760eb2a95
+ 
+TABLE:  "SLAB PROPERTIES 02 - SOLID SLABS"
+   Slab=SLAB1   Type=Slab   MatProp=CSAC30   Thickness=0.2   Ortho=No
+   Slab=Z40cm   Type=Footing   MatProp=3000Psi   Thickness=0.4   Ortho=No
+   Slab=ZR40cm   Type=Stiff   MatProp=3000Psi   Thickness=0.4   Ortho=No
+ 
+TABLE:  "SLAB PROPERTY ASSIGNMENTS"
+   Area=1   SlabProp=Z40cm
+   Area=6   SlabProp=ZR40cm
+ 
+TABLE:  "SOIL PROPERTIES"
+   Soil=SOIL1   Subgrade=3225000   NonlinOpt="Compression Only"   Color=Cyan
+ 
+TABLE:  "SOIL PROPERTY ASSIGNMENTS"
+   Area=1   SoilProp=SOIL1
+ 
+TABLE:  "SPRING PROPERTIES - LINE"
+   Spring=LSPR1   VertStiff=1   RotStiff=1   NonlinOpt="None (Linear)"   Color=Yellow
+ 
+TABLE:  "SPRING PROPERTIES - POINT"
+   Spring=PSPR1   Ux=0   Uy=0   Uz=1   Rx=0   Ry=0   Rz=0   NonlinOpt="None (Linear)"   Color=Blue
+ 
+TABLE:  "TENDON PROPERTIES"
+   TendonProp=TENDON1   MatProp=A416MGr186   StrandArea=9.870948E-05   Color=Yellow
+ 
+TABLE:  "WALL PROPERTIES"
+   Wall=WALL1   MatProp=CSAC30   Thickness=0.3   AutoRigid=No   OutOfPlane=Yes   Color=Magenta   GUID=e16a1755-3e37-4bba-aebb-97dfd169cba3
+ 
+END TABLE DATA
