@@ -1,0 +1,21 @@
+funcion cuadratica 
+funcion  racional
+funcion irracional funcion raiz cuadrada 
+
+funciones numericas
+	variable real a valores reales 
+descriptas a traves de  una expresion algebaraica explicita
+
+
+cualquier x perteneciente a los reales tal que x 
+
+el conjunto que hace que la funcion tenga sentido 
+
+
+a/o 
+
+todos los numeros realex excepot el 2 y el menos 2 
+
+el dominio de la funcion fdx esta dado por el conjunto de los numeros reales excepto 2 numeros menos 3 y 3
+
+lo que esta dentro de la raiz siempre tiene que ser mayor o igual a 0
