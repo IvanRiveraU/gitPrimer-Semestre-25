@@ -1,7 +1,6 @@
 \documentclass[12pt,a4paper]{article}
-\usepackage{setspace}         % paquete para interlineado
-\usepackage{mathptmx}         % Times New Roman
-
+\usepackage{setspace}   % paquete para interlineado
+\usepackage{newtxtext,newtxmath} % Times New Roman
 \onehalfspacing               % interlineado 1.5
 \usepackage{amsmath} % Para usar \text{}
 \usepackage[utf8]{inputenc}
@@ -12,80 +11,227 @@
 \usepackage{setspace}
 \usepackage{lipsum}
 \geometry{margin=1in}
-\setstretch{1.3}
+ 
+ % PAQUETE PAR LAS IMAGENES
+ 
+ \graphicspath{{./Imagenes}}
+ 
+
+%CONFIGURACION DE MI PAGINA:
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Limpia encabezados/pies
+\fancyhead[R]{\thepage} % Números arábigos arriba: izq en pares, der en impares
+\renewcommand{\headrulewidth}{0pt} % Sin línea
+
+%COLOCAR NUMERACION ESQUINA DERECHA PAG 1
+\fancypagestyle{plain}{%
+	\fancyhf{}%
+	\fancyhead[R]{\thepage}%
+	\renewcommand{\headrulewidth}{0pt}%
+}
+
+
+% --- PAQUETES ADICIONALES DE LOSA ---
+\usepackage{enumitem}   % para listas multinivel (numeración + incisos + viñetas)
+
+
+% --- Configuración de enumitem para numeración multinivel ---
+\setlist[enumerate,1]{label=\arabic*., leftmargin=1.2cm}
+\setlist[enumerate,2]{label=\arabic{enumi}.\arabic*., leftmargin=1.4cm}
+\setlist[enumerate,3]{label=\arabic{enumi}.\arabic{enumii}.\arabic*., leftmargin=1.6cm}
+\setlist[enumerate,4]{label=\alph*) , leftmargin=1.8cm}
+\setlist[itemize]{leftmargin=1.6cm}
 
 
 
-\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
-\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
-
-\title{\vspace{-2cm}Área de Métodos Constructivos}
-\author{}
-\date{}
 
 \begin{document}
+	\thispagestyle{fancy} 
+	
+	\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+	\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+	
+	\title{\vspace{-2cm}Área de Métodos Constructivos}
+	\author{}
+	\date{}
+	
+	
+	
 	
 	\maketitle
 	
-	\vspace{-2cm}Las losas constituyen elementos estructurales esenciales en edificaciones y obras civiles, cumpliendo la función de distribuir cargas verticales a columnas, vigas y muros. La elección del tipo de losa depende de factores como: resistencia estructural, eficiencia económica, tiempo de construcción, y normativa vigente.
+	\vspace{-2.5cm}
 	
-	El ACI 318 19 regula el diseño de estructuras de concreto armado, estableciendo requisitos sobre espesor mínimo de losas, refuerzo, control de deformaciones, resistencia al corte y seguridad frente a punzonamiento. Este código es ampliamente adoptado como referencia en normativa internacional y local. La integración de sus criterios en el diseño de losas garantiza seguridad estructural y durabilidad a largo plazo.
-	
-	
-	\section{Losa Tradicional}
+%-------------LOSA TRADICIONAAAA--------------------
+	\section{Descripción y proceso constructivo de losa Tradicional}
 
-La losa tradicional, también llamada maciza, es un elemento sólido de concreto reforzado, soportado por vigas o muros, y con espesor uniforme en toda su extensión. Se utiliza en edificios residenciales, comerciales y obras con cargas concentradas importantes.
-	
+La losa tradicional, también llamada losa maciza, es un elemento estructural sólido de concreto reforzado, soportado por vigas o muros, con espesor uniforme en toda su extensión. Se utiliza de manera frecuente en edificios residenciales, comerciales e industriales, así como en obras donde se presentan cargas concentradas importantes que requieren alta rigidez y continuidad estructural.
 
+El proceso constructivo de este tipo de losa constituye una de las actividades más relevantes dentro de la ejecución de estructuras de concreto en Guatemala. Su correcta ejecución no solo depende de la experiencia de la mano de obra, sino también del cumplimiento de normas y códigos técnicos que establecen criterios de diseño, recubrimientos, tolerancias y tiempos adecuados de curado y desencofrado. Entre ellos destacan la Norma Sísmica de Edificación NSE 7.1 (que adopta el ACI 318S-19), la guía ACI 347R para encofrados y la ACI 308R sobre curado del concreto, además de normas guatemaltecas como la NTG 41068 para concreto premezclado.
+
+En este sentido, el proceso constructivo de una losa tradicional maciza incluye fases claramente definidas: preparación del sitio, montaje del encofrado y apuntalamiento, colocación del acero de refuerzo, vaciado del concreto, curado y desencofrado. El cumplimiento ordenado y riguroso de cada etapa asegura que la losa alcance la resistencia, durabilidad y seguridad estructural necesarias, garantizando su adecuado desempeño como diafragma rígido y elemento portante dentro de la edificación.
+
+%\vspace{0.5} % agrega 1 cm de espacio
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Imagenes/losa1}
+	\caption{Proceso de armado con retícula y refuerzos perimetrales}
+	\label{fig:losa1}
+\end{figure}
+
+	\subsection{Preparación y limpieza del sitio}
+	Se debe tener un ambiente de trabajo limpio y libre de obstáculos, en el que se
+	puedan movilizar libremente las personas y maquinarias que participarán en la
+	obra. Este paso incluye la deforestación y remoción de cualquier capa vegetal que
+	pudiera entorpecer el trabajo, la limpieza y explanación del terreno en caso de
+	tratarse de una losa de fundación o la losa de la planta baja. Procesos a considerar:
 	\begin{enumerate}
-		\item \textbf{Encofrado:} 
-			\begin{itemize}
-		  \item Se construye un molde temporal con madera, contrachapado o tableros metálicos.
-		\item Puntales y vigas de soporte aseguran la estabilidad durante el vaciado del concreto.
-		\item Se verifican niveles y alineaciones según planos estructurales.
-		
-			\end{itemize}
-		
-			
-			
-			
-		\item \textbf{Armado:}
-		
-			\begin{itemize}
-			\item	Se colocan varillas longitudinales y transversales siguiendo el plano estructural.
-		\item	Se utiliza malla electrosoldada en losas de gran extensión para mayor uniformidad de esfuerzos.
-		\item	Las varillas se separan según el diseño y se amarran con alambre de acero para evitar desplazamiento.
-			
-		\end{itemize}
-		
-		
-		
-		\item \textbf{Colado:}
-		 \begin{itemize}
-			\item 	Vertido de concreto de resistencia especificada (f'c) de manera uniforme.
-			\item	Se utiliza vibrador para eliminar vacíos de aire y lograr compactación.
-			 
-		\end{itemize}
-		
-		\item \textbf{Vaciado de Concreto:} Se vierte concreto premezclado, vibrando mecánicamente para eliminar vacíos.
-		\item \textbf{Curado:} Se mantiene humedad por un mínimo de 7 días, siguiendo recomendaciones ACI.
-		
+		\item Retirar escombros, basura y obstáculos del área de trabajo.
+		\item Nivelar y trazar el perímetro conforme a planos estructurales.
+		\item Preparar accesos para el traslado de materiales y equipos.
 	\end{enumerate}
 	
-	\subsection{Ventajas}
-	\begin{itemize}
-		\item Rigidez y resistencia uniforme.
-		\item Facilidad de diseño y cálculo.
-		\item Admite cargas puntuales elevadas.
-	\end{itemize}
+	%\vspace{0.5} % agrega 1 cm de espacio
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.6\textwidth]{losa2}
+			\caption{Limpieza de terreno}
+		\label{fig:losa1}
+	\end{figure}
 	
-	\subsection{Desventajas}
-	\begin{itemize}
-		\item Alto peso propio.
-		\item Mayor consumo de concreto y acero.
-		\item Costos de encofrado elevados.
-	\end{itemize}
+	\subsection{Materiales y herramientas}
+	\begin{enumerate}
+		\item \textbf{Herramientas}
+		\begin{enumerate}[label=\alph*)]
+			\item Serrucho, martillo, escuadra, plomada, nivel, cinta métrica.
+			\item Palas, picos, carretillas y regletas metálicas.
+			\item Ganchos para amarre y dobladora de varilla.
+		\end{enumerate}
+		\item \textbf{Equipos}
+		\begin{enumerate}[label=\alph*)]
+			\item Mezcladora, vibrador de aguja, andamios y escaleras.
+			\item Sistemas de izaje o bombas de concreto en niveles superiores.
+		\end{enumerate}
+		\item \textbf{Materiales}
+		\begin{enumerate}[label=\alph*)]
+			\item Cemento Portland, arena, grava y agua potable.
+			\item Acero de refuerzo y malla electrosoldada.
+			\item Tuberías PVC para instalaciones eléctricas e hidrosanitarias.
+			\item Madera o formaletas metálicas y desmoldante.
+		\end{enumerate}
+	\end{enumerate}
 	
+	\section{Encofrado y apuntalamiento}
+	\subsection{Definición}
+	El encofrado es la \textit{estructura temporal} que da forma al concreto fresco, soporta su peso y mantiene en posición el refuerzo hasta que la mezcla alcance resistencia.
+	
+	\subsection{Tipos de encofrado}
+	\begin{enumerate}
+		\item \textbf{Madera}
+		\begin{enumerate}[label=\alph*)]
+			\item Fácil de cortar y adaptar a diferentes geometrías.
+			\item Debe limpiarse y almacenarse protegido para prolongar su vida útil.
+			\item Aplicar desmoldante para facilitar el desencofrado.
+		\end{enumerate}
+		\item \textbf{Metálico}
+		\begin{enumerate}[label=\alph*)]
+			\item Más durable que la madera, resistente a repetidos usos.
+			\item Requiere limpieza y pintura anticorrosiva.
+		\end{enumerate}
+		\item \textbf{Plástico (casetones)}
+		\begin{enumerate}[label=\alph*)]
+			\item Usados en losas nervadas o reticulares.
+			\item Ligeros y de fácil manipulación, aunque delicados.
+		\end{enumerate}
+	\end{enumerate}
+	
+	\subsection{Apuntalamiento}
+	\begin{enumerate}
+		\item Los puntales pueden ser de madera o metálicos telescópicos.
+		\item Deben colocarse plomados, sobre bases firmes y arriostrados.
+		\item Su función es resistir el peso del concreto fresco y cargas de construcción.
+	\end{enumerate}
+	
+	\begin{figure}[h]
+		\centering
+	%	\includegraphics[width=0.7\textwidth]{encofrado.jpg}
+		\caption{Sistema de encofrado y puntales en losa.}
+	\end{figure}
+	
+	\section{Colocación del acero de refuerzo}
+	\subsection{Armadura inferior}
+	\begin{enumerate}
+		\item Cortar y doblar varillas según planos de despiece.
+		\item Colocar sobre tacos de recubrimiento para asegurar separación del encofrado.
+		\item Amarrar con alambre recocido para evitar desplazamientos.
+	\end{enumerate}
+	
+	\subsection{Instalaciones}
+	\begin{enumerate}
+		\item Instalar tuberías eléctricas e hidrosanitarias antes del vaciado.
+		\item Sujetar firmemente para impedir movimiento.
+		\item Etiquetar tuberías eléctricas para identificación.
+	\end{enumerate}
+	
+	\subsection{Armadura superior}
+	\begin{enumerate}
+		\item Colocar varillas o malla electrosoldada en la parte superior.
+		\item Respetar los recubrimientos mínimos.
+	\end{enumerate}
+	
+	\begin{figure}[h]
+		\centering
+	%	\includegraphics[width=0.7\textwidth]{armado.jpg}
+		\caption{Armadura y malla electrosoldada en losa.}
+	\end{figure}
+	
+	\section{Vaciado del concreto}
+	\subsection{Procedimiento}
+	\begin{enumerate}
+		\item Transportar el concreto en carretillas, baldes o mediante bomba.
+		\item Descargar en capas uniformes para evitar segregación.
+		\item Vibrar con aguja para compactar y eliminar vacíos.
+		\item Nivelar con reglas metálicas y palustre.
+	\end{enumerate}
+	
+	\begin{figure}[h]
+		\centering
+	%	\includegraphics[width=0.7\textwidth]{vaciado.jpg}
+		\caption{Proceso de vaciado del concreto en losa.}
+	\end{figure}
+	
+	\section{Curado}
+	\subsection{Métodos}
+	\begin{enumerate}
+		\item Mantener la superficie húmeda al menos durante 7 días.
+		\item Aplicar riego frecuente o cubrir con plásticos/membranas.
+		\item En climas cálidos: regar más seguido y proteger con sacos mojados.
+		\item En climas fríos: prolongar el curado por el fraguado lento.
+	\end{enumerate}
+	
+	\begin{figure}[h]
+		\centering
+	%	\includegraphics[width=0.7\textwidth]{curado.jpg}
+		\caption{Curado superficial de losa maciza.}
+	\end{figure}
+	
+	\section{Desencofrado y desapuntalamiento}
+	\subsection{Criterios}
+	\begin{enumerate}
+		\item Retirar primero las formaletas laterales.
+	%	\item Quitar los puntales en forma progresiva tras alcanzar la resistencia mínima (≈70\% f’c).
+		\item Completar el desapuntalamiento a los 21 días, salvo indicación distinta en planos.
+	\end{enumerate}
+	
+	\begin{figure}[h]
+		\centering
+	%	\includegraphics[width=0.7\textwidth]{desencofrado.jpg}
+		\caption{Proceso de desencofrado y retiro de puntales.}
+	\end{figure}
+	
+
+
 	\section{Losa de Vigueta y Bovedilla}
 	
 	Sistema prefabricado que combina viguetas pretensadas y bloques aligerantes (bovedillas) de concreto o poliestireno. Se utiliza para reducir peso propio y facilitar montaje.
