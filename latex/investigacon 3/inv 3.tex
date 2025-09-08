@@ -1,23 +1,28 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage{setspace}   % paquete para interlineado
 \usepackage{newtxtext,newtxmath} % Times New Roman
-\onehalfspacing               % interlineado 1.5
+
+%haber si funciona mas parecido a word
+\setstretch{1.5}  
+%\usepackage[protrusion,expansion]{microtype}
+%\onehalfspacing               % interlineado 1.5
 \usepackage{amsmath} % Para usar \text{}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
-\usepackage{geometry}
+\usepackage[left=3cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
 \usepackage{graphicx}
 \usepackage{titlesec}
 \usepackage{setspace}
 \usepackage{lipsum}
 \geometry{margin=1in}
- 
- % PAQUETE PAR LAS IMAGENES
- 
- \graphicspath{{./Imagenes}}
+
+
+
+ % PAQUETE PARA INSTANCIAR  LAS IMAGENES
+  \graphicspath{{./Imagenes}}
  
 
-%CONFIGURACION DE MI PAGINA:
+%CONFIGURACION DE MI PAGINA numeración:
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{} % Limpia encabezados/pies
@@ -33,7 +38,11 @@
 
 
 % --- PAQUETES ADICIONALES DE LOSA ---
-\usepackage{enumitem}   % para listas multinivel (numeración + incisos + viñetas)
+  % para listas multinivel (numeración + incisos + viñetas)
+\usepackage{enumitem} 
+% que los párrafos  de las secciones dentro de los items usen la misma sangría que el cuerpo SANGRIA A TODOWWW
+\setlist[enumerate]{listparindent=\parindent, parsep=0pt}
+
 
 
 % --- Configuración de enumitem para numeración multinivel ---
@@ -63,8 +72,8 @@
 	
 	\vspace{-2.5cm}
 	
-%-------------LOSA TRADICIONAAAA--------------------
-	\section{Descripción y proceso constructivo de losa Tradicional}
+%-------------LOSA TRADICIONAAAAL--------------------
+	\section{Descripción y proceso constructivo de Losa Tradicional}
 
 La losa tradicional, también llamada losa maciza, es un elemento estructural sólido de concreto reforzado, soportado por vigas o muros, con espesor uniforme en toda su extensión. Se utiliza de manera frecuente en edificios residenciales, comerciales e industriales, así como en obras donde se presentan cargas concentradas importantes que requieren alta rigidez y continuidad estructural.
 
@@ -75,7 +84,7 @@ En este sentido, el proceso constructivo de una losa tradicional maciza incluye 
 %\vspace{0.5} % agrega 1 cm de espacio
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Imagenes/losa1}
+	\includegraphics[width=0.6\textwidth]{losa1}
 	\caption{Proceso de armado con retícula y refuerzos perimetrales}
 	\label{fig:losa1}
 \end{figure}
@@ -97,10 +106,24 @@ En este sentido, el proceso constructivo de una losa tradicional maciza incluye 
 		\centering
 		\includegraphics[width=0.6\textwidth]{losa2}
 			\caption{Limpieza de terreno}
-		\label{fig:losa1}
+		\label{fig:losa2}
 	\end{figure}
 	
-	\subsection{Materiales y herramientas}
+	%-----------------------------
+	
+	\subsection{Preparación de Materiales y herramientas}
+	Al momento de iniciarse la obra se deben contar con todos los implementos que
+	se van a necesitar al igual que tener todos los materiales a disposición para que el
+	proceso no se vea interrumpido o paralizado por la falta de alguno de los
+	anteriores.
+	
+	Como se observa en la figura 3, se encuentran elementos como materiales, maquinarias y herramientas
+	necesarias para la jornada planificada. En el fondo la arena y la piedra picada, a la
+	derecha las cabillas y la malla electrosoldada. Puntales de acero, madera para
+	encofrado, mezcladora de concreto, etc.
+	
+	
+	
 	\begin{enumerate}
 		\item \textbf{Herramientas}
 		\begin{enumerate}[label=\alph*)]
@@ -122,24 +145,75 @@ En este sentido, el proceso constructivo de una losa tradicional maciza incluye 
 		\end{enumerate}
 	\end{enumerate}
 	
-	\section{Encofrado y apuntalamiento}
-	\subsection{Definición}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.6\textwidth]{losa3}
+		\caption{Materiales y herramientas}
+		\label{fig:losa3}
+	\end{figure}
+	
+	%---------------------------------
+	
+	
+	\subsection{Encofrado y apuntalamiento}
+
 	El encofrado es la \textit{estructura temporal} que da forma al concreto fresco, soporta su peso y mantiene en posición el refuerzo hasta que la mezcla alcance resistencia.
 	
-	\subsection{Tipos de encofrado}
+	Su función principal es ofrecer la posibilidad de que el acero de refuerzo
+	sea colocado en el sitio correcto, darle al concreto la forma y servirle de apoyo
+	hasta que endurezca, está constituido por el molde y los puntales, que pueden ser
+	metálicos o de madera. Existen una gran cantidad de tipos de encofrado, de distintos materiales y de
+	distintas formas, cada uno es utilizado para un fin específico
+	
+	\subsubsection{Tipos de encofrado}
+	
 	\begin{enumerate}
 		\item \textbf{Madera}
+		
+		Presentan la ventaja de que pueden ser cortados para
+		darles la forma deseada, sin embargo esto genera desperdicios de material que en
+		ocasiones no se puede reutilizar. Para alargar la vida útil del encofrado y que se
+		pueda reutilizar en distintas obras se le debe dar un cuidado especial como se
+		indica:
+		
 		\begin{enumerate}[label=\alph*)]
 			\item Fácil de cortar y adaptar a diferentes geometrías.
 			\item Debe limpiarse y almacenarse protegido para prolongar su vida útil.
 			\item Aplicar desmoldante para facilitar el desencofrado.
 		\end{enumerate}
 		\item \textbf{Metálico}
+	
+		Los encofrados metálicos presentan un desgaste mínimo con un manejo
+		adecuado. Al igual que los de madera deben ser tratados de manera especial:
+		
+		
 		\begin{enumerate}[label=\alph*)]
-			\item Más durable que la madera, resistente a repetidos usos.
-			\item Requiere limpieza y pintura anticorrosiva.
+			\item 
+			Se deben limpiar bien luego de usarlos, e impregnarlos con un producto
+			desmoldante comercial: aceite, petróleo o gasoil con parafina al 50%,
+			dependiendo del acabado que se quiera lograr.
+			\item 
+			Se debe evitar la oxidación protegiéndolos periódicamente con pintura
+			anticorrosiva, sobre todo si van a estar mucho tiempo a la intemperie.
+			
+			\item 
+			Debe protegérsele también de los rayos del sol y de la lluvia.
+			
+			\item 
+			Se debe almacenar en sitios cubiertos y secos, debidamente codificados,
+			colocado verticalmente o ligeramente inclinado cuando se recuesten sobre
+			un muro y levantados del piso sobre zancos o tacos.
+			
 		\end{enumerate}
+		
+		
 		\item \textbf{Plástico (casetones)}
+		
+		Son los más usados para el vaciado de losas nervadas y
+		reticulares ya que vienen con formas y dimensiones predefinidas para tal fin. Su
+		principal ventaja es que son muy fáciles de manipular y colocar en sitio debido a
+		su ligereza
+		
 		\begin{enumerate}[label=\alph*)]
 			\item Usados en losas nervadas o reticulares.
 			\item Ligeros y de fácil manipulación, aunque delicados.
