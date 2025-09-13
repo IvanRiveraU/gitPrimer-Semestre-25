@@ -1,0 +1,319 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{booktabs} % tablas bonitas
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+\title{Polinomios: ceros, intersección, tabla de valores y gráfica}
+\author{}
+\date{}
+
+\begin{document}
+	\maketitle
+	
+	\section*{Convenciones}
+	Para cada función \(f(x)\): (i) se factoriza paso a paso; (ii) se listan los ceros (con multiplicidad);
+	(iii) se da la intersección con el eje \(Y\) (esto es, \(f(0)\)); (iv) se incluye una tabla de valores
+	para \(x\in\{-3,-2,-1,0,1,2,3\}\); y (v) una gráfica en \([-6,6]\).
+	
+	\bigskip
+	
+	% ===================== f1 =====================
+	\subsection*{1) \(f(x)=x^{4}-4x^{2}\)}
+	\paragraph{Factorización y ceros.}
+	\begin{align*}
+		f(x) &= x^{4}-4x^{2}\\
+		&= x^{2}\bigl(x^{2}-4\bigr) \qquad \text{(factor común }x^{2})\\
+		&= x^{2}(x-2)(x+2) \qquad \text{(diferencia de cuadrados)}
+	\end{align*}
+	Ceros: \(x=0\) (mult.\ 2), \(x=2\), \(x=-2\).
+	
+	\paragraph{Intersección con \(Y\).} \(f(0)=0\).
+	
+	\paragraph{Tabla de valores.}
+	\[
+	\begin{array}{c|rrrrrrr}
+		x & -3 & -2 & -1 & 0 & 1 & 2 & 3\\\hline
+		f(x) & 45 & 0 & -3 & 0 & -3 & 0 & 45
+	\end{array}
+	\]
+	
+	\paragraph{Gráfica.}
+	\begin{tikzpicture}
+		\begin{axis}[axis lines=middle, xmin=-6, xmax=6, samples=400]
+			\addplot{ x^4 - 4*x^2 };
+		\end{axis}
+	\end{tikzpicture}
+	
+	\bigskip
+	
+	% ===================== f2 =====================
+	\subsection*{2) \(f(x)=x^{3}-2x^{2}-3x\)}
+	\paragraph{Factorización y ceros.}
+	\begin{align*}
+		f(x) &= x^{3}-2x^{2}-3x\\
+		&= x\bigl(x^{2}-2x-3\bigr) \qquad \text{(factor común \(x\))}\\
+		&= x(x-3)(x+1) \qquad \text{(trinomio cuadrático)}
+	\end{align*}
+	Ceros: \(x=0,\,3,\,-1\).
+	
+	\paragraph{Intersección con \(Y\).} \(f(0)=0\).
+	
+	\paragraph{Tabla de valores.}
+	\[
+	\begin{array}{c|rrrrrrr}
+		x & -3 & -2 & -1 & 0 & 1 & 2 & 3\\\hline
+		f(x) & -36 & -10 & 0 & 0 & -4 & -6 & 0
+	\end{array}
+	\]
+	
+	\paragraph{Gráfica.}
+	\begin{tikzpicture}
+		\begin{axis}[axis lines=middle, xmin=-6, xmax=6, samples=400]
+			\addplot{ x^3 - 2*x^2 - 3*x };
+		\end{axis}
+	\end{tikzpicture}
+	
+	\bigskip
+	
+	% ===================== f3 =====================
+	\subsection*{3) \(f(x)=6x^{4}+x^{3}-15x^{2}\)}
+	\paragraph{Factorización y ceros.}
+	\begin{align*}
+		f(x) &= 6x^{4}+x^{3}-15x^{2}\\
+		&= x^{2}\bigl(6x^{2}+x-15\bigr) \qquad \text{(factor común \(x^2\))}\\
+		&= x^{2}(3x+5)(2x-3) \qquad \text{(factorización del cuadrático)}
+	\end{align*}
+	Ceros: \(x=0\) (mult.\ 2), \(x=\tfrac{3}{2},\,x=-\tfrac{5}{3}\).
+	
+	\paragraph{Intersección con \(Y\).} \(f(0)=0\).
+	
+	\paragraph{Tabla de valores.}
+	\[
+	\begin{array}{c|rrrrrrr}
+		x & -3 & -2 & -1 & 0 & 1 & 2 & 3\\\hline
+		f(x) & 324 & 28 & -10 & 0 & -8 & 44 & 378
+	\end{array}
+	\]
+	
+	\paragraph{Gráfica.}
+	\begin{tikzpicture}
+		\begin{axis}[axis lines=middle, xmin=-6, xmax=6, samples=400]
+			\addplot{ 6*x^4 + x^3 - 15*x^2 };
+		\end{axis}
+	\end{tikzpicture}
+	
+	\bigskip
+	
+	% ===================== f4 =====================
+	\subsection*{4) \(f(x)=x^{4}-13x^{2}+36\)}
+	\paragraph{Factorización y ceros.}
+	\begin{align*}
+		f(x) &= x^{4}-13x^{2}+36\\
+		&= (x^{2}-4)(x^{2}-9) \qquad \text{(\(y=x^{2}\Rightarrow y^{2}-13y+36=(y-4)(y-9)\))}\\
+		&= (x-2)(x+2)(x-3)(x+3)
+	\end{align*}
+	Ceros: \(x=\pm 2,\,\pm 3\).
+	
+	\paragraph{Intersección con \(Y\).} \(f(0)=36\).
+	
+	\paragraph{Tabla de valores.}
+	\[
+	\begin{array}{c|rrrrrrr}
+		x & -3 & -2 & -1 & 0 & 1 & 2 & 3\\\hline
+		f(x) & 0 & 0 & 24 & 36 & 24 & 0 & 0
+	\end{array}
+	\]
+	
+	\paragraph{Gráfica.}
+	\begin{tikzpicture}
+		\begin{axis}[axis lines=middle, xmin=-6, xmax=6, samples=400]
+			\addplot{ x^4 - 13*x^2 + 36 };
+		\end{axis}
+	\end{tikzpicture}
+	
+	\bigskip
+	
+	% ===================== f5 =====================
+	\subsection*{5) \(f(x)=-x^{4}+18x^{2}-81\)}
+	\paragraph{Factorización y ceros.}
+	\begin{align*}
+		f(x) &= -(x^{4}-18x^{2}+81)\\
+		&= -\bigl(x^{2}-9\bigr)^{2}\\
+		&= -(x-3)^{2}(x+3)^{2}
+	\end{align*}
+	Ceros: \(x=\pm 3\) (ambos con multiplicidad 2).
+	
+	\paragraph{Intersección con \(Y\).} \(f(0)=-81\).
+	
+	\paragraph{Tabla de valores.}
+	\[
+	\begin{array}{c|rrrrrrr}
+		x & -3 & -2 & -1 & 0 & 1 & 2 & 3\\\hline
+		f(x) & 0 & -25 & -64 & -81 & -64 & -25 & 0
+	\end{array}
+	\]
+	
+	\paragraph{Gráfica.}
+	\begin{tikzpicture}
+		\begin{axis}[axis lines=middle, xmin=-6, xmax=6, samples=400]
+			\addplot{ -(x^4 - 18*x^2 + 81) };
+		\end{axis}
+	\end{tikzpicture}
+	
+	\bigskip
+	
+	% ===================== f6 =====================
+	\subsection*{6) \(f(x)=x^{3}-3x^{2}-9x+27\)}
+	\paragraph{Factorización y ceros.}
+	\begin{align*}
+		f(x) &= x^{3}-3x^{2}-9x+27\\
+		&= x^{2}(x-3)-9(x-3) \qquad \text{(agrupando)}\\
+		&= (x^{2}-9)(x-3)\\
+		&= (x-3)^{2}(x+3)
+	\end{align*}
+	Ceros: \(x=3\) (mult.\ 2), \(x=-3\).
+	
+	\paragraph{Intersección con \(Y\).} \(f(0)=27\).
+	
+	\paragraph{Tabla de valores.}
+	\[
+	\begin{array}{c|rrrrrrr}
+		x & -3 & -2 & -1 & 0 & 1 & 2 & 3\\\hline
+		f(x) & 0 & 25 & 32 & 27 & 16 & 5 & 0
+	\end{array}
+	\]
+	
+	\paragraph{Gráfica.}
+	\begin{tikzpicture}
+		\begin{axis}[axis lines=middle, xmin=-6, xmax=6, samples=400]
+			\addplot{ x^3 - 3*x^2 - 9*x + 27 };
+		\end{axis}
+	\end{tikzpicture}
+	
+	\bigskip
+	
+	% ===================== f7 =====================
+	\subsection*{7) \(f(x)=2x^{5}+3x^{4}-16x^{2}-24x\)}
+	\paragraph{Factorización y ceros.}
+	\begin{align*}
+		f(x) &= 2x^{5}+3x^{4}-16x^{2}-24x\\
+		&= x(2x^{4}+3x^{3}-16x-24) \qquad \text{(factor común \(x\))}\\
+		&= x\bigl[(2x^{4}+3x^{3})+(-16x-24)\bigr]\\
+		&= x\bigl[x^{3}(2x+3)-8(2x+3)\bigr]\\
+		&= x(2x+3)(x^{3}-8)\\
+		&= x(2x+3)(x-2)(x^{2}+2x+4)
+	\end{align*}
+	Ceros reales: \(x=0,\,-\tfrac{3}{2},\,2\) (las raíces de \(x^{2}+2x+4\) son complejas).
+	
+	\paragraph{Intersección con \(Y\).} \(f(0)=0\).
+	
+	\paragraph{Tabla de valores.}
+	\[
+	\begin{array}{c|rrrrrrr}
+		x & -3 & -2 & -1 & 0 & 1 & 2 & 3\\\hline
+		f(x) & -315 & -32 & 9 & 0 & -35 & 0 & 513
+	\end{array}
+	\]
+	
+	\paragraph{Gráfica.}
+	\begin{tikzpicture}
+		\begin{axis}[axis lines=middle, xmin=-6, xmax=6, samples=400]
+			\addplot{ 2*x^5 + 3*x^4 - 16*x^2 - 24*x };
+		\end{axis}
+	\end{tikzpicture}
+	
+	\bigskip
+	
+	% ===================== f8 =====================
+	\subsection*{8) \(f(x)=-x^{5}+16x^{3}\)}
+	\paragraph{Factorización y ceros.}
+	\begin{align*}
+		f(x) &= -x^{5}+16x^{3}\\
+		&= -x^{3}(x^{2}-16)\\
+		&= -x^{3}(x-4)(x+4)
+	\end{align*}
+	Ceros: \(x=0\) (mult.\ 3), \(x=4\), \(x=-4\).
+	
+	\paragraph{Intersección con \(Y\).} \(f(0)=0\).
+	
+	\paragraph{Tabla de valores.}
+	\[
+	\begin{array}{c|rrrrrrr}
+		x & -3 & -2 & -1 & 0 & 1 & 2 & 3\\\hline
+		f(x) & -189 & -96 & -15 & 0 & 15 & 96 & 189
+	\end{array}
+	\]
+	
+	\paragraph{Gráfica.}
+	\begin{tikzpicture}
+		\begin{axis}[axis lines=middle, xmin=-6, xmax=6, samples=400]
+			\addplot{ -(x^5) + 16*x^3 };
+		\end{axis}
+	\end{tikzpicture}
+	
+	\bigskip
+	
+	% ===================== f9 =====================
+	\subsection*{9) \(f(x)=(x^{2}-2x-3)^{2}\)}
+	\paragraph{Factorización y ceros.}
+	\begin{align*}
+		f(x) &= (x^{2}-2x-3)^{2}\\
+		&= \bigl[(x-3)(x+1)\bigr]^{2}\\
+		&= (x-3)^{2}(x+1)^{2}
+	\end{align*}
+	Ceros: \(x=3\) (mult.\ 2), \(x=-1\) (mult.\ 2).
+	
+	\paragraph{Intersección con \(Y\).} \(f(0)=9\).
+	
+	\paragraph{Tabla de valores.}
+	\[
+	\begin{array}{c|rrrrrrr}
+		x & -3 & -2 & -1 & 0 & 1 & 2 & 3\\\hline
+		f(x) & 144 & 25 & 0 & 9 & 16 & 9 & 0
+	\end{array}
+	\]
+	
+	\paragraph{Gráfica.}
+	\begin{tikzpicture}
+		\begin{axis}[axis lines=middle, xmin=-6, xmax=6, samples=400]
+			\addplot{ (x^2 - 2*x - 3)^2 };
+		\end{axis}
+	\end{tikzpicture}
+	
+	\bigskip
+	
+	% ===================== f10 =====================
+	\subsection*{10) \(\displaystyle f(x)=-\frac{1}{3}\,\bigl(2x^{4}+9x^{3}-5x^{2}\bigr)^{2}\)}
+	\paragraph{Factorización y ceros.}
+	\begin{align*}
+		2x^{4}+9x^{3}-5x^{2} &= x^{2}\bigl(2x^{2}+9x-5\bigr)\\
+		&= x^{2}(2x-1)(x+5) \\
+		\Rightarrow\quad f(x) &= -\frac{1}{3}\,x^{4}\,(2x-1)^{2}\,(x+5)^{2}
+	\end{align*}
+	Ceros: \(x=0\) (mult.\ 4), \(x=\tfrac{1}{2}\) (mult.\ 2), \(x=-5\) (mult.\ 2). \\
+	Además, \(f(x)\le 0\) para todo \(x\) (negativa de un cuadrado).
+	
+	\paragraph{Intersección con \(Y\).} \(f(0)=0\).
+	
+	\paragraph{Tabla de valores.}
+	\[
+	\begin{array}{c|rrrrrrr}
+		x & -3 & -2 & -1 & 0 & 1 & 2 & 3\\\hline
+		f(x) & -5292 & -1200 & -48 & 0 & -12 & -2352 & -43200
+	\end{array}
+	\]
+	
+	\paragraph{Gráfica.}
+	\begin{tikzpicture}
+		\begin{axis}[axis lines=middle, xmin=-6, xmax=6, samples=400]
+			\addplot{ -(1.0/3.0)*(2*x^4 + 9*x^3 - 5*x^2)^2 };
+		\end{axis}
+	\end{tikzpicture}
+	
+\end{document}

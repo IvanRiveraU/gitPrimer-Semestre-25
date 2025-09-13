@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta name="robots" content="all, max-snippet:-1" />
+    <meta name="googlebot" content="all, max-snippet:-1" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Last-Modified" content="0" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <title>Tensolite | Fábrica de Premoldeados y Pretensados de Hormigón</title>
+    <meta
+      name="title"
+      content="Tensolite | Fábrica de Premoldeados y Pretensados de Hormigón"
+    />
+    <meta
+      name="description"
+      content="Fábrica de premoldeados y pretensados de hormigón. Vigueta, bloque, adoquín, teja y productos especiales de hormigón. Obras públicas y civiles."
+    />
+    <meta itemprop="image" content="https://tensolite.com/images/redes.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tensolite.com" />
+    <meta
+      property="og:title"
+      content="Tensolite | Fábrica de Premoldeados y Pretensados de Hormigón"
+    />
+    <meta
+      property="og:description"
+      content="Fábrica de premoldeados y pretensados de hormigón. Vigueta, bloque, adoquín, teja y productos especiales de hormigón. Obras públicas y civiles."
+    />
+    <meta
+      property="og:image"
+      content="https://tensolite.com/images/redes.png"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://tensolite.com" />
+    <meta
+      property="twitter:title"
+      content="Tensolite | Fábrica de Premoldeados y Pretensados de Hormigón"
+    />
+    <meta
+      property="twitter:description"
+      content="Fábrica de premoldeados y pretensados de hormigón. Vigueta, bloque, adoquín, teja y productos especiales de hormigón. Obras públicas y civiles."
+    />
+    <meta
+      property="twitter:image"
+      content="https://tensolite.com/images/redes.png"
+    />
+    <script type="module" crossorigin src="/assets/index-Bl-ivvbz.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-eF2FZ4nl.css">
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          (function (c, l, a, r, i, t, y) {
+            c[a] =
+              c[a] ||
+              function () {
+                (c[a].q = c[a].q || []).push(arguments);
+              };
+            t = l.createElement(r);
+            t.async = 1;
+            t.src = 'https://www.clarity.ms/tag/' + i;
+            y = l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t, y);
+          })(window, document, 'clarity', 'script', 'q8akod5zyj');
+
+          (function (h, o, t, j, a, r) {
+            h.hj =
+              h.hj ||
+              function () {
+                (h.hj.q = h.hj.q || []).push(arguments);
+              };
+            h._hjSettings = { hjid: 3916718, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+          })(
+            window,
+            document,
+            'https://static.hotjar.com/c/hotjar-',
+            '.js?sv=',
+          );
+
+          !(function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+              n.callMethod
+                ? n.callMethod.apply(n, arguments)
+                : n.queue.push(arguments);
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+          })(
+            window,
+            document,
+            'script',
+            'https://connect.facebook.net/en_US/fbevents.js',
+          );
+          fbq('init', '919857111418089');
+          fbq('track', 'PageView');
+
+          var script = document.createElement('script');
+          script.async = true;
+          script.defer = true;
+          script.crossOrigin = 'anonymous';
+          script.src =
+            'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0&appId=630905682261052&autoLogAppEvents=1';
+          script.nonce = 'TU_NONCE';
+          document.head.appendChild(script);
+        }, 1000);
+      });
+    </script>
+
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=919857111418089&ev=PageView&noscript=1"
+    /></noscript>
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-W44FC5T"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+
+  </body>
+</html>
