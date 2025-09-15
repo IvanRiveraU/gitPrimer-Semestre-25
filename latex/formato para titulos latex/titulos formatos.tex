@@ -1,0 +1,45 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+% Definimos el contador global para introducciones
+\newcounter{intro}
+
+\begin{document}
+	
+	% --- TÍTULO GENERAL (sin número, centrado) ---
+	\begin{center}
+		\textbf{ TÍTULO GENERAL DE LAS INTRODUCCIONES}
+	\end{center}
+	
+	\section*{Título General de lasaaa Introducciones}
+	\addcontentsline{toc}{section}{Título General de las Introducciones}
+	
+	
+	% Primera introducción
+	\stepcounter{intro}
+	\section*{\theintro\ Introducción}
+	\addcontentsline{toc}{section}{\theintro\ Introducción}
+	Aquí va el texto de la primera introducción.
+	
+	
+	\section*{Título General de las Introducciones}
+	\addcontentsline{toc}{section}{Título General de las Introducciones}
+	
+	% Segunda introducción
+	\stepcounter{intro}
+	\section*{\theintro\ Introducción}
+	\addcontentsline{toc}{section}{\theintro\ Introducción}
+	Aquí va el texto de la segunda introducción.
+	
+	% Una sección normal del documento
+	\section{Marco Teórico}
+	Texto del marco teórico.
+	
+	% Tercera introducción (más adelante en el documento)
+	\stepcounter{intro}
+	\section*{\theintro\ Introducción}
+	\addcontentsline{toc}{section}{\theintro\ Introducción}
+	Aquí va el texto de la tercera introducción.
+	
+\end{document}
