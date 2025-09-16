@@ -1,32 +1,32 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.15)  15 SEP 2025 22:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  15 SEP 2025 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./InvestigacionPracticaFinal.tex
 (InvestigacionPracticaFinal.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-20>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count187
-\c@section=\count188
-\c@subsection=\count189
-\c@subsubsection=\count190
-\c@paragraph=\count191
-\c@subparagraph=\count192
-\c@figure=\count193
-\c@table=\count194
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(C:\Program Files\MiKTeX\tex/latex/psnfss\mathptmx.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/psnfss\mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -63,87 +63,102 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Info: Redefining \hbar on input line 50.
 )
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip50
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
+Package: amstext 2024/11/17 v2.01 AMS text
 
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
-\ex@=\dimen141
+\ex@=\dimen149
 ))
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen142
+\pmbraise@=\dimen150
 )
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count195
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count196
-\leftroot@=\count197
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count198
-\DOTSCASE@=\count199
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen143
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count266
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count267
-\dotsspace@=\muskip16
-\c@parentequation=\count268
-\dspbrk@lvl=\count269
+\inf@bad=\count283
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count284
+\leftroot@=\count285
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count286
+\DOTSCASE@=\count287
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count288
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count289
+\dotsspace@=\muskip17
+\c@parentequation=\count290
+\dspbrk@lvl=\count291
 \tag@help=\toks18
-\row@=\count270
-\column@=\count271
-\maxfields@=\count272
+\row@=\count292
+\column@=\count293
+\maxfields@=\count294
 \andhelp@=\toks19
-\eqnshift@=\dimen144
-\alignsep@=\dimen145
-\tagshift@=\dimen146
-\tagwidth@=\dimen147
-\totwidth@=\dimen148
-\lineht@=\dimen149
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
 \@envbody=\toks20
-\multlinegap=\skip51
-\multlinetaggap=\skip52
+\multlinegap=\skip52
+\multlinetaggap=\skip53
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
 )
 (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
+Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks22
 \inpenc@posthook=\toks23
 )
 (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count273
-\U@D=\dimen150
+Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+\babel@savecnt=\count295
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2045.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2047.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2049.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2050.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2053.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2078.
+\U@D=\dimen158
 \l@unhyphenated=\language79
 
 (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count274
+\bbl@dirlevel=\count296
 
 *************************************
 * Local config file bblopts.cfg used
@@ -154,17 +169,23 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+
+(C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 12.
+)
 \es@quottoks=\toks24
-\es@quotdepth=\count275
+\es@quotdepth=\count297
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
 ))
-(C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
-Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 11.
-)
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
+on input line 15.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
+ on input line 15.
+
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
@@ -176,98 +197,97 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count276
-\Gm@cntv=\count277
-\c@Gm@tempcnt=\count278
-\Gm@bindingoffset=\dimen151
-\Gm@wd@mp=\dimen152
-\Gm@odd@mp=\dimen153
-\Gm@even@mp=\dimen154
-\Gm@layoutwidth=\dimen155
-\Gm@layoutheight=\dimen156
-\Gm@layouthoffset=\dimen157
-\Gm@layoutvoffset=\dimen158
+\Gm@cnth=\count298
+\Gm@cntv=\count299
+\c@Gm@tempcnt=\count300
+\Gm@bindingoffset=\dimen159
+\Gm@wd@mp=\dimen160
+\Gm@odd@mp=\dimen161
+\Gm@even@mp=\dimen162
+\Gm@layoutwidth=\dimen163
+\Gm@layoutheight=\dimen164
+\Gm@layouthoffset=\dimen165
+\Gm@layoutvoffset=\dimen166
 \Gm@dimlist=\toks26
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 106.
 
 (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen159
-\Gin@req@width=\dimen160
+\Gin@req@height=\dimen167
+\Gin@req@width=\dimen168
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box53
-\beforetitleunit=\skip53
-\aftertitleunit=\skip54
-\ttl@plus=\dimen161
-\ttl@minus=\dimen162
+\ttl@box=\box55
+\beforetitleunit=\skip54
+\aftertitleunit=\skip55
+\ttl@plus=\dimen169
+\ttl@minus=\dimen170
 \ttl@toksa=\toks27
-\titlewidth=\dimen163
-\titlewidthlast=\dimen164
-\titlewidthfirst=\dimen165
+\titlewidth=\dimen171
+\titlewidthlast=\dimen172
+\titlewidthfirst=\dimen173
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.sty
 (C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2024-01-04 L3 programming layer (loader) 
+Package: expl3 2025-07-20 L3 programming layer (loader) 
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count279
-\l__pdf_internal_box=\box54
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count301
 ))
-Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count280
-\l__lipsum_a_int=\count281
-\l__lipsum_b_int=\count282
+\g__lipsum_par_int=\count302
+\l__lipsum_a_int=\count303
+\l__lipsum_b_int=\count304
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
 
 (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count283
-\calc@Bcount=\count284
-\calc@Adimen=\dimen166
-\calc@Bdimen=\dimen167
-\calc@Askip=\skip55
-\calc@Bskip=\skip56
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count285
-\calc@Cskip=\skip57
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count305
+\calc@Bcount=\count306
+\calc@Adimen=\dimen174
+\calc@Bdimen=\dimen175
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count307
+\calc@Cskip=\skip58
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen168
-\ESO@tempdimb=\dimen169
+\ESO@tempdima=\dimen176
+\ESO@tempdimb=\dimen177
 
 (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -275,37 +295,37 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ))
 (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count286
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count308
 )
-\AM@pagewidth=\dimen170
-\AM@pageheight=\dimen171
-\AM@fboxrule=\dimen172
+\AM@pagewidth=\dimen178
+\AM@pageheight=\dimen179
+\AM@fboxrule=\dimen180
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count287
-\AM@pagebox=\box55
+\pdfpages@includegraphics@status=\count309
+\AM@pagebox=\box56
 \AM@global@opts=\toks28
-\AM@pagecnt=\count288
+\AM@pagecnt=\count310
 \AM@toc@title=\toks29
 \AM@lof@heading=\toks30
-\c@AM@survey=\count289
-\AM@templatesizebox=\box56
+\c@AM@survey=\count311
+\AM@templatesizebox=\box57
 )
-\c@intro=\count290
+\c@intro=\count312
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/comment\comment.sty
 \CommentStream=\write3
@@ -313,50 +333,52 @@ File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
 Excluding comment 'comment')
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count291
+\c@float@type=\count313
 \float@exts=\toks31
-\float@box=\box57
+\float@box=\box58
 \@float@everytoks=\toks32
-\@floatcapt=\box58
+\@floatcapt=\box59
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip58
-\enit@outerparindent=\dimen173
+\labelindent=\skip59
+\enit@outerparindent=\dimen181
 \enit@toks=\toks33
-\enit@inbox=\box59
-\enit@count@id=\count292
-\enitdp@description=\count293
+\enit@inbox=\box60
+\enit@count@id=\count314
+\enitdp@description=\count315
 )
 Excluding 'comment' comment. Excluding 'comment' comment.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 9
-4.
+5.
 
-(C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (InvestigacionPracticaFinal.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 8.
 )
 \openout1 = `InvestigacionPracticaFinal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Info: Redefining \. on input line 94.
-LaTeX Info: Redefining \% on input line 94.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -394,16 +416,16 @@ LaTeX Info: Redefining \% on input line 94.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen174
-\scratchbox=\box60
-\nofMPsegments=\count295
-\nofMParguments=\count296
+\scratchcounter=\count316
+\scratchdimen=\dimen182
+\scratchbox=\box61
+\nofMPsegments=\count317
+\nofMParguments=\count318
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen175
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen183
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
 \everyMPtoPDFconversion=\toks35
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -428,229 +450,296 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 <portadaU2/caratulaU.pdf, id=1, 614.295pt x 794.97pt>
 File: portadaU2/caratulaU.pdf Graphic file (type pdf)
 <use portadaU2/caratulaU.pdf>
-Package pdftex.def Info: portadaU2/caratulaU.pdf  used on input line 114.
+Package pdftex.def Info: portadaU2/caratulaU.pdf  used on input line 115.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 <portadaU2/caratulaU.pdf, id=3, page=1, 614.295pt x 794.97pt>
 File: portadaU2/caratulaU.pdf Graphic file (type pdf)
 <use portadaU2/caratulaU.pdf, page 1>
-Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 114
+Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 115
 .
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: portadaU2/caratulaU.pdf Graphic file (type pdf)
 <use portadaU2/caratulaU.pdf, page 1>
-Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 114
+Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 115
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: portadaU2/caratulaU.pdf Graphic file (type pdf)
 <use portadaU2/caratulaU.pdf, page 1>
-Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 114
+Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 115
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: portadaU2/caratulaU.pdf Graphic file (type pdf)
 <use portadaU2/caratulaU.pdf, page 1>
-Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 114
+Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 115
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
 File: portadaU2/caratulaU.pdf Graphic file (type pdf)
 <use portadaU2/caratulaU.pdf, page 1>
-Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 114
+Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 115
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [1
+[1
 
 
  <./portadaU2/caratulaU.pdf>]
 <./Imagenes/losa1.jpg, id=113, 903.375pt x 542.025pt>
 File: ./Imagenes/losa1.jpg Graphic file (type jpg)
 <use ./Imagenes/losa1.jpg>
-Package pdftex.def Info: ./Imagenes/losa1.jpg  used on input line 146.
+Package pdftex.def Info: ./Imagenes/losa1.jpg  used on input line 147.
 (pdftex.def)             Requested size: 281.85587pt x 169.11772pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 [2{C:/Users/Ivan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program F
 iles/MiKTeX/fonts/enc/dvips/base/8r.enc}]
 <./Imagenes/losa2.jpeg, id=119, 302.12875pt x 168.63pt>
 File: ./Imagenes/losa2.jpeg Graphic file (type jpg)
 <use ./Imagenes/losa2.jpeg>
-Package pdftex.def Info: ./Imagenes/losa2.jpeg  used on input line 166.
+Package pdftex.def Info: ./Imagenes/losa2.jpeg  used on input line 167.
 (pdftex.def)             Requested size: 281.85587pt x 157.31572pt.
- [3 <./Imagenes/losa1.jpg> <./Imagenes/losa2.jpeg>]
+
+
+[3 <./Imagenes/losa1.jpg> <./Imagenes/losa2.jpeg>]
 <./Imagenes/losa3.png, id=123, 285.31593pt x 213.79875pt>
 File: ./Imagenes/losa3.png Graphic file (type png)
 <use ./Imagenes/losa3.png>
-Package pdftex.def Info: ./Imagenes/losa3.png  used on input line 209.
+Package pdftex.def Info: ./Imagenes/losa3.png  used on input line 210.
 (pdftex.def)             Requested size: 281.85587pt x 211.20795pt.
- [4 <./Imagenes/losa3.png (PNG copy)>] [5]
+
+
+[4 <./Imagenes/losa3.png (PNG copy)>]
+
+[5]
 <./Imagenes/losa4.jpg, id=131, 417.81094pt x 313.17pt>
 File: ./Imagenes/losa4.jpg Graphic file (type jpg)
 <use ./Imagenes/losa4.jpg>
-Package pdftex.def Info: ./Imagenes/losa4.jpg  used on input line 285.
+Package pdftex.def Info: ./Imagenes/losa4.jpg  used on input line 286.
 (pdftex.def)             Requested size: 328.82707pt x 246.48886pt.
- [6 <./Imagenes/losa4.jpg>]
+
+
+[6 <./Imagenes/losa4.jpg>]
 <./Imagenes/losa5.png, id=135, 122.70844pt x 140.77594pt>
 File: ./Imagenes/losa5.png Graphic file (type png)
 <use ./Imagenes/losa5.png>
-Package pdftex.def Info: ./Imagenes/losa5.png  used on input line 307.
+Package pdftex.def Info: ./Imagenes/losa5.png  used on input line 308.
 (pdftex.def)             Requested size: 164.41711pt x 188.63231pt.
- [7 <./Imagenes/losa5.png (PNG copy)>] [8] [9]
+
+
+[7 <./Imagenes/losa5.png (PNG copy)>]
+
+[8]
+
+[9]
 <./Imagenes/vigueta_bovedilla_esquema_real.png, id=146, 475.7775pt x 356.33125p
 t>
 File: ./Imagenes/vigueta_bovedilla_esquema_real.png Graphic file (type png)
 <use ./Imagenes/vigueta_bovedilla_esquema_real.png>
 Package pdftex.def Info: ./Imagenes/vigueta_bovedilla_esquema_real.png  used on
- input line 443.
+ input line 444.
 (pdftex.def)             Requested size: 328.82707pt x 246.28204pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
-52.
-(C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+53.
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [10] [11 <./Imagenes/vigueta_bovedilla_esquema_real.png>]
+)
+
+[10]
+
+[11 <./Imagenes/vigueta_bovedilla_esquema_real.png>]
 <./Imagenes/recepcion_material.png, id=153, 475.7775pt x 634.37pt>
 File: ./Imagenes/recepcion_material.png Graphic file (type png)
 <use ./Imagenes/recepcion_material.png>
 Package pdftex.def Info: ./Imagenes/recepcion_material.png  used on input line 
-477.
+478.
 (pdftex.def)             Requested size: 234.8775pt x 313.17682pt.
- [12 <./Imagenes/recepcion_material.png>]
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 506.
 
-(C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+
+[12 <./Imagenes/recepcion_material.png>]
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 507.
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 506.
+ 507.
 
-(C:\Program Files\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 506.
+ 507.
 
-(C:\Program Files\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 506.
+ 507.
 
-(C:\Program Files\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 506.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 507.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 506.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 507.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 506.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 507.
 
-Overfull \hbox (17.42963pt too wide) in paragraph at lines 506--507
+Overfull \hbox (17.42963pt too wide) in paragraph at lines 507--508
 []\OT1/ptm/b/n/12 Inicio\OT1/ptm/m/n/12 : in-me-dia-ta-men-te tras el aca-ba-do
 , con-tro-lar eva-po-ra-ci[]on y man-te-ner hu-me-dad/temperatura.
  []
 
-[13] [14] [15] [16] [17] [18]
+
+
+[13]
+
+[14]
+
+[15]
+
+[16]
+
+[17]
+
+[18]
 <./Imagenes/losacero-1.jpg, id=177, 903.375pt x 542.025pt>
 File: ./Imagenes/losacero-1.jpg Graphic file (type jpg)
 <use ./Imagenes/losacero-1.jpg>
-Package pdftex.def Info: ./Imagenes/losacero-1.jpg  used on input line 679.
+Package pdftex.def Info: ./Imagenes/losacero-1.jpg  used on input line 680.
 (pdftex.def)             Requested size: 328.82707pt x 197.29575pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19] [20 <./Imagenes/losacero-1.jpg>]
+
+
+[19]
+
+[20 <./Imagenes/losacero-1.jpg>]
 <./Imagenes/losacero-2.jpg, id=185, 903.375pt x 542.025pt>
 File: ./Imagenes/losacero-2.jpg Graphic file (type jpg)
 <use ./Imagenes/losacero-2.jpg>
-Package pdftex.def Info: ./Imagenes/losacero-2.jpg  used on input line 723.
+Package pdftex.def Info: ./Imagenes/losacero-2.jpg  used on input line 724.
 (pdftex.def)             Requested size: 328.82707pt x 197.29575pt.
- [21 <./Imagenes/losacero-2.jpg>] [22]
+
+
+[21 <./Imagenes/losacero-2.jpg>]
+
+[22]
+
 [23]
 <./Imagenes/losacero-4.jpg, id=195, 903.375pt x 542.025pt>
 File: ./Imagenes/losacero-4.jpg Graphic file (type jpg)
 <use ./Imagenes/losacero-4.jpg>
-Package pdftex.def Info: ./Imagenes/losacero-4.jpg  used on input line 813.
+Package pdftex.def Info: ./Imagenes/losacero-4.jpg  used on input line 814.
 (pdftex.def)             Requested size: 328.82707pt x 197.29575pt.
- [24 <./Imagenes/losacero-4.jpg>]
+
+
+[24 <./Imagenes/losacero-4.jpg>]
 <./Imagenes/losacero-3.jpg, id=199, 903.375pt x 542.025pt>
 File: ./Imagenes/losacero-3.jpg Graphic file (type jpg)
 <use ./Imagenes/losacero-3.jpg>
-Package pdftex.def Info: ./Imagenes/losacero-3.jpg  used on input line 832.
+Package pdftex.def Info: ./Imagenes/losacero-3.jpg  used on input line 833.
 (pdftex.def)             Requested size: 328.82707pt x 197.29575pt.
- [25 <./Imagenes/losacero-3.jpg>] [26]
+
+
+[25 <./Imagenes/losacero-3.jpg>]
+
+[26]
 <./Imagenes/mampos1.jpg, id=207, 194.97844pt x 226.59656pt>
 File: ./Imagenes/mampos1.jpg Graphic file (type jpg)
 <use ./Imagenes/mampos1.jpg>
-Package pdftex.def Info: ./Imagenes/mampos1.jpg  used on input line 900.
+Package pdftex.def Info: ./Imagenes/mampos1.jpg  used on input line 901.
 (pdftex.def)             Requested size: 187.89914pt x 218.37732pt.
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 911.
+            Default family used instead on input line 912.
+
 
 [27 <./Imagenes/mampos1.jpg>]
 <./Imagenes/mampos2.jpg, id=212, 240.9pt x 226.59656pt>
 File: ./Imagenes/mampos2.jpg Graphic file (type jpg)
 <use ./Imagenes/mampos2.jpg>
-Package pdftex.def Info: ./Imagenes/mampos2.jpg  used on input line 924.
+Package pdftex.def Info: ./Imagenes/mampos2.jpg  used on input line 925.
 (pdftex.def)             Requested size: 187.89914pt x 176.74805pt.
 <./Imagenes/mampos4.jpg, id=213, 222.8325pt x 213.79875pt>
 File: ./Imagenes/mampos4.jpg Graphic file (type jpg)
 <use ./Imagenes/mampos4.jpg>
-Package pdftex.def Info: ./Imagenes/mampos4.jpg  used on input line 940.
+Package pdftex.def Info: ./Imagenes/mampos4.jpg  used on input line 941.
 (pdftex.def)             Requested size: 187.89914pt x 180.28458pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28 <./Imagenes/mampos2.jpg>] [29 <./Imagenes/mampos4.jpg>]
+
+
+[28 <./Imagenes/mampos2.jpg>]
+
+[29 <./Imagenes/mampos4.jpg>]
 <./Imagenes/mampos3.jpg, id=222, 240.9pt x 226.59656pt>
 File: ./Imagenes/mampos3.jpg Graphic file (type jpg)
 <use ./Imagenes/mampos3.jpg>
-Package pdftex.def Info: ./Imagenes/mampos3.jpg  used on input line 983.
+Package pdftex.def Info: ./Imagenes/mampos3.jpg  used on input line 984.
 (pdftex.def)             Requested size: 187.89914pt x 176.74805pt.
- [30 <./Imagenes/mampos3.jpg>] [31]
+
+
+[30 <./Imagenes/mampos3.jpg>]
+
+[31]
 <./Imagenes/mocheta1.jpg, id=230, 409.53pt x 307.90031pt>
 File: ./Imagenes/mocheta1.jpg Graphic file (type jpg)
 <use ./Imagenes/mocheta1.jpg>
-Package pdftex.def Info: ./Imagenes/mocheta1.jpg  used on input line 1038.
+Package pdftex.def Info: ./Imagenes/mocheta1.jpg  used on input line 1039.
 (pdftex.def)             Requested size: 281.85587pt x 211.92055pt.
- [32 <./Imagenes/mocheta1.jpg>]
+
+
+[32 <./Imagenes/mocheta1.jpg>]
 <./Imagenes/mocheta3.jpg, id=234, 645.16031pt x 401.24907pt>
 File: ./Imagenes/mocheta3.jpg Graphic file (type jpg)
 <use ./Imagenes/mocheta3.jpg>
-Package pdftex.def Info: ./Imagenes/mocheta3.jpg  used on input line 1060.
+Package pdftex.def Info: ./Imagenes/mocheta3.jpg  used on input line 1061.
 (pdftex.def)             Requested size: 281.85587pt x 175.295pt.
- [33 <./Imagenes/mocheta3.jpg>]
-[34] [35] (InvestigacionPracticaFinal.aux
+
+
+[33 <./Imagenes/mocheta3.jpg>]
+
+[34]
+
+[35] (InvestigacionPracticaFinal.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
  ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7408 strings out of 474485
- 122778 string characters out of 5753552
- 1934542 words of memory out of 5000000
- 29562 multiletter control sequences out of 15000+600000
- 583656 words of font info for 85 fonts, out of 8000000 for 9000
+ 7431 strings out of 468133
+ 122945 string characters out of 5440789
+ 643588 words of memory out of 5000000
+ 35915 multiletter control sequences out of 15000+600000
+ 652412 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,17n,93p,707b,430s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,17n,77p,707b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Ivan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
 rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
 /MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/ur
 w/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
 :/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on InvestigacionPracticaFinal.pdf (35 pages, 1580192 bytes).
+Output written on InvestigacionPracticaFinal.pdf (35 pages, 1580997 bytes).
 PDF statistics:
  275 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
