@@ -1,53 +1,38 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  15 SEP 2025 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.15)  15 SEP 2025 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./caratulaU.tex
 (caratulaU.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-07-20>
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
 (C:\Program Files\MiKTeX\tex/latex/base\book.cls
-Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\bk12.clo
-File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count275
-\c@chapter=\count276
-\c@section=\count277
-\c@subsection=\count278
-\c@subsubsection=\count279
-\c@paragraph=\count280
-\c@subparagraph=\count281
-\c@figure=\count282
-\c@table=\count283
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen148
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
 (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLa
-TeX and XeLaTeX
-\babel@savecnt=\count284
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2045.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2047.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2049.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2050.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2051.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2053.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2078.
-\U@D=\dimen149
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count196
+\U@D=\dimen141
 \l@unhyphenated=\language79
 
 (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count285
+\bbl@dirlevel=\count197
 
 *************************************
 * Local config file bblopts.cfg used
@@ -58,81 +43,59 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-
-(C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
-Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 12.
-)
 \es@quottoks=\toks17
-\es@quotdepth=\count286
+\es@quotdepth=\count198
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
 ))
-LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
-on input line 4.
-LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
- on input line 4.
-
+(C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+)
 (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
+Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
 
 (C:\Program Files\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2024/02/08 v1.3d Input encoding file
-LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
-ding ?) on input line 47.
-LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
-oding ?) on input line 48.
-LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
-encoding ?) on input line 49.
-LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
-s (encoding ?) on input line 50.
-LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
-ng ?) on input line 51.
-LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
-g ?) on input line 53.
-LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
-coding ?) on input line 55.
-LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
-ncoding ?) on input line 57.
+File: latin1.def 2021/02/14 v1.3d Input encoding file
 ))
 (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 
 (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count287
+\c@float@type=\count199
 \float@exts=\toks21
-\float@box=\box53
+\float@box=\box51
 \@float@everytoks=\toks22
-\@floatcapt=\box54
+\@floatcapt=\box52
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/pict2e\pict2e.sty
 Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
@@ -147,48 +110,48 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
 \pIIe@GRAPH=\toks23
-\@arclen=\dimen152
-\@arcrad=\dimen153
-\pIIe@tempdima=\dimen154
-\pIIe@tempdimb=\dimen155
-\pIIe@tempdimc=\dimen156
-\pIIe@tempdimd=\dimen157
-\pIIe@tempdime=\dimen158
-\pIIe@tempdimf=\dimen159
+\@arclen=\dimen144
+\@arcrad=\dimen145
+\pIIe@tempdima=\dimen146
+\pIIe@tempdimb=\dimen147
+\pIIe@tempdimc=\dimen148
+\pIIe@tempdimd=\dimen149
+\pIIe@tempdime=\dimen150
+\pIIe@tempdimf=\dimen151
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/eepic\epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count288
-\d@lta=\count289
-\@delta=\dimen160
-\@@delta=\dimen161
-\@gridcnt=\count290
-\@joinkind=\count291
-\@dotgap=\dimen162
-\@ddotgap=\dimen163
-\@x@diff=\count292
-\@y@diff=\count293
-\x@diff=\dimen164
-\y@diff=\dimen165
-\@dotbox=\box55
-\num@segments=\count294
-\num@segmentsi=\count295
+\@@multicnt=\count266
+\d@lta=\count267
+\@delta=\dimen152
+\@@delta=\dimen153
+\@gridcnt=\count268
+\@joinkind=\count269
+\@dotgap=\dimen154
+\@ddotgap=\dimen155
+\@x@diff=\count270
+\@y@diff=\count271
+\x@diff=\dimen156
+\y@diff=\dimen157
+\@dotbox=\box53
+\num@segments=\count272
+\num@segmentsi=\count273
 \@datafile=\read3
 ) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/eepic\eepic.sty
 Extension to Epic and LaTeX. Version 1.1e - Released Dec 21, 1999
-\@gphlinewidth=\count296
-\@eepictcnt=\count297
-\@tempdimc=\dimen166
-\maxovaldiam=\dimen167
-\@filltype=\box56
+\@gphlinewidth=\count274
+\@eepictcnt=\count275
+\@tempdimc=\dimen158
+\maxovaldiam=\dimen159
+\@filltype=\box54
 ) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/pstricks\pstricks.sty
 Package: pstricks 2024/02/02 v0.75 LaTeX wrapper for `PSTricks' (RN,HV)
 
 (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2024/12/12 v1.0g TeX engine tests
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -196,15 +159,15 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
-Package xcolor Info: Model `RGB' extended on input line 1365.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
 (C:\Program Files\MiKTeX\tex/generic/xkeyval\pst-xkey.tex
 File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
@@ -217,31 +180,31 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks24
 \XKV@tempa@toks=\toks25
 )
-\XKV@depth=\count298
+\XKV@depth=\count276
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pstricks.tex
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pst-fp.tex
 `pst-fp' v0.06, 2020/11/20 (hv)
-\pstFP@xs=\count299
-\pstFP@xia=\count300
-\pstFP@xib=\count301
-\pstFP@xfa=\count302
-\pstFP@xfb=\count303
-\pstFP@rega=\count304
-\pstFP@regb=\count305
-\pstFP@regs=\count306
-\pstFP@times=\count307
+\pstFP@xs=\count277
+\pstFP@xia=\count278
+\pstFP@xib=\count279
+\pstFP@xfa=\count280
+\pstFP@xfb=\count281
+\pstFP@rega=\count282
+\pstFP@regb=\count283
+\pstFP@regs=\count284
+\pstFP@times=\count285
 )
 (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
 (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
 (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks26
-\pgfutil@tempdima=\dimen168
-\pgfutil@tempdimb=\dimen169
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box57
+\pgfutil@abb=\box55
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
 (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
@@ -258,23 +221,23 @@ tex
 ))) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex
-\pgf@x=\dimen170
-\pgf@xa=\dimen171
-\pgf@xb=\dimen172
-\pgf@xc=\dimen173
-\pgf@y=\dimen174
-\pgf@ya=\dimen175
-\pgf@yb=\dimen176
-\pgf@yc=\dimen177
-\c@pgf@counta=\count308
-\c@pgf@countb=\count309
-\c@pgf@countc=\count310
-\c@pgf@countd=\count311
+\pgf@x=\dimen162
+\pgf@xa=\dimen163
+\pgf@xb=\dimen164
+\pgf@xc=\dimen165
+\pgf@y=\dimen166
+\pgf@ya=\dimen167
+\pgf@yb=\dimen168
+\pgf@yc=\dimen169
+\c@pgf@counta=\count286
+\c@pgf@countb=\count287
+\c@pgf@countc=\count288
+\c@pgf@countd=\count289
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen178
-\pgfmath@count=\count312
-\pgfmath@box=\box58
+\pgfmath@dimen=\dimen170
+\pgfmath@count=\count290
+\pgfmath@box=\box56
 \pgfmath@toks=\toks30
 \pgfmath@stack@operand=\toks31
 \pgfmath@stack@operation=\toks32
@@ -293,83 +256,83 @@ tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
 cs.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count313
+\c@pgfmathroundto@lastzeros=\count291
 )))
 (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen179
-\pgffor@skip=\dimen180
+\pgffor@iter=\dimen171
+\pgffor@skip=\dimen172
 \pgffor@stack=\toks33
 \pgffor@toks=\toks34
 ))
-\psLoopIndex=\count314
+\psLoopIndex=\count292
 
 `PSTricks' v3.22  <2025/06/11> (tvz,hv)
-\pst@dima=\dimen181
-\pst@dimb=\dimen182
-\pst@dimc=\dimen183
-\pst@dimd=\dimen184
-\pst@dimg=\dimen185
-\pst@dimh=\dimen186
-\pst@dimm=\dimen187
-\pst@dimn=\dimen188
-\pst@dimo=\dimen189
-\pst@dimp=\dimen190
-\pst@hbox=\box59
-\pst@ibox=\box60
-\pst@boxg=\box61
-\pst@cnta=\count315
-\pst@cntb=\count316
-\pst@cntc=\count317
-\pst@cntd=\count318
-\pst@cntg=\count319
-\pst@cnth=\count320
-\pst@cntm=\count321
-\pst@cntn=\count322
-\pst@cnto=\count323
-\pst@cntp=\count324
-\@zero=\count325
+\pst@dima=\dimen173
+\pst@dimb=\dimen174
+\pst@dimc=\dimen175
+\pst@dimd=\dimen176
+\pst@dimg=\dimen177
+\pst@dimh=\dimen178
+\pst@dimm=\dimen179
+\pst@dimn=\dimen180
+\pst@dimo=\dimen181
+\pst@dimp=\dimen182
+\pst@hbox=\box57
+\pst@ibox=\box58
+\pst@boxg=\box59
+\pst@cnta=\count293
+\pst@cntb=\count294
+\pst@cntc=\count295
+\pst@cntd=\count296
+\pst@cntg=\count297
+\pst@cnth=\count298
+\pst@cntm=\count299
+\pst@cntn=\count300
+\pst@cnto=\count301
+\pst@cntp=\count302
+\@zero=\count303
 \pst@toks=\toks35
 --- We are running latex or xelatex ---
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pstricks.con)
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pstricks-color.tex)
-\psunit=\dimen191
-\psxunit=\dimen192
-\psyunit=\dimen193
-\pst@C@@rType=\count326
-\pslinewidth=\dimen194
-\psk@startLW=\dimen195
-\psk@endLW=\dimen196
+\psunit=\dimen183
+\psxunit=\dimen184
+\psyunit=\dimen185
+\pst@C@@rType=\count304
+\pslinewidth=\dimen186
+\psk@startLW=\dimen187
+\psk@endLW=\dimen188
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pstricks-arrows.tex
-\pshooklength=\dimen197
-\pshookwidth=\dimen198
+\pshooklength=\dimen189
+\pshookwidth=\dimen190
 )
 \pst@customdefs=\toks36
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pstricks-dots.tex)
-\pslinearc=\dimen199
-\pst@symbolStep=\dimen256
-\pst@symbolWidth=\dimen257
-\pst@symbolLinewidth=\dimen258
+\pslinearc=\dimen191
+\pst@symbolStep=\dimen192
+\pst@symbolWidth=\dimen193
+\pst@symbolLinewidth=\dimen194
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pst-code-grid.tex)
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pst-code-box.tex
 \everypsbox=\toks37
-\psframesep=\dimen259
+\psframesep=\dimen195
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pst-code-arc.tex)
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pst-code-circle_elli
 pse.tex)
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pst-code-ref_rot.tex
 ) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pst-code-put.tex
-\pslabelsep=\dimen260
+\pslabelsep=\dimen196
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pst-code-pspicture.t
 ex
-\sh@wgridXunit=\dimen261
-\sh@wgridYunit=\dimen262
-\pst@shift=\dimen263
-\ps@imagectr=\count327
+\sh@wgridXunit=\dimen197
+\sh@wgridYunit=\dimen198
+\pst@shift=\dimen199
+\ps@imagectr=\count305
 ) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pstricks\pstricks.con))
 File: pstricks.tex 2025/06/11 v3.22 `PSTricks' (tvz,hv)
 
@@ -385,26 +348,26 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
-\pgf@x=\dimen264
-\pgf@y=\dimen265
-\pgf@xa=\dimen266
-\pgf@ya=\dimen267
-\pgf@xb=\dimen268
-\pgf@yb=\dimen269
-\pgf@xc=\dimen270
-\pgf@yc=\dimen271
-\pgf@xd=\dimen272
-\pgf@yd=\dimen273
+\pgf@x=\dimen256
+\pgf@y=\dimen257
+\pgf@xa=\dimen258
+\pgf@ya=\dimen259
+\pgf@xb=\dimen260
+\pgf@yb=\dimen261
+\pgf@xc=\dimen262
+\pgf@yc=\dimen263
+\pgf@xd=\dimen264
+\pgf@yd=\dimen265
 \w@pgf@writea=\write3
 \r@pgf@reada=\read4
-\c@pgf@counta=\count328
-\c@pgf@countb=\count329
-\c@pgf@countc=\count330
-\c@pgf@countd=\count331
+\c@pgf@counta=\count306
+\c@pgf@countb=\count307
+\c@pgf@countc=\count308
+\c@pgf@countd=\count309
 \t@pgf@toka=\toks38
 \t@pgf@tokb=\toks39
 \t@pgf@tokc=\toks40
-\pgf@sys@id@count=\count332
+\pgf@sys@id@count=\count310
 
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -419,8 +382,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )))
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count333
-\pgfsyssoftpath@bigbuffer@items=\count334
+\pgfsyssoftpath@smallbuffer@items=\count311
+\pgfsyssoftpath@bigbuffer@items=\count312
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -431,50 +394,50 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen274
-\pgf@picmaxx=\dimen275
-\pgf@picminy=\dimen276
-\pgf@picmaxy=\dimen277
-\pgf@pathminx=\dimen278
-\pgf@pathmaxx=\dimen279
-\pgf@pathminy=\dimen280
-\pgf@pathmaxy=\dimen281
-\pgf@xx=\dimen282
-\pgf@xy=\dimen283
-\pgf@yx=\dimen284
-\pgf@yy=\dimen285
-\pgf@zx=\dimen286
-\pgf@zy=\dimen287
+\pgf@picminx=\dimen266
+\pgf@picmaxx=\dimen267
+\pgf@picminy=\dimen268
+\pgf@picmaxy=\dimen269
+\pgf@pathminx=\dimen270
+\pgf@pathmaxx=\dimen271
+\pgf@pathminy=\dimen272
+\pgf@pathmaxy=\dimen273
+\pgf@xx=\dimen274
+\pgf@xy=\dimen275
+\pgf@yx=\dimen276
+\pgf@yy=\dimen277
+\pgf@zx=\dimen278
+\pgf@zy=\dimen279
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.t
 ex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen288
-\pgf@path@lasty=\dimen289
+\pgf@path@lastx=\dimen280
+\pgf@path@lasty=\dimen281
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen290
-\pgf@shorten@start@additional=\dimen291
+\pgf@shorten@end@additional=\dimen282
+\pgf@shorten@start@additional=\dimen283
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box62
-\pgf@hbox=\box63
-\pgf@layerbox@main=\box64
-\pgf@picture@serial@count=\count335
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count313
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
 x
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen292
+\pgflinewidth=\dimen284
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code
 .tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen293
-\pgf@pt@y=\dimen294
-\pgf@pt@temp=\dimen295
+\pgf@pt@x=\dimen285
+\pgf@pt@y=\dimen286
+\pgf@pt@temp=\dimen287
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -485,19 +448,19 @@ tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen296
+\pgfarrowsep=\dimen288
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen297
-\pgf@sys@shading@range@num=\count336
-\pgf@shadingcount=\count337
+\pgf@max=\dimen289
+\pgf@sys@shading@range@num=\count314
+\pgf@shadingcount=\count315
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box65
+\pgfexternal@startupbox=\box63
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -512,15 +475,15 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box66
+\pgfnodeparttextbox=\box64
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen298
-\pgf@nodesepend=\dimen299
+\pgf@nodesepstart=\dimen290
+\pgf@nodesepend=\dimen291
 )
 (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
@@ -530,32 +493,32 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
 tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count338
-\pgfplotmarksize=\dimen300
+\pgf@plot@mark@count=\count316
+\pgfplotmarksize=\dimen292
 )
-\tikz@lastx=\dimen301
-\tikz@lasty=\dimen302
-\tikz@lastxsaved=\dimen303
-\tikz@lastysaved=\dimen304
-\tikz@lastmovetox=\dimen305
-\tikz@lastmovetoy=\dimen306
-\tikzleveldistance=\dimen307
-\tikzsiblingdistance=\dimen308
-\tikz@figbox=\box67
-\tikz@figbox@bg=\box68
-\tikz@tempbox=\box69
-\tikz@tempbox@bg=\box70
-\tikztreelevel=\count339
-\tikznumberofchildren=\count340
-\tikznumberofcurrentchild=\count341
-\tikz@fig@count=\count342
+\tikz@lastx=\dimen293
+\tikz@lasty=\dimen294
+\tikz@lastxsaved=\dimen295
+\tikz@lastysaved=\dimen296
+\tikz@lastmovetox=\dimen297
+\tikz@lastmovetoy=\dimen298
+\tikzleveldistance=\dimen299
+\tikzsiblingdistance=\dimen300
+\tikz@figbox=\box65
+\tikz@figbox@bg=\box66
+\tikz@tempbox=\box67
+\tikz@tempbox@bg=\box68
+\tikztreelevel=\count317
+\tikznumberofchildren=\count318
+\tikznumberofcurrentchild=\count319
+\tikz@fig@count=\count320
  (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count343
-\pgfmatrixcurrentcolumn=\count344
-\pgf@matrix@numberofcolumns=\count345
+\pgfmatrixcurrentrow=\count321
+\pgfmatrixcurrentcolumn=\count322
+\pgf@matrix@numberofcolumns=\count323
 )
-\tikz@expandcount=\count346
+\tikz@expandcount=\count324
 
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 rytopaths.code.tex
@@ -564,28 +527,27 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/textpos\textpos.sty
 Package: textpos 2022/07/23 v1.10.1
 Package textpos Info: choosing support for LaTeX3 on input line 60.
-\TP@textbox=\box71
-\TP@holdbox=\box72
-\TPHorizModule=\dimen309
-\TPVertModule=\dimen310
-\TP@margin=\dimen311
-\TP@absmargin=\dimen312
+\TP@textbox=\box69
+\TP@holdbox=\box70
+\TPHorizModule=\dimen301
+\TPVertModule=\dimen302
+\TP@margin=\dimen303
+\TP@absmargin=\dimen304
 
 Grid set 16 x 16 = 38.39343pt x 49.68562pt
-\TPboxrulesize=\dimen313
-\TP@ox=\dimen314
-\TP@oy=\dimen315
+\TPboxrulesize=\dimen305
+\TP@ox=\dimen306
+\TP@oy=\dimen307
 \TP@tbargs=\toks41
 TextBlockOrigin set to 0pt x 0pt
 ) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count347
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count325
+\l__pdf_internal_box=\box71
 )
 (caratulaU.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 8.
 )
 \openout1 = `caratulaU.aux'.
 
@@ -607,16 +569,16 @@ LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count348
-\scratchdimen=\dimen316
-\scratchbox=\box73
-\nofMPsegments=\count349
-\nofMParguments=\count350
+\scratchcounter=\count326
+\scratchdimen=\dimen308
+\scratchbox=\box72
+\nofMPsegments=\count327
+\nofMParguments=\count328
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count351
-\MPscratchDim=\dimen317
-\MPnumerator=\count352
-\makeMPintoPDFobject=\count353
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen309
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
 \everyMPtoPDFconversion=\toks43
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -685,8 +647,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []\T1/cmr/bx/n/10.95 NOMBRE DE DO-CEN-TE DE
  []
 
-
-
 [1
 Non-PDF special ignored!
 <special> header=pstricks.pro
@@ -710,16 +670,16 @@ LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
  ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-07-20>
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 16513 strings out of 468133
- 322549 string characters out of 5440789
- 742920 words of memory out of 5000000
- 44808 multiletter control sequences out of 15000+600000
- 636042 words of font info for 58 fonts, out of 8000000 for 9000
+ 16484 strings out of 474485
+ 322470 string characters out of 5753552
+ 1937542 words of memory out of 5000000
+ 38449 multiletter control sequences out of 15000+600000
+ 567286 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,9n,87p,415b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Ivan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
@@ -727,7 +687,7 @@ Here is how much of TeX's memory you used:
 ecbx1095.pk> <C:\Users\Ivan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
 i600\ecbx1728.pk> <C:\Users\Ivan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
 ec/dpi600\ecbx1440.pk>
-Output written on caratulaU.pdf (1 page, 141207 bytes).
+Output written on caratulaU.pdf (1 page, 141181 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
