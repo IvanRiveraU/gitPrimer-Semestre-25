@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[12pt]{article}
 \usepackage{setspace}   % paquete para interlineado
 \usepackage{newtxtext,newtxmath} % Times New Roman
 
@@ -9,13 +9,16 @@
 \usepackage{amsmath} % Para usar \text{}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
-\usepackage[left=3cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage[letterpaper, left=3cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
 \usepackage{graphicx}
 \usepackage{titlesec}
 \usepackage{setspace}
 \usepackage{lipsum}
 \geometry{margin=1in}
 
+
+%PAQUETE para incluir PDF´s
+\usepackage{pdfpages} % para incluir PDFs
 
 % ---PAQUETE PARA contador para las introducciones ---
 \newcounter{intro}
@@ -105,6 +108,8 @@
 %	\maketitle
 	
 	%\vspace{-2.5cm}
+	
+\includepdf{portadaU2/caratulaU}
 
 %%-----------TITULOSSSS--------------------------------------
 		\begin{center}
@@ -1010,6 +1015,8 @@ En este sentido, el proceso constructivo de una losa tradicional maciza incluye 
 	
 	
 	
+	
+	
 	%%-------------MOCHETAS------------------------
 	
 	\section{Mochetas}
@@ -1024,14 +1031,12 @@ En este sentido, el proceso constructivo de una losa tradicional maciza incluye 
 	
 	Según la NSE 7.4 de AGIES, las mochetas que funcionan como jambas de los vanos deben estar confinadas por soleras y castillos, además de contar con refuerzo vertical continuo. Esto asegura que, en caso de sismo, la apertura de vanos no debilite el muro.  
 	 
-	
-	\subsection{Normativa aplicable}
-	
-	\subsubsection{Normas guatemaltecas (AGIES – NSE)}
-	- \textbf{NSE 7.4 (Mampostería reforzada)}: Establece la necesidad de refuerzo vertical en las jambas y mochetas. Define que las soleras deben ser continuas a nivel de losas, dinteles y coronas, para asegurar el amarre. Obliga a que las mochetas en vanos (puertas y ventanas) estén confinadas y con barras ancladas a cimentaciones.  
-	- \textbf{NSE 2 (Cargas y demandas sísmicas)}: Regula las solicitaciones mínimas de carga y las aceleraciones sísmicas que deben considerarse en la mampostería. Garantiza que los elementos no colapsen de forma frágil.  
-	- \textbf{NSE 1 (Generalidades)}: Indica que todos los elementos constructivos deben cumplir con condiciones de seguridad y servicio durante la vida útil.  
-	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.6\textwidth]{mocheta1}
+		\caption{Mocheta en mampostería reforzada}
+	\end{figure}
+
 	
 	\subsection{Proceso constructivo de mochetas en mampostería}
 	
@@ -1044,8 +1049,15 @@ En este sentido, el proceso constructivo de una losa tradicional maciza incluye 
 	- Para mochetas de jamba: Ø 1/2” (\#4) o superior, dependiendo del cálculo.  
 	El refuerzo debe anclarse en la cimentación y tener traslapo en la solera superior. Se recomienda usar amarres transversales o ganchos a 90° para integrarse mejor con el muro.  
 	
+	
 	\subsubsection{Levantado de la mocheta}
 	Se colocan bloques o ladrillos de forma alternada, cuidando la trabazón con el muro. En cada 40–60 cm de altura, se alinean las juntas verticales con las barras de acero. Las celdas con acero se rellenan con concreto fluido de  $f'_{c} \geq 210 \,\text{kg/cm}^2$, recomendado por la NSE 7.4. Se vibra o varilla el relleno para evitar vacíos.  
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.6\textwidth]{mocheta3}
+		\caption{Distribución de mochetas}
+	\end{figure}
 	
 	\subsubsection{Instalación de soleras y confinamiento}
 	Una vez alcanzada la altura del vano o techo, se coloca una solera de concreto armado, que amarra la mocheta con el muro. Si la mocheta está junto a un vano, se conecta con el dintel, formando un marco de confinamiento.  
@@ -1081,36 +1093,6 @@ En este sentido, el proceso constructivo de una losa tradicional maciza incluye 
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	\paragraph{Referencias}
-	
-	[1] Aceros Torices. Catálogo de productos. Aceros Torices (ATSA), s/f. Consultado el 25 de julio de 2021.
-	
-	
-	[2] Mabasa.  ¿Qué es la losacero? Mabasa, 2019. Consultado el 25 de julio de 2021.
-	
-	
-	[3] SEO Aceroform. ¿Qué es el losacero? Aceroform, s/f. Consultado el 25 de julio de 2021.
-	
-	
-	[4] Ternium. Manual de Instalación Ternium Losacero. Ternium, 2020. Consultado el 25 de julio de 2021.
-	
-	
-	
-	
-	% --- END Losacero ---
-	
-
-	
-	
+			
 
 \end{document}
