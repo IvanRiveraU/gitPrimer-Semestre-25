@@ -1,9 +1,9 @@
 \documentclass[12pt]{article}
 \usepackage{setspace}   % paquete para interlineado
-%\usepackage{newtxtext,newtxmath} % Times New Roman
+\usepackage{newtxtext,newtxmath} % Times New Roman
 
 %otra opcion para times roman adaptable a versiones
-\usepackage{mathptmx}
+%\usepackage{mathptmx}
 
 %haber si funciona mas parecido a word
 \setstretch{1.5}  
@@ -93,6 +93,10 @@
 
 
 \begin{document}
+	
+	%Para no generar numeracion de paginas
+	\pagestyle{empty}
+	
 %	\thispagestyle{fancy} 
 	
 	%es para emparejar el tamaño de todas las letras de titulo y contenido
@@ -112,7 +116,8 @@
 	
 	%\vspace{-2.5cm}
 	
-\includepdf{portadaU2/caratulaU}
+%\includepdf{portadaU2/caratulaU}
+%\includepdf[pages=-,pagecommand={}]{hoja/hojaadjunta}
 
 %%-----------TITULOSSSS--------------------------------------
 		\begin{center}
