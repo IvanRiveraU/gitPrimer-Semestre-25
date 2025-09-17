@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  16 SEP 2025 22:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  16 SEP 2025 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./informedocencia.tex
-(informedocencia.tex
+**./hojaadjuntaD.tex
+(hojaadjuntaD.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -366,9 +366,9 @@ Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
 ))
 LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
-on input line 15.
+on input line 12.
 LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
- on input line 15.
+ on input line 12.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -429,116 +429,89 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_b_int=\count313
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/pdfpages\pdfpages.sty
-Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
-
-(C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
-Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count314
-\calc@Bcount=\count315
-\calc@Adimen=\dimen188
-\calc@Bdimen=\dimen189
-\calc@Askip=\skip56
-\calc@Bskip=\skip57
-LaTeX Info: Redefining \setlength on input line 86.
-LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count316
-\calc@Cskip=\skip58
-)
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/eso-pic\eso-pic.sty
-Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen190
-\ESO@tempdimb=\dimen191
-)
-\AM@pagewidth=\dimen192
-\AM@pageheight=\dimen193
-\AM@fboxrule=\dimen194
-
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/pdfpages\pppdftex.def
-File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
-)
-\pdfpages@includegraphics@status=\count317
-\AM@pagebox=\box56
-\AM@global@opts=\toks32
-\AM@pagecnt=\count318
-\AM@toc@title=\toks33
-\AM@lof@heading=\toks34
-\c@AM@survey=\count319
-\AM@templatesizebox=\box57
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\enitkv@toks@=\toks32
+\labelindent=\skip56
+\enit@outerparindent=\dimen188
+\enit@toks=\toks33
+\enit@inbox=\box56
+\enit@count@id=\count314
+\enitdp@description=\count315
 )
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
-e 27.
+e 18.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 18.
 
-(informedocencia.aux
+(hojaadjuntaD.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 8.
 )
-\openout1 = `informedocencia.aux'.
+\openout1 = `hojaadjuntaD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 27.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 18.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 27.
+ 18.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 18.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-27.
+18.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 18.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 27.
+ 18.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 18.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 27.
+e 18.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    ... okay on input line 18.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count320
-\scratchdimen=\dimen195
-\scratchbox=\box58
-\nofMPsegments=\count321
-\nofMParguments=\count322
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count323
-\MPscratchDim=\dimen196
-\MPnumerator=\count324
-\makeMPintoPDFobject=\count325
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count316
+\scratchdimen=\dimen189
+\scratchbox=\box57
+\nofMPsegments=\count317
+\nofMParguments=\count318
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen190
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
+\everyMPtoPDFconversion=\toks35
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -547,12 +520,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@mv@tabular=\count326
-\c@mv@boldtabular=\count327
-LaTeX Info: Command `\dddot' is already robust on input line 27.
-LaTeX Info: Command `\ddddot' is already robust on input line 27.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
+\c@mv@tabular=\count322
+\c@mv@boldtabular=\count323
+LaTeX Info: Command `\dddot' is already robust on input line 18.
+LaTeX Info: Command `\ddddot' is already robust on input line 18.
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -562,15 +535,15 @@ LaTeX Info: Redefining \% on input line 27.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* h-part:(L,W,R)=(85.35826pt, 457.80486pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=457.80486pt
+* \textheight=652.70622pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -588,87 +561,88 @@ LaTeX Info: Redefining \% on input line 27.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape.sty
-Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
-
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.
-sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
-F (HO)
- (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 17.28pt on input line 23.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 23.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
+e 25.
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1minntx.fd
+File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
 )
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-))
-<portadaU2D/caratulaUD.pdf, id=1, 614.295pt x 794.97pt>
-File: portadaU2D/caratulaUD.pdf Graphic file (type pdf)
-<use portadaU2D/caratulaUD.pdf>
-Package pdftex.def Info: portadaU2D/caratulaUD.pdf  used on input line 29.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<portadaU2D/caratulaUD.pdf, id=3, page=1, 614.295pt x 794.97pt>
-File: portadaU2D/caratulaUD.pdf Graphic file (type pdf)
-<use portadaU2D/caratulaUD.pdf, page 1>
-Package pdftex.def Info: portadaU2D/caratulaUD.pdf , page1 used on input line 2
-9.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: portadaU2D/caratulaUD.pdf Graphic file (type pdf)
-<use portadaU2D/caratulaUD.pdf, page 1>
-Package pdftex.def Info: portadaU2D/caratulaUD.pdf , page1 used on input line 2
-9.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: portadaU2D/caratulaUD.pdf Graphic file (type pdf)
-<use portadaU2D/caratulaUD.pdf, page 1>
-Package pdftex.def Info: portadaU2D/caratulaUD.pdf , page1 used on input line 2
-9.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: portadaU2D/caratulaUD.pdf Graphic file (type pdf)
-<use portadaU2D/caratulaUD.pdf, page 1>
-Package pdftex.def Info: portadaU2D/caratulaUD.pdf , page1 used on input line 2
-9.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 25.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 25.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 8.8pt on input line 25.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 25.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.8pt on input line 25.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 25.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 25.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 25.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+25.
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\untxmia.fd
+File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.8pt on input line 25.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 25.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
+25.
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsym.fd
+File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.8pt on input line 25.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 25.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
+25.
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.8pt on input line 25.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 25.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.8pt on input line 25.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 25.
 
 
-File: portadaU2D/caratulaUD.pdf Graphic file (type pdf)
-<use portadaU2D/caratulaUD.pdf, page 1>
-Package pdftex.def Info: portadaU2D/caratulaUD.pdf , page1 used on input line 2
-9.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [1
 
-
- <./portadaU2D/caratulaUD.pdf>]
-<hojaD/hojaadjuntaD.pdf, id=87, 614.295pt x 794.97pt>
-File: hojaD/hojaadjuntaD.pdf Graphic file (type pdf)
-<use hojaD/hojaadjuntaD.pdf>
-Package pdftex.def Info: hojaD/hojaadjuntaD.pdf  used on input line 32.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<hojaD/hojaadjuntaD.pdf, id=89, page=1, 614.295pt x 794.97pt>
-File: hojaD/hojaadjuntaD.pdf Graphic file (type pdf)
-<use hojaD/hojaadjuntaD.pdf, page 1>
-Package pdftex.def Info: hojaD/hojaadjuntaD.pdf , page1 used on input line 32.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: hojaD/hojaadjuntaD.pdf Graphic file (type pdf)
-<use hojaD/hojaadjuntaD.pdf, page 1>
-Package pdftex.def Info: hojaD/hojaadjuntaD.pdf , page1 used on input line 32.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: hojaD/hojaadjuntaD.pdf Graphic file (type pdf)
-<use hojaD/hojaadjuntaD.pdf, page 1>
-Package pdftex.def Info: hojaD/hojaadjuntaD.pdf , page1 used on input line 32.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: hojaD/hojaadjuntaD.pdf Graphic file (type pdf)
-<use hojaD/hojaadjuntaD.pdf, page 1>
-Package pdftex.def Info: hojaD/hojaadjuntaD.pdf , page1 used on input line 32.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-
-
-File: hojaD/hojaadjuntaD.pdf Graphic file (type pdf)
-<use hojaD/hojaadjuntaD.pdf, page 1>
-Package pdftex.def Info: hojaD/hojaadjuntaD.pdf , page1 used on input line 32.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[2
-
- <./hojaD/hojaadjuntaD.pdf{C:/Users/Ivan/AppData/Local/MiKTeX/fonts/map/pdftex/
-pdftex.map}>] (informedocencia.aux
+{C:/Users/Ivan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Ivan/
+AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
+(hojaadjuntaD.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -678,19 +652,19 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10130 strings out of 468132
- 154147 string characters out of 5440761
- 649506 words of memory out of 5000000
- 38607 multiletter control sequences out of 15000+600000
- 627851 words of font info for 42 fonts, out of 8000000 for 9000
+ 9718 strings out of 468132
+ 146471 string characters out of 5440761
+ 646991 words of memory out of 5000000
+ 38189 multiletter control sequences out of 15000+600000
+ 642760 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,17n,79p,294b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,5n,79p,291b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsym.pfb><C:/
 Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/I
 van/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on informedocencia.pdf (2 pages, 214822 bytes).
+Output written on hojaadjuntaD.pdf (1 page, 80219 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
+ 22 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

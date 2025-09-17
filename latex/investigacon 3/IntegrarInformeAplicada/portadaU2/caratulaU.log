@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  16 SEP 2025 02:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  16 SEP 2025 21:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -669,22 +669,6 @@ Overfull \hbox (0.17787pt too wide) in paragraph at lines 51--52
 []  
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 92.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 92.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 92.
-
-Underfull \hbox (badness 3679) in paragraph at lines 95--95
-[]\T1/cmr/bx/n/10.95 CONSTRUCCIÓN E IN-GE-NIE-RÍA
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-[]\T1/cmr/bx/n/10.95 NOMBRE DE DO-CEN-TE DE
- []
-
 
 
 [1
@@ -715,21 +699,21 @@ L3 programming layer <2025-08-13>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 16514 strings out of 468132
- 322656 string characters out of 5440761
- 743435 words of memory out of 5000000
- 44810 multiletter control sequences out of 15000+600000
- 636042 words of font info for 58 fonts, out of 8000000 for 9000
+ 16483 strings out of 468132
+ 322278 string characters out of 5440761
+ 740436 words of memory out of 5000000
+ 44787 multiletter control sequences out of 15000+600000
+ 631751 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,9n,87p,415b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Ivan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
+ 81i,6n,87p,415b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Ivan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1
 200.pk> <C:\Users\Ivan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecbx1095.pk> <C:\Users\Ivan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+ecbx1200.pk> <C:\Users\Ivan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
 i600\ecbx1728.pk> <C:\Users\Ivan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
 ec/dpi600\ecbx1440.pk>
-Output written on caratulaU.pdf (1 page, 141603 bytes).
+Output written on caratulaU.pdf (1 page, 132195 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

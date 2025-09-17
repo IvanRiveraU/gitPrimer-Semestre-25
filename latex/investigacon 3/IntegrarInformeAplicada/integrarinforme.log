@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  16 SEP 2025 03:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  16 SEP 2025 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -366,9 +366,9 @@ Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
 ))
 LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
-on input line 15.
+on input line 16.
 LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
- on input line 15.
+ on input line 16.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -623,15 +623,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip90
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 31.
+Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
-e 56.
+e 57.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 56.
+(Font)              scaled to size 12.0pt on input line 57.
 
 (integrarinforme.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -641,52 +641,52 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `integrarinforme.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 56.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 57.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 56.
+ 57.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 57.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-56.
+57.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 57.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 56.
+ 57.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 57.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 56.
+e 57.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -711,10 +711,10 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@mv@tabular=\count339
 \c@mv@boldtabular=\count340
-LaTeX Info: Command `\dddot' is already robust on input line 56.
-LaTeX Info: Command `\ddddot' is already robust on input line 56.
-LaTeX Info: Redefining \. on input line 56.
-LaTeX Info: Redefining \% on input line 56.
+LaTeX Info: Command `\dddot' is already robust on input line 57.
+LaTeX Info: Command `\ddddot' is already robust on input line 57.
+LaTeX Info: Redefining \. on input line 57.
+LaTeX Info: Redefining \% on input line 57.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -762,43 +762,43 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring ON on input line 56.
+Package hyperref Info: Link coloring ON on input line 57.
 
 (integrarinforme.out) (integrarinforme.out)
 \@outlinefile=\write3
 \openout3 = `integrarinforme.out'.
 
-<portadaU2/caratulaU.pdf, id=19, 614.295pt x 794.97pt>
+<portadaU2/caratulaU.pdf, id=23, 614.295pt x 794.97pt>
 File: portadaU2/caratulaU.pdf Graphic file (type pdf)
 <use portadaU2/caratulaU.pdf>
-Package pdftex.def Info: portadaU2/caratulaU.pdf  used on input line 58.
+Package pdftex.def Info: portadaU2/caratulaU.pdf  used on input line 59.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<portadaU2/caratulaU.pdf, id=21, page=1, 614.295pt x 794.97pt>
+<portadaU2/caratulaU.pdf, id=25, page=1, 614.295pt x 794.97pt>
 File: portadaU2/caratulaU.pdf Graphic file (type pdf)
 <use portadaU2/caratulaU.pdf, page 1>
-Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 58.
+Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 59.
 
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: portadaU2/caratulaU.pdf Graphic file (type pdf)
 <use portadaU2/caratulaU.pdf, page 1>
-Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 58.
+Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 59.
 
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: portadaU2/caratulaU.pdf Graphic file (type pdf)
 <use portadaU2/caratulaU.pdf, page 1>
-Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 58.
+Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 59.
 
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: portadaU2/caratulaU.pdf Graphic file (type pdf)
 <use portadaU2/caratulaU.pdf, page 1>
-Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 58.
+Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 59.
 
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: portadaU2/caratulaU.pdf Graphic file (type pdf)
 <use portadaU2/caratulaU.pdf, page 1>
-Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 58.
+Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 59.
 
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [1
@@ -806,9 +806,9 @@ Package pdftex.def Info: portadaU2/caratulaU.pdf , page1 used on input line 58.
 
  <./portadaU2/caratulaU.pdf>]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 61.
+(Font)              scaled to size 24.88pt on input line 62.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 61.
+(Font)              scaled to size 24.88pt on input line 62.
  (integrarinforme.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -894,86 +894,86 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 
 [2{C:/Users/Ivan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Iva
 n/AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
-<hoja/hojaadjunta.pdf, id=143, 614.295pt x 794.97pt>
+<hoja/hojaadjunta.pdf, id=121, 614.295pt x 794.97pt>
 File: hoja/hojaadjunta.pdf Graphic file (type pdf)
 <use hoja/hojaadjunta.pdf>
-Package pdftex.def Info: hoja/hojaadjunta.pdf  used on input line 68.
+Package pdftex.def Info: hoja/hojaadjunta.pdf  used on input line 69.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<hoja/hojaadjunta.pdf, id=145, page=1, 614.295pt x 794.97pt>
+<hoja/hojaadjunta.pdf, id=123, page=1, 614.295pt x 794.97pt>
 File: hoja/hojaadjunta.pdf Graphic file (type pdf)
 <use hoja/hojaadjunta.pdf, page 1>
-Package pdftex.def Info: hoja/hojaadjunta.pdf , page1 used on input line 68.
+Package pdftex.def Info: hoja/hojaadjunta.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: hoja/hojaadjunta.pdf Graphic file (type pdf)
 <use hoja/hojaadjunta.pdf, page 1>
-Package pdftex.def Info: hoja/hojaadjunta.pdf , page1 used on input line 68.
+Package pdftex.def Info: hoja/hojaadjunta.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: hoja/hojaadjunta.pdf Graphic file (type pdf)
 <use hoja/hojaadjunta.pdf, page 1>
-Package pdftex.def Info: hoja/hojaadjunta.pdf , page1 used on input line 68.
+Package pdftex.def Info: hoja/hojaadjunta.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: hoja/hojaadjunta.pdf Graphic file (type pdf)
 <use hoja/hojaadjunta.pdf, page 1>
-Package pdftex.def Info: hoja/hojaadjunta.pdf , page1 used on input line 68.
+Package pdftex.def Info: hoja/hojaadjunta.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: hoja/hojaadjunta.pdf Graphic file (type pdf)
 <use hoja/hojaadjunta.pdf, page 1>
-Package pdftex.def Info: hoja/hojaadjunta.pdf , page1 used on input line 68.
+Package pdftex.def Info: hoja/hojaadjunta.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [3
 
  <./hoja/hojaadjunta.pdf>]
-<hoja/hojaadjunta.pdf, id=169, page=2, 614.295pt x 794.97pt>
+<hoja/hojaadjunta.pdf, id=147, page=2, 614.295pt x 794.97pt>
 File: hoja/hojaadjunta.pdf Graphic file (type pdf)
 <use hoja/hojaadjunta.pdf, page 2>
-Package pdftex.def Info: hoja/hojaadjunta.pdf , page2 used on input line 68.
+Package pdftex.def Info: hoja/hojaadjunta.pdf , page2 used on input line 69.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: hoja/hojaadjunta.pdf Graphic file (type pdf)
 <use hoja/hojaadjunta.pdf, page 2>
-Package pdftex.def Info: hoja/hojaadjunta.pdf , page2 used on input line 68.
+Package pdftex.def Info: hoja/hojaadjunta.pdf , page2 used on input line 69.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: hoja/hojaadjunta.pdf Graphic file (type pdf)
 <use hoja/hojaadjunta.pdf, page 2>
-Package pdftex.def Info: hoja/hojaadjunta.pdf , page2 used on input line 68.
+Package pdftex.def Info: hoja/hojaadjunta.pdf , page2 used on input line 69.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [4
 
  <./hoja/hojaadjunta.pdf>]
-<scaner/oficiofirmado.pdf, id=174, 614.295pt x 794.97pt>
+<scaner/oficiofirmado.pdf, id=152, 614.295pt x 794.97pt>
 File: scaner/oficiofirmado.pdf Graphic file (type pdf)
 <use scaner/oficiofirmado.pdf>
-Package pdftex.def Info: scaner/oficiofirmado.pdf  used on input line 81.
+Package pdftex.def Info: scaner/oficiofirmado.pdf  used on input line 82.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<scaner/oficiofirmado.pdf, id=176, page=1, 614.295pt x 794.97pt>
+<scaner/oficiofirmado.pdf, id=154, page=1, 614.295pt x 794.97pt>
 File: scaner/oficiofirmado.pdf Graphic file (type pdf)
 <use scaner/oficiofirmado.pdf, page 1>
-Package pdftex.def Info: scaner/oficiofirmado.pdf , page1 used on input line 81
+Package pdftex.def Info: scaner/oficiofirmado.pdf , page1 used on input line 82
 .
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: scaner/oficiofirmado.pdf Graphic file (type pdf)
 <use scaner/oficiofirmado.pdf, page 1>
-Package pdftex.def Info: scaner/oficiofirmado.pdf , page1 used on input line 81
+Package pdftex.def Info: scaner/oficiofirmado.pdf , page1 used on input line 82
 .
 (pdftex.def)             Requested size: 522.15321pt x 675.72769pt.
 File: scaner/oficiofirmado.pdf Graphic file (type pdf)
 <use scaner/oficiofirmado.pdf, page 1>
-Package pdftex.def Info: scaner/oficiofirmado.pdf , page1 used on input line 81
+Package pdftex.def Info: scaner/oficiofirmado.pdf , page1 used on input line 82
 .
 (pdftex.def)             Requested size: 522.15321pt x 675.72769pt.
 File: scaner/oficiofirmado.pdf Graphic file (type pdf)
 <use scaner/oficiofirmado.pdf, page 1>
-Package pdftex.def Info: scaner/oficiofirmado.pdf , page1 used on input line 81
+Package pdftex.def Info: scaner/oficiofirmado.pdf , page1 used on input line 82
 .
 (pdftex.def)             Requested size: 522.15321pt x 675.72769pt.
 
 
 File: scaner/oficiofirmado.pdf Graphic file (type pdf)
 <use scaner/oficiofirmado.pdf, page 1>
-Package pdftex.def Info: scaner/oficiofirmado.pdf , page1 used on input line 81
+Package pdftex.def Info: scaner/oficiofirmado.pdf , page1 used on input line 82
 .
 (pdftex.def)             Requested size: 522.15321pt x 675.72769pt.
 [5
@@ -984,38 +984,38 @@ pdfTeX warning: pdflatex.exe (file ./scaner/oficiofirmado.pdf): PDF inclusion:
 Subtype in Resources dict is not a name (key 'Subtype', type <stream>); ignored
 .
 >]
-<scaner/respuestaconesa.pdf, id=184, 614.295pt x 794.97pt>
+<scaner/respuestaconesa.pdf, id=162, 614.295pt x 794.97pt>
 File: scaner/respuestaconesa.pdf Graphic file (type pdf)
 <use scaner/respuestaconesa.pdf>
-Package pdftex.def Info: scaner/respuestaconesa.pdf  used on input line 91.
+Package pdftex.def Info: scaner/respuestaconesa.pdf  used on input line 92.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<scaner/respuestaconesa.pdf, id=186, page=1, 614.295pt x 794.97pt>
+<scaner/respuestaconesa.pdf, id=164, page=1, 614.295pt x 794.97pt>
 File: scaner/respuestaconesa.pdf Graphic file (type pdf)
 <use scaner/respuestaconesa.pdf, page 1>
 Package pdftex.def Info: scaner/respuestaconesa.pdf , page1 used on input line 
-91.
+92.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: scaner/respuestaconesa.pdf Graphic file (type pdf)
 <use scaner/respuestaconesa.pdf, page 1>
 Package pdftex.def Info: scaner/respuestaconesa.pdf , page1 used on input line 
-91.
+92.
 (pdftex.def)             Requested size: 522.15321pt x 675.72769pt.
 File: scaner/respuestaconesa.pdf Graphic file (type pdf)
 <use scaner/respuestaconesa.pdf, page 1>
 Package pdftex.def Info: scaner/respuestaconesa.pdf , page1 used on input line 
-91.
+92.
 (pdftex.def)             Requested size: 522.15321pt x 675.72769pt.
 File: scaner/respuestaconesa.pdf Graphic file (type pdf)
 <use scaner/respuestaconesa.pdf, page 1>
 Package pdftex.def Info: scaner/respuestaconesa.pdf , page1 used on input line 
-91.
+92.
 (pdftex.def)             Requested size: 522.15321pt x 675.72769pt.
 
 
 File: scaner/respuestaconesa.pdf Graphic file (type pdf)
 <use scaner/respuestaconesa.pdf, page 1>
 Package pdftex.def Info: scaner/respuestaconesa.pdf , page1 used on input line 
-91.
+92.
 (pdftex.def)             Requested size: 522.15321pt x 675.72769pt.
 [6
 
@@ -1025,713 +1025,852 @@ pdfTeX warning: pdflatex.exe (file ./scaner/respuestaconesa.pdf): PDF inclusion
 : Subtype in Resources dict is not a name (key 'Subtype', type <stream>); ignor
 ed.
 >]
-<investigacion/investigacion.pdf, id=194, 614.295pt x 794.97pt>
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf>
-Package pdftex.def Info: investigacion/investigacion.pdf  used on input line 10
-0.
+<bitacora/bitacora.pdf, id=172, 614.295pt x 794.97pt>
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf>
+Package pdftex.def Info: bitacora/bitacora.pdf  used on input line 98.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<investigacion/investigacion.pdf, id=196, page=1, 614.295pt x 794.97pt>
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 1>
-Package pdftex.def Info: investigacion/investigacion.pdf , page1 used on input 
-line 100.
+<bitacora/bitacora.pdf, id=174, page=1, 614.295pt x 794.97pt>
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 1>
+Package pdftex.def Info: bitacora/bitacora.pdf , page1 used on input line 98.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 1>
-Package pdftex.def Info: investigacion/investigacion.pdf , page1 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 1>
+Package pdftex.def Info: bitacora/bitacora.pdf , page1 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 1>
-Package pdftex.def Info: investigacion/investigacion.pdf , page1 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 1>
+Package pdftex.def Info: bitacora/bitacora.pdf , page1 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 1>
-Package pdftex.def Info: investigacion/investigacion.pdf , page1 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 1>
+Package pdftex.def Info: bitacora/bitacora.pdf , page1 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 1>
-Package pdftex.def Info: investigacion/investigacion.pdf , page1 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 1>
+Package pdftex.def Info: bitacora/bitacora.pdf , page1 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [7
 
- <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=211, page=2, 614.295pt x 794.97pt>
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 2>
-Package pdftex.def Info: investigacion/investigacion.pdf , page2 used on input 
-line 100.
+ <./bitacora/bitacora.pdf>]
+<bitacora/bitacora.pdf, id=185, page=2, 614.295pt x 794.97pt>
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 2>
+Package pdftex.def Info: bitacora/bitacora.pdf , page2 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 2>
-Package pdftex.def Info: investigacion/investigacion.pdf , page2 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 2>
+Package pdftex.def Info: bitacora/bitacora.pdf , page2 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 2>
-Package pdftex.def Info: investigacion/investigacion.pdf , page2 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 2>
+Package pdftex.def Info: bitacora/bitacora.pdf , page2 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [8
 
- <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=218, page=3, 614.295pt x 794.97pt>
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 3>
-Package pdftex.def Info: investigacion/investigacion.pdf , page3 used on input 
-line 100.
+ <./bitacora/bitacora.pdf>]
+<bitacora/bitacora.pdf, id=192, page=3, 614.295pt x 794.97pt>
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 3>
+Package pdftex.def Info: bitacora/bitacora.pdf , page3 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 3>
-Package pdftex.def Info: investigacion/investigacion.pdf , page3 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 3>
+Package pdftex.def Info: bitacora/bitacora.pdf , page3 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 3>
-Package pdftex.def Info: investigacion/investigacion.pdf , page3 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 3>
+Package pdftex.def Info: bitacora/bitacora.pdf , page3 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [9
 
- <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=224, page=4, 614.295pt x 794.97pt>
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 4>
-Package pdftex.def Info: investigacion/investigacion.pdf , page4 used on input 
-line 100.
+ <./bitacora/bitacora.pdf>]
+<bitacora/bitacora.pdf, id=199, page=4, 614.295pt x 794.97pt>
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 4>
+Package pdftex.def Info: bitacora/bitacora.pdf , page4 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 4>
-Package pdftex.def Info: investigacion/investigacion.pdf , page4 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 4>
+Package pdftex.def Info: bitacora/bitacora.pdf , page4 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 4>
-Package pdftex.def Info: investigacion/investigacion.pdf , page4 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 4>
+Package pdftex.def Info: bitacora/bitacora.pdf , page4 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [10
 
- <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=235, page=5, 614.295pt x 794.97pt>
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 5>
-Package pdftex.def Info: investigacion/investigacion.pdf , page5 used on input 
-line 100.
+ <./bitacora/bitacora.pdf>]
+<bitacora/bitacora.pdf, id=206, page=5, 614.295pt x 794.97pt>
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 5>
+Package pdftex.def Info: bitacora/bitacora.pdf , page5 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 5>
-Package pdftex.def Info: investigacion/investigacion.pdf , page5 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 5>
+Package pdftex.def Info: bitacora/bitacora.pdf , page5 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 5>
-Package pdftex.def Info: investigacion/investigacion.pdf , page5 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 5>
+Package pdftex.def Info: bitacora/bitacora.pdf , page5 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [11
 
- <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=241, page=6, 614.295pt x 794.97pt>
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 6>
-Package pdftex.def Info: investigacion/investigacion.pdf , page6 used on input 
-line 100.
+ <./bitacora/bitacora.pdf>]
+<bitacora/bitacora.pdf, id=213, page=6, 614.295pt x 794.97pt>
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 6>
+Package pdftex.def Info: bitacora/bitacora.pdf , page6 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 6>
-Package pdftex.def Info: investigacion/investigacion.pdf , page6 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 6>
+Package pdftex.def Info: bitacora/bitacora.pdf , page6 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 6>
-Package pdftex.def Info: investigacion/investigacion.pdf , page6 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 6>
+Package pdftex.def Info: bitacora/bitacora.pdf , page6 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [12
 
- <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=247, page=7, 614.295pt x 794.97pt>
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 7>
-Package pdftex.def Info: investigacion/investigacion.pdf , page7 used on input 
-line 100.
+ <./bitacora/bitacora.pdf>]
+<bitacora/bitacora.pdf, id=220, page=7, 614.295pt x 794.97pt>
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 7>
+Package pdftex.def Info: bitacora/bitacora.pdf , page7 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 7>
-Package pdftex.def Info: investigacion/investigacion.pdf , page7 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 7>
+Package pdftex.def Info: bitacora/bitacora.pdf , page7 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
-File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 7>
-Package pdftex.def Info: investigacion/investigacion.pdf , page7 used on input 
-line 100.
+File: bitacora/bitacora.pdf Graphic file (type pdf)
+<use bitacora/bitacora.pdf, page 7>
+Package pdftex.def Info: bitacora/bitacora.pdf , page7 used on input line 98.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [13
 
- <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=253, page=8, 614.295pt x 794.97pt>
+ <./bitacora/bitacora.pdf>]
+<investigacion/investigacion.pdf, id=228, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 8>
-Package pdftex.def Info: investigacion/investigacion.pdf , page8 used on input 
-line 100.
+<use investigacion/investigacion.pdf>
+Package pdftex.def Info: investigacion/investigacion.pdf  used on input line 10
+9.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<investigacion/investigacion.pdf, id=230, page=1, 614.295pt x 794.97pt>
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 1>
+Package pdftex.def Info: investigacion/investigacion.pdf , page1 used on input 
+line 109.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 1>
+Package pdftex.def Info: investigacion/investigacion.pdf , page1 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 8>
-Package pdftex.def Info: investigacion/investigacion.pdf , page8 used on input 
-line 100.
+<use investigacion/investigacion.pdf, page 1>
+Package pdftex.def Info: investigacion/investigacion.pdf , page1 used on input 
+line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 1>
+Package pdftex.def Info: investigacion/investigacion.pdf , page1 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 8>
-Package pdftex.def Info: investigacion/investigacion.pdf , page8 used on input 
-line 100.
+<use investigacion/investigacion.pdf, page 1>
+Package pdftex.def Info: investigacion/investigacion.pdf , page1 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [14
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=258, page=9, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=244, page=2, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 9>
-Package pdftex.def Info: investigacion/investigacion.pdf , page9 used on input 
-line 100.
+<use investigacion/investigacion.pdf, page 2>
+Package pdftex.def Info: investigacion/investigacion.pdf , page2 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 9>
-Package pdftex.def Info: investigacion/investigacion.pdf , page9 used on input 
-line 100.
+<use investigacion/investigacion.pdf, page 2>
+Package pdftex.def Info: investigacion/investigacion.pdf , page2 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 9>
-Package pdftex.def Info: investigacion/investigacion.pdf , page9 used on input 
-line 100.
+<use investigacion/investigacion.pdf, page 2>
+Package pdftex.def Info: investigacion/investigacion.pdf , page2 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [15
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=264, page=10, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=251, page=3, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 10>
-Package pdftex.def Info: investigacion/investigacion.pdf , page10 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 3>
+Package pdftex.def Info: investigacion/investigacion.pdf , page3 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 10>
-Package pdftex.def Info: investigacion/investigacion.pdf , page10 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 3>
+Package pdftex.def Info: investigacion/investigacion.pdf , page3 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 10>
-Package pdftex.def Info: investigacion/investigacion.pdf , page10 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 3>
+Package pdftex.def Info: investigacion/investigacion.pdf , page3 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [16
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=275, page=11, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=257, page=4, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 11>
-Package pdftex.def Info: investigacion/investigacion.pdf , page11 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 4>
+Package pdftex.def Info: investigacion/investigacion.pdf , page4 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 11>
-Package pdftex.def Info: investigacion/investigacion.pdf , page11 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 4>
+Package pdftex.def Info: investigacion/investigacion.pdf , page4 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 11>
-Package pdftex.def Info: investigacion/investigacion.pdf , page11 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 4>
+Package pdftex.def Info: investigacion/investigacion.pdf , page4 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [17
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=281, page=12, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=268, page=5, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 12>
-Package pdftex.def Info: investigacion/investigacion.pdf , page12 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 5>
+Package pdftex.def Info: investigacion/investigacion.pdf , page5 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 12>
-Package pdftex.def Info: investigacion/investigacion.pdf , page12 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 5>
+Package pdftex.def Info: investigacion/investigacion.pdf , page5 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 12>
-Package pdftex.def Info: investigacion/investigacion.pdf , page12 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 5>
+Package pdftex.def Info: investigacion/investigacion.pdf , page5 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [18
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=292, page=13, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=274, page=6, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 13>
-Package pdftex.def Info: investigacion/investigacion.pdf , page13 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 6>
+Package pdftex.def Info: investigacion/investigacion.pdf , page6 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 13>
-Package pdftex.def Info: investigacion/investigacion.pdf , page13 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 6>
+Package pdftex.def Info: investigacion/investigacion.pdf , page6 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 13>
-Package pdftex.def Info: investigacion/investigacion.pdf , page13 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 6>
+Package pdftex.def Info: investigacion/investigacion.pdf , page6 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [19
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=298, page=14, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=281, page=7, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 14>
-Package pdftex.def Info: investigacion/investigacion.pdf , page14 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 7>
+Package pdftex.def Info: investigacion/investigacion.pdf , page7 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 14>
-Package pdftex.def Info: investigacion/investigacion.pdf , page14 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 7>
+Package pdftex.def Info: investigacion/investigacion.pdf , page7 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 14>
-Package pdftex.def Info: investigacion/investigacion.pdf , page14 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 7>
+Package pdftex.def Info: investigacion/investigacion.pdf , page7 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [20
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=303, page=15, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=286, page=8, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 15>
-Package pdftex.def Info: investigacion/investigacion.pdf , page15 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 8>
+Package pdftex.def Info: investigacion/investigacion.pdf , page8 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 15>
-Package pdftex.def Info: investigacion/investigacion.pdf , page15 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 8>
+Package pdftex.def Info: investigacion/investigacion.pdf , page8 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 15>
-Package pdftex.def Info: investigacion/investigacion.pdf , page15 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 8>
+Package pdftex.def Info: investigacion/investigacion.pdf , page8 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [21
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=308, page=16, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=291, page=9, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 16>
-Package pdftex.def Info: investigacion/investigacion.pdf , page16 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 9>
+Package pdftex.def Info: investigacion/investigacion.pdf , page9 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 16>
-Package pdftex.def Info: investigacion/investigacion.pdf , page16 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 9>
+Package pdftex.def Info: investigacion/investigacion.pdf , page9 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 16>
-Package pdftex.def Info: investigacion/investigacion.pdf , page16 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 9>
+Package pdftex.def Info: investigacion/investigacion.pdf , page9 used on input 
+line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [22
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=313, page=17, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=297, page=10, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 17>
-Package pdftex.def Info: investigacion/investigacion.pdf , page17 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 10>
+Package pdftex.def Info: investigacion/investigacion.pdf , page10 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 17>
-Package pdftex.def Info: investigacion/investigacion.pdf , page17 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 10>
+Package pdftex.def Info: investigacion/investigacion.pdf , page10 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 17>
-Package pdftex.def Info: investigacion/investigacion.pdf , page17 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 10>
+Package pdftex.def Info: investigacion/investigacion.pdf , page10 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [23
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=318, page=18, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=308, page=11, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 18>
-Package pdftex.def Info: investigacion/investigacion.pdf , page18 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 11>
+Package pdftex.def Info: investigacion/investigacion.pdf , page11 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 18>
-Package pdftex.def Info: investigacion/investigacion.pdf , page18 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 11>
+Package pdftex.def Info: investigacion/investigacion.pdf , page11 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 18>
-Package pdftex.def Info: investigacion/investigacion.pdf , page18 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 11>
+Package pdftex.def Info: investigacion/investigacion.pdf , page11 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [24
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=323, page=19, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=314, page=12, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 19>
-Package pdftex.def Info: investigacion/investigacion.pdf , page19 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 12>
+Package pdftex.def Info: investigacion/investigacion.pdf , page12 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 19>
-Package pdftex.def Info: investigacion/investigacion.pdf , page19 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 12>
+Package pdftex.def Info: investigacion/investigacion.pdf , page12 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 19>
-Package pdftex.def Info: investigacion/investigacion.pdf , page19 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 12>
+Package pdftex.def Info: investigacion/investigacion.pdf , page12 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [25
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=330, page=20, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=326, page=13, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 20>
-Package pdftex.def Info: investigacion/investigacion.pdf , page20 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 13>
+Package pdftex.def Info: investigacion/investigacion.pdf , page13 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 20>
-Package pdftex.def Info: investigacion/investigacion.pdf , page20 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 13>
+Package pdftex.def Info: investigacion/investigacion.pdf , page13 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 20>
-Package pdftex.def Info: investigacion/investigacion.pdf , page20 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 13>
+Package pdftex.def Info: investigacion/investigacion.pdf , page13 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [26
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=336, page=21, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=331, page=14, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 21>
-Package pdftex.def Info: investigacion/investigacion.pdf , page21 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 14>
+Package pdftex.def Info: investigacion/investigacion.pdf , page14 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 21>
-Package pdftex.def Info: investigacion/investigacion.pdf , page21 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 14>
+Package pdftex.def Info: investigacion/investigacion.pdf , page14 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 21>
-Package pdftex.def Info: investigacion/investigacion.pdf , page21 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 14>
+Package pdftex.def Info: investigacion/investigacion.pdf , page14 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [27
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=341, page=22, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=336, page=15, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 22>
-Package pdftex.def Info: investigacion/investigacion.pdf , page22 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 15>
+Package pdftex.def Info: investigacion/investigacion.pdf , page15 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 22>
-Package pdftex.def Info: investigacion/investigacion.pdf , page22 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 15>
+Package pdftex.def Info: investigacion/investigacion.pdf , page15 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 22>
-Package pdftex.def Info: investigacion/investigacion.pdf , page22 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 15>
+Package pdftex.def Info: investigacion/investigacion.pdf , page15 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [28
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=346, page=23, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=341, page=16, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 23>
-Package pdftex.def Info: investigacion/investigacion.pdf , page23 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 16>
+Package pdftex.def Info: investigacion/investigacion.pdf , page16 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 23>
-Package pdftex.def Info: investigacion/investigacion.pdf , page23 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 16>
+Package pdftex.def Info: investigacion/investigacion.pdf , page16 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 23>
-Package pdftex.def Info: investigacion/investigacion.pdf , page23 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 16>
+Package pdftex.def Info: investigacion/investigacion.pdf , page16 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [29
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=352, page=24, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=346, page=17, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 24>
-Package pdftex.def Info: investigacion/investigacion.pdf , page24 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 17>
+Package pdftex.def Info: investigacion/investigacion.pdf , page17 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 24>
-Package pdftex.def Info: investigacion/investigacion.pdf , page24 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 17>
+Package pdftex.def Info: investigacion/investigacion.pdf , page17 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 24>
-Package pdftex.def Info: investigacion/investigacion.pdf , page24 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 17>
+Package pdftex.def Info: investigacion/investigacion.pdf , page17 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [30
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=358, page=25, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=351, page=18, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 25>
-Package pdftex.def Info: investigacion/investigacion.pdf , page25 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 18>
+Package pdftex.def Info: investigacion/investigacion.pdf , page18 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 25>
-Package pdftex.def Info: investigacion/investigacion.pdf , page25 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 18>
+Package pdftex.def Info: investigacion/investigacion.pdf , page18 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 25>
-Package pdftex.def Info: investigacion/investigacion.pdf , page25 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 18>
+Package pdftex.def Info: investigacion/investigacion.pdf , page18 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [31
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=364, page=26, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=357, page=19, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 26>
-Package pdftex.def Info: investigacion/investigacion.pdf , page26 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 19>
+Package pdftex.def Info: investigacion/investigacion.pdf , page19 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 26>
-Package pdftex.def Info: investigacion/investigacion.pdf , page26 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 19>
+Package pdftex.def Info: investigacion/investigacion.pdf , page19 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 26>
-Package pdftex.def Info: investigacion/investigacion.pdf , page26 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 19>
+Package pdftex.def Info: investigacion/investigacion.pdf , page19 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [32
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=375, page=27, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=363, page=20, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 27>
-Package pdftex.def Info: investigacion/investigacion.pdf , page27 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 20>
+Package pdftex.def Info: investigacion/investigacion.pdf , page20 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 27>
-Package pdftex.def Info: investigacion/investigacion.pdf , page27 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 20>
+Package pdftex.def Info: investigacion/investigacion.pdf , page20 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 27>
-Package pdftex.def Info: investigacion/investigacion.pdf , page27 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 20>
+Package pdftex.def Info: investigacion/investigacion.pdf , page20 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [33
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=388, page=28, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=369, page=21, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 28>
-Package pdftex.def Info: investigacion/investigacion.pdf , page28 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 21>
+Package pdftex.def Info: investigacion/investigacion.pdf , page21 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 28>
-Package pdftex.def Info: investigacion/investigacion.pdf , page28 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 21>
+Package pdftex.def Info: investigacion/investigacion.pdf , page21 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 28>
-Package pdftex.def Info: investigacion/investigacion.pdf , page28 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 21>
+Package pdftex.def Info: investigacion/investigacion.pdf , page21 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [34
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=393, page=29, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=374, page=22, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 29>
-Package pdftex.def Info: investigacion/investigacion.pdf , page29 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 22>
+Package pdftex.def Info: investigacion/investigacion.pdf , page22 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 29>
-Package pdftex.def Info: investigacion/investigacion.pdf , page29 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 22>
+Package pdftex.def Info: investigacion/investigacion.pdf , page22 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 29>
-Package pdftex.def Info: investigacion/investigacion.pdf , page29 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 22>
+Package pdftex.def Info: investigacion/investigacion.pdf , page22 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [35
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=399, page=30, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=379, page=23, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 30>
-Package pdftex.def Info: investigacion/investigacion.pdf , page30 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 23>
+Package pdftex.def Info: investigacion/investigacion.pdf , page23 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 30>
-Package pdftex.def Info: investigacion/investigacion.pdf , page30 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 23>
+Package pdftex.def Info: investigacion/investigacion.pdf , page23 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 30>
-Package pdftex.def Info: investigacion/investigacion.pdf , page30 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 23>
+Package pdftex.def Info: investigacion/investigacion.pdf , page23 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [36
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=404, page=31, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=385, page=24, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 31>
-Package pdftex.def Info: investigacion/investigacion.pdf , page31 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 24>
+Package pdftex.def Info: investigacion/investigacion.pdf , page24 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 31>
-Package pdftex.def Info: investigacion/investigacion.pdf , page31 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 24>
+Package pdftex.def Info: investigacion/investigacion.pdf , page24 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 31>
-Package pdftex.def Info: investigacion/investigacion.pdf , page31 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 24>
+Package pdftex.def Info: investigacion/investigacion.pdf , page24 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [37
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=411, page=32, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=392, page=25, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 32>
-Package pdftex.def Info: investigacion/investigacion.pdf , page32 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 25>
+Package pdftex.def Info: investigacion/investigacion.pdf , page25 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 32>
-Package pdftex.def Info: investigacion/investigacion.pdf , page32 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 25>
+Package pdftex.def Info: investigacion/investigacion.pdf , page25 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 32>
-Package pdftex.def Info: investigacion/investigacion.pdf , page32 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 25>
+Package pdftex.def Info: investigacion/investigacion.pdf , page25 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [38
 
  <./investigacion/investigacion.pdf>]
-<investigacion/investigacion.pdf, id=417, page=33, 614.295pt x 794.97pt>
+<investigacion/investigacion.pdf, id=397, page=26, 614.295pt x 794.97pt>
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 33>
-Package pdftex.def Info: investigacion/investigacion.pdf , page33 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 26>
+Package pdftex.def Info: investigacion/investigacion.pdf , page26 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 33>
-Package pdftex.def Info: investigacion/investigacion.pdf , page33 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 26>
+Package pdftex.def Info: investigacion/investigacion.pdf , page26 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: investigacion/investigacion.pdf Graphic file (type pdf)
-<use investigacion/investigacion.pdf, page 33>
-Package pdftex.def Info: investigacion/investigacion.pdf , page33 used on input
- line 100.
+<use investigacion/investigacion.pdf, page 26>
+Package pdftex.def Info: investigacion/investigacion.pdf , page26 used on input
+ line 109.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [39
+
+ <./investigacion/investigacion.pdf>]
+<investigacion/investigacion.pdf, id=408, page=27, 614.295pt x 794.97pt>
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 27>
+Package pdftex.def Info: investigacion/investigacion.pdf , page27 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 27>
+Package pdftex.def Info: investigacion/investigacion.pdf , page27 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 27>
+Package pdftex.def Info: investigacion/investigacion.pdf , page27 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[40
+
+ <./investigacion/investigacion.pdf>]
+<investigacion/investigacion.pdf, id=421, page=28, 614.295pt x 794.97pt>
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 28>
+Package pdftex.def Info: investigacion/investigacion.pdf , page28 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 28>
+Package pdftex.def Info: investigacion/investigacion.pdf , page28 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 28>
+Package pdftex.def Info: investigacion/investigacion.pdf , page28 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[41
+
+ <./investigacion/investigacion.pdf>]
+<investigacion/investigacion.pdf, id=426, page=29, 614.295pt x 794.97pt>
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 29>
+Package pdftex.def Info: investigacion/investigacion.pdf , page29 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 29>
+Package pdftex.def Info: investigacion/investigacion.pdf , page29 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 29>
+Package pdftex.def Info: investigacion/investigacion.pdf , page29 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[42
+
+ <./investigacion/investigacion.pdf>]
+<investigacion/investigacion.pdf, id=432, page=30, 614.295pt x 794.97pt>
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 30>
+Package pdftex.def Info: investigacion/investigacion.pdf , page30 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 30>
+Package pdftex.def Info: investigacion/investigacion.pdf , page30 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 30>
+Package pdftex.def Info: investigacion/investigacion.pdf , page30 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[43
+
+ <./investigacion/investigacion.pdf>]
+<investigacion/investigacion.pdf, id=438, page=31, 614.295pt x 794.97pt>
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 31>
+Package pdftex.def Info: investigacion/investigacion.pdf , page31 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 31>
+Package pdftex.def Info: investigacion/investigacion.pdf , page31 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 31>
+Package pdftex.def Info: investigacion/investigacion.pdf , page31 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[44
+
+ <./investigacion/investigacion.pdf>]
+<investigacion/investigacion.pdf, id=444, page=32, 614.295pt x 794.97pt>
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 32>
+Package pdftex.def Info: investigacion/investigacion.pdf , page32 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 32>
+Package pdftex.def Info: investigacion/investigacion.pdf , page32 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 32>
+Package pdftex.def Info: investigacion/investigacion.pdf , page32 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[45
+
+ <./investigacion/investigacion.pdf>]
+<investigacion/investigacion.pdf, id=450, page=33, 614.295pt x 794.97pt>
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 33>
+Package pdftex.def Info: investigacion/investigacion.pdf , page33 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 33>
+Package pdftex.def Info: investigacion/investigacion.pdf , page33 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: investigacion/investigacion.pdf Graphic file (type pdf)
+<use investigacion/investigacion.pdf, page 33>
+Package pdftex.def Info: investigacion/investigacion.pdf , page33 used on input
+ line 109.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[46
 
  <./investigacion/investigacion.pdf>] (integrarinforme.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -1742,13 +1881,13 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `integrarinforme.out' has not changed.
-(rerunfilecheck)             Checksum: D513384B765AB05EACE6539853DEB057;463.
+(rerunfilecheck)             Checksum: E0185F9BF88861B22AF16B884A4C2C42;575.
  ) 
 Here is how much of TeX's memory you used:
- 17324 strings out of 468132
- 269903 string characters out of 5440761
- 763236 words of memory out of 5000000
- 45632 multiletter control sequences out of 15000+600000
+ 17362 strings out of 468132
+ 271012 string characters out of 5440761
+ 763275 words of memory out of 5000000
+ 45662 multiletter control sequences out of 15000+600000
  644605 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,18n,79p,294b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1759,9 +1898,9 @@ an/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Ivan/App
 Data/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Ivan/AppData/Ro
 aming/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/Ivan/AppData/Roaming/M
 iKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on integrarinforme.pdf (39 pages, 2989956 bytes).
+Output written on integrarinforme.pdf (46 pages, 6782626 bytes).
 PDF statistics:
- 451 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 273 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 485 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
