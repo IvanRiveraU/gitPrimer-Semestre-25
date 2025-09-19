@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  16 SEP 2025 22:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  19 SEP 2025 06:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -475,12 +475,7 @@ File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 27.
 
-(informedocencia.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 8.
-)
+(informedocencia.aux)
 \openout1 = `informedocencia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 27.
@@ -553,6 +548,8 @@ LaTeX Info: Command `\dddot' is already robust on input line 27.
 LaTeX Info: Command `\ddddot' is already robust on input line 27.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -668,7 +665,48 @@ Package pdftex.def Info: hojaD/hojaadjuntaD.pdf , page1 used on input line 32.
 [2
 
  <./hojaD/hojaadjuntaD.pdf{C:/Users/Ivan/AppData/Local/MiKTeX/fonts/map/pdftex/
-pdftex.map}>] (informedocencia.aux
+pdftex.map}>]
+<scanerD/oficiofirmadoD.pdf, id=112, 614.295pt x 794.97pt>
+File: scanerD/oficiofirmadoD.pdf Graphic file (type pdf)
+<use scanerD/oficiofirmadoD.pdf>
+Package pdftex.def Info: scanerD/oficiofirmadoD.pdf  used on input line 35.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<scanerD/oficiofirmadoD.pdf, id=114, page=1, 614.295pt x 794.97pt>
+File: scanerD/oficiofirmadoD.pdf Graphic file (type pdf)
+<use scanerD/oficiofirmadoD.pdf, page 1>
+Package pdftex.def Info: scanerD/oficiofirmadoD.pdf , page1 used on input line 
+35.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: scanerD/oficiofirmadoD.pdf Graphic file (type pdf)
+<use scanerD/oficiofirmadoD.pdf, page 1>
+Package pdftex.def Info: scanerD/oficiofirmadoD.pdf , page1 used on input line 
+35.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: scanerD/oficiofirmadoD.pdf Graphic file (type pdf)
+<use scanerD/oficiofirmadoD.pdf, page 1>
+Package pdftex.def Info: scanerD/oficiofirmadoD.pdf , page1 used on input line 
+35.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: scanerD/oficiofirmadoD.pdf Graphic file (type pdf)
+<use scanerD/oficiofirmadoD.pdf, page 1>
+Package pdftex.def Info: scanerD/oficiofirmadoD.pdf , page1 used on input line 
+35.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: scanerD/oficiofirmadoD.pdf Graphic file (type pdf)
+<use scanerD/oficiofirmadoD.pdf, page 1>
+Package pdftex.def Info: scanerD/oficiofirmadoD.pdf , page1 used on input line 
+35.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[3
+
+ <./scanerD/oficiofirmadoD.pdf
+
+pdfTeX warning: pdflatex.exe (file ./scanerD/oficiofirmadoD.pdf): PDF inclusion
+: Subtype in Resources dict is not a name (key 'Subtype', type <stream>); ignor
+ed.
+>] (informedocencia.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -678,19 +716,19 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10130 strings out of 468132
- 154147 string characters out of 5440761
- 649506 words of memory out of 5000000
- 38607 multiletter control sequences out of 15000+600000
+ 10140 strings out of 468132
+ 154531 string characters out of 5440761
+ 649515 words of memory out of 5000000
+ 38617 multiletter control sequences out of 15000+600000
  627851 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,17n,79p,294b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsym.pfb><C:/
 Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/I
 van/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on informedocencia.pdf (2 pages, 214822 bytes).
+Output written on informedocencia.pdf (3 pages, 736449 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
