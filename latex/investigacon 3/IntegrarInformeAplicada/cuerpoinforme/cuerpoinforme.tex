@@ -1,76 +1,53 @@
 \documentclass[12pt]{article}
-\usepackage{setspace}   % paquete para interlineado
-\usepackage{newtxtext,newtxmath} % Times New Roman
 
-%haber si funciona mas parecido a word
-\setstretch{1.5}  
-\usepackage{amsmath} % Para usar \text{}
+% --- Básico ---
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
+\usepackage{newtxtext,newtxmath}
 \usepackage[letterpaper, left=3cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
-\usepackage{graphicx}
-\usepackage{titlesec}
 \usepackage{setspace}
-\usepackage{lipsum}
-\geometry{margin=1in}
+\setstretch{1.5}
 
-%PAQUETE para incluir PDF´s
-\usepackage{pdfpages} % para incluir PDFs
-
-% PAQUETE PARA COMENTAR FACILMENTE 
-
-\usepackage{comment}
-
-%%FORZAR LAS IMAGENES CON FLOAT
-
-\usepackage{float} % necesario para usar [H]
-
-% PAQUETE PARA INSTANCIAR  LAS IMAGENES
+% --- Utilidades ---
+\usepackage{amsmath}
+\usepackage{graphicx}
 \graphicspath{{./Imagenes/}}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{pdfpages}
 
+% --- Índice con puntos (leaders) ---
+\usepackage{tocloft}
+\setcounter{tocdepth}{4} % hasta subsecciones (ajusta 1=sección, 2=subsección, 3=subsub…)
+\renewcommand{\cftdotsep}{1.5} % densidad de puntos (menor = más juntos)
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsubsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsubsubsecleader}{\cftdotfill{\cftdotsep}}
+% (Opcional) Secciones en negrita dentro del índice:
+% \renewcommand{\cftsecfont}{\bfseries}
+% \renewcommand{\cftsecpagefont}{\bfseries}
 
-	
-	
-	% --- PAQUETES ADICIONALES DE LOSA ---
-	% para listas multinivel (numeración + incisos + viñetas)
-	\usepackage{enumitem} 
-	
-	% que los párrafos  de las secciones dentro de los items usen la misma sangría que el cuerpo SANGRIA A TODOWWW
-	\setlist[enumerate]{listparindent=\parindent, parsep=0pt}
+% Siempre al final
+\usepackage[hidelinks,unicode]{hyperref}
 
+\begin{document}
 	
-	% Enlaces del índice sin recuadros ni color
-	\usepackage[hidelinks]{hyperref}
+	\tableofcontents
+	\newpage
 	
-	\begin{document}
-		
-		% Índice (tabla de contenidos)
-		\tableofcontents
-		\newpage
-		
-		\section{Objetivosaaaaaaaa}
-		
-		\section{Cronograma de actividades (Diagrama de Gantt actualizado)}
-		
-		
-		asdfasdfadfaadfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfmkjhasñdklfjañsdlifjñalsdivjñasdf
-		
-		\section{Introducción (Máximo una página, mínimo media página)}
-		
-		\section{Capítulo 1 (Máximo 5 páginas, mínimo 3 páginas)}
-		
-		\section{Capítulo 2 (Máximo 7 páginas, mínimo 4 páginas)}
-		
-		\section{Capítulo 3 (de 5-2 páginas por folio)}
-		
-		\section{Capítulo 4 (Máximo 5 páginas, mínimo 3 páginas)}
-		
-		\section{Preguntas}
-		
-		\section{Conclusiones}
-		
-		\section{Bibliografía}
-		
-		\section{Anexos}
-		
-	\end{document}
+	\section{Objetivos}
+	\subsection{Objetivo Genera}
+	\subsection{Objetivo Especifico}
+	\section{Cronograma de actividades (Diagrama de Gantt actualizado)}
+	\section{Introducción (Máximo una página, mínimo media página)}
+	\section{Capítulo 1 (Máximo 5 páginas, mínimo 3 páginas)}
+	\section{Capítulo 2 (Máximo 7 páginas, mínimo 4 páginas)}
+	\section{Capítulo 3 (de 5-2 páginas por folio)}
+	\section{Capítulo 4 (Máximo 5 páginas, mínimo 3 páginas)}
+	\section{Preguntas}
+	\section{Conclusiones}
+	\section{Bibliografía}
+	\section{Anexos}
+	
+\end{document}

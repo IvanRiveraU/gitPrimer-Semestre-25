@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  19 SEP 2025 06:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  19 SEP 2025 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./cuerpoinforme.tex
 (cuerpoinforme.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
+L3 programming layer <2025-07-20>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
@@ -23,9 +23,65 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
 )
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
-Package: setspace 2022/12/04 v6.7b set line spacing
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
 )
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+\babel@savecnt=\count283
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2045.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2047.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2049.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2050.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2053.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2078.
+\U@D=\dimen149
+\l@unhyphenated=\language79
+
+(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count284
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+
+(C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 12.
+)
+\es@quottoks=\toks19
+\es@quotdepth=\count285
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
+on input line 7.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
+ on input line 7.
+
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\newtxtext.sty
 Package: newtxtext 2024/04/01 v1.744(Michael Sharpe) latex and unicode latex su
 pport for TeXGyreTermesX
@@ -34,11 +90,11 @@ pport for TeXGyreTermesX
 nd its extensions (msharpe)
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/xpatch\xpatch.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-08-13 L3 programming layer (loader) 
+Package: expl3 2025-07-20 L3 programming layer (loader) 
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count283
+\l__color_backend_stack_int=\count286
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 
@@ -47,7 +103,7 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count284
+\etb@tempcnta=\count287
 ))
 (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -79,11 +135,11 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
 (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks17
-\XKV@tempa@toks=\toks18
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
 
 (C:\Program Files\MiKTeX\tex/generic/xkeyval\keyval.tex))
-\XKV@depth=\count285
+\XKV@depth=\count288
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
@@ -91,8 +147,8 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/xstring\xstring.sty
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/xstring\xstring.tex
-\xs_counta=\count286
-\xs_countb=\count287
+\xs_counta=\count289
+\xs_countb=\count290
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
@@ -106,8 +162,8 @@ LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/binhex\binhex.tex)
-\ntx@tmpcnta=\count288
-\ntx@cnt=\count289
+\ntx@tmpcnta=\count291
+\ntx@cnt=\count292
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/fontaxes\fontaxes.sty
 Package: fontaxes 2025-05-24 v2.0.1 Font selection axes (deprecated)
@@ -116,20 +172,20 @@ Package: fontaxes 2025-05-24 v2.0.1 Font selection axes (deprecated)
 ty
 Package: figureversions 2025-04-29 v1.0.1 Figure versions
 ))
-\tx@sixem=\dimen149
-\tx@y=\dimen150
-\tx@x=\dimen151
-\tx@tmpdima=\dimen152
-\tx@tmpdimb=\dimen153
-\tx@tmpdimc=\dimen154
-\tx@tmpdimd=\dimen155
-\tx@tmpdime=\dimen156
-\tx@tmpdimf=\dimen157
-\tx@dimA=\dimen158
-\tx@dimAA=\dimen159
-\tx@dimB=\dimen160
-\tx@dimBB=\dimen161
-\tx@dimC=\dimen162
+\tx@sixem=\dimen150
+\tx@y=\dimen151
+\tx@x=\dimen152
+\tx@tmpdima=\dimen153
+\tx@tmpdimb=\dimen154
+\tx@tmpdimc=\dimen155
+\tx@tmpdimd=\dimen156
+\tx@tmpdime=\dimen157
+\tx@tmpdimf=\dimen158
+\tx@dimA=\dimen159
+\tx@dimAA=\dimen160
+\tx@dimB=\dimen161
+\tx@dimBB=\dimen162
+\tx@dimC=\dimen163
 LaTeX Info: Redefining \oldstylenums on input line 902.
 ) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\newtxmath.sty
 Package: newtxmath 2024/09/22 v1.754
@@ -145,24 +201,24 @@ Package: amstext 2024/11/17 v2.01 AMS text
 
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen163
+\@emptytoks=\toks22
+\ex@=\dimen164
 ))
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen164
+\pmbraise@=\dimen165
 )
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count290
+\inf@bad=\count293
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count291
-\leftroot@=\count292
+\uproot@=\count294
+\leftroot@=\count295
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count293
-\DOTSCASE@=\count294
+\classnum@=\count296
+\DOTSCASE@=\count297
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -172,48 +228,48 @@ LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen165
+\big@size=\dimen166
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count295
+\macc@depth=\count298
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count296
+\c@MaxMatrixCols=\count299
 \dotsspace@=\muskip17
-\c@parentequation=\count297
-\dspbrk@lvl=\count298
-\tag@help=\toks20
-\row@=\count299
-\column@=\count300
-\maxfields@=\count301
-\andhelp@=\toks21
-\eqnshift@=\dimen166
-\alignsep@=\dimen167
-\tagshift@=\dimen168
-\tagwidth@=\dimen169
-\totwidth@=\dimen170
-\lineht@=\dimen171
-\@envbody=\toks22
+\c@parentequation=\count300
+\dspbrk@lvl=\count301
+\tag@help=\toks23
+\row@=\count302
+\column@=\count303
+\maxfields@=\count304
+\andhelp@=\toks24
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks25
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks23
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
 )
 (C:\Program Files\MiKTeX\tex/latex/oberdiek\centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\tx@cntz=\count302
+\tx@cntz=\count305
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/binhex\binhex.tex)
-\tx@Isdigit=\count303
-\tx@IsAlNum=\count304
-\tx@tA=\toks24
-\tx@tB=\toks25
-\tx@su=\read2
+\tx@Isdigit=\count306
+\tx@IsAlNum=\count307
+\tx@tA=\toks27
+\tx@tB=\toks28
+\tx@su=\read3
 
 amsthm NOT loaded
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 402.
@@ -237,9 +293,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/minntx/m/it on input line 419.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 420.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/ntxtt/m/n on input line 420.
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 420.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/ntxtt/m/n on input line 420.
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 420.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 422.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 422.
@@ -248,7 +304,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/minntx/m/it --> OT1/minntx/b/it on input line 423.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/ntxtt/m/n --> OT1/ntxtt/b/n on input line 426.
+(Font)                  T1/ntxtt/m/n --> T1/ntxtt/b/n on input line 426.
 LaTeX Font Info:    Redeclaring symbol font `letters' on input line 534.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
 (Font)                  OML/cmm/m/it --> OML/ntxmi/m/it on input line 534.
@@ -297,7 +353,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
 
 (Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 679.
-\tx@sbptoks=\toks26
+\tx@sbptoks=\toks29
 LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 902.
 LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 903.
 LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 904.
@@ -314,63 +370,7 @@ LaTeX Font Info:    Redeclaring math accent \ddot on input line 992.
 LaTeX Font Info:    Redeclaring math accent \vec on input line 2057.
 LaTeX Info: Redefining \Bbbk on input line 2847.
 LaTeX Info: Redefining \not on input line 2995.
-) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks27
-\inpenc@posthook=\toks28
-)
-(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLa
-TeX and XeLaTeX
-\babel@savecnt=\count305
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2045.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2047.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2049.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2050.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2051.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2053.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2078.
-\U@D=\dimen172
-\l@unhyphenated=\language79
-
-(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read3
-\bbl@dirlevel=\count306
-
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf
-Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-
-(C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
-Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 12.
-)
-\es@quottoks=\toks29
-\es@quotdepth=\count307
-Package babel Info: Making " an active character on input line 570.
-Package babel Info: Making . an active character on input line 675.
-Package babel Info: Making < an active character on input line 722.
-Package babel Info: Making > an active character on input line 722.
-))
-LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
-on input line 10.
-LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
- on input line 10.
-
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
@@ -390,6 +390,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks30
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
 (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -407,28 +410,24 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 \Gin@req@height=\dimen181
 \Gin@req@width=\dimen182
 )
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/titlesec\titlesec.sty
-Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box55
-\beforetitleunit=\skip54
-\aftertitleunit=\skip55
-\ttl@plus=\dimen183
-\ttl@minus=\dimen184
-\ttl@toksa=\toks31
-\titlewidth=\dimen185
-\titlewidthlast=\dimen186
-\titlewidthfirst=\dimen187
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\enitkv@toks@=\toks31
+\labelindent=\skip54
+\enit@outerparindent=\dimen183
+\enit@toks=\toks32
+\enit@inbox=\box55
+\enit@count@id=\count311
+\enitdp@description=\count312
 )
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.sty
-(C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count313
+\float@exts=\toks33
+\float@box=\box56
+\@float@everytoks=\toks34
+\@floatcapt=\box57
 )
-Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count311
-\l__lipsum_a_int=\count312
-\l__lipsum_b_int=\count313
-
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
 
@@ -436,57 +435,72 @@ Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
 \calc@Acount=\count314
 \calc@Bcount=\count315
-\calc@Adimen=\dimen188
-\calc@Bdimen=\dimen189
-\calc@Askip=\skip56
-\calc@Bskip=\skip57
+\calc@Adimen=\dimen184
+\calc@Bdimen=\dimen185
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
 \calc@Ccount=\count316
-\calc@Cskip=\skip58
+\calc@Cskip=\skip57
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen190
-\ESO@tempdimb=\dimen191
+\ESO@tempdima=\dimen186
+\ESO@tempdimb=\dimen187
 )
-\AM@pagewidth=\dimen192
-\AM@pageheight=\dimen193
-\AM@fboxrule=\dimen194
+\AM@pagewidth=\dimen188
+\AM@pageheight=\dimen189
+\AM@fboxrule=\dimen190
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count317
-\AM@pagebox=\box56
-\AM@global@opts=\toks32
+\AM@pagebox=\box58
+\AM@global@opts=\toks35
 \AM@pagecnt=\count318
-\AM@toc@title=\toks33
-\AM@lof@heading=\toks34
+\AM@toc@title=\toks36
+\AM@lof@heading=\toks37
 \c@AM@survey=\count319
-\AM@templatesizebox=\box57
+\AM@templatesizebox=\box59
 )
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/comment\comment.sty
-\CommentStream=\write3
-
-Excluding comment 'comment')
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count320
-\float@exts=\toks35
-\float@box=\box58
-\@float@everytoks=\toks36
-\@floatcapt=\box59
-)
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
-Package: enumitem 2025/02/06 v3.11 Customized lists
-\enitkv@toks@=\toks37
-\labelindent=\skip59
-\enit@outerparindent=\dimen195
-\enit@toks=\toks38
-\enit@inbox=\box60
-\enit@count@id=\count321
-\enitdp@description=\count322
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip58
+\cftbeforetoctitleskip=\skip59
+\cftaftertoctitleskip=\skip60
+\cftbeforepartskip=\skip61
+\cftpartnumwidth=\skip62
+\cftpartindent=\skip63
+\cftbeforesecskip=\skip64
+\cftsecindent=\skip65
+\cftsecnumwidth=\skip66
+\cftbeforesubsecskip=\skip67
+\cftsubsecindent=\skip68
+\cftsubsecnumwidth=\skip69
+\cftbeforesubsubsecskip=\skip70
+\cftsubsubsecindent=\skip71
+\cftsubsubsecnumwidth=\skip72
+\cftbeforeparaskip=\skip73
+\cftparaindent=\skip74
+\cftparanumwidth=\skip75
+\cftbeforesubparaskip=\skip76
+\cftsubparaindent=\skip77
+\cftsubparanumwidth=\skip78
+\cftbeforeloftitleskip=\skip79
+\cftafterloftitleskip=\skip80
+\cftbeforefigskip=\skip81
+\cftfigindent=\skip82
+\cftfignumwidth=\skip83
+\c@lofdepth=\count320
+\c@lotdepth=\count321
+\cftbeforelottitleskip=\skip84
+\cftafterlottitleskip=\skip85
+\cftbeforetabskip=\skip86
+\cfttabindent=\skip87
+\cfttabnumwidth=\skip88
 )
 (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
@@ -496,7 +510,7 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
@@ -513,46 +527,46 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-(C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
 
-(C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestring
+.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count323
-)
-(C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty
+\c@section@level=\count322
+) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen196
-\Hy@linkcounter=\count324
-\Hy@pagecounter=\count325
+\@linkdim=\dimen191
+\Hy@linkcounter=\count323
+\Hy@pagecounter=\count324
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count326
+\Hy@SavedSpaceFactor=\count325
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
+Package hyperref Info: Option `unicode' set `true' on input line 4066.
 Package hyperref Info: Hyper figures OFF on input line 4195.
 Package hyperref Info: Link nesting OFF on input line 4200.
 Package hyperref Info: Hyper index ON on input line 4203.
@@ -560,25 +574,25 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count327
+\c@Hy@tempcnt=\count326
 
 (C:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen197
+\XeTeXLinkMargin=\dimen192
 
-(C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count328
-\Field@Width=\dimen198
-\Fld@charsize=\dimen199
+\Fld@menulength=\count327
+\Field@Width=\dimen193
+\Fld@charsize=\dimen194
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -586,36 +600,37 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count329
-\c@Item=\count330
-\c@Hfootnote=\count331
+\Hy@abspage=\count328
+\c@Item=\count329
+\c@Hfootnote=\count330
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count332
-\c@bookmark@seq@number=\count333
+\Fld@listcount=\count331
+\c@bookmark@seq@number=\count332
 
-(C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.s
+ty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.s
+ty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip60
+\Hy@SectionHShift=\skip89
 )
-LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
-e 45.
-
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1ntxtlf.fd
-File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
+ 34.
+ (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\t1ntxtlf.fd
+File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 45.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 34.
 
 (cuerpoinforme.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -625,66 +640,68 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `cuerpoinforme.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 45.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 34.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 45.
+ 34.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-45.
+34.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 45.
+ 34.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 45.
+e 34.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count334
-\scratchdimen=\dimen256
-\scratchbox=\box61
-\nofMPsegments=\count335
-\nofMParguments=\count336
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count337
-\MPscratchDim=\dimen257
-\MPnumerator=\count338
-\makeMPintoPDFobject=\count339
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count333
+\scratchdimen=\dimen195
+\scratchbox=\box60
+\nofMPsegments=\count334
+\nofMParguments=\count335
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count336
+\MPscratchDim=\dimen196
+\MPnumerator=\count337
+\makeMPintoPDFobject=\count338
+\everyMPtoPDFconversion=\toks39
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -693,12 +710,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@mv@tabular=\count340
-\c@mv@boldtabular=\count341
-LaTeX Info: Command `\dddot' is already robust on input line 45.
-LaTeX Info: Command `\ddddot' is already robust on input line 45.
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
+\c@mv@tabular=\count339
+\c@mv@boldtabular=\count340
+LaTeX Info: Command `\dddot' is already robust on input line 34.
+LaTeX Info: Command `\ddddot' is already robust on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -708,15 +723,15 @@ LaTeX Info: Redefining \% on input line 45.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* h-part:(L,W,R)=(85.35826pt, 457.80486pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=457.80486pt
+* \textheight=652.70622pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -746,36 +761,107 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 45.
+Package hyperref Info: Link coloring OFF on input line 34.
 
 (cuerpoinforme.out) (cuerpoinforme.out)
-\@outlinefile=\write4
-\openout4 = `cuerpoinforme.out'.
+\@outlinefile=\write3
+\openout3 = `cuerpoinforme.out'.
 
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 48.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 48.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 17.28pt on input line 36.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 36.
  (cuerpoinforme.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
+e 2.
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1minntx.fd
+File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
 )
-\tf@toc=\write5
-\openout5 = `cuerpoinforme.toc'.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 2.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 8.8pt on input line 2.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 2.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.8pt on input line 2.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 2.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 2.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 2.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+2.
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\untxmia.fd
+File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.8pt on input line 2.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 2.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
+2.
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsym.fd
+File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.8pt on input line 2.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 2.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
+2.
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.8pt on input line 2.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 2.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.8pt on input line 2.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 2.
+)
+\tf@toc=\write4
+\openout4 = `cuerpoinforme.toc'.
 
 
 
 [1
 
 {C:/Users/Ivan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Ivan/
-AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
-Overfull \hbox (159.53384pt too wide) in paragraph at lines 56--57
-[]\OT1/ntxtlf/m/n/12 asdfasdfadfaadfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasd
-fasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfmkjhas[]ndklf-
- []
-
+AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 40.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 40.
 
 
 [2] (cuerpoinforme.aux
@@ -787,21 +873,21 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `cuerpoinforme.out' has not changed.
-(rerunfilecheck)             Checksum: FE73609CAFEC393BB2A925CBDD122575;2419.
+(rerunfilecheck)             Checksum: 7E0B83F51380418022B5D6E9A4F7ECAC;2671.
  ) 
 Here is how much of TeX's memory you used:
- 17217 strings out of 468132
- 264598 string characters out of 5440761
- 772739 words of memory out of 5000000
- 45568 multiletter control sequences out of 15000+600000
- 633414 words of font info for 51 fonts, out of 8000000 for 9000
+ 17047 strings out of 468133
+ 258313 string characters out of 5440789
+ 675472 words of memory out of 5000000
+ 45392 multiletter control sequences out of 15000+600000
+ 657020 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,403b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,402b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/U
 sers/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on cuerpoinforme.pdf (2 pages, 79229 bytes).
+Output written on cuerpoinforme.pdf (2 pages, 85109 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 95 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
