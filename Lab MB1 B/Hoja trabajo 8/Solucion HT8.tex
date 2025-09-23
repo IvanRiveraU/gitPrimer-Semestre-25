@@ -1,0 +1,201 @@
+\documentclass[14pt]{extarticle}
+
+% Configuración (español + tipografía estilo Times)
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{newtxtext,newtxmath} % estilo Times (similar a Times New Roman)
+\usepackage[letterpaper,margin=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{enumitem}
+\setlist[enumerate]{label=(\arabic*), leftmargin=*, itemsep=0.6em}
+\setlength{\arraycolsep}{6pt}
+
+\begin{document}
+	
+	\noindent\textbf{Soluciones detalladas — División y Teoremas de Polinomios}
+	
+	% =================== DIVISIÓN LARGA ===================
+	\section*{División larga de polinomios (4)}
+	\begin{enumerate}[label=(\arabic*)]
+		\item \(\displaystyle \frac{x^{3}-8}{x-2}\).
+		\[
+		\begin{aligned}
+			&\text{Complete con términos faltantes: }x^{3}+0x^{2}+0x-8.\\
+			&x^{3}\div x = x^{2}\ \Rightarrow\ (x-2)\cdot x^{2}=x^{3}-2x^{2}.\\
+			&\underline{(x^{3}+0x^{2})-(x^{3}-2x^{2})}=2x^{2}.\\
+			&2x^{2}\div x=2x\ \Rightarrow\ (x-2)\cdot 2x=2x^{2}-4x.\\
+			&\underline{(2x^{2}+0x)-(2x^{2}-4x)}=4x.\\
+			&4x\div x=4\ \Rightarrow\ (x-2)\cdot 4=4x-8.\\
+			&\underline{(4x-8)-(4x-8)}=0.
+		\end{aligned}
+		\]
+		\(\boxed{\text{Cociente }=x^{2}+2x+4,\quad \text{Residuo }=0}\).
+		\[
+		x^{3}-8=(x-2)(x^{2}+2x+4).
+		\]
+		
+		\item \(\displaystyle \frac{2x^{4}-3x^{3}+0x^{2}+5x-6}{x^{2}-x+2}\).
+		\[
+		\begin{aligned}
+			&2x^{4}\div x^{2}=2x^{2}\ \Rightarrow\ (x^{2}-x+2)(2x^{2})=2x^{4}-2x^{3}+4x^{2}.\\
+			&\underline{(2x^{4}-3x^{3}+0x^{2})-(2x^{4}-2x^{3}+4x^{2})}=-x^{3}-4x^{2}.\\[2pt]
+			&(-x^{3})\div x^{2}=-x\ \Rightarrow\ (x^{2}-x+2)(-x)=-x^{3}+x^{2}-2x.\\
+			&\underline{(-x^{3}-4x^{2}+5x)-(-x^{3}+x^{2}-2x)}=-5x^{2}+7x.\\[2pt]
+			&(-5x^{2})\div x^{2}=-5\ \Rightarrow\ (x^{2}-x+2)(-5)=-5x^{2}+5x-10.\\
+			&\underline{(-5x^{2}+7x-6)-(-5x^{2}+5x-10)}=2x+4.
+		\end{aligned}
+		\]
+		\(\boxed{\text{Cociente }=2x^{2}-x-5,\quad \text{Residuo }=2x+4}\).
+		\[
+		2x^{4}-3x^{3}+5x-6=(x^{2}-x+2)(2x^{2}-x-5)+(2x+4).
+		\]
+		
+		\item \(\displaystyle \frac{4x^{5}+0x^{4}+x^{2}-7}{\,2x^{2}+1\,}\).
+		\[
+		\begin{aligned}
+			&4x^{5}\div 2x^{2}=2x^{3}\ \Rightarrow\ (2x^{2}+1)(2x^{3})=4x^{5}+2x^{3}.\\
+			&\underline{(4x^{5}+0x^{4}+0x^{3})-(4x^{5}+2x^{3})}=-2x^{3}.\\[2pt]
+			&(-2x^{3})\div 2x^{2}=-x\ \Rightarrow\ (2x^{2}+1)(-x)=-2x^{3}-x.\\
+			&\underline{(-2x^{3}+0x^{2}+0x)-(-2x^{3}-x)}=x.\\[2pt]
+			&x\div 2x^{2}=\tfrac{1}{2x}\text{ (no procede en polinomios)}\ \Rightarrow\ \text{bajamos }+x^{2}-7.\\
+			&\text{Trabajamos con el término siguiente: }x^{2}\div 2x^{2}=\tfrac12.\\
+			&(2x^{2}+1)\!\left(\tfrac12\right)=x^{2}+\tfrac12.\\
+			&\underline{(x^{2}+x-7)-(x^{2}+\tfrac12)}=x-\tfrac{15}{2}.
+		\end{aligned}
+		\]
+		\(\boxed{\text{Cociente }=2x^{3}-x+\tfrac12,\quad \text{Residuo }=x-\tfrac{15}{2}}\).
+		\[
+		4x^{5}+x^{2}-7=(2x^{2}+1)\!\left(2x^{3}-x+\tfrac12\right)+\left(x-\tfrac{15}{2}\right).
+		\]
+		
+		\item \(\displaystyle \frac{-x^{4}+6x^{2}-9x+4}{-x^{2}+3x-2}\).
+		\[
+		\begin{aligned}
+			&(-x^{4})\div(-x^{2})=x^{2}\ \Rightarrow\ (-x^{2}+3x-2)(x^{2})=-x^{4}+3x^{3}-2x^{2}.\\
+			&\underline{(-x^{4}+0x^{3}+6x^{2})-(-x^{4}+3x^{3}-2x^{2})}=-3x^{3}+8x^{2}.\\[2pt]
+			&(-3x^{3})\div(-x^{2})=3x\ \Rightarrow\ (-x^{2}+3x-2)(3x)=-3x^{3}+9x^{2}-6x.\\
+			&\underline{(-3x^{3}+8x^{2}-9x)-(-3x^{3}+9x^{2}-6x)}=-x^{2}-3x.\\[2pt]
+			&(-x^{2})\div(-x^{2})=1\ \Rightarrow\ (-x^{2}+3x-2)(1)=-x^{2}+3x-2.\\
+			&\underline{(-x^{2}-3x+4)-(-x^{2}+3x-2)}=-6x+6.
+		\end{aligned}
+		\]
+		\(\boxed{\text{Cociente }=x^{2}+3x+1,\quad \text{Residuo }=-6x+6}\).
+		\[
+		-x^{4}+6x^{2}-9x+4=(-x^{2}+3x-2)(x^{2}+3x+1)+(-6x+6).
+		\]
+	\end{enumerate}
+	
+	% =================== DIVISIÓN SINTÉTICA ===================
+	\section*{División sintética (4) — divisor lineal \(x-a\)}
+	\textit{Convención: fila 1 = coeficientes; fila 2 = productos acumulados; fila 3 = sumas. La última entrada es el residuo.}
+	
+	\begin{enumerate}[label=(\arabic*), start=5]
+		\item \(P(x)=3x^{4}-2x^{3}+0x^{2}+5x-1\), divisor \(x-2\) (\(a=2\)).
+		\[
+		\begin{array}{r|rrrrr}
+			2 & 3 & -2 & 0 & 5 & -1\\
+			&   &  6 & 8 & 16 & 42\\ \hline
+			& 3 &  4 & 8 & 21 & \boxed{41}
+		\end{array}
+		\]
+		\(\boxed{Q(x)=3x^{3}+4x^{2}+8x+21,\ \ R=41}\), y
+		\[
+		P(x)=(x-2)\,Q(x)+R.
+		\]
+		
+		\item \(P(x)=x^{5}-4x^{4}+0x^{3}+x^{2}+0x-6\), divisor \(x+1\) (\(a=-1\)).
+		\[
+		\begin{array}{r|rrrrrr}
+			-1 & 1 & -4 & 0 & 1 & 0 & -6\\
+			&   & -1 & 5 & -5& 4 & -4\\ \hline
+			& 1 & -5 & 5 & -4& 4 & \boxed{-10}
+		\end{array}
+		\]
+		\(\boxed{Q(x)=x^{4}-5x^{3}+5x^{2}-4x+4,\ \ R=-10}\).
+		
+		\item \(P(x)=2x^{3}-5x^{2}+2x+3\), divisor \(x-3\) (\(a=3\)).
+		\[
+		\begin{array}{r|rrrr}
+			3 & 2 & -5 & 2 & 3\\
+			&   &  6 & 3 & 15\\ \hline
+			& 2 &  1 & 5 & \boxed{18}
+		\end{array}
+		\]
+		\(\boxed{Q(x)=2x^{2}+x+5,\ \ R=18}\).
+		
+		\item \(P(x)=4x^{4}+0x^{3}+0x^{2}-5x+2\), divisor \(x-\tfrac{1}{2}\) (\(a=\tfrac12\)).
+		\[
+		\begin{array}{r|rrrrr}
+			\tfrac12 & 4 & 0 & 0 & -5 & 2\\
+			&   & 2 & 1 & \tfrac12 & -\tfrac{9}{4}\\ \hline
+			& 4 & 2 & 1 & -\tfrac{9}{2} & \boxed{-\tfrac14}
+		\end{array}
+		\]
+		\(\boxed{Q(x)=4x^{3}+2x^{2}+x-\tfrac{9}{2},\ \ R=-\tfrac14}\).
+	\end{enumerate}
+	
+	% =================== TEOREMA DEL RESIDUO ===================
+	\section*{Teorema del residuo (2)}
+	\begin{enumerate}[label=(\arabic*), start=9]
+		\item \(f(x)=2x^{4}-5x^{3}+3x-7\), residuo al dividir entre \(x+3\) (\(a=-3\)):
+		\[
+		\begin{aligned}
+			f(-3)&=2(-3)^{4}-5(-3)^{3}+3(-3)-7\\
+			&=2(81)-5(-27)-9-7\\
+			&=162+135-16\\
+			&=\boxed{281}.
+		\end{aligned}
+		\]
+		
+		\item \(f(x)=-x^{5}+4x^{2}-1\), residuo al dividir entre \(x-2\) (\(a=2\)):
+		\[
+		\begin{aligned}
+			f(2)&=-(2)^{5}+4(2)^{2}-1\\
+			&=-32+16-1\\
+			&=\boxed{-17}.
+		\end{aligned}
+		\]
+	\end{enumerate}
+	
+	% =================== TEOREMA DEL FACTOR ===================
+	\section*{Teorema del factor (2)}
+	\begin{enumerate}[label=(\arabic*), start=11]
+		\item Verificar si \(x-1\) es factor de \(f(x)=x^{3}-6x^{2}+11x-6\).
+		\[
+		f(1)=1-6+11-6=0\ \Rightarrow\ \boxed{x-1\ \text{es factor}}.
+		\]
+		División sintética con \(a=1\):
+		\[
+		\begin{array}{r|rrrr}
+			1 & 1 & -6 & 11 & -6\\
+			&   &  1 & -5 & 6\\ \hline
+			& 1 & -5 &  6 & 0
+		\end{array}
+		\]
+		\(\Rightarrow\ Q(x)=x^{2}-5x+6=(x-2)(x-3)\).
+		\[
+		\boxed{f(x)=(x-1)(x-2)(x-3)}.
+		\]
+		
+		\item Verificar si \(x+2\) es factor de \(f(x)=2x^{3}+3x^{2}-8x-12\).
+		\[
+		f(-2)=2(-8)+3(4)-8(-2)-12=0\ \Rightarrow\ \boxed{x+2\ \text{es factor}}.
+		\]
+		División sintética con \(a=-2\):
+		\[
+		\begin{array}{r|rrrr}
+			-2 & 2 & 3 & -8 & -12\\
+			&   & -4 & 2 & 12\\ \hline
+			& 2 & -1 & -6 & 0
+		\end{array}
+		\]
+		\(\Rightarrow\ Q(x)=2x^{2}-x-6=(2x+3)(x-2)\).
+		\[
+		\boxed{f(x)=(x+2)(x-2)(2x+3)}.
+		\]
+	\end{enumerate}
+	
+\end{document}
+
