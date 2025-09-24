@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  18 SEP 2025 21:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  24 SEP 2025 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./investigacion.tex
 (investigacion.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
+L3 programming layer <2025-07-20>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
@@ -34,7 +34,7 @@ pport for TeXGyreTermesX
 nd its extensions (msharpe)
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/xpatch\xpatch.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-08-13 L3 programming layer (loader) 
+Package: expl3 2025-07-20 L3 programming layer (loader) 
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
@@ -697,105 +697,108 @@ Package pdftex.def Info: ./Imagenes/losa5.png  used on input line 313.
 File: ./Imagenes/vigueta_bovedilla_esquema_real.png Graphic file (type png)
 <use ./Imagenes/vigueta_bovedilla_esquema_real.png>
 Package pdftex.def Info: ./Imagenes/vigueta_bovedilla_esquema_real.png  used on
- input line 449.
+ input line 431.
 (pdftex.def)             Requested size: 328.82707pt x 246.28204pt.
-
-
-[9 <./Imagenes/vigueta_bovedilla_esquema_real.png>]
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 458.
-
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
+e 440.
+ (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 458.
+(Font)              scaled to size 12.0pt on input line 440.
 
 
-[10{C:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
-<./Imagenes/recepcion_material.png, id=43, 475.7775pt x 634.37pt>
+[9{C:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc} <./
+Imagenes/vigueta_bovedilla_esquema_real.png>]
+<./Imagenes/recepcion_material.png, id=40, 475.7775pt x 634.37pt>
 File: ./Imagenes/recepcion_material.png Graphic file (type png)
 <use ./Imagenes/recepcion_material.png>
 Package pdftex.def Info: ./Imagenes/recepcion_material.png  used on input line 
-483.
+465.
 (pdftex.def)             Requested size: 234.8775pt x 313.17682pt.
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[10]
+
 [11 <./Imagenes/recepcion_material.png>]
 LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
-e 512.
+e 494.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1minntx.fd
 File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
 )
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 512.
+(Font)              scaled to size 12.0pt on input line 494.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 512.
+(Font)              scaled to size 8.8pt on input line 494.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 512.
+(Font)              scaled to size 6.6pt on input line 494.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 12.0pt on input line 512.
+(Font)              scaled to size 12.0pt on input line 494.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.8pt on input line 512.
+(Font)              scaled to size 8.8pt on input line 494.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 512.
+(Font)              scaled to size 6.6pt on input line 494.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 512.
+(Font)              scaled to size 12.0pt on input line 494.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.8pt on input line 512.
+(Font)              scaled to size 8.8pt on input line 494.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 512.
+(Font)              scaled to size 6.6pt on input line 494.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 512.
+(Font)              scaled to size 12.0pt on input line 494.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 512.
+(Font)              scaled to size 8.8pt on input line 494.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 512.
+(Font)              scaled to size 6.6pt on input line 494.
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-512.
+494.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 12.0pt on input line 512.
+(Font)              scaled to size 12.0pt on input line 494.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.8pt on input line 512.
+(Font)              scaled to size 8.8pt on input line 494.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 512.
+(Font)              scaled to size 6.6pt on input line 494.
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-512.
+494.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 12.0pt on input line 512.
+(Font)              scaled to size 12.0pt on input line 494.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.8pt on input line 512.
+(Font)              scaled to size 8.8pt on input line 494.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 512.
+(Font)              scaled to size 6.6pt on input line 494.
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-512.
+494.
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 512.
+(Font)              scaled to size 12.0pt on input line 494.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.8pt on input line 512.
+(Font)              scaled to size 8.8pt on input line 494.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 512.
+(Font)              scaled to size 6.6pt on input line 494.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 12.0pt on input line 512.
+(Font)              scaled to size 12.0pt on input line 494.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.8pt on input line 512.
+(Font)              scaled to size 8.8pt on input line 494.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 512.
+(Font)              scaled to size 6.6pt on input line 494.
 
-Overfull \hbox (13.11588pt too wide) in paragraph at lines 512--513
+Overfull \hbox (13.11588pt too wide) in paragraph at lines 494--495
 []\OT1/ntxtlf/b/n/12 Inicio\OT1/minntx/m/n/12 : in-me-dia-ta-men-te tras el aca
 -ba-do, con-tro-lar eva-po-ra-ci[]on y man-te-ner hu-me-dad/temperatura.
  []
@@ -816,7 +819,15 @@ Overfull \hbox (13.11588pt too wide) in paragraph at lines 512--513
 <./Imagenes/losacero-1.jpg, id=67, 903.375pt x 542.025pt>
 File: ./Imagenes/losacero-1.jpg Graphic file (type jpg)
 <use ./Imagenes/losacero-1.jpg>
-Package pdftex.def Info: ./Imagenes/losacero-1.jpg  used on input line 685.
+Package pdftex.def Info: ./Imagenes/losacero-1.jpg  used on input line 667.
+(pdftex.def)             Requested size: 328.82707pt x 197.29575pt.
+
+
+[18 <./Imagenes/losacero-1.jpg>]
+<./Imagenes/losacero-2.jpg, id=71, 903.375pt x 542.025pt>
+File: ./Imagenes/losacero-2.jpg Graphic file (type jpg)
+<use ./Imagenes/losacero-2.jpg>
+Package pdftex.def Info: ./Imagenes/losacero-2.jpg  used on input line 711.
 (pdftex.def)             Requested size: 328.82707pt x 197.29575pt.
 
 
@@ -824,31 +835,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[18]
-
-[19 <./Imagenes/losacero-1.jpg>]
-<./Imagenes/losacero-2.jpg, id=75, 903.375pt x 542.025pt>
-File: ./Imagenes/losacero-2.jpg Graphic file (type jpg)
-<use ./Imagenes/losacero-2.jpg>
-Package pdftex.def Info: ./Imagenes/losacero-2.jpg  used on input line 729.
-(pdftex.def)             Requested size: 328.82707pt x 197.29575pt.
-
+[19]
 
 [20 <./Imagenes/losacero-2.jpg>]
 
 [21]
-
-[22]
-<./Imagenes/losacero-4.jpg, id=85, 903.375pt x 542.025pt>
+<./Imagenes/losacero-4.jpg, id=82, 903.375pt x 542.025pt>
 File: ./Imagenes/losacero-4.jpg Graphic file (type jpg)
 <use ./Imagenes/losacero-4.jpg>
-Package pdftex.def Info: ./Imagenes/losacero-4.jpg  used on input line 819.
+Package pdftex.def Info: ./Imagenes/losacero-4.jpg  used on input line 801.
 (pdftex.def)             Requested size: 328.82707pt x 197.29575pt.
+
+
+[22]
 <./Imagenes/losacero-3.jpg, id=86, 903.375pt x 542.025pt>
 File: ./Imagenes/losacero-3.jpg Graphic file (type jpg)
 <use ./Imagenes/losacero-3.jpg>
-Package pdftex.def Info: ./Imagenes/losacero-3.jpg  used on input line 838.
+Package pdftex.def Info: ./Imagenes/losacero-3.jpg  used on input line 820.
 (pdftex.def)             Requested size: 328.82707pt x 197.29575pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 
 [23 <./Imagenes/losacero-4.jpg>]
@@ -857,22 +865,34 @@ Package pdftex.def Info: ./Imagenes/losacero-3.jpg  used on input line 838.
 <./Imagenes/mampos1.jpg, id=93, 194.97844pt x 226.59656pt>
 File: ./Imagenes/mampos1.jpg Graphic file (type jpg)
 <use ./Imagenes/mampos1.jpg>
-Package pdftex.def Info: ./Imagenes/mampos1.jpg  used on input line 906.
+Package pdftex.def Info: ./Imagenes/mampos1.jpg  used on input line 888.
 (pdftex.def)             Requested size: 187.89914pt x 218.37732pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[25]
+[25 <./Imagenes/mampos1.jpg>]
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 917.
+            Default family used instead on input line 899.
 <./Imagenes/mampos2.jpg, id=98, 240.9pt x 226.59656pt>
 File: ./Imagenes/mampos2.jpg Graphic file (type jpg)
 <use ./Imagenes/mampos2.jpg>
-Package pdftex.def Info: ./Imagenes/mampos2.jpg  used on input line 930.
+Package pdftex.def Info: ./Imagenes/mampos2.jpg  used on input line 912.
+(pdftex.def)             Requested size: 187.89914pt x 176.74805pt.
+
+
+[26 <./Imagenes/mampos2.jpg>]
+<./Imagenes/mampos4.jpg, id=103, 222.8325pt x 213.79875pt>
+File: ./Imagenes/mampos4.jpg Graphic file (type jpg)
+<use ./Imagenes/mampos4.jpg>
+Package pdftex.def Info: ./Imagenes/mampos4.jpg  used on input line 928.
+(pdftex.def)             Requested size: 187.89914pt x 180.28458pt.
+
+
+[27 <./Imagenes/mampos4.jpg>]
+<./Imagenes/mampos3.jpg, id=108, 240.9pt x 226.59656pt>
+File: ./Imagenes/mampos3.jpg Graphic file (type jpg)
+<use ./Imagenes/mampos3.jpg>
+Package pdftex.def Info: ./Imagenes/mampos3.jpg  used on input line 971.
 (pdftex.def)             Requested size: 187.89914pt x 176.74805pt.
 
 
@@ -880,45 +900,37 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[26 <./Imagenes/mampos1.jpg>]
-<./Imagenes/mampos4.jpg, id=103, 222.8325pt x 213.79875pt>
-File: ./Imagenes/mampos4.jpg Graphic file (type jpg)
-<use ./Imagenes/mampos4.jpg>
-Package pdftex.def Info: ./Imagenes/mampos4.jpg  used on input line 946.
-(pdftex.def)             Requested size: 187.89914pt x 180.28458pt.
-
-
-[27 <./Imagenes/mampos2.jpg> <./Imagenes/mampos4.jpg>]
-
 [28]
-<./Imagenes/mampos3.jpg, id=111, 240.9pt x 226.59656pt>
-File: ./Imagenes/mampos3.jpg Graphic file (type jpg)
-<use ./Imagenes/mampos3.jpg>
-Package pdftex.def Info: ./Imagenes/mampos3.jpg  used on input line 989.
-(pdftex.def)             Requested size: 187.89914pt x 176.74805pt.
-
 
 [29 <./Imagenes/mampos3.jpg>]
-
-[30]
-<./Imagenes/mocheta1.jpg, id=118, 409.53pt x 307.90031pt>
+<./Imagenes/mocheta1.jpg, id=115, 409.53pt x 307.90031pt>
 File: ./Imagenes/mocheta1.jpg Graphic file (type jpg)
 <use ./Imagenes/mocheta1.jpg>
-Package pdftex.def Info: ./Imagenes/mocheta1.jpg  used on input line 1044.
+Package pdftex.def Info: ./Imagenes/mocheta1.jpg  used on input line 1026.
 (pdftex.def)             Requested size: 281.85587pt x 211.92055pt.
 
 
-[31 <./Imagenes/mocheta1.jpg>]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[30]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 1062.
+(Font)              scaled to size 8.8pt on input line 1044.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 1062.
-<./Imagenes/mocheta3.jpg, id=123, 645.16031pt x 401.24907pt>
+(Font)              scaled to size 6.6pt on input line 1044.
+<./Imagenes/mocheta3.jpg, id=119, 645.16031pt x 401.24907pt>
 File: ./Imagenes/mocheta3.jpg Graphic file (type jpg)
 <use ./Imagenes/mocheta3.jpg>
-Package pdftex.def Info: ./Imagenes/mocheta3.jpg  used on input line 1066.
+Package pdftex.def Info: ./Imagenes/mocheta3.jpg  used on input line 1048.
 (pdftex.def)             Requested size: 281.85587pt x 175.295pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[31 <./Imagenes/mocheta1.jpg>]
 
 [32 <./Imagenes/mocheta3.jpg>]
 
@@ -932,10 +944,10 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 11000 strings out of 468132
- 170418 string characters out of 5440761
- 668054 words of memory out of 5000000
- 39414 multiletter control sequences out of 15000+600000
+ 11000 strings out of 468133
+ 170398 string characters out of 5440789
+ 668003 words of memory out of 5000000
+ 39413 multiletter control sequences out of 15000+600000
  655096 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,6n,79p,694b,422s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -946,7 +958,7 @@ C:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Use
 rs/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Ivan
 /AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/Ivan/AppDat
 a/Roaming/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on investigacion.pdf (33 pages, 1516763 bytes).
+Output written on investigacion.pdf (33 pages, 1516857 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
