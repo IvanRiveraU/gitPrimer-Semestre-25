@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  16 SEP 2025 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  24 SEP 2025 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./bitacora.tex
 (bitacora.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
+L3 programming layer <2025-07-20>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
@@ -87,7 +87,7 @@ pport for TeXGyreTermesX
 nd its extensions (msharpe)
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/xpatch\xpatch.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-08-13 L3 programming layer (loader) 
+Package: expl3 2025-07-20 L3 programming layer (loader) 
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
@@ -755,10 +755,10 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 9427 strings out of 468132
- 140526 string characters out of 5440761
- 545780 words of memory out of 5000000
- 37922 multiletter control sequences out of 15000+600000
+ 9427 strings out of 468133
+ 140506 string characters out of 5440789
+ 545733 words of memory out of 5000000
+ 37921 multiletter control sequences out of 15000+600000
  627851 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,17n,79p,307b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
