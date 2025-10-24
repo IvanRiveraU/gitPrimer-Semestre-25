@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  24 SEP 2025 20:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  24 OCT 2025 02:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./integrarinforme.tex
-(integrarinforme.tex
+**"./INFORME APLICADA.tex"
+(INFORME APLICADA.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-07-20>
+L3 programming layer <2025-08-13>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
@@ -34,7 +34,7 @@ pport for TeXGyreTermesX
 nd its extensions (msharpe)
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/xpatch\xpatch.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-07-20 L3 programming layer (loader) 
+Package: expl3 2025-08-13 L3 programming layer (loader) 
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
@@ -466,7 +466,7 @@ File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count319
 \AM@templatesizebox=\box57
 )
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/tocloft\tocloft.sty
+(C:\Program Files\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
 \cftparskip=\skip59
@@ -511,7 +511,7 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
@@ -528,23 +528,24 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
+(C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
 
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestring
-.sty
+(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count322
-) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
+)
+(C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
@@ -557,7 +558,7 @@ File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
+(C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count325
@@ -583,10 +584,10 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen196
 
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+(C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -611,12 +612,10 @@ File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count331
 \c@bookmark@seq@number=\count332
 
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.s
-ty
+(C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.s
-ty
+(C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -627,19 +626,20 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
 e 57.
- (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1ntxtlf.fd
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 57.
 
-(integrarinforme.aux
+(INFORME APLICADA.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 11.
 )
-\openout1 = `integrarinforme.aux'.
+\openout1 = `"INFORME APLICADA.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 57.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
@@ -764,9 +764,9 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package hyperref Info: Link coloring ON on input line 57.
 
-(integrarinforme.out) (integrarinforme.out)
+(INFORME APLICADA.out) (INFORME APLICADA.out)
 \@outlinefile=\write3
-\openout3 = `integrarinforme.out'.
+\openout3 = `"INFORME APLICADA.out"'.
 
 <portadaU2/caratulaU.pdf, id=19, 614.295pt x 794.97pt>
 File: portadaU2/caratulaU.pdf Graphic file (type pdf)
@@ -1767,7 +1767,7 @@ Package pdftex.def Info: investigacion/investigacion.pdf , page33 used on input
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [44
 
- <./investigacion/investigacion.pdf>] (integrarinforme.aux
+ <./investigacion/investigacion.pdf>] (INFORME APLICADA.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1775,17 +1775,17 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `integrarinforme.out' has not changed.
+Package rerunfilecheck Info: File `"INFORME APLICADA".out' has not changed.
 (rerunfilecheck)             Checksum: 5B33D4E0F9278F254E9BDE3190A07B1C;468.
  ) 
 Here is how much of TeX's memory you used:
- 17234 strings out of 468133
- 268947 string characters out of 5440789
- 763192 words of memory out of 5000000
- 45565 multiletter control sequences out of 15000+600000
+ 17236 strings out of 468132
+ 268614 string characters out of 5440761
+ 763242 words of memory out of 5000000
+ 45568 multiletter control sequences out of 15000+600000
  628996 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,18n,79p,294b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,18n,79p,297b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C
 :/Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Us
 ers/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsym.pfb><C:/Users/Iv
@@ -1793,7 +1793,7 @@ an/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Ivan/App
 Data/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Ivan/AppData/Ro
 aming/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/Ivan/AppData/Roaming/M
 iKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on integrarinforme.pdf (44 pages, 6777465 bytes).
+Output written on "INFORME APLICADA.pdf" (44 pages, 6777465 bytes).
 PDF statistics:
  464 PDF objects out of 1000 (max. 8388607)
  49 named destinations out of 1000 (max. 500000)
