@@ -1,0 +1,16 @@
+v50 ALTURA Y 25 BASE 
+depth altura
+width base 
+
+Reduccion de inercias, en vigas, losas y columnas, por lo tanto los momentos de inercias para cada caso debe ser?
+70% para columnas 
+35% para vigas
+25% para Losas
+
+Reducir los momentos de inercias en los 2 ejes a 0.35
+
+La constante torsional si se ve afectada 
+
+El programa de las vigas toma el 100% para la constante de las vigas 
+
+r prima o r´es recubrimiento a rostro 
