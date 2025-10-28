@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  16 SEP 2025 02:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  27 OCT 2025 02:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -636,12 +636,21 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 8.8pt on input line 25.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 6.6pt on input line 25.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
+e 37.
+
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 37.
 
 
 [1
 
 {C:/Users/Ivan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Ivan/
-AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
+AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{C:/Users/Ivan/App
+Data/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
 
 [2] (hojaadjunta.aux
 LaTeX Info: Redefining \. on input line 8.
@@ -653,19 +662,20 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 9719 strings out of 468132
- 146430 string characters out of 5440761
- 646989 words of memory out of 5000000
- 38190 multiletter control sequences out of 15000+600000
- 642760 words of font info for 71 fonts, out of 8000000 for 9000
+ 9755 strings out of 468132
+ 147081 string characters out of 5440761
+ 647989 words of memory out of 5000000
+ 38221 multiletter control sequences out of 15000+600000
+ 643136 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,5n,79p,290b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsym.pfb><C:/
-Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/I
-van/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on hojaadjunta.pdf (2 pages, 82573 bytes).
+<C:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C
+:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsym.pfb><C:/User
+s/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Ivan/
+AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
+Output written on hojaadjunta.pdf (2 pages, 86792 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 31 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
