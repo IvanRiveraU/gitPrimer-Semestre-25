@@ -26,14 +26,29 @@
 \contentsline {subsection}{\numberline {6.4}Folio 4}{21}{subsection.6.4}%
 \contentsline {subsection}{\numberline {6.5}Folio 5}{22}{subsection.6.5}%
 \contentsline {subsection}{\numberline {6.6}Folio 6}{23}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}Folio 7}{23}{subsection.6.7}%
-\contentsline {subsection}{\numberline {6.8}Folio 8}{24}{subsection.6.8}%
-\contentsline {subsection}{\numberline {6.9}Folio 9}{24}{subsection.6.9}%
-\contentsline {subsection}{\numberline {6.10}Folio 10}{25}{subsection.6.10}%
-\contentsline {subsection}{\numberline {6.11}Folio 11}{25}{subsection.6.11}%
-\contentsline {section}{\numberline {7}Capítulo 4 (Máximo 5 páginas, mínimo 3 páginas)}{26}{section.7}%
-\contentsline {section}{\numberline {8}Preguntas}{27}{section.8}%
-\contentsline {section}{\numberline {9}Conclusiones}{28}{section.9}%
-\contentsline {section}{\numberline {10}Recomendaciones}{29}{section.10}%
-\contentsline {section}{\numberline {11}Bibliografía}{30}{section.11}%
-\contentsline {section}{\numberline {12}Anexos}{31}{section.12}%
+\contentsline {subsection}{\numberline {6.7}Folio 7}{24}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Folio 8}{25}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Folio 9}{27}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}Folio 10}{29}{subsection.6.10}%
+\contentsline {subsection}{\numberline {6.11}Folio 11}{31}{subsection.6.11}%
+\contentsline {section}{\numberline {7}Capítulo 4 }{34}{section.7}%
+\contentsline {subsection}{\numberline {7.1}GIRD y ACC}{34}{subsection.7.1}%
+\contentsline {paragraph}{Acciones GIRD aplicadas en topografía y obra}{34}{paragraph*.1}%
+\contentsline {paragraph}{Estrategias ACC integradas al proceso topográfico y constructivo}{35}{paragraph*.2}%
+\contentsline {paragraph}{Vinculación técnica con las actividades ejecutadas}{35}{paragraph*.3}%
+\contentsline {section}{\numberline {8}Preguntas}{37}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Diseño de Drenaje}{37}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Juntas en pavimento rígido y compactación del concreto}{43}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Juntas en pavimento rígido}{43}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Compactación del pavimento rígido}{44}{subsubsection.8.2.2}%
+\contentsline {paragraph}{a) Compactación de subrasante y base:}{44}{paragraph*.4}%
+\contentsline {paragraph}{b) Consolidación del concreto:}{44}{paragraph*.5}%
+\contentsline {subsubsection}{\numberline {8.2.3}Importancia de las juntas y la compactación}{45}{subsubsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.3}Ensayos de Compactación y Determinación de Densidad en Campo}{45}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Ensayo CBR (California Bearing Ratio)}{45}{subsubsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.2}Ensayo Proctor}{46}{subsubsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.3}Relación entre el Ensayo CBR y el Proctor}{46}{subsubsection.8.3.3}%
+\contentsline {subsubsection}{\numberline {8.3.4}Determinación de la Densidad y Humedad en Campo}{47}{subsubsection.8.3.4}%
+\contentsline {section}{\numberline {9}Conclusiones}{49}{section.9}%
+\contentsline {section}{\numberline {10}Recomendaciones}{51}{section.10}%
+\contentsline {section}{\numberline {11}Anexos}{53}{section.11}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  27 OCT 2025 03:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  28 OCT 2025 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -578,242 +578,290 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-<bitacorafolios.pdf, id=1, 597.23125pt x 845.1575pt>
+<bitacorafolios.pdf, id=1, 614.295pt x 794.97pt>
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf>
 Package pdftex.def Info: bitacorafolios.pdf  used on input line 13.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<bitacorafolios.pdf, id=3, page=1, 597.23125pt x 845.1575pt>
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<bitacorafolios.pdf, id=3, page=1, 614.295pt x 794.97pt>
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 1>
 Package pdftex.def Info: bitacorafolios.pdf , page1 used on input line 13.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 1>
 Package pdftex.def Info: bitacorafolios.pdf , page1 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 1>
 Package pdftex.def Info: bitacorafolios.pdf , page1 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 1>
 Package pdftex.def Info: bitacorafolios.pdf , page1 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 1>
 Package pdftex.def Info: bitacorafolios.pdf , page1 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [1
 
 
- <./bitacorafolios.pdf>]
-<bitacorafolios.pdf, id=12, page=2, 597.23125pt x 845.1575pt>
+ <./bitacorafolios.pdf
+
+pdfTeX warning: pdflatex.exe (file ./bitacorafolios.pdf): PDF inclusion: Subtyp
+e in Resources dict is not a name (key 'Subtype', type <stream>); ignored.
+>]
+<bitacorafolios.pdf, id=11, page=2, 614.295pt x 794.97pt>
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 2>
 Package pdftex.def Info: bitacorafolios.pdf , page2 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 2>
 Package pdftex.def Info: bitacorafolios.pdf , page2 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 2>
 Package pdftex.def Info: bitacorafolios.pdf , page2 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [2
 
- <./bitacorafolios.pdf>]
-<bitacorafolios.pdf, id=19, page=3, 597.23125pt x 845.1575pt>
+ <./bitacorafolios.pdf
+
+pdfTeX warning: pdflatex.exe (file ./bitacorafolios.pdf): PDF inclusion: Subtyp
+e in Resources dict is not a name (key 'Subtype', type <stream>); ignored.
+>]
+<bitacorafolios.pdf, id=16, page=3, 614.295pt x 794.97pt>
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 3>
 Package pdftex.def Info: bitacorafolios.pdf , page3 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 3>
 Package pdftex.def Info: bitacorafolios.pdf , page3 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 3>
 Package pdftex.def Info: bitacorafolios.pdf , page3 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [3
 
- <./bitacorafolios.pdf>]
-<bitacorafolios.pdf, id=26, page=4, 597.23125pt x 845.1575pt>
+ <./bitacorafolios.pdf
+
+pdfTeX warning: pdflatex.exe (file ./bitacorafolios.pdf): PDF inclusion: Subtyp
+e in Resources dict is not a name (key 'Subtype', type <stream>); ignored.
+>]
+<bitacorafolios.pdf, id=21, page=4, 614.295pt x 794.97pt>
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 4>
 Package pdftex.def Info: bitacorafolios.pdf , page4 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 4>
 Package pdftex.def Info: bitacorafolios.pdf , page4 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 4>
 Package pdftex.def Info: bitacorafolios.pdf , page4 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [4
 
- <./bitacorafolios.pdf>]
-<bitacorafolios.pdf, id=33, page=5, 597.23125pt x 845.1575pt>
+ <./bitacorafolios.pdf
+
+pdfTeX warning: pdflatex.exe (file ./bitacorafolios.pdf): PDF inclusion: Subtyp
+e in Resources dict is not a name (key 'Subtype', type <stream>); ignored.
+>]
+<bitacorafolios.pdf, id=26, page=5, 614.295pt x 794.97pt>
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 5>
 Package pdftex.def Info: bitacorafolios.pdf , page5 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 5>
 Package pdftex.def Info: bitacorafolios.pdf , page5 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 5>
 Package pdftex.def Info: bitacorafolios.pdf , page5 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [5
 
- <./bitacorafolios.pdf>]
-<bitacorafolios.pdf, id=40, page=6, 597.23125pt x 845.1575pt>
+ <./bitacorafolios.pdf
+
+pdfTeX warning: pdflatex.exe (file ./bitacorafolios.pdf): PDF inclusion: Subtyp
+e in Resources dict is not a name (key 'Subtype', type <stream>); ignored.
+>]
+<bitacorafolios.pdf, id=31, page=6, 614.295pt x 794.97pt>
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 6>
 Package pdftex.def Info: bitacorafolios.pdf , page6 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 6>
 Package pdftex.def Info: bitacorafolios.pdf , page6 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 6>
 Package pdftex.def Info: bitacorafolios.pdf , page6 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [6
 
- <./bitacorafolios.pdf>]
-<bitacorafolios.pdf, id=47, page=7, 597.23125pt x 845.1575pt>
+ <./bitacorafolios.pdf
+
+pdfTeX warning: pdflatex.exe (file ./bitacorafolios.pdf): PDF inclusion: Subtyp
+e in Resources dict is not a name (key 'Subtype', type <stream>); ignored.
+>]
+<bitacorafolios.pdf, id=36, page=7, 614.295pt x 794.97pt>
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 7>
 Package pdftex.def Info: bitacorafolios.pdf , page7 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 7>
 Package pdftex.def Info: bitacorafolios.pdf , page7 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 7>
 Package pdftex.def Info: bitacorafolios.pdf , page7 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [7
 
- <./bitacorafolios.pdf>]
-<bitacorafolios.pdf, id=55, page=8, 597.23125pt x 845.1575pt>
+ <./bitacorafolios.pdf
+
+pdfTeX warning: pdflatex.exe (file ./bitacorafolios.pdf): PDF inclusion: Subtyp
+e in Resources dict is not a name (key 'Subtype', type <stream>); ignored.
+>]
+<bitacorafolios.pdf, id=42, page=8, 614.295pt x 794.97pt>
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 8>
 Package pdftex.def Info: bitacorafolios.pdf , page8 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 8>
 Package pdftex.def Info: bitacorafolios.pdf , page8 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 8>
 Package pdftex.def Info: bitacorafolios.pdf , page8 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [8
 
- <./bitacorafolios.pdf>]
-<bitacorafolios.pdf, id=61, page=9, 597.23125pt x 845.1575pt>
+ <./bitacorafolios.pdf
+
+pdfTeX warning: pdflatex.exe (file ./bitacorafolios.pdf): PDF inclusion: Subtyp
+e in Resources dict is not a name (key 'Subtype', type <stream>); ignored.
+>]
+<bitacorafolios.pdf, id=47, page=9, 614.295pt x 794.97pt>
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 9>
 Package pdftex.def Info: bitacorafolios.pdf , page9 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 9>
 Package pdftex.def Info: bitacorafolios.pdf , page9 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 9>
 Package pdftex.def Info: bitacorafolios.pdf , page9 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [9
 
- <./bitacorafolios.pdf>]
-<bitacorafolios.pdf, id=67, page=10, 597.23125pt x 845.1575pt>
+ <./bitacorafolios.pdf
+
+pdfTeX warning: pdflatex.exe (file ./bitacorafolios.pdf): PDF inclusion: Subtyp
+e in Resources dict is not a name (key 'Subtype', type <stream>); ignored.
+>]
+<bitacorafolios.pdf, id=52, page=10, 614.295pt x 794.97pt>
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 10>
 Package pdftex.def Info: bitacorafolios.pdf , page10 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 10>
 Package pdftex.def Info: bitacorafolios.pdf , page10 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 10>
 Package pdftex.def Info: bitacorafolios.pdf , page10 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [10
 
- <./bitacorafolios.pdf>]
-<bitacorafolios.pdf, id=73, page=11, 597.23125pt x 845.1575pt>
+ <./bitacorafolios.pdf
+
+pdfTeX warning: pdflatex.exe (file ./bitacorafolios.pdf): PDF inclusion: Subtyp
+e in Resources dict is not a name (key 'Subtype', type <stream>); ignored.
+>]
+<bitacorafolios.pdf, id=57, page=11, 614.295pt x 794.97pt>
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 11>
 Package pdftex.def Info: bitacorafolios.pdf , page11 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 11>
 Package pdftex.def Info: bitacorafolios.pdf , page11 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 11>
 Package pdftex.def Info: bitacorafolios.pdf , page11 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [11
 
- <./bitacorafolios.pdf>]
-<bitacorafolios.pdf, id=79, page=12, 597.23125pt x 845.1575pt>
+ <./bitacorafolios.pdf
+
+pdfTeX warning: pdflatex.exe (file ./bitacorafolios.pdf): PDF inclusion: Subtyp
+e in Resources dict is not a name (key 'Subtype', type <stream>); ignored.
+>]
+<bitacorafolios.pdf, id=62, page=12, 614.295pt x 794.97pt>
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 12>
 Package pdftex.def Info: bitacorafolios.pdf , page12 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 12>
 Package pdftex.def Info: bitacorafolios.pdf , page12 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: bitacorafolios.pdf Graphic file (type pdf)
 <use bitacorafolios.pdf, page 12>
 Package pdftex.def Info: bitacorafolios.pdf , page12 used on input line 13.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [12
 
- <./bitacorafolios.pdf>]
-<folios12a20.pdf, id=85, 597.51233pt x 845.0471pt>
+ <./bitacorafolios.pdf
+
+pdfTeX warning: pdflatex.exe (file ./bitacorafolios.pdf): PDF inclusion: Subtyp
+e in Resources dict is not a name (key 'Subtype', type <stream>); ignored.
+>]
+<folios12a20.pdf, id=67, 597.51233pt x 845.0471pt>
 File: folios12a20.pdf Graphic file (type pdf)
 <use folios12a20.pdf>
 Package pdftex.def Info: folios12a20.pdf  used on input line 24.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<folios12a20.pdf, id=87, page=1, 597.51233pt x 845.0471pt>
+<folios12a20.pdf, id=69, page=1, 597.51233pt x 845.0471pt>
 File: folios12a20.pdf Graphic file (type pdf)
 <use folios12a20.pdf, page 1>
 Package pdftex.def Info: folios12a20.pdf , page1 used on input line 24.
@@ -839,7 +887,7 @@ Package pdftex.def Info: folios12a20.pdf , page1 used on input line 24.
 [13
 
  <./folios12a20.pdf>]
-<folios12a20.pdf, id=96, page=2, 597.51233pt x 845.0471pt>
+<folios12a20.pdf, id=78, page=2, 597.51233pt x 845.0471pt>
 File: folios12a20.pdf Graphic file (type pdf)
 <use folios12a20.pdf, page 2>
 Package pdftex.def Info: folios12a20.pdf , page2 used on input line 24.
@@ -857,7 +905,7 @@ Package pdftex.def Info: folios12a20.pdf , page2 used on input line 24.
 [14
 
  <./folios12a20.pdf>]
-<folios12a20.pdf, id=100, page=3, 597.51233pt x 845.0471pt>
+<folios12a20.pdf, id=82, page=3, 597.51233pt x 845.0471pt>
 File: folios12a20.pdf Graphic file (type pdf)
 <use folios12a20.pdf, page 3>
 Package pdftex.def Info: folios12a20.pdf , page3 used on input line 24.
@@ -875,7 +923,7 @@ Package pdftex.def Info: folios12a20.pdf , page3 used on input line 24.
 [15
 
  <./folios12a20.pdf>]
-<folios12a20.pdf, id=104, page=4, 597.51233pt x 845.0471pt>
+<folios12a20.pdf, id=86, page=4, 597.51233pt x 845.0471pt>
 File: folios12a20.pdf Graphic file (type pdf)
 <use folios12a20.pdf, page 4>
 Package pdftex.def Info: folios12a20.pdf , page4 used on input line 24.
@@ -893,7 +941,7 @@ Package pdftex.def Info: folios12a20.pdf , page4 used on input line 24.
 [16
 
  <./folios12a20.pdf>]
-<folios12a20.pdf, id=108, page=5, 597.51233pt x 845.0471pt>
+<folios12a20.pdf, id=90, page=5, 597.51233pt x 845.0471pt>
 File: folios12a20.pdf Graphic file (type pdf)
 <use folios12a20.pdf, page 5>
 Package pdftex.def Info: folios12a20.pdf , page5 used on input line 24.
@@ -911,7 +959,7 @@ Package pdftex.def Info: folios12a20.pdf , page5 used on input line 24.
 [17
 
  <./folios12a20.pdf>]
-<folios12a20.pdf, id=112, page=6, 597.51233pt x 845.0471pt>
+<folios12a20.pdf, id=94, page=6, 597.51233pt x 845.0471pt>
 File: folios12a20.pdf Graphic file (type pdf)
 <use folios12a20.pdf, page 6>
 Package pdftex.def Info: folios12a20.pdf , page6 used on input line 24.
@@ -929,7 +977,7 @@ Package pdftex.def Info: folios12a20.pdf , page6 used on input line 24.
 [18
 
  <./folios12a20.pdf>]
-<folios12a20.pdf, id=116, page=7, 597.51233pt x 845.0471pt>
+<folios12a20.pdf, id=98, page=7, 597.51233pt x 845.0471pt>
 File: folios12a20.pdf Graphic file (type pdf)
 <use folios12a20.pdf, page 7>
 Package pdftex.def Info: folios12a20.pdf , page7 used on input line 24.
@@ -947,7 +995,7 @@ Package pdftex.def Info: folios12a20.pdf , page7 used on input line 24.
 [19
 
  <./folios12a20.pdf>]
-<folios12a20.pdf, id=121, page=8, 597.51233pt x 845.0471pt>
+<folios12a20.pdf, id=103, page=8, 597.51233pt x 845.0471pt>
 File: folios12a20.pdf Graphic file (type pdf)
 <use folios12a20.pdf, page 8>
 Package pdftex.def Info: folios12a20.pdf , page8 used on input line 24.
@@ -965,7 +1013,7 @@ Package pdftex.def Info: folios12a20.pdf , page8 used on input line 24.
 [20
 
  <./folios12a20.pdf>]
-<folios12a20.pdf, id=125, page=9, 597.51233pt x 845.0471pt>
+<folios12a20.pdf, id=107, page=9, 597.51233pt x 845.0471pt>
 File: folios12a20.pdf Graphic file (type pdf)
 <use folios12a20.pdf, page 9>
 Package pdftex.def Info: folios12a20.pdf , page9 used on input line 24.
@@ -1000,9 +1048,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  74i,17n,79p,307b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on bitacora.pdf (21 pages, 10376423 bytes).
+Output written on bitacora.pdf (21 pages, 6567035 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

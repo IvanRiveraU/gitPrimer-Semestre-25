@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  24 OCT 2025 02:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  29 OCT 2025 02:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -475,12 +475,7 @@ File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 27.
 
-(INFORME DOCENCIA.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 8.
-)
+(INFORME DOCENCIA.aux)
 \openout1 = `"INFORME DOCENCIA.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 27.
@@ -553,6 +548,8 @@ LaTeX Info: Command `\dddot' is already robust on input line 27.
 LaTeX Info: Command `\ddddot' is already robust on input line 27.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -721,7 +718,7 @@ L3 programming layer <2020/03/25>
 Here is how much of TeX's memory you used:
  10141 strings out of 468132
  154546 string characters out of 5440761
- 649509 words of memory out of 5000000
+ 649518 words of memory out of 5000000
  38618 multiletter control sequences out of 15000+600000
  627851 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
