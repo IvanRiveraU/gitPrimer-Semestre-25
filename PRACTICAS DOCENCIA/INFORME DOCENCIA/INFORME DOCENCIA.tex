@@ -29,7 +29,13 @@
 	\includepdf{portadaU2D/caratulaUD}
 	
 	%-------------HOJA ADJUNTA------------
-	\includepdf{hojaD/hojaadjuntaD}
+	\includepdf[
+	pages=-,
+	pagecommand={\thispagestyle{empty}}
+	]{hojaD/hojaadjuntaD}
+	
+	
+
 	 
 	%------------OFICIO FIRMADO---------
 	\includepdf{scanerD/oficiofirmadoD}
