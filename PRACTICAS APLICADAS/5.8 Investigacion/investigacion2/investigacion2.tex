@@ -1,0 +1,2096 @@
+\documentclass[12pt]{article}
+\usepackage{setspace}   % paquete para interlineado
+\usepackage{newtxtext,newtxmath} % Times New Roman
+
+%otra opcion para times roman adaptable a versiones
+%\usepackage{mathptmx}
+
+%haber si funciona mas parecido a word
+\setstretch{1.5}  
+%\usepackage[protrusion,expansion]{microtype}
+%\onehalfspacing               % interlineado 1.5
+\usepackage{amsmath} % Para usar \text{}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[letterpaper, left=3cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{lipsum}
+\geometry{margin=1in}
+
+
+
+%%%%PARQUETES PARA ESTO
+% antes:
+%... (≤ 15 cm) ...% después:... (\(\leq\) 15 cm) ...
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb} % por si usas más símbolos
+% Opción A:
+\DeclareUnicodeCharacter{2265}{\ensuremath{\geq}}
+\DeclareUnicodeCharacter{2264}{\ensuremath{\leq}}
+
+
+%% -------NUEVO %%%%%%%%%%
+
+
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\newcommand{\cbox}{\(\square\)}
+
+
+
+
+%%.......NUEVO-------------%%
+\usepackage{longtable}   % tablas que se parten entre páginas
+
+
+
+
+%%%-------------nuevos-----------%%%%%%%%%%
+% === Paquetes extra para tablas y utilidades ===
+\usepackage{tabularx}   % tablas que se ajustan al ancho
+\usepackage{booktabs}   % reglas de tabla profesionales
+\usepackage{array}      % nuevas columnas tipo m{..}, p{..}
+\usepackage{multirow}   % celdas combinadas verticalmente
+\usepackage{xcolor}     % (opcional) para resaltar si lo deseas
+\usepackage{hyperref}   % ya lo usas a veces: enlaces internos/TOC
+
+% === Macros útiles del checklist ===
+\renewcommand{\cbox}{\(\square\)} % redefine si ya existía
+
+
+
+
+
+
+
+%PAQUETE para incluir PDF´s
+\usepackage{pdfpages} % para incluir PDFs
+
+% ---PAQUETE PARA contador para las introducciones ---
+\newcounter{intro}
+\renewcommand{\theintro}{\arabic{intro}} % numeración arábiga: 1,2,3,...
+
+
+% PAQUETE PARA COMENTAR FACILMENTE 
+
+\usepackage{comment}
+
+%%FORZAR LAS IMAGENES CON FLOAT
+
+\usepackage{float} % necesario para usar [H]
+
+
+% ESPACION DE TITULOS*{comando}{margen_izq}{espacio_antes}{espacio_despues}
+%\titlespacing*{\section}
+%{0pt}    % sangría izquierda
+%{3em}    % espacio ANTES del título
+%{0em}    % espacio después del título
+
+
+
+
+ % PAQUETE PARA INSTANCIAR  LAS IMAGENES
+  \graphicspath{{./Imagenes}}
+ 
+
+%CONFIGURACION DE MI PAGINA numeración:
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\fancyhf{} % Limpia encabezados/pies
+%\fancyhead[R]{\thepage} % Números arábigos arriba: izq en pares, der en impares
+%\renewcommand{\headrulewidth}{0pt} % Sin línea
+
+%COLOCAR NUMERACION ESQUINA DERECHA PAG 1
+%\fancypagestyle{plain}{%
+%	\fancyhf{}%
+%	\fancyhead[R]{\thepage}%
+%	\renewcommand{\headrulewidth}{0pt}%
+
+
+
+% --- PAQUETES ADICIONALES DE LOSA ---
+  % para listas multinivel (numeración + incisos + viñetas)
+\usepackage{enumitem} 
+
+% que los párrafos  de las secciones dentro de los items usen la misma sangría que el cuerpo SANGRIA A TODOWWW
+\setlist[enumerate]{listparindent=\parindent, parsep=0pt}
+
+\begin{comment}
+	
+	% --- Configuración de enumitem para numeración multinivel ---
+	\setlist[enumerate,1]{label=\arabic*., leftmargin=1.2cm}
+	\setlist[enumerate,2]{label=\arabic{enumi}.\arabic*., leftmargin=1.4cm}
+	\setlist[enumerate,3]{label=\arabic{enumi}.\arabic{enumii}.\arabic*., leftmargin=1.6cm}
+	\setlist[enumerate,4]{label=\alph*) , leftmargin=1.8cm}
+	\setlist[itemize]{leftmargin=1.6cm}
+	
+\end{comment}
+
+
+\begin{comment}
+	PARA INDICES CREO
+	\tableofcontents
+	\newpage
+\end{comment}
+
+
+
+\begin{document}
+	
+	%Para no generar numeracion de paginas
+	\pagestyle{empty}
+	
+%	\thispagestyle{fancy} 
+	
+	%es para emparejar el tamaño de todas las letras de titulo y contenido
+%	\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+%	\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+	
+	%\title{\vspace{-2cm}Área de Métodos Constructivos
+%	\\ Descripción y proceso constructivo de losas}
+%	\author{}
+%	\date{}
+	
+
+	
+	
+	
+%	\maketitle
+	
+	%\vspace{-2.5cm}
+	
+%\includepdf{portadaU2/caratulaU}
+%\includepdf[pages=-,pagecommand={}]{hoja/hojaadjunta}
+
+%%-----------TITULOSSSS--------------------------------------
+		\begin{center}
+		\textbf{\LARGE  Métodos Constructivos}
+	\end{center}
+
+%--------------SUBTITULOS---------------------
+
+	% Primera introducción
+\stepcounter{intro}
+\section*{\centering \theintro\ Proceso constructivo de elementos de concreto}
+\addcontentsline{toc}{section}{\theintro\ Descripción y proceso constructivo de elementos de concreto}
+\setcounter{section}{0}
+
+
+ 
+ 
+ \section{Losa tradicional (maciza de concreto reforzado)}
+ 
+ \subsection*{Descripción general}
+ La \textbf{losa tradicional} es una placa maciza de concreto reforzado colada \emph{in situ} sobre cimbra. Su rigidez proviene del peralte de la losa y del acero de refuerzo en una o dos direcciones. Es un sistema versátil que se adapta a múltiples geometrías y cargas, a costa de mayor peso propio y demanda de cimbra y curado.
+ 
+ \subsection*{Proceso constructivo resumido}
+ \begin{enumerate}[leftmargin=*, itemsep=2pt]
+ 	\item \textbf{Encofrado (cimbra y apuntalamiento):} montar cimbra plana, estanca y alineada; apuntalamientos con arriostres y, si aplica, contraflecha.
+ 	\item \textbf{Armado de acero:} colocar barras/malla con recubrimientos y traslapes según planos; refuerzos en bordes, apoyos y alrededor de huecos; separadores suficientes.
+ 	\item \textbf{Instalaciones embebidas:} fijar y coordinar tuberías/ductos para que no interfieran con el refuerzo ni floten durante el colado.
+ 	\item \textbf{Colado y vibrado:} colocar el concreto por paños (\(\leq\)15\,cm), consolidar con vibrador interno sin sobre–vibrar y nivelar con regla/guía láser.
+ 	\item \textbf{Juntas:} ubicar juntas de construcción planificadas; preparar el sustrato (rugoso/limpio) y, si se especifica, aplicar lechada/adhesivo.
+ 	\item \textbf{Curado:} iniciar de inmediato tras el acabado (membrana de curado, riego o mantas) y mantener continuidad el tiempo especificado.
+ 	\item \textbf{Descimbrado:} retirar moldes laterales y luego apuntalamientos solo cuando la resistencia lo permita y según secuencia aprobada.
+ \end{enumerate}
+ 
+ \subsection*{Ventajas y desventajas (resumen)}
+ \begin{itemize}[leftmargin=*, itemsep=2pt]
+ 	\item \textbf{Ventajas:} alta versatilidad geométrica; buen desempeño acústico; compatible con detalles estructurales diversos.
+ 	\item \textbf{Desventajas:} mayor peso propio que sistemas aligerados; requiere más cimbra y tiempo; exige buen control de vibrado y curado.
+ \end{itemize}
+ 
+ % =====================================================================
+ \subsection{Checklist de supervisión}
+ 
+ \subsubsection*{1. Antes de iniciar (preparación)}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Planos y especificaciones en sitio (peralte, recubrimientos, diámetros, f'c, juntas, aditivos). & \cbox \\
+ 	Trazos y \textbf{niveles} de losa marcados en vigas/muros; ejes verificados. & \cbox \\
+ 	Materiales disponibles y protegidos (acero limpio, madera, separadores, vibradores, mangueras). & \cbox \\
+ 	Programa de colado (volumen, acceso, bomba, personal, condiciones de clima). & \cbox \\
+ 	\textit{Orden a cuadrilla:} limpieza del frente y habilitar pasarelas. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{2. Encofrado (cimbra y apuntalamiento)}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Cimbra plana, alineada y \textbf{estanca} (sin fugas); bases firmes. & \cbox \\
+ 	Apuntalamientos con arriostres; contraflecha si la indicó el diseñador. & \cbox \\
+ 	Aplicación uniforme de \textbf{desmoldante} (evitar contaminar acero). & \cbox \\
+ 	Sellado de juntas de cimbra; pasarelas seguras para el colado. & \cbox \\
+ 	\textit{Orden:} reapretar uniones, calzar puntales y corregir holguras. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{3. Armado de acero}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Diámetros, separación y \textbf{recubrimientos} conforme a planos; separadores suficientes. & \cbox \\
+ 	Traslapes/anclajes con longitudes de desarrollo correctas; amarre con alambre recocido. & \cbox \\
+ 	Refuerzo adicional en bordes, sobre apoyos y alrededor de huecos/columnas. & \cbox \\
+ 	Malla superior (temperatura) a \textbf{cota} correcta; acero limpio, sin grasa/óxido suelto. & \cbox \\
+ 	Coordinación MEP: pasos de tuberías/ductos \textbf{sin interferir} al refuerzo. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{4. Pre-colado}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Cimbra, acero e instalaciones \textbf{limpios y secos}; retirar residuos/astillas. & \cbox \\
+ 	Vibradores probados; energía/combustible disponible; bomba lista. & \cbox \\
+ 	Verificar \textbf{revenimiento (slump)} y temperatura de la primera olla. & \cbox \\
+ 	Humedecer cimbra (sin charcos) minutos antes del vaciado. & \cbox \\
+ 	Pasarelas y cubetas listas para cantos y rincones. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{5. Colocación, vibrado y acabado}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Altura de descarga controlada; avance por \textbf{paños} (\(\leq\) 15\,cm). & \cbox \\
+ 	\textbf{Vibrado interno} adecuado (penetración rápida, retiro lento, traslape de zonas). & \cbox \\
+ 	Nivelación con regla/guía láser; acabado según especificación. & \cbox \\
+ 	Evitar acumulación de agua de exudación antes del acabado final. & \cbox \\
+ 	Prohibir pisar el acero sin pasarelas durante el colado. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{6. Juntas (si aplica)}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Ubicación de \textbf{juntas de construcción}; preparación de sustrato (rugoso/limpio). & \cbox \\
+ 	Lechada de unión/epóxicos cuando lo indique el diseño; protección de bordes. & \cbox \\
+ 	Cortes tempranos de contracción (si fueron especificados) en tiempo y profundidad. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{7. Curado}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Inicio inmediato del curado tras acabado final: \textbf{membrana, riego o mantas}. & \cbox \\
+ 	Mantener curado continuo (típ. \(\geq\) 7 días) o según especificación/ensayes. & \cbox \\
+ 	Proteger contra viento/sol/lluvia; evitar tránsito o acopio sobre la losa. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{8. Descimbrado y apuntalamientos}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Retiro de moldes laterales cuando la superficie no se dañe. & \cbox \\
+ 	\textbf{Apuntalamientos}: retirar solo con autorización y resistencia alcanzada (ensayes). & \cbox \\
+ 	Verificación de superficie, fisuras, flechas y nivelación final. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ 
+ 
+ 
+ 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ 
+ 
+ 
+ \section{Vigueta y bovedilla}
+ 
+ \subsection*{Descripción general}
+ El sistema de \textbf{vigueta y bovedilla} está formado por viguetas prefabricadas (pretensadas o de alma abierta) que trabajan como elementos portantes, y piezas de aligeramiento (bovedillas de concreto aligerado, cerámica o poliestireno) que conforman el entrevigado. Sobre el conjunto se vacía una \textbf{capa de compresión} de concreto que integra el diafragma. Requiere modulación estricta, apuntalamiento temporal y seguir el manual del proveedor.
+ 
+ \subsection*{Proceso constructivo resumido}
+ \begin{enumerate}[leftmargin=*, itemsep=2pt]
+ 	\item \textbf{Recepción y acopio:} revisar rectitud e integridad de viguetas; almacenar bovedillas secas y limpias sobre superficie plana.
+ 	\item \textbf{Apoyos y modulación:} trazar ejes; garantizar \textbf{longitud de apoyo} mínima de viguetas; colocar viguetas según separación de catálogo; usar bovedilla como escantillón.
+ 	\item \textbf{Apuntalamiento temporal:} montar puntales y líneas de carga continuas, niveladas y arriostradas según tabla del fabricante.
+ 	\item \textbf{Armaduras complementarias:} colocar \textbf{malla de compresión}, refuerzo negativo en apoyos, perimetrales y refuerzo sobre claros o huecos.
+ 	\item \textbf{Colado de capa:} humedecer bovedillas/viguetas; verter concreto de la capa con \textbf{vibrado ligero} y nivelado; no pisar directamente sobre bovedillas.
+ 	\item \textbf{Curado:} iniciar de inmediato y mantener continuidad según especificación.
+ 	\item \textbf{Retiro de apuntalamientos:} conforme a resistencia alcanzada y \textbf{tablas del fabricante}.
+ \end{enumerate}
+ 
+ \subsection*{Ventajas y desventajas (resumen)}
+ \begin{itemize}[leftmargin=*, itemsep=2pt]
+ 	\item \textbf{Ventajas:} rapidez de montaje; menor cimbra frente a losa maciza; buen control de fisuración con capa de compresión y malla.
+ 	\item \textbf{Desventajas:} modulación rígida; cuidado en aperturas y cargas puntuales; dependencia de manual y apuntalamiento temporal.
+ \end{itemize}
+ 
+ % =====================================================================
+ \subsection{Checklist de supervisión}
+ 
+ \subsubsection*{1. Recepción, trazos y preparación}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Viguetas \textbf{íntegras} (sin fisuras/daños); bovedillas completas, secas y limpias. & \cbox \\
+ 	Trazos de modulación y ejes verificados; \textbf{longitud de apoyo} mínima de viguetas asegurada. & \cbox \\
+ 	Apoyo perimetral (castillos, dalas, trabes) listo y a nivel. & \cbox \\
+ 	Frente de trabajo limpio; rutas de circulación y pasarelas definidas. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{2. Montaje de viguetas y bovedillas}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Colocación de viguetas con \textbf{separación de catálogo} y alineación; extremos perfectamente apoyados. & \cbox \\
+ 	Bovedilla usada como escantillón; \textbf{no forzar} piezas ni dejar huecos sin soporte. & \cbox \\
+ 	\textbf{Apuntalamiento temporal} continuo y nivelado bajo las viguetas, arriostrado. & \cbox \\
+ 	Elementos de borde (bezotes/rieles, dalas perimetrales) colocados. & \cbox \\
+ 	\textit{Orden:} prohibido cortar bovedillas o ranurar viguetas; cualquier hueco debe aprobarse y reforzarse. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{3. Refuerzos y armaduras complementarias}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	\textbf{Malla de compresión} (calibre y cuadro) asentada a la \textbf{cota} indicada con separadores. & \cbox \\
+ 	Refuerzo negativo sobre apoyos y \textbf{perimetrales} (amarres/escuadras) conforme planos o manual. & \cbox \\
+ 	Refuerzo adicional en zonas de huecos, pasos MEP y cargas puntuales. & \cbox \\
+ 	Coordinación de instalaciones: tuberías fijas para evitar flotación durante el colado. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{4. Pre-colado}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Humedecer viguetas y bovedillas \textbf{sin encharcar} antes del colado. & \cbox \\
+ 	Equipo y accesos listos: vibrador (uso \textbf{ligero}), regla/guía, manguera de bomba. & \cbox \\
+ 	Slump y temperatura del concreto de capa verificados. & \cbox \\
+ 	Pasarelas para desplazamiento \textbf{sin pisar} directamente las bovedillas. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{5. Colado de la capa de compresión y acabado}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Espesor de capa conforme plano/catálogo; verter por paños y \textbf{vibrado suave} (evitar flotar bovedillas). & \cbox \\
+ 	Nivelación con regla; acabado especificado (escobillado/liso). & \cbox \\
+ 	Control de bordes y encuentros con muros/elementos verticales. & \cbox \\
+ 	Prohibido acopio de materiales sobre la losa fresca; controlar \textbf{cargas de construcción}. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{6. Curado}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Inicio inmediato del curado: \textbf{membrana}, riego o mantas; continuidad durante el periodo indicado. & \cbox \\
+ 	Proteger del viento/sol/lluvia; restringir tránsito hasta autorización. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{7. Retiro de apuntalamientos y control final}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Retirar \textbf{apuntalamientos} según resistencia alcanzada y \textbf{tablas del fabricante}. & \cbox \\
+ 	Revisión de superficie: fisuras, flechas, nivelación general; corregir no conformidades. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ 
+ 
+ \section{Losa nervada (aligerada con casetones o bloques de relleno)}
+ 
+ \subsection*{Descripción general}
+ La \textbf{losa nervada} es un sistema aligerado de concreto reforzado en el que el peso propio se reduce mediante el uso de casetones o bloques de relleno que generan nervios longitudinales y transversales. Puede vaciarse \emph{in situ} con cimbra modular o moldes reutilizables (plásticos, metálicos o de poliestireno). Combina economía de material con alta rigidez y capacidad para cubrir claros medianos a grandes.
+ 
+ \subsection*{Proceso constructivo resumido}
+ \begin{enumerate}[leftmargin=*, itemsep=2pt]
+ 	\item \textbf{Cimbra y casetones:} instalar cimbra nivelada; fijar casetones o moldes bien anclados para evitar desplazamientos durante el colado.
+ 	\item \textbf{Armado:} colocar acero inferior y superior en nervios; malla de temperatura en capa de compresión; refuerzos adicionales en bordes y apoyos.
+ 	\item \textbf{Instalaciones embebidas:} coordinar conducciones sin perforar nervios estructurales.
+ 	\item \textbf{Colado:} verter concreto por paños; vibrado moderado con aguja fina para evitar flotación de casetones.
+ 	\item \textbf{Curado:} aplicar membrana o riego constante; proteger del sol y viento.
+ 	\item \textbf{Descimbrado:} retirar moldes cuando la resistencia lo permita, cuidando no dañar aristas o nervios.
+ \end{enumerate}
+ 
+ \subsection*{Ventajas y desventajas (resumen)}
+ \begin{itemize}[leftmargin=*, itemsep=2pt]
+ 	\item \textbf{Ventajas:} menor peso propio; permite claros mayores; buen aislamiento térmico/acústico; moldes reutilizables.
+ 	\item \textbf{Desventajas:} cimbra y montaje más complejo; requiere precisión en alineación y vibrado; mayor tiempo de armado inicial.
+ \end{itemize}
+ 
+ % =====================================================================
+ \subsection{Checklist de supervisión}
+ 
+ \subsubsection*{1. Preparación y montaje de cimbra}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Cimbra nivelada y firme, con bases sólidas y arriostramiento. & \cbox \\
+ 	Casetones limpios, sin deformaciones y correctamente anclados (sin fugas). & \cbox \\
+ 	Verificación de contraflecha, si aplica. & \cbox \\
+ 	Área libre de residuos, con accesos y pasarelas seguras. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{2. Armado de acero}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Barras en nervios principales y secundarios según plano; \textbf{recubrimientos} garantizados. & \cbox \\
+ 	Refuerzos superiores e inferiores en apoyos, bordes y claros. & \cbox \\
+ 	Malla de temperatura en capa de compresión, bien apoyada en separadores. & \cbox \\
+ 	Refuerzos en huecos o pasos de instalaciones. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{3. Colado y vibrado}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Concreto con slump y resistencia especificada; colado por paños uniformes. & \cbox \\
+ 	Vibrado controlado con aguja fina (evitar flotación de casetones). & \cbox \\
+ 	Nivelación y acabado de capa de compresión conforme plano. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{4. Curado y retiro de moldes}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Inicio inmediato de curado (membrana, riego o mantas húmedas). & \cbox \\
+ 	Retiro de casetones cuando el concreto haya alcanzado resistencia mínima. & \cbox \\
+ 	Revisión visual de superficie y nervios: sin fisuras ni desprendimientos. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ 
+ % ================================================================
+ \section{Losa colaborante (losacero o steel deck)}
+ 
+ \subsection*{Descripción general}
+ La \textbf{losacero} o losa colaborante es un sistema compuesto formado por una lámina metálica acanalada (deck) que actúa como cimbra y, en algunos casos, como refuerzo a tracción una vez endurecido el concreto. Permite una ejecución rápida, sin cimbra tradicional, y brinda resistencia durante el vaciado y al trabajar compuesta con el concreto mediante conectores de cortante.
+ 
+ \subsection*{Proceso constructivo resumido}
+ \begin{enumerate}[leftmargin=*, itemsep=2pt]
+ 	\item \textbf{Colocación del deck:} fijar láminas al soporte metálico con pernos, tornillos o soldadura; sellar juntas para evitar fuga de lechada.
+ 	\item \textbf{Colocación de conectores:} instalar \textbf{pernos de cortante} según plano y verificar altura/fusión.
+ 	\item \textbf{Refuerzo y malla:} disponer malla o varillas superiores según diseño; respetar recubrimientos desde la cresta del deck.
+ 	\item \textbf{Colado:} vaciar concreto en dirección perpendicular a las nervaduras; controlar slump y nivelación.
+ 	\item \textbf{Curado:} aplicar membrana o método húmedo; proteger del sol y viento.
+ 	\item \textbf{Inspección final:} verificar uniones, espesores y comportamiento del diafragma.
+ \end{enumerate}
+ 
+ \subsection*{Ventajas y desventajas (resumen)}
+ \begin{itemize}[leftmargin=*, itemsep=2pt]
+ 	\item \textbf{Ventajas:} rapidez de ejecución; reducción de cimbra; menor peso propio; actúa como diafragma rígido.
+ 	\item \textbf{Desventajas:} requiere control de conectores y soldaduras; limita formas irregulares; supervisión estricta de espesores y curado.
+ \end{itemize}
+ 
+ % =====================================================================
+ \subsection{Checklist de supervisión}
+ 
+ \subsubsection*{1. Preparación y colocación del deck}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Láminas de deck limpias, sin deformaciones ni corrosión; calibre y perfil conforme plano. & \cbox \\
+ 	\textbf{Fijación} del deck con pernos o tornillos a vigas/canales según diseño. & \cbox \\
+ 	Solapes y uniones transversales sellados (sin fugas de lechada). & \cbox \\
+ 	Apoyos perimetrales o ángulos colocados correctamente. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{2. Conectores de cortante y refuerzo}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Conectores de cortante soldados: altura, alineación y fusión visual correctas. & \cbox \\
+ 	Malla o varillas superiores a recubrimiento correcto desde cresta del deck. & \cbox \\
+ 	Refuerzo negativo en apoyos y zonas críticas instalado según planos. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{3. Colado y vibrado}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Colado perpendicular a las nervaduras del deck; espesor conforme diseño. & \cbox \\
+ 	Vibrado superficial moderado (evitar separación de concreto/acero). & \cbox \\
+ 	Nivelación y acabado uniforme en toda la superficie. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ \subsubsection*{4. Curado y control final}
+ \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+ 	\toprule
+ 	\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+ 	\midrule
+ 	Aplicar \textbf{membrana de curado} o riego; proteger de sol y viento. & \cbox \\
+ 	Verificar espesores y resistencia a compresión del concreto. & \cbox \\
+ 	Comprobación de uniones, conectores y rigidez del sistema. & \cbox \\
+ 	\bottomrule
+ \end{tabularx}
+ 
+ 
+ 
+ 
+ 
+ %%aqwuieeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+ 
+ 
+ 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+	%-----------------------------------------------------
+
+
+
+
+
+%%quieeeeeeee
+
+
+	
+	%--------------SUBTITULOS 2---------------------
+     \newpage
+	% Segunda introducción
+	\newpage
+	\stepcounter{intro}
+	\section*{\centering \theintro\ Proceso constructivo de elementos de concreto}
+	\addcontentsline{toc}{section}{\theintro\ Descripción y proceso constructivo de elementos de concreto}
+	\setcounter{section}{0}
+	
+	
+	%REINICIAR CONTEO DE SECTION 
+	%\setcounter{section}{0}
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%::::::::::::::::::::::::::::
+	
+	
+	
+	\section{Levantado de muros de mampostería estructural}
+	
+	\subsection*{Descripción general}
+	El \textbf{levantado de muros de mampostería} consiste en la construcción de elementos verticales formados por unidades modulares (bloques de concreto, tabiques cerámicos o piedra), unidos mediante mortero estructural o de pega. Los muros pueden ser portantes o de cerramiento y, en muchos casos, trabajan en conjunto con columnas, castillos y vigas de confinamiento para resistir cargas verticales y laterales.
+	
+	\subsection*{Proceso constructivo resumido}
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Trazado y replanteo:} marcar ejes, espesores de muro y niveles de desplante conforme planos estructurales y arquitectónicos.
+		\item \textbf{Cimentación y base:} limpiar y humedecer la superficie de apoyo; verificar que esté nivelada y con mortero de asiento fresco.
+		\item \textbf{Colocación de bloques:} asentar las primeras hiladas con nivel y plomada; aplicar mortero con espesor uniforme (1–1.5 cm).
+		\item \textbf{Refuerzos verticales y horizontales:} incorporar \textbf{barras de acero} y \textbf{refuerzo horizontal} (alambre o malla) según planos.
+		\item \textbf{Llenado de celdas y juntas:} compactar mortero o grout en celdas con refuerzo; verificar continuidad de juntas verticales y horizontales.
+		\item \textbf{Elementos de confinamiento:} fundir castillos y vigas de amarre; asegurar la correcta unión muro–concreto.
+		\item \textbf{Curado y limpieza:} mantener humedad de juntas por al menos 3 días; limpiar excedentes de mortero.
+	\end{enumerate}
+	
+	\subsection*{Ventajas y desventajas (resumen)}
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Ventajas:} buen aislamiento térmico y acústico; fácil ejecución; economía de materiales; buena resistencia a compresión.
+		\item \textbf{Desventajas:} requiere control de plomo y nivel en cada hilada; sensible a defectos de mortero; menor ductilidad frente a sistemas de concreto armado.
+	\end{itemize}
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Trazado y preparación del área}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Ejes y alineamientos del muro trazados conforme planos. & \cbox \\
+		Base limpia, nivelada y humedecida antes del asiento del primer bloque. & \cbox \\
+		Verificación de espesores y longitudes de muros según planos. & \cbox \\
+		Materiales (bloques, mortero, acero) acopiados y protegidos del sol/lluvia. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Colocación de bloques y mortero}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Primera hilada nivelada y plomeada correctamente. & \cbox \\
+		Mortero de pega con consistencia adecuada; juntas horizontales de 1–1.5 cm uniformes. & \cbox \\
+		Bloques asentados con junta llena (sin huecos ni faltantes de mortero). & \cbox \\
+		Revisión de verticalidad y alineamiento cada tres hiladas. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Refuerzo estructural}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Refuerzos verticales (barras) colocados en celdas según planos estructurales. & \cbox \\
+		Refuerzo horizontal o malla colocado cada cierto número de hiladas (según diseño). & \cbox \\
+		Celdas con acero \textbf{rellenas con grout} o mortero fluido hasta la altura indicada. & \cbox \\
+		Empalmes de acero respetan longitudes mínimas de traslape. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Confinamiento y amarres}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Colocación de \textbf{castillos} y \textbf{vigas de amarre} según planos. & \cbox \\
+		Amarres entre muros y elementos estructurales garantizados (ganchos, varillas, conectores). & \cbox \\
+		Continuidad del refuerzo vertical en castillos con el refuerzo del muro. & \cbox \\
+		Conexión muro–columna o muro–viga limpia, sin lechada ni restos sueltos. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Acabado y curado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Juntas alineadas y limpias; superficie lista para repello o acabado final. & \cbox \\
+		Curado de mortero (mantener humedad durante 3 días como mínimo). & \cbox \\
+		Eliminación de mortero sobrante o manchas en superficie. & \cbox \\
+		Área segura, libre de materiales sueltos o puntales inestables. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Control final}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Revisión de verticalidad total y alineamiento del muro terminado. & \cbox \\
+		Comprobación de nivel en la parte superior del muro para recibir vigas o losas. & \cbox \\
+		Verificación de juntas uniformes, sin grietas visibles ni desviaciones. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+		
+	
+	%%%%%%%%%%%%%:::::::::::::::::::::::::::::::::::::::::::
+	
+		
+	\section{Construcción de mochetas de concreto}
+	
+	\subsection*{Descripción general}
+	Las \textbf{mochetas} son elementos de concreto armado o de mampostería ubicados a los lados de puertas, ventanas o huecos estructurales, cuya función principal es \textbf{confinar, reforzar y sostener los bordes} del vano. También ayudan a anclar marcos metálicos o de madera y a transmitir las cargas del dintel hacia los muros o columnas. Su correcta ejecución es fundamental para evitar fisuras, asentamientos diferenciales o pérdida de alineación en los vanos.
+	
+	\subsection*{Proceso constructivo resumido}
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Trazado:} marcar los límites del vano en muros o columnas; verificar aplomos y dimensiones de los laterales según planos.
+		\item \textbf{Preparación del área:} limpiar la superficie donde se levantará la mochetas; humedecer previamente el muro o encofrado.
+		\item \textbf{Colocación del acero:} disponer varillas verticales de refuerzo y estribos o anillos conforme planos estructurales.
+		\item \textbf{Encofrado:} instalar cimbra alineada y estanca, asegurando la correcta posición de las mochetas respecto al vano.
+		\item \textbf{Colado:} vaciar concreto fluido (f’c especificado), vibrar con aguja fina para eliminar vacíos y obtener buena adherencia con el muro.
+		\item \textbf{Curado y desencofrado:} mantener húmeda la superficie durante al menos 7 días y retirar la cimbra sin dañar las aristas.
+		\item \textbf{Acabado final:} verificar plomo, nivel y ancho uniforme para recibir el marco o acabado arquitectónico.
+	\end{enumerate}
+	
+	\subsection*{Ventajas y desventajas (resumen)}
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Ventajas:} mejor confinamiento en vanos; proporciona rigidez lateral; facilita la instalación de puertas o ventanas; mejora la estética del acabado.
+		\item \textbf{Desventajas:} requiere precisión en el aplome y alineación; posible fisuración por mal curado o unión deficiente con muros.
+	\end{itemize}
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Preparación y trazado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Ejes y dimensiones del vano marcados conforme planos. & \cbox \\
+		Superficie de contacto del muro limpia y humedecida. & \cbox \\
+		Revisión de verticalidad y nivel antes del encofrado. & \cbox \\
+		Materiales disponibles (acero, concreto, cimbra) en el frente de trabajo. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Armado de refuerzo}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Varillas verticales colocadas según plano (diámetro, separación y longitud de anclaje). & \cbox \\
+		Estribos o anillos bien amarrados, con recubrimiento mínimo especificado. & \cbox \\
+		Empalmes y amarres verificados (sin desplazamiento durante el colado). & \cbox \\
+		Refuerzo unido correctamente con el acero del muro o columna adyacente. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Encofrado y alineación}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Cimbra firme, alineada y estanca; asegurada para evitar fugas de lechada. & \cbox \\
+		Plomos y niveles revisados antes del colado. & \cbox \\
+		Aplicación uniforme de desmoldante sin contaminar el acero. & \cbox \\
+		Pasarelas seguras o plataformas estables en vanos altos. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Colado y vibrado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Concreto con slump y resistencia especificada (f’c conforme diseño). & \cbox \\
+		Colado continuo y sin interrupciones; vibrado moderado con aguja fina. & \cbox \\
+		Buena adherencia entre concreto nuevo y superficie existente. & \cbox \\
+		Evitar segregación o desplazamiento del acero durante el vaciado. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Curado y desencofrado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Curado iniciado inmediatamente tras el colado (mantas húmedas o riego). & \cbox \\
+		Tiempo mínimo de curado cumplido (≥ 7 días o según especificación). & \cbox \\
+		Desencofrado sin dañar aristas o caras del elemento. & \cbox \\
+		Verificación de plomo, alineación y ancho uniforme después del curado. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Acabado y control final}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Superficies lisas, sin vacíos ni rebabas, listas para recibir marco o acabado. & \cbox \\
+		Dimensiones finales del vano verificadas (altura, ancho y nivel del dintel). & \cbox \\
+		Revisión final de alineación y plomo de ambas mochetas. & \cbox \\
+		Limpieza del área y retiro de cimbra o residuos. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	
+	
+	\section{Construcción de soleras de concreto armado}
+	
+	\subsection*{Descripción general}
+	Las \textbf{soleras} son elementos horizontales de concreto armado colocados en la parte superior o inferior de los muros, con el propósito de \textbf{amarrar, nivelar y distribuir cargas}.  
+	Pueden ser:
+	\begin{itemize}[leftmargin=*, itemsep=0pt]
+		\item \textbf{Soleras de cimentación o nivelación:} sirven como base nivelada para levantar muros de mampostería.  
+		\item \textbf{Soleras de amarre o cerramiento:} se ubican en la parte superior del muro para brindar rigidez, continuidad estructural y anclaje con losas o techos.
+	\end{itemize}
+	Estas piezas aseguran la integridad del sistema de muros, evitando fisuras por asentamientos diferenciales y mejorando el comportamiento sísmico del conjunto.
+	
+	\subsection*{Proceso constructivo resumido}
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Trazado y replanteo:} marcar ejes y niveles del muro o losa donde se colocará la solera, verificando su alineación.
+		\item \textbf{Colocación del acero:} instalar varillas longitudinales y estribos según planos; garantizar recubrimientos mínimos.
+		\item \textbf{Encofrado o molde:} preparar cimbra alineada y estanca, asegurando la forma rectangular de la sección.
+		\item \textbf{Colado:} vaciar concreto con el f’c especificado; vibrar ligeramente para evitar vacíos.
+		\item \textbf{Curado y desencofrado:} mantener humedad por al menos 7 días y retirar moldes cuando el concreto haya alcanzado resistencia suficiente.
+		\item \textbf{Revisión final:} verificar nivel, plomo y continuidad del elemento antes de continuar con muros o losas.
+	\end{enumerate}
+	
+	\subsection*{Ventajas y desventajas (resumen)}
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Ventajas:} mejora la estabilidad del muro; distribuye uniformemente cargas; sirve como apoyo y amarre; permite nivelar y controlar alturas.
+		\item \textbf{Desventajas:} requiere cimbra y mano de obra precisa; posibles fisuras por curado deficiente o falta de continuidad con elementos adyacentes.
+	\end{itemize}
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Trazado y preparación del área}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Ejes y niveles de solera trazados conforme planos estructurales. & \cbox \\
+		Superficie de apoyo limpia, nivelada y humedecida. & \cbox \\
+		Verificación del ancho y altura del elemento según diseño. & \cbox \\
+		Materiales acopiados (acero, cimbra, concreto, separadores) en buenas condiciones. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Colocación del acero de refuerzo}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Barras longitudinales colocadas según plano (diámetro, cantidad y recubrimiento). & \cbox \\
+		Estribos o anillos instalados con la separación indicada. & \cbox \\
+		Anclajes y traslapes de acero correctos en uniones con muros o columnas. & \cbox \\
+		Refuerzo libre de grasa, aceite u óxido suelto. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Encofrado y nivelación}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Cimbra firme, alineada y estanca, con secciones uniformes. & \cbox \\
+		Aplicación uniforme de desmoldante (sin contaminar acero). & \cbox \\
+		Nivel y plomo de cimbra verificados antes del colado. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Colado y vibrado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Concreto con f’c y slump especificados (control de calidad). & \cbox \\
+		Colado continuo sin interrupciones, vibrado moderado. & \cbox \\
+		Superficie nivelada y sin segregación de materiales. & \cbox \\
+		Evitar movimiento del acero o cimbra durante el vaciado. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Curado y desencofrado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Iniciar curado inmediatamente tras el acabado (membrana, riego o mantas). & \cbox \\
+		Mantener curado continuo por mínimo 7 días o según especificación. & \cbox \\
+		Desencofrado sin dañar bordes o caras del elemento. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Verificación final}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Revisión de nivel y alineación con muros o losas adyacentes. & \cbox \\
+		Dimensiones finales verificadas conforme planos. & \cbox \\
+		Superficie lista para recibir el muro o el acabado siguiente. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	\section{Vigas de concreto reforzado}
+	
+	\subsection*{Descripción general}
+	Las \textbf{vigas de concreto reforzado} son elementos lineales que transfieren cargas de losas, muros y otros componentes hacia columnas o apoyos, trabajando principalmente a flexión y cortante. Su desempeño depende de un \emph{encofrado} rígido y alineado, un \emph{armado} conforme a planos (acero longitudinal y estribos), un \emph{colado y vibrado} adecuados y un \emph{curado} oportuno para lograr la resistencia especificada.
+	
+	\subsection*{Proceso constructivo resumido}
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Trazado y encofrado:} replantear ejes y cotas; montar cimbra alineada, estanca y arriostrada.
+		\item \textbf{Armado:} colocar acero inferior/superior y estribos; respetar recubrimientos y longitudes de anclaje/traslape.
+		\item \textbf{Embebidos y pasos:} coordinar ductos, pernos y mangas sin interferir el refuerzo.
+		\item \textbf{Colado y vibrado:} verter en capas; vibrado interno uniforme; acabado y nivelación de la corona.
+		\item \textbf{Curado y descimbrado:} iniciar curado inmediato; retirar cimbra cuando se alcance la resistencia indicada.
+	\end{enumerate}
+	
+	\subsection*{Ventajas y desventajas (resumen)}
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Ventajas:} gran capacidad y rigidez; compatibilidad con losas y muros; facilidad para resolver claros y cambios de carga.
+		\item \textbf{Desventajas:} requiere cimbra robusta y mano de obra calificada; riesgo de nidos si el vibrado es deficiente; posibles fisuras por curado inadecuado.
+	\end{itemize}
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Trazado, cimbra y apoyos}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Ejes, niveles y dimensiones de la viga trazados conforme planos. & \cbox \\
+		Cimbra \textbf{alineada, rígida y estanca}, con arriostramiento adecuado. & \cbox \\
+		Apoyos y juntas de cimbra sellados (sin fugas de lechada). & \cbox \\
+		Contraflecha prevista cuando la especificó el diseñador. & \cbox \\
+		Aplicación uniforme de desmoldante (sin tocar el acero). & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Armado (acero longitudinal y estribos)}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Diámetros y número de varillas según plano; \textbf{recubrimientos} garantizados con separadores. & \cbox \\
+		\textbf{Estribos} con diámetro y espaciamiento conforme plano (zonas de cortante/ánclaje). & \cbox \\
+		Longitudes de \textbf{traslape y anclaje} correctas; ganchos en extremos donde aplique. & \cbox \\
+		Amarres firmes del acero para evitar desplazamientos durante el colado. & \cbox \\
+		Limpieza del refuerzo (sin grasa ni óxido suelto). & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Embebidos, huecos y coordinaciones}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Mangas, pernos, anclajes y ductos ubicados según plano (sin cortar estribos/longitudinales). & \cbox \\
+		Separación mínima entre ductos y acero respetada; sellos para evitar fugas. & \cbox \\
+		Coordinación con losas/muros adyacentes (continuidad y anclajes). & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Pre-colado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Cimbra y acero \textbf{limpios y secos}; retirar residuos y polvo. & \cbox \\
+		Vibradores operativos; accesos y mangueras de bomba listos. & \cbox \\
+		Verificación de \textbf{slump} y temperatura del concreto inicial. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Colado, vibrado y acabado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Colado por capas, evitando caída libre excesiva y segregación. & \cbox \\
+		\textbf{Vibrado interno} uniforme: penetración rápida, retiro lento y traslape de zonas. & \cbox \\
+		Coronas y caras de viga niveladas; encuentros con losas/muros sin huecos. & \cbox \\
+		Control de juntas de construcción (si aplica) en ubicación prevista. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Curado y descimbrado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Inicio inmediato del \textbf{curado} (membrana, riego o mantas) tras el acabado. & \cbox \\
+		Mantener curado continuo durante el tiempo especificado. & \cbox \\
+		\textbf{Descimbrado} solo con autorización y resistencia alcanzada; revisión de aristas. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{7. Control final y no conformidades}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Inspección de superficie: sin nidos, grietas anómalas ni oquedades. & \cbox \\
+		Dimensiones y alineación finales conforme planos; continuidad con elementos adyacentes. & \cbox \\
+		Registro fotográfico y corrección de no conformidades detectadas. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	
+	\section{Columnas de concreto reforzado}
+	
+	\subsection*{Descripción general}
+	Las \textbf{columnas de concreto reforzado} son elementos verticales que transmiten las cargas de las vigas, losas y muros hacia la cimentación. Trabajan principalmente a compresión, pero también resisten flexión y cortante, por lo que requieren una adecuada colocación del acero longitudinal y transversal (estribos), un buen alineamiento y un colado controlado. Son componentes esenciales para la estabilidad y el comportamiento sísmico de la estructura.
+	
+	\subsection*{Proceso constructivo resumido}
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Trazado y replanteo:} ubicar los ejes y dimensiones de las columnas conforme planos estructurales; verificar su posición exacta respecto a la cimentación o vigas de arranque.
+		\item \textbf{Armado:} colocar varillas longitudinales, estribos y amarres según plano; respetar recubrimientos, empalmes y verticalidad.
+		\item \textbf{Cimbra:} instalar encofrado firme y alineado, con contravientos y amarres suficientes para evitar fugas o desplazamientos.
+		\item \textbf{Colado:} vaciar concreto con el f’c especificado; vibrar en capas delgadas y uniformes.
+		\item \textbf{Curado y descimbrado:} mantener humedad constante y retirar la cimbra una vez alcanzada la resistencia mínima de diseño.
+		\item \textbf{Control final:} verificar alineación, dimensiones y acabados antes de continuar con vigas o losas.
+	\end{enumerate}
+	
+	\subsection*{Ventajas y desventajas (resumen)}
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Ventajas:} gran capacidad de carga vertical; buena rigidez estructural; compatibilidad con sistemas de vigas y losas.
+		\item \textbf{Desventajas:} requiere precisión en el armado y alineación; posibles nidos de grava por mal vibrado; fisuras por curado deficiente.
+	\end{itemize}
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Trazado y preparación}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Ubicación exacta de ejes y dimensiones de columnas conforme planos. & \cbox \\
+		Nivel y aplomo de plantilla o arranque verificados. & \cbox \\
+		Superficie limpia y humedecida antes de colocar acero. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Armado de acero}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Cantidad, diámetro y separación de barras conforme planos estructurales. & \cbox \\
+		Estribos con espaciamiento y diámetro especificado; ganchos cerrados a 135°. & \cbox \\
+		Empalmes y traslapes ejecutados con la longitud requerida. & \cbox \\
+		Refuerzo limpio, alineado y asegurado para evitar desplazamientos. & \cbox \\
+		Separadores colocados para garantizar recubrimiento uniforme. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Encofrado y alineación}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Cimbra firme, alineada y arriostrada; sin fugas en juntas. & \cbox \\
+		Plomos y escuadras verificados antes del colado. & \cbox \\
+		Aplicación uniforme de desmoldante sin contaminar el acero. & \cbox \\
+		Ventanas o mirillas de inspección habilitadas si la columna es alta. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Colado y vibrado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Concreto con slump y f’c especificado; verificación de temperatura inicial. & \cbox \\
+		Colado en capas de 30–50 cm; vibrado interno con aguja fina (sin sobre-vibrar). & \cbox \\
+		Evitar segregación y desplazamiento del acero durante el vaciado. & \cbox \\
+		Nivel superior preparado para unión con viga o losa. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Curado y descimbrado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Iniciar curado inmediato (membrana, riego o mantas húmedas). & \cbox \\
+		Mantener humedad continua por mínimo 7 días o según especificación. & \cbox \\
+		Desencofrado sin golpear ni dañar las aristas. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Control final}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Verificación de plomo, alineación y sección transversal. & \cbox \\
+		Superficie sin nidos, fisuras ni oquedades visibles. & \cbox \\
+		Dimensiones finales y nivel de coronación conforme plano. & \cbox \\
+		Limpieza del área y retiro de residuos o cimbra sobrante. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	\section{Zapata aislada de concreto reforzado}
+	
+	\subsection*{Descripción general}
+	La \textbf{zapata aislada} es un elemento de cimentación superficial de concreto reforzado que transmite la carga de una columna o pilar al terreno. Su desempeño depende de: correcta \emph{excavación y preparación de base}, \emph{armado y recubrimientos}, \emph{colado y vibrado} adecuados, y \emph{curado} oportuno, además de un \emph{relleno y compactación} controlados alrededor de la cimentación.
+	
+	\subsection*{Proceso constructivo resumido}
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Replanteo y excavación:} marcar ejes y dimensiones; excavar hasta la cota de desplante; verificar estrato competente.
+		\item \textbf{Base y plantilla:} regularizar fondo; colocar \textbf{plantilla} de limpieza (si se especifica); nivelar y compactar.
+		\item \textbf{Armado:} disponer mallas/barras en dos direcciones con separadores para recubrimiento; habilitar pernos o anclajes de columna.
+		\item \textbf{Encofrado (si aplica):} cimbra alineada y estanca para cantos; dejar mirillas para inspección.
+		\item \textbf{Colado y vibrado:} concreto con f’c especificado; verter en capas y vibrar sin segregar; nivelar la corona.
+		\item \textbf{Curado y desencofrado:} iniciar curado inmediato; retirar encofrado cuando la resistencia lo permita.
+		\item \textbf{Relleno:} reponer material en capas delgadas, compactando hasta densidad especificada.
+	\end{enumerate}
+	
+	\subsection*{Ventajas y desventajas (resumen)}
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Ventajas:} solución económica y rápida para cargas aisladas; construcción sencilla; mantenimiento bajo.
+		\item \textbf{Desventajas:} sensible a variaciones del suelo y al agua; requiere control estricto de nivelación, recubrimientos y compactación del relleno.
+	\end{itemize}
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Replanteo, excavación y base}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Ejes y dimensiones de zapata trazados conforme planos (ubicación de columna). & \cbox \\
+		Cota de desplante alcanzada; estrato competente verificado (sin material suelto). & \cbox \\
+		Fondo de excavación nivelado y compactado; sin agua acumulada ni lodos. & \cbox \\
+		Taludes o entibaciones seguras y estables (si aplica). & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Plantilla de limpieza y preparación}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Colocación de \textbf{plantilla} de concreto pobre o mortero (espesor y nivel). & \cbox \\
+		Superficie limpia, sin polvo ni contaminantes antes del armado. & \cbox \\
+		Referencias de nivel y ejes controladas para centrar el armado. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Armado y recubrimientos}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Armadura inferior en dos direcciones (diámetro, separación y desarrollo) según plano. & \cbox \\
+		\textbf{Separadores} suficientes para recubrimiento mínimo en fondo y laterales. & \cbox \\
+		Pernos/plantillas de anclaje de columna \textbf{alineados y nivelados}. & \cbox \\
+		Empalmes con longitudes de traslape correctas; acero limpio (sin grasa/óxido suelto). & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Encofrado (si aplica) y control previo al colado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Cimbra para cantos \textbf{alineada y estanca}; juntas selladas (sin fugas). & \cbox \\
+		Desmoldante aplicado correctamente (sin contaminar el acero). & \cbox \\
+		Verificación de \textbf{slump} y temperatura del concreto de la primera olla. & \cbox \\
+		Accesos, vibradores y herramientas listos; ruta de descarga definida. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Colado, vibrado y acabado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Concreto con f’c especificado; colado por capas evitando caída libre excesiva. & \cbox \\
+		\textbf{Vibrado interno} uniforme (sin sobre-vibrar ni segregar); relleno de esquinas. & \cbox \\
+		Nivelación de la \textbf{corona} para recibir columna/arranque; juntas de construcción planificadas. & \cbox \\
+		Limpieza de pernos/anclajes; protección contra desplazamientos durante el colado. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Curado y desencofrado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Inicio inmediato del \textbf{curado} (membrana, riego o mantas húmedas). & \cbox \\
+		Mantener curado continuo por el tiempo especificado (típ. \(\geq\) 7 días). & \cbox \\
+		Retiro de cimbra (si existe) sin dañar aristas ni la superficie. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{7. Relleno y compactación}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Relleno por \textbf{capas delgadas} (\(\leq\) 20--25\,cm), con compactación por capa. & \cbox \\
+		Control de \textbf{densidad} (ensayes in situ si el proyecto lo exige). & \cbox \\
+		Drenaje perimetral o subdrenes operativos (si fueron especificados). & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{8. Control final}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Dimensiones finales (largo, ancho, espesor) y \textbf{cotas} conforme planos. & \cbox \\
+		Posición y verticalidad del arranque/columna respecto a ejes. & \cbox \\
+		Superficie sin nidos, oquedades ni segregación visible. & \cbox \\
+		Limpieza del área y retiro de excedentes o escombros. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	
+	\section{Ménsulas de concreto reforzado}
+	
+	\subsection*{Descripción general}
+	Las \textbf{ménsulas} o \textbf{voladizos cortos} son elementos estructurales en voladizo de concreto reforzado que se proyectan desde una columna, muro o viga principal para sostener cargas concentradas, tales como vigas secundarias, balcones, losas, cornisas o apoyos metálicos.  
+	Su diseño está dominado por esfuerzos de flexión y cortante, por lo que requieren un adecuado anclaje del acero dentro del elemento principal, así como una correcta ejecución de cimbra, armado, colado y curado.
+	
+	\subsection*{Proceso constructivo resumido}
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Replanteo y preparación:} marcar posición y dimensiones de la ménsula conforme planos; verificar nivel de arranque y ejes.
+		\item \textbf{Armado:} habilitar acero principal (barras superiores y de anclaje) y refuerzo transversal (estribos o ganchos) con el desarrollo especificado.
+		\item \textbf{Encofrado:} instalar cimbra firme y estanca, con apoyos adecuados que soporten la carga del concreto fresco.
+		\item \textbf{Colado:} verter concreto con f’c especificado; vibrar en capas delgadas y asegurar el recubrimiento del acero.
+		\item \textbf{Curado y retiro de cimbra:} mantener humedad continua por al menos 7 días; retirar la cimbra con precaución.
+		\item \textbf{Revisión final:} verificar nivel, dimensiones y acabado superficial antes de colocar cargas o elementos apoyados.
+	\end{enumerate}
+	
+	\subsection*{Ventajas y desventajas (resumen)}
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Ventajas:} permiten resolver apoyos o voladizos sin columnas adicionales; buena integración con elementos estructurales; estética y funcionalidad.
+		\item \textbf{Desventajas:} alta demanda de refuerzo y anclaje; dificultad en la colocación del acero; riesgo de fisuración si el curado es deficiente.
+	\end{itemize}
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Replanteo y preparación del área}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Ejes, dimensiones y ubicación de la ménsula conforme planos. & \cbox \\
+		Nivel de arranque verificado respecto al elemento principal. & \cbox \\
+		Superficie de unión (columna o muro) limpia, rugosa y humedecida. & \cbox \\
+		Revisión de interferencias con ductos, pernos o embebidos cercanos. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Armado de refuerzo}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Barras principales colocadas según plano (diámetro, cantidad y longitud de anclaje). & \cbox \\
+		Refuerzo de anclaje correctamente embebido dentro de columna/viga. & \cbox \\
+		Estribos o refuerzo transversal espaciados conforme plano (zonas de cortante). & \cbox \\
+		Separadores colocados para garantizar recubrimientos mínimos. & \cbox \\
+		Refuerzo limpio y bien amarrado (sin grasa, pintura u óxido suelto). & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Encofrado y soportes}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Cimbra firme, nivelada y estanca, con refuerzo inferior temporal. & \cbox \\
+		Arriostramientos o soportes capaces de resistir el peso del colado. & \cbox \\
+		Aplicación uniforme de desmoldante (sin tocar el acero). & \cbox \\
+		Alineación y nivelación de la cara superior y bordes. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Colado y vibrado}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Concreto con f’c y slump especificado (según diseño). & \cbox \\
+		Colado en capas cortas, vibrado con aguja fina sin segregar. & \cbox \\
+		Evitar desplazamiento del acero principal durante el vibrado. & \cbox \\
+		Nivelación de la superficie superior y acabado adecuado. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Curado y retiro de cimbra}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Curado inmediato mediante riego o aplicación de membrana. & \cbox \\
+		Mantener curado constante durante mínimo 7 días. & \cbox \\
+		Retiro de cimbra sólo tras alcanzar resistencia suficiente. & \cbox \\
+		Inspección visual de aristas y caras después del desencofrado. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Control final}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Verificación de dimensiones, alineación y nivel final. & \cbox \\
+		Comprobación del anclaje efectivo con el elemento principal. & \cbox \\
+		Superficie sin nidos, fisuras ni segregación visible. & \cbox \\
+		Área limpia y lista para recibir cargas o acabados. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+	
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	  \newpage
+	% Segunda introducción
+	\newpage
+	\stepcounter{intro}
+	\section*{\centering \theintro\ Descripción y proceso constructivo de drenajes}
+	\addcontentsline{toc}{section}{\theintro\ Descripción y proceso constructivo de elementos de concreto}
+	\setcounter{section}{0}
+	
+	
+	
+	
+	\section{Instalación de tuberías (hidrosanitarias)}
+	
+	\subsection*{Descripción general}
+	La \textbf{instalación de tuberías} comprende el trazado, tendido, anclaje, pruebas y protección de redes hidráulicas, sanitarias, pluviales o eléctricas (conduit), ya sean \textbf{embebidas en losa/muro} o \textbf{enterradas en zanja}. La calidad depende de una buena planificación (planos, pendientes, diámetros), correcta sujeción/soporte, sellos estancos en pasos y \textbf{pruebas de presión/estanqueidad} antes del cierre o relleno.
+	
+	\subsection*{Proceso constructivo resumido}
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Planificación y trazos:} verificar planos, pendientes, diámetros y rutas; coordinar cruces con estructura y otras instalaciones.
+		\item \textbf{Aperturas y soportes:} habilitar huecos, ranuras o nichos; colocar abrazaderas, colgantes o bancadas de apoyo.
+		\item \textbf{Tendido y uniones:} montar tramos, accesorios y válvulas según especificación (PVC, CPVC, PEAD, galvanizado, conduit).
+		\item \textbf{Pruebas:} realizar \textbf{prueba hidrostática} (hidráulicas) o \textbf{prueba de estanqueidad/aire} (sanitaria/conduit) antes de tapar.
+		\item \textbf{Protección y cierre:} sellar pasos (corta–fuego, antivibración), proteger contra corrosión/UV, cerrar rozas o colar losa/muro.
+		\item \textbf{Para zanjas:} cama de apoyo, relleno por capas y \textbf{compactación} a densidad especificada.
+	\end{enumerate}
+	
+	\subsection*{Ventajas y desventajas (resumen)}
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Ventajas:} coordinación temprana minimiza retrabajos; pruebas previas evitan fugas; soportes adecuados reducen vibraciones y ruidos.
+		\item \textbf{Desventajas:} cruces no planificados generan cortes en elementos; rellenos sin compactación causan asentamientos; falta de pruebas = reparaciones costosas.
+	\end{itemize}
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Planificación, trazos y coordinación}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Planos actualizados y \textbf{rutas} definidas (diámetros, pendientes, cotas y válvulas). & \cbox \\
+		Coordinación con estructura (vigas, losas, muros) y otras instalaciones (eléctrica/HVAC). & \cbox \\
+		Trazos sobre obra: ejes, pendientes y niveles marcados y verificados. & \cbox \\
+		Autorización para \textbf{perforaciones/pasos} y uso de mangas o casquillos. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Materiales, almacenamiento y preparación}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Tuberías y accesorios del \textbf{material especificado} (PVC/CPVC/PEAD/galv./conduit) sin daños. & \cbox \\
+		Adhesivos, soldaduras y empaques dentro de \textbf{fecha y ficha técnica}. & \cbox \\
+		Protección de materiales contra sol/impactos; cortes limpios y biselados donde aplique. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Instalaciones \textit{embebidas} en losa/muro (antes del colado)}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Tuberías \textbf{sujetas} a armaduras o cimbra para evitar flotación durante el colado. & \cbox \\
+		Respeto de \textbf{recubrimientos} y no interferencia con acero de refuerzo. & \cbox \\
+		Colocación de cajas, derivaciones y \textbf{mangas} en la posición y cota indicadas. & \cbox \\
+		Sellos de pasos y \textbf{sistemas corta–fuego} (si aplica) colocados. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Instalaciones \textit{enterradas} en zanja}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Profundidad, \textbf{pendiente} y ancho de zanja conforme plano y especificación. & \cbox \\
+		\textbf{Cama de apoyo} (arena/grava fina) nivelada y libre de puntas o piedras. & \cbox \\
+		Alineación y \textbf{separación} mínima de otras redes; señalización y seguridad de zanja. & \cbox \\
+		Relleno por capas y \textbf{compactación} (densidad especificada). & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Montaje, uniones y soportes (toda condición)}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Uniones según sistema: \textbf{cementado}, roscado, termofusión, bridas o press–fit. & \cbox \\
+		\textbf{Abrazaderas/soportes} a espaciamientos de catálogo; anclajes en cambios de dirección. & \cbox \\
+		Aislamiento térmico/acústico donde aplique; protección UV para plásticos expuestos. & \cbox \\
+		Rotulación de redes (agua fría/caliente, sanitaria, pluvial, eléctrica). & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Pruebas y verificaciones antes del cierre}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		\textbf{Prueba hidrostática} (hidráulica): presión/tiempo según especificación, sin fugas. & \cbox \\
+		\textbf{Prueba de estanqueidad} (sanitaria/pluvial) o continui\-dad en conduits eléctricos. & \cbox \\
+		Revisión de pendientes con nivel/laser; purgas y válvulas operativas. & \cbox \\
+		Registro fotográfico de rutas y profundidades antes de tapar. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{7. Cierre, protección y entrega}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Cierre de rozas con mortero; para losa/muro, colado sin desplazar tuberías. & \cbox \\
+		Etiquetado y planos \textbf{as-built} actualizados. & \cbox \\
+		Áreas limpias y libres de obstrucciones; protección temporal donde transite personal. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	\section{Construcción de pozos de visita}
+	
+	\subsection*{Descripción general}
+	Los \textbf{pozos de visita} son estructuras de concreto (prefabricadas o coladas en sitio) que permiten el acceso, inspección, limpieza y mantenimiento de las redes subterráneas de alcantarillado sanitario, pluvial o drenaje.  
+	Generalmente se construyen con una base o fondo (solera), muros cilíndricos o rectangulares y una tapa o losa superior con marco y brocal metálico.  
+	Su correcta ejecución garantiza la hermeticidad, alineación con la red y seguridad del personal de mantenimiento.
+	
+	\subsection*{Proceso constructivo resumido}
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Replanteo y excavación:} ubicar el pozo conforme planos (ejes, cotas y pendientes); excavar hasta la profundidad de diseño con taludes o entibación segura.
+		\item \textbf{Base o solera:} nivelar y compactar el fondo; colocar base de concreto pobre o losa de fondo con pendiente hacia el centro.
+		\item \textbf{Muros del pozo:} construir con mampostería de bloque, anillos prefabricados o concreto vaciado en sitio; sellar juntas y prever escalones de acceso.
+		\item \textbf{Conexión de tuberías:} empotrar adecuadamente las entradas y salidas; sellar con mortero o anillo flexible, respetando la pendiente del colector.
+		\item \textbf{Losa de tapa y brocal:} fundir tapa con orificio de acceso; colocar marco y tapa de fundición alineados con nivel de terreno.
+		\item \textbf{Acabados y limpieza:} curar el concreto, sellar grietas y limpiar el interior antes de entrega.
+	\end{enumerate}
+	
+	\subsection*{Ventajas y desventajas (resumen)}
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Ventajas:} permite mantenimiento y ventilación del sistema; facilita inspecciones y limpieza; estructura duradera y segura.
+		\item \textbf{Desventajas:} requiere control estricto de cotas y pendientes; riesgo de filtraciones si no se sellan bien las juntas; mayor tiempo de ejecución si se colan en sitio.
+	\end{itemize}
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Replanteo, excavación y seguridad}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Ubicación y profundidad del pozo conforme planos y cotas de red. & \cbox \\
+		Taludes estables o entibación instalada correctamente (seguridad del personal). & \cbox \\
+		Base de excavación limpia, nivelada y libre de agua o material suelto. & \cbox \\
+		Control de acceso, señalización y ventilación en área de trabajo. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Base o solera del pozo}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Colocación de capa base o plantilla de concreto pobre nivelada. & \cbox \\
+		Solera de concreto reforzado con pendiente hacia el centro. & \cbox \\
+		Curado adecuado antes de continuar con los muros. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Construcción de muros del pozo}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Material de muro conforme especificación (bloque, anillo o concreto vaciado). & \cbox \\
+		Verticalidad, espesor y diámetro del pozo verificados. & \cbox \\
+		Juntas selladas con mortero impermeable o sello flexible. & \cbox \\
+		Instalación de \textbf{escalones metálicos o peldaños} empotrados a distancias iguales. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Conexión de tuberías}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Entradas y salidas empotradas conforme cotas de diseño y pendiente del colector. & \cbox \\
+		Sellado perimetral con mortero o junta de caucho flexible. & \cbox \\
+		Canaleta interior (“cuneta”) con pendiente suave, pulida y sin discontinuidades. & \cbox \\
+		Verificación de flujo continuo y sin obstrucciones. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Losa de tapa y brocal}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Losa de tapa colada con refuerzo y espesor especificado. & \cbox \\
+		Marco y tapa de fundición alineados con nivel de rasante o pavimento. & \cbox \\
+		Orificio central con diámetro de acceso suficiente y acabado limpio. & \cbox \\
+		Anclajes y nivelación del brocal asegurados antes del fraguado. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Curado, acabado y limpieza final}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Curado del concreto de base, muros y tapa durante al menos 7 días. & \cbox \\
+		Eliminación de rebabas, residuos o mortero suelto en interior del pozo. & \cbox \\
+		Aplicación de sellador o recubrimiento impermeabilizante (si está especificado). & \cbox \\
+		Limpieza general y verificación de acceso libre antes de la entrega. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{7. Control final y pruebas}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Prueba de estanqueidad (llenado con agua) o inspección visual de fugas. & \cbox \\
+		Comprobación de cotas de entrada y salida según plano. & \cbox \\
+		Revisión de alineación con la red y continuidad del flujo. & \cbox \\
+		Documentación y registro fotográfico del pozo terminado. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	\section{Construcción de pozos de absorción}
+	
+	\subsection*{Descripción general}
+	Los \textbf{pozos de absorción} (o pozos de infiltración) son estructuras verticales que \textbf{disipan y recargan} al subsuelo los caudales de agua (típicamente pluvial o excedentes tratados), mediante paredes y fondo permeables. Su desempeño depende de la \textbf{permeabilidad del estrato}, adecuada \textbf{profundidad y área de infiltración}, y de un \textbf{pretratamiento} que limite el ingreso de sedimentos y grasas.
+	
+	\subsection*{Proceso constructivo resumido}
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Estudio y ubicación:} verificar nivel freático, estratos y permeabilidad (prueba de infiltración); definir cota de fondo y diámetro.
+		\item \textbf{Excavación:} realizar pozo vertical con taludes/entibación segura; retirar material suelto; controlar ingreso de agua.
+		\item \textbf{Base y lecho drenante:} colocar \textbf{grava limpia} (granulometría especificada) y, si aplica, \textbf{geotextil} separador.
+		\item \textbf{Cuerpo del pozo:} construir con anillos de concreto perforados, block calado, muro de piedra acomodada o tubo ranurado; garantizar \textbf{permeabilidad lateral}.
+		\item \textbf{Conexiones y pretratamiento:} incorporar caja trampa de sedimentos/grasas, rejillas o filtros antes de la entrada al pozo.
+		\item \textbf{Relleno perimetral:} rellenar el espacio anular con \textbf{grava} (filtro) y envolver con \textbf{geotextil} si está especificado.
+		\item \textbf{Tapa y ventilación:} ejecutar losa o brocal con \textbf{registro} y \textbf{tubo de ventilación}; asegurar acceso para mantenimiento.
+	\end{enumerate}
+	
+	\subsection*{Ventajas y desventajas (resumen)}
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Ventajas:} reduce descargas a red; promueve recarga del acuífero; obra rápida y de bajo mantenimiento si hay pretratamiento.
+		\item \textbf{Desventajas:} sensible a \textbf{colmatación} por finos; requiere suelo permeable y distancia a cimentaciones/pozos de agua; no apto para efluentes con contaminantes sin tratamiento previo.
+	\end{itemize}
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Estudios previos y trazos}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Resultados de \textbf{prueba de infiltración} y verificación de estratos (permeables en la profundidad de diseño). & \cbox \\
+		Ubicación conforme planos: distancias mínimas a cimentaciones, linderos y pozos de agua. & \cbox \\
+		Trazos de diámetro y cota de fondo definidos; accesos y zona de acopio seguros. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Excavación y seguridad}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Excavación vertical a diámetro/cota de proyecto, con \textbf{entibación} o taludes estables. & \cbox \\
+		Fondo limpio, sin finos sueltos ni agua encharcada; bombeo (si necesario) operativo. & \cbox \\
+		Control de acceso y ventilación del área; señalización y EPP del personal. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Lecho drenante y geotextil}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Colocación de \textbf{grava limpia} (espesor y granulometría especificados) en el fondo. & \cbox \\
+		Instalación de \textbf{geotextil} separador (si aplica) sobre el lecho y/o perimetral. & \cbox \\
+		Nivelación del lecho para recibir el cuerpo del pozo. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Cuerpo del pozo (elementos permeables)}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Anillos perforados / block calado / tubo ranurado \textbf{alineados y plomados}. & \cbox \\
+		Perforaciones o ranuras \textbf{libres de obstrucción}; continuidad vertical asegurada. & \cbox \\
+		\textbf{Relleno anular} con grava uniforme; envoltura con geotextil si fue especificado. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Conexiones, pretratamiento y ventilación}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		\textbf{Caja trampa de sedimentos/grasas} o filtro previo instalado y accesible. & \cbox \\
+		Conexión de tubería de entrada \textbf{con caída} adecuada y sello perimetral estanco. & \cbox \\
+		\textbf{Ventilación} del pozo (tubo o respiradero) habilitada y protegida. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Tapa, brocal y acceso de mantenimiento}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Ejecución de losa/brocal con \textbf{registro} (diámetro suficiente) y marco estable. & \cbox \\
+		Cubierta \textbf{cerrada y segura} (evitar ingreso de sólidos y riesgos de caída). & \cbox \\
+		Acabado perimetral y pendiente exterior alejando escorrentías superficiales. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{7. Puesta en servicio y control final}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		\textbf{Prueba de infiltración} final (llenado/medición de abatimiento) conforme especificación. & \cbox \\
+		Registro de profundidades, diámetros, materiales y fotografías “as-built”. & \cbox \\
+		Programa de \textbf{mantenimiento} (retiro de sedimentos en pretratamiento) definido. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	
+	\section{Construcción de plantas de tratamiento de aguas residuales (PTAR)}
+	
+	\subsection*{Descripción general}
+	La \textbf{planta de tratamiento de aguas residuales (PTAR)} es una instalación hidráulica conformada por unidades de proceso destinadas a depurar el agua mediante operaciones físicas, químicas y biológicas.  
+	Su correcta construcción garantiza la eficiencia del sistema, la durabilidad de las estructuras y la seguridad ambiental.  
+	Una PTAR puede incluir: rejas, desarenadores, sedimentadores, tanques de aireación, filtros, digestores, clarificadores, pozos, tuberías, cámaras de distribución y obras de descarga.
+	
+	\subsection*{Proceso constructivo resumido}
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Replanteo y excavaciones:} trazar alineamientos, cotas y niveles de cada unidad; ejecutar excavaciones con taludes o entibaciones seguras; controlar el agua subterránea.
+		\item \textbf{Cimentaciones:} compactar el terreno y colocar plantilla o base de grava; fundir losas de fondo según planos estructurales.
+		\item \textbf{Muros y estructuras:} levantar muros de concreto armado o prefabricados; verificar espesores, recubrimientos y juntas impermeables.
+		\item \textbf{Impermeabilización:} aplicar aditivos, membranas o sellos en juntas frías, conexiones y superficies expuestas al agua.
+		\item \textbf{Instalaciones hidráulicas y electromecánicas:} colocar tuberías, válvulas, bombas, aireadores, barandas y pasarelas metálicas.
+		\item \textbf{Equipos y pruebas:} instalar equipos de tratamiento (rejas, sopladores, difusores, tableros); realizar pruebas hidráulicas y eléctricas.
+		\item \textbf{Acabados y puesta en marcha:} limpiar tanques, verificar flujo hidráulico, realizar calibración y pruebas de operación.
+	\end{enumerate}
+	
+	\subsection*{Ventajas y desventajas (resumen)}
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Ventajas:} protege el ambiente y cuerpos receptores; permite reuso del agua; mejora condiciones sanitarias; obra duradera si se ejecuta con control técnico.
+		\item \textbf{Desventajas:} requiere inversión alta y mantenimiento especializado; riesgo de fugas o fallas si no se controla la impermeabilidad y nivelación.
+	\end{itemize}
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Replanteo, excavaciones y control del terreno}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Trazos y cotas de cada unidad conforme planos topográficos y estructurales. & \cbox \\
+		Excavaciones con taludes estables o entibaciones adecuadas. & \cbox \\
+		Control del nivel freático y drenaje temporal operativo. & \cbox \\
+		Compactación del fondo y verificación de densidad del terreno base. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Cimentaciones y losas de fondo}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Colocación de plantilla o base de grava nivelada. & \cbox \\
+		Refuerzo colocado según planos: diámetros, separaciones y recubrimientos. & \cbox \\
+		Concreto con f’c y slump especificado; vibrado y curado correctos. & \cbox \\
+		Juntas de construcción selladas y tratamiento impermeable aplicado. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Muros, tabiques y compartimentos}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Encofrado alineado y arriostrado; secciones conforme planos. & \cbox \\
+		Acero de refuerzo vertical y horizontal colocado correctamente. & \cbox \\
+		Tratamiento de juntas frías con aditivo o banda hidroexpansiva. & \cbox \\
+		Curado del concreto y aplicación de sellador impermeabilizante. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Instalaciones hidráulicas y electromecánicas}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Colocación de tuberías, válvulas, accesorios y conexiones según planos. & \cbox \\
+		Sellado estanco de pasos de tubería en muros o losas. & \cbox \\
+		Montaje de bombas, sopladores, difusores y rejillas metálicas. & \cbox \\
+		Cableado eléctrico y tableros protegidos contra humedad. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Impermeabilización y acabados}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Superficies pulidas, sin nidos ni grietas; sellado de juntas completo. & \cbox \\
+		Aplicación de recubrimiento impermeable en tanques y muros en contacto con agua. & \cbox \\
+		Pendientes internas verificadas hacia desagües o reboses. & \cbox \\
+		Protección contra rayos UV en tuberías y equipos expuestos. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Pruebas hidráulicas y eléctricas}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		\textbf{Prueba de llenado y estanqueidad} de tanques sin fugas ni pérdidas de nivel. & \cbox \\
+		Prueba de presión en líneas de impulsión y válvulas operativas. & \cbox \\
+		Verificación de funcionamiento de bombas, aireadores y tableros eléctricos. & \cbox \\
+		Medición de niveles, caudales y tiempos de retención. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{7. Puesta en marcha y control final}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Tanques y estructuras limpias, sin residuos ni obstrucciones. & \cbox \\
+		Pruebas iniciales con agua limpia realizadas satisfactoriamente. & \cbox \\
+		Entrega de planos \textbf{as-built}, manuales y protocolo de operación. & \cbox \\
+		Personal capacitado para operación y mantenimiento de la PTAR. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+		  \newpage
+	% Segunda introducción
+	\newpage
+	\stepcounter{intro}
+	\section*{\centering \theintro\ Descripción y proceso constructivo de agua potable}
+	\addcontentsline{toc}{section}{\theintro\ Descripción y proceso constructivo de elementos de concreto}
+	\setcounter{section}{0}
+	
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			
+	\section{Instalación de línea de conducción superficial y enterrada}
+	
+	\subsection*{Descripción general}
+	La \textbf{línea de conducción} es el sistema de tuberías encargado de transportar agua desde una fuente (nacimiento, tanque o estación de bombeo) hasta una planta de tratamiento o red de distribución.  
+	Puede ser \textbf{superficial} (sobre terreno o estructuras) o \textbf{enterrada} (bajo suelo o caminos). Su correcta instalación requiere control de pendientes, alineamientos, anclajes, juntas, válvulas y pruebas hidráulicas para asegurar la continuidad y estanqueidad del sistema.
+	
+	\subsection*{Proceso constructivo resumido}
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Trazado y replanteo:} definir el eje, cotas y pendientes conforme planos topográficos; señalizar la ruta.
+		\item \textbf{Excavación (líneas enterradas):} abrir zanja con dimensiones y profundidad especificadas; mantener fondo limpio, nivelado y seco.
+		\item \textbf{Cama de apoyo:} colocar capa de arena o grava fina; compactar y nivelar para evitar esfuerzos puntuales en la tubería.
+		\item \textbf{Tendido de tubería:} alinear tramos de tubería (PVC, PEAD, hierro dúctil, acero o similar) y unir mediante el sistema especificado.
+		\item \textbf{Soportes (líneas superficiales):} colocar bancadas, soportes metálicos o de concreto a espaciamientos adecuados.
+		\item \textbf{Pruebas hidráulicas:} realizar pruebas de presión y estanqueidad antes del relleno o cierre definitivo.
+		\item \textbf{Relleno y compactación:} cubrir la tubería con material fino hasta 30 cm sobre la generatriz superior; compactar en capas.
+		\item \textbf{Acabados y señalización:} restituir superficie del terreno o pavimento; colocar hitos o señalización de la línea.
+	\end{enumerate}
+	
+	\subsection*{Ventajas y desventajas (resumen)}
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Ventajas:} conducción eficiente y segura; adaptable a diferentes materiales y topografías; bajo mantenimiento si está bien instalada.
+		\item \textbf{Desventajas:} riesgo de fugas por juntas defectuosas; asentamientos si no se compacta adecuadamente; exposición al clima en líneas superficiales.
+	\end{itemize}
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Replanteo y preparación del terreno}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Trazos y ejes de la línea definidos conforme planos topográficos y de diseño. & \cbox \\
+		Pendientes verificadas con nivel o estación total. & \cbox \\
+		Área de trabajo limpia, libre de obstáculos y con accesos seguros. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Excavación y cama de apoyo (líneas enterradas)}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Zanja excavada con ancho y profundidad según especificaciones. & \cbox \\
+		Fondo nivelado, sin material suelto ni agua acumulada. & \cbox \\
+		Colocación de \textbf{cama de arena o grava fina} compactada y nivelada. & \cbox \\
+		Protección de las paredes de la zanja (taludes o entibación) según seguridad. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Montaje de tubería y uniones}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Tipo de material de tubería (PVC, PEAD, acero, hierro dúctil) conforme especificación. & \cbox \\
+		Uniones limpias y lubricadas; \textbf{alineación} correcta de campanas y espigas. & \cbox \\
+		Verificación de juntas (empaques de goma o soldadura) sin fugas. & \cbox \\
+		Colocación de válvulas, ventosas y accesorios en puntos indicados. & \cbox \\
+		Protección de tuberías metálicas con recubrimiento o cinta anticorrosiva. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Soportes y anclajes (líneas superficiales)}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Bancadas o apoyos construidos según planos y espaciados uniformemente. & \cbox \\
+		Alineación y nivel de la tubería verificados antes del colado de anclajes. & \cbox \\
+		Instalación de \textbf{anclajes de empuje} en codos, tees o reducciones. & \cbox \\
+		Aplicación de pintura protectora o recubrimiento anticorrosivo. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Pruebas hidráulicas y control de calidad}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		\textbf{Prueba hidrostática} realizada según especificación (presión, tiempo y pérdidas). & \cbox \\
+		\textbf{Prueba de estanqueidad} en uniones y válvulas sin fugas visibles. & \cbox \\
+		Registro de presión, tiempo y comportamiento de manómetro. & \cbox \\
+		Corrección de fugas o reemplazo de accesorios defectuosos. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Relleno y compactación (líneas enterradas)}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Relleno con material fino hasta 30 cm sobre la generatriz superior de la tubería. & \cbox \\
+		Compactación por capas delgadas hasta alcanzar densidad especificada. & \cbox \\
+		Relleno final con material seleccionado o del sitio, libre de piedras grandes. & \cbox \\
+		Restitución del terreno o pavimento según condiciones originales. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{7. Acabados, señalización y control final}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Colocación de hitos, mojones o cinta de advertencia (líneas enterradas). & \cbox \\
+		Protección física o barandales en líneas superficiales expuestas. & \cbox \\
+		Entrega de planos “\textbf{as-built}” con coordenadas, cotas y materiales usados. & \cbox \\
+		Área limpia, sin escombros, y libre de obstrucciones. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+	
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	\section{Instalación de líneas de distribución}
+	
+	\subsection*{Descripción general}
+	Las \textbf{líneas de distribución} conforman la red que entrega el agua desde tanques o estaciones de bombeo hacia los usuarios finales, integrando \textbf{tuberías principales y secundarias}, válvulas de seccionamiento, hidrantes, ventosas, descargas, y \textbf{acometidas domiciliarias con micromedición}.  
+	Su correcta ejecución requiere una adecuada \textbf{sectorización}, control de pendientes y presiones, uniones estancas, pruebas hidráulicas, \textbf{desinfección} y un relleno/compactación que garantice la durabilidad del sistema.
+	
+	\subsection*{Proceso constructivo resumido}
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Trazado y sectorización:} definir ejes, cotas y \textbf{sectores hidráulicos} (válvulas de corte) según planos.
+		\item \textbf{Excavación y cama:} abrir zanja con dimensiones especificadas; fondo limpio y seco; colocar \textbf{cama de apoyo} (arena/grava fina).
+		\item \textbf{Tendido y uniones:} instalar tuberías (PVC, PEAD, hierro dúctil, acero, etc.) y accesorios con el sistema de unión indicado.
+		\item \textbf{Accesorios mayores:} montar válvulas de seccionamiento, hidrantes, ventosas y descargas con sus \textbf{anclajes de empuje}.
+		\item \textbf{Acometidas y micromedición:} ejecutar derivaciones domiciliarias, cajas y medidores conforme normas.
+		\item \textbf{Pruebas y desinfección:} realizar \textbf{prueba hidrostática} y \textbf{cloración/desinfección}, enjuague y muestreo.
+		\item \textbf{Relleno y reposición:} cubrir y compactar por capas; reponer pavimentos y señalizar la red instalada.
+	\end{enumerate}
+	
+	\subsection*{Ventajas y desventajas (resumen)}
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Ventajas:} servicio continuo y sectorizado; mantenimiento facilitado por válvulas; control de presiones y caudales.
+		\item \textbf{Desventajas:} riesgo de fugas en uniones mal ejecutadas; asentamientos por mala compactación; contaminación si falla la desinfección.
+	\end{itemize}
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Replanteo, sectorización y seguridad vial}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Ejes, cotas y pendientes trazados conforme planos; cruces con servicios existentes localizados. & \cbox \\
+		\textbf{Sectorización} definida: ubicaciones de válvulas de corte, hidrantes, ventosas y descargas. & \cbox \\
+		Plan de manejo de tránsito, señalización y EPP implementados en el frente de trabajo. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Excavación y cama de apoyo}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Zanja con ancho y \textbf{profundidad} especificados; fondo nivelado y sin agua. & \cbox \\
+		Colocación de \textbf{cama de arena/grava fina} (espesor y nivel) sin elementos punzantes. & \cbox \\
+		Taludes estables o entibación instalada donde aplique; accesos seguros para operadores. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Montaje de tuberías y uniones}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Material y diámetro de tubería conforme especificación (PVC/PEAD/HD/Acero). & \cbox \\
+		\textbf{Uniones} ejecutadas según sistema: cementado, junta elástica, termofusión, bridas o roscas. & \cbox \\
+		Alineación y pendiente verificadas; protección anticorrosiva en partes metálicas. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Válvulas, hidrantes, ventosas y anclajes}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Instalación de \textbf{válvulas de seccionamiento} en cámaras con marco y tapa. & \cbox \\
+		\textbf{Hidrantes} ubicados y ensamblados según plano (altura, válvulas y drenes). & \cbox \\
+		\textbf{Ventosas} tramos altos; descargas en puntos bajos con protección de descarga. & \cbox \\
+		\textbf{Anclajes de empuje} (codos, tees, reducciones) con concreto y pernos según diseño. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Acometidas domiciliarias y micromedición}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Derivaciones ejecutadas con \textbf{saddle}, tee o perforación controlada (según norma). & \cbox \\
+		\textbf{Caja de medidor} instalada (cota, orientación y protección); válvula domiciliaria accesible. & \cbox \\
+		Prueba de estanqueidad de acometida y registro en planos \textit{as-built}. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Pruebas hidráulicas, desinfección y muestreo}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		\textbf{Prueba hidrostática}: presión/tiempo según especificación; sin caídas inadmisibles. & \cbox \\
+		\textbf{Desinfección} (cloración): dosis, tiempo de contacto y \textbf{enjuague} controlados. & \cbox \\
+		Muestreo de \textbf{calidad de agua} (cloro residual, turbidez, bacteriología) si corresponde. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{7. Relleno, reposición y señalización}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Relleno inicial con material fino hasta 30 cm sobre la generatriz; \textbf{compactación} por capas. & \cbox \\
+		Reposición de pavimentos, banquetas y áreas verdes según especificación municipal. & \cbox \\
+		Señalización permanente (hitos, tapas, marcadores) y \textbf{planos as-built} actualizados. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+
+	
+	
+	
+	
+	\textbf{me quede en Intalacion de lineas de distribucion}
+	
+	
+	
+	
+	
+
+
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{document}
