@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  29 OCT 2025 00:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  2 NOV 2025 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./cuerpoinforme.tex
 (cuerpoinforme.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
+L3 programming layer <2025-07-20>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
@@ -34,7 +34,7 @@ pport for TeXGyreTermesX
 nd its extensions (msharpe)
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/xpatch\xpatch.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-08-13 L3 programming layer (loader) 
+Package: expl3 2025-07-20 L3 programming layer (loader) 
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
@@ -488,7 +488,7 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@count@id=\count321
 \enitdp@description=\count322
 )
-(C:\Program Files\MiKTeX\tex/latex/siunitx\siunitx.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count323
 \l__siunitx_number_exponent_fixed_int=\count324
@@ -505,7 +505,7 @@ Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
 \l__siunitx_angle_unit_box=\box62
 \l__siunitx_compound_count_int=\count333
 
-(C:\Program Files\MiKTeX\tex/latex/translations\translations.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/translations\translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 
@@ -566,7 +566,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthR=\skip75
 \@temptokenb=\toks40
 )
-(C:\Program Files\MiKTeX\tex/latex/tocloft\tocloft.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
 \cftparskip=\skip76
@@ -611,27 +611,26 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
 
-(C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestring
+.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count339
-)
-(C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty
+) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
@@ -644,7 +643,7 @@ File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count342
@@ -670,10 +669,10 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen260
 
-(C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -698,10 +697,12 @@ File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count348
 \c@bookmark@seq@number=\count349
 
-(C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.s
+ty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.s
+ty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -711,8 +712,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
 e 68.
-
-(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1ntxtlf.fd
+ (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
@@ -856,8 +856,8 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-(C:\Program Files\MiKTeX\tex/latex/translations/dicts\translations-basic-dictio
-nary-spanish.trsl
+(C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/translations/dicts\translations
+-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
@@ -872,7 +872,8 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 17.28pt on input line 71.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 17.28pt on input line 71.
- (cuerpoinforme.toc
+
+(cuerpoinforme.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
@@ -994,11 +995,11 @@ l.96 	\section
 
 
 ]
-<./Imagenes/cronograma.jpg, id=258, 776.9025pt x 1139.75812pt>
-File: ./Imagenes/cronograma.jpg Graphic file (type jpg)
-<use ./Imagenes/cronograma.jpg>
-Package pdftex.def Info: ./Imagenes/cronograma.jpg  used on input line 99.
-(pdftex.def)             Requested size: 366.24527pt x 537.30379pt.
+<./Imagenes/cronograma2.jpg, id=258, 852.18375pt x 1279.78125pt>
+File: ./Imagenes/cronograma2.jpg Graphic file (type jpg)
+<use ./Imagenes/cronograma2.jpg>
+Package pdftex.def Info: ./Imagenes/cronograma2.jpg  used on input line 99.
+(pdftex.def)             Requested size: 366.24527pt x 550.02184pt.
 
 
 
@@ -1016,7 +1017,7 @@ been already used, duplicate ignored
 l.104 \section
               {Introducción} [2
 
- <./Imagenes/cronograma.jpg>]
+ <./Imagenes/cronograma2.jpg>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2528,10 +2529,10 @@ Package rerunfilecheck Info: File `cuerpoinforme.out' has not changed.
 (rerunfilecheck)             Checksum: D905BD4F61CBC0803F64118E43907F34;8621.
  ) 
 Here is how much of TeX's memory you used:
- 22930 strings out of 468132
- 423383 string characters out of 5440761
- 884684 words of memory out of 5000000
- 51044 multiletter control sequences out of 15000+600000
+ 22930 strings out of 468133
+ 423880 string characters out of 5440789
+ 884637 words of memory out of 5000000
+ 51043 multiletter control sequences out of 15000+600000
  669018 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,17n,80p,732b,1423s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2544,7 +2545,7 @@ Roaming/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Ivan/AppData/Roamin
 g/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Ivan/AppData/Roaming/MiKTe
 X/fonts/type1/public/newtx/ztmr.pfb><C:/Users/Ivan/AppData/Roaming/MiKTeX/fonts
 /type1/public/newtx/ztmri.pfb>
-Output written on cuerpoinforme.pdf (79 pages, 22284536 bytes).
+Output written on cuerpoinforme.pdf (79 pages, 22046467 bytes).
 PDF statistics:
  876 PDF objects out of 1000 (max. 8388607)
  183 named destinations out of 1000 (max. 500000)

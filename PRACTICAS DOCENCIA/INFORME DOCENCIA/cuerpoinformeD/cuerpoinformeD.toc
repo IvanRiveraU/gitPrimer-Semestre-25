@@ -1,0 +1,57 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Objetivos}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivo general}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objetivos específicos}{1}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Cronograma de actividades }{2}{section.2}%
+\contentsline {section}{\numberline {3}Introducción}{3}{section.3}%
+\contentsline {section}{\numberline {4}Capítulo 1. Descripción del curso y desarrollo de la práctica docente}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Descripción del programa del curso}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Temas que se abordaron en la práctica}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Habilidades desarrolladas}{5}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Capítulo 1}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Ubicación }{6}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Actividad económica}{6}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Organigrama de la Institución}{7}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Funciones y responsabilidades de la empresa}{8}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Capítulo 2}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Importancia de la topografía en obras civiles}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Fundamentos de levantamiento topográfico}{11}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Nivelación geométrica y control de cotas}{12}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Replanteo y transferencia de coordenadas}{12}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Pendientes y rasantes proyectadas}{13}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Control geométrico y verificación de estructuras}{14}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Verificación de capas estructurales del pavimento}{14}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Cálculo de volúmenes y movimiento de tierras}{14}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Normativa técnica aplicada}{15}{subsection.6.9}%
+\contentsline {section}{\numberline {7}Capítulo 3}{16}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Folio 1}{16}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Folio 2}{18}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Folio 3}{20}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Folio 4}{23}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Folio 5}{24}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Folio 6}{25}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Folio 7}{26}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}Folio 8}{27}{subsection.7.8}%
+\contentsline {subsection}{\numberline {7.9}Folio 9}{29}{subsection.7.9}%
+\contentsline {subsection}{\numberline {7.10}Folio 10}{31}{subsection.7.10}%
+\contentsline {subsection}{\numberline {7.11}Folio 11}{33}{subsection.7.11}%
+\contentsline {section}{\numberline {8}Capítulo 4 }{36}{section.8}%
+\contentsline {subsection}{\numberline {8.1}GIRD y ACC}{36}{subsection.8.1}%
+\contentsline {paragraph}{Acciones GIRD aplicadas en topografía y obra}{36}{paragraph*.1}%
+\contentsline {paragraph}{Estrategias ACC integradas al proceso topográfico y constructivo}{37}{paragraph*.2}%
+\contentsline {paragraph}{Vinculación técnica con las actividades ejecutadas}{37}{paragraph*.3}%
+\contentsline {section}{\numberline {9}Preguntas}{39}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Diseño de Drenaje}{39}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Juntas en pavimento rígido y compactación del concreto}{43}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Juntas en pavimento rígido}{43}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}Compactación del pavimento rígido}{44}{subsubsection.9.2.2}%
+\contentsline {paragraph}{a) Compactación de subrasante y base:}{44}{paragraph*.4}%
+\contentsline {paragraph}{b) Consolidación del concreto:}{44}{paragraph*.5}%
+\contentsline {subsubsection}{\numberline {9.2.3}Importancia de las juntas y la compactación}{45}{subsubsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.3}Ensayos de Compactación y Determinación de Densidad en Campo}{45}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}Ensayo CBR (California Bearing Ratio)}{45}{subsubsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.2}Ensayo Proctor}{46}{subsubsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.3}Relación entre el Ensayo CBR y el Proctor}{46}{subsubsection.9.3.3}%
+\contentsline {subsubsection}{\numberline {9.3.4}Determinación de la Densidad y Humedad en Campo}{47}{subsubsection.9.3.4}%
+\contentsline {section}{\numberline {10}Conclusiones}{49}{section.10}%
+\contentsline {section}{\numberline {11}Recomendaciones}{51}{section.11}%

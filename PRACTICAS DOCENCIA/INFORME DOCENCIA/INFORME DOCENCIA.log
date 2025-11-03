@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  2 NOV 2025 11:08
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.15)  29 OCT 2025 02:05
->>>>>>> 70f18b48cb4fbae9f00dbbc463beee03beddd676
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  2 NOV 2025 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -479,7 +475,12 @@ File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 27.
 
-(INFORME DOCENCIA.aux)
+(INFORME DOCENCIA.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 8.
+)
 \openout1 = `"INFORME DOCENCIA.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 27.
@@ -552,8 +553,6 @@ LaTeX Info: Command `\dddot' is already robust on input line 27.
 LaTeX Info: Command `\ddddot' is already robust on input line 27.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -728,7 +727,1115 @@ Package pdftex.def Info: scanerD/oficiofirmadoD.pdf , page1 used on input line
 pdfTeX warning: pdflatex.exe (file ./scanerD/oficiofirmadoD.pdf): PDF inclusion
 : Subtype in Resources dict is not a name (key 'Subtype', type <stream>); ignor
 ed.
->] (INFORME DOCENCIA.aux
+>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=131, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf  used on input line 
+48.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<cuerpoinformeD/cuerpoinformeD.pdf, id=133, page=1, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 1>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page1 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 1>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page1 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 1>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page1 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 1>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page1 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 1>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page1 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[5
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=146, page=2, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 2>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page2 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 2>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page2 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 2>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page2 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[6
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=150, page=3, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 3>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page3 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 3>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page3 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 3>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page3 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[7
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=161, page=4, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 4>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page4 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 4>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page4 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 4>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page4 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[8
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=166, page=5, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 5>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page5 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 5>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page5 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 5>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page5 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[9
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=170, page=6, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 6>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page6 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 6>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page6 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 6>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page6 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[10
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=175, page=7, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 7>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page7 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 7>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page7 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 7>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page7 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[11
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=180, page=8, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 8>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page8 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 8>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page8 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 8>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page8 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[12
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=184, page=9, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 9>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page9 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 9>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page9 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 9>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page9 used on inpu
+t line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[13
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=189, page=10, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 10>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page10 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 10>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page10 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 10>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page10 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[14
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=193, page=11, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 11>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page11 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 11>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page11 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 11>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page11 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[15
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=221, page=12, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 12>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page12 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 12>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page12 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 12>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page12 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[16
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=225, page=13, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 13>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page13 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 13>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page13 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 13>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page13 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[17
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=229, page=14, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 14>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page14 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 14>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page14 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 14>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page14 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[18
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=233, page=15, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 15>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page15 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 15>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page15 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 15>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page15 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[19
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=238, page=16, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 16>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page16 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 16>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page16 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 16>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page16 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[20
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=243, page=17, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 17>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page17 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 17>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page17 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 17>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page17 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[21
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=249, page=18, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 18>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page18 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 18>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page18 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 18>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page18 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[22
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=254, page=19, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 19>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page19 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 19>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page19 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 19>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page19 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[23
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=260, page=20, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 20>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page20 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 20>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page20 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 20>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page20 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[24
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=265, page=21, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 21>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page21 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 21>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page21 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 21>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page21 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[25
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=272, page=22, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 22>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page22 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 22>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page22 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 22>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page22 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[26
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=278, page=23, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 23>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page23 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 23>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page23 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 23>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page23 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[27
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=283, page=24, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 24>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page24 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 24>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page24 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 24>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page24 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[28
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=289, page=25, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 25>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page25 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 25>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page25 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 25>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page25 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[29
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=294, page=26, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 26>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page26 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 26>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page26 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 26>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page26 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[30
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=299, page=27, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 27>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page27 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 27>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page27 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 27>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page27 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[31
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=306, page=28, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 28>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page28 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 28>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page28 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 28>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page28 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[32
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=312, page=29, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 29>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page29 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 29>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page29 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 29>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page29 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[33
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=318, page=30, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 30>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page30 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 30>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page30 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 30>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page30 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[34
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=326, page=31, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 31>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page31 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 31>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page31 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 31>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page31 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[35
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=332, page=32, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 32>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page32 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 32>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page32 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 32>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page32 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[36
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=338, page=33, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 33>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page33 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 33>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page33 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 33>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page33 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[37
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=345, page=34, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 34>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page34 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 34>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page34 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 34>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page34 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[38
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=351, page=35, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 35>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page35 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 35>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page35 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 35>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page35 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[39
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=357, page=36, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 36>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page36 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 36>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page36 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 36>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page36 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[40
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=361, page=37, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 37>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page37 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 37>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page37 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 37>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page37 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[41
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=365, page=38, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 38>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page38 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 38>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page38 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 38>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page38 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[42
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=369, page=39, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 39>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page39 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 39>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page39 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 39>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page39 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[43
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=375, page=40, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 40>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page40 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 40>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page40 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 40>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page40 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[44
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=381, page=41, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 41>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page41 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 41>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page41 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 41>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page41 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[45
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=387, page=42, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 42>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page42 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 42>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page42 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 42>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page42 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[46
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=392, page=43, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 43>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page43 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 43>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page43 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 43>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page43 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[47
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=397, page=44, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 44>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page44 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 44>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page44 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 44>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page44 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[48
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=401, page=45, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 45>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page45 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 45>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page45 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 45>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page45 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[49
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=406, page=46, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 46>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page46 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 46>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page46 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 46>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page46 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[50
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=410, page=47, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 47>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page47 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 47>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page47 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 47>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page47 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[51
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=418, page=48, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 48>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page48 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 48>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page48 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 48>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page48 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[52
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=422, page=49, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 49>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page49 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 49>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page49 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 49>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page49 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[53
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=426, page=50, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 50>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page50 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 50>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page50 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 50>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page50 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[54
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=430, page=51, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 51>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page51 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 51>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page51 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 51>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page51 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[55
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>]
+<cuerpoinformeD/cuerpoinformeD.pdf, id=435, page=52, 614.295pt x 794.97pt>
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 52>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page52 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 52>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page52 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: cuerpoinformeD/cuerpoinformeD.pdf Graphic file (type pdf)
+<use cuerpoinformeD/cuerpoinformeD.pdf, page 52>
+Package pdftex.def Info: cuerpoinformeD/cuerpoinformeD.pdf , page52 used on inp
+ut line 48.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[56
+
+ <./cuerpoinformeD/cuerpoinformeD.pdf>] (INFORME DOCENCIA.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -738,27 +1845,25 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 10144 strings out of 468133
- 154644 string characters out of 5440789
- 648462 words of memory out of 5000000
- 38620 multiletter control sequences out of 15000+600000
-=======
- 10141 strings out of 468132
- 154546 string characters out of 5440761
- 649518 words of memory out of 5000000
- 38618 multiletter control sequences out of 15000+600000
->>>>>>> 70f18b48cb4fbae9f00dbbc463beee03beddd676
+ 10307 strings out of 468133
+ 162928 string characters out of 5440789
+ 649462 words of memory out of 5000000
+ 38783 multiletter control sequences out of 15000+600000
  627851 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,17n,79p,297b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C
-:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txsym.pfb><C:/User
-s/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Ivan/
-AppData/Roaming/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on "INFORME DOCENCIA.pdf" (4 pages, 743000 bytes).
+<C:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C
+:/Users/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Us
+ers/Ivan/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/Iv
+an/AppData/Roaming/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Ivan/Ap
+pData/Roaming/MiKTeX/fonts/type1/public/newtx/txsym.pfb><C:/Users/Ivan/AppData/
+Roaming/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/Ivan/AppData/Roamin
+g/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/Ivan/AppData/Roaming/MiKTe
+X/fonts/type1/public/newtx/ztmr.pfb><C:/Users/Ivan/AppData/Roaming/MiKTeX/fonts
+/type1/public/newtx/ztmri.pfb>
+Output written on "INFORME DOCENCIA.pdf" (56 pages, 21813686 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
+ 452 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 
