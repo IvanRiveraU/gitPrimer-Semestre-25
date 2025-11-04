@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.3)  3 NOV 2025 17:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.3)  3 NOV 2025 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1844,22 +1844,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [52
 
 ]
-<investigacion/anexosinvestigacion.pdf, id=604, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf  used on input l
-ine 997.
+<investigacion2.pdf, id=604, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf>
+Package pdftex.def Info: investigacion2.pdf  used on input line 997.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<investigacion/anexosinvestigacion.pdf, id=606, page=1, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 1>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page1 used on 
-input line 997.
+<investigacion2.pdf, id=606, page=1, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 1>
+Package pdftex.def Info: investigacion2.pdf , page1 used on input line 997.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 1>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page1 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 1>
+Package pdftex.def Info: investigacion2.pdf , page1 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -1872,15 +1869,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [53
 
 ]
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 1>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page1 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 1>
+Package pdftex.def Info: investigacion2.pdf , page1 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 1>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page1 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 1>
+Package pdftex.def Info: investigacion2.pdf , page1 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -1890,24 +1885,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 1>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page1 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 1>
+Package pdftex.def Info: investigacion2.pdf , page1 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [54
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=632, page=2, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 2>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page2 used on 
-input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=641, page=2, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 2>
+Package pdftex.def Info: investigacion2.pdf , page2 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 2>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page2 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 2>
+Package pdftex.def Info: investigacion2.pdf , page2 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -1917,24 +1909,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 2>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page2 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 2>
+Package pdftex.def Info: investigacion2.pdf , page2 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [55
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=664, page=3, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 3>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page3 used on 
-input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=646, page=3, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 3>
+Package pdftex.def Info: investigacion2.pdf , page3 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 3>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page3 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 3>
+Package pdftex.def Info: investigacion2.pdf , page3 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -1944,24 +1933,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 3>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page3 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 3>
+Package pdftex.def Info: investigacion2.pdf , page3 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [56
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=671, page=4, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 4>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page4 used on 
-input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=657, page=4, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 4>
+Package pdftex.def Info: investigacion2.pdf , page4 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 4>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page4 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 4>
+Package pdftex.def Info: investigacion2.pdf , page4 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -1971,24 +1957,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 4>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page4 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 4>
+Package pdftex.def Info: investigacion2.pdf , page4 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [57
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=677, page=5, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 5>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page5 used on 
-input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=662, page=5, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 5>
+Package pdftex.def Info: investigacion2.pdf , page5 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 5>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page5 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 5>
+Package pdftex.def Info: investigacion2.pdf , page5 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -1998,24 +1981,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 5>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page5 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 5>
+Package pdftex.def Info: investigacion2.pdf , page5 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [58
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=684, page=6, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 6>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page6 used on 
-input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=667, page=6, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 6>
+Package pdftex.def Info: investigacion2.pdf , page6 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 6>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page6 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 6>
+Package pdftex.def Info: investigacion2.pdf , page6 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2025,24 +2005,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 6>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page6 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 6>
+Package pdftex.def Info: investigacion2.pdf , page6 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [59
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=697, page=7, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 7>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page7 used on 
-input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=673, page=7, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 7>
+Package pdftex.def Info: investigacion2.pdf , page7 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 7>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page7 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 7>
+Package pdftex.def Info: investigacion2.pdf , page7 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2052,24 +2029,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 7>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page7 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 7>
+Package pdftex.def Info: investigacion2.pdf , page7 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [60
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=702, page=8, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 8>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page8 used on 
-input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=678, page=8, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 8>
+Package pdftex.def Info: investigacion2.pdf , page8 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 8>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page8 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 8>
+Package pdftex.def Info: investigacion2.pdf , page8 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2079,24 +2053,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 8>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page8 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 8>
+Package pdftex.def Info: investigacion2.pdf , page8 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [61
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=707, page=9, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 9>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page9 used on 
-input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=683, page=9, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 9>
+Package pdftex.def Info: investigacion2.pdf , page9 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 9>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page9 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 9>
+Package pdftex.def Info: investigacion2.pdf , page9 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2106,24 +2077,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 9>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page9 used on 
-input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 9>
+Package pdftex.def Info: investigacion2.pdf , page9 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [62
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=712, page=10, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 10>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page10 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=688, page=10, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 10>
+Package pdftex.def Info: investigacion2.pdf , page10 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 10>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page10 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 10>
+Package pdftex.def Info: investigacion2.pdf , page10 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2133,24 +2101,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 10>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page10 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 10>
+Package pdftex.def Info: investigacion2.pdf , page10 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [63
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=718, page=11, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 11>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page11 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=693, page=11, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 11>
+Package pdftex.def Info: investigacion2.pdf , page11 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 11>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page11 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 11>
+Package pdftex.def Info: investigacion2.pdf , page11 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2160,24 +2125,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 11>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page11 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 11>
+Package pdftex.def Info: investigacion2.pdf , page11 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [64
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=723, page=12, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 12>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page12 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=698, page=12, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 12>
+Package pdftex.def Info: investigacion2.pdf , page12 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 12>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page12 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 12>
+Package pdftex.def Info: investigacion2.pdf , page12 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2187,24 +2149,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 12>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page12 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 12>
+Package pdftex.def Info: investigacion2.pdf , page12 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [65
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=729, page=13, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 13>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page13 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=704, page=13, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 13>
+Package pdftex.def Info: investigacion2.pdf , page13 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 13>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page13 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 13>
+Package pdftex.def Info: investigacion2.pdf , page13 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2214,24 +2173,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 13>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page13 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 13>
+Package pdftex.def Info: investigacion2.pdf , page13 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [66
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=740, page=14, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 14>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page14 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=709, page=14, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 14>
+Package pdftex.def Info: investigacion2.pdf , page14 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 14>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page14 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 14>
+Package pdftex.def Info: investigacion2.pdf , page14 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2241,24 +2197,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 14>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page14 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 14>
+Package pdftex.def Info: investigacion2.pdf , page14 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [67
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=747, page=15, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 15>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page15 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=714, page=15, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 15>
+Package pdftex.def Info: investigacion2.pdf , page15 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 15>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page15 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 15>
+Package pdftex.def Info: investigacion2.pdf , page15 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2268,24 +2221,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 15>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page15 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 15>
+Package pdftex.def Info: investigacion2.pdf , page15 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [68
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=753, page=16, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 16>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page16 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=719, page=16, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 16>
+Package pdftex.def Info: investigacion2.pdf , page16 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 16>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page16 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 16>
+Package pdftex.def Info: investigacion2.pdf , page16 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2295,24 +2245,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 16>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page16 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 16>
+Package pdftex.def Info: investigacion2.pdf , page16 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [69
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=759, page=17, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 17>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page17 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=724, page=17, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 17>
+Package pdftex.def Info: investigacion2.pdf , page17 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 17>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page17 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 17>
+Package pdftex.def Info: investigacion2.pdf , page17 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2322,24 +2269,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 17>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page17 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 17>
+Package pdftex.def Info: investigacion2.pdf , page17 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [70
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=764, page=18, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 18>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page18 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=729, page=18, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 18>
+Package pdftex.def Info: investigacion2.pdf , page18 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 18>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page18 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 18>
+Package pdftex.def Info: investigacion2.pdf , page18 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2349,24 +2293,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 18>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page18 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 18>
+Package pdftex.def Info: investigacion2.pdf , page18 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [71
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=771, page=19, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 19>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page19 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=735, page=19, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 19>
+Package pdftex.def Info: investigacion2.pdf , page19 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 19>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page19 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 19>
+Package pdftex.def Info: investigacion2.pdf , page19 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2376,24 +2317,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 19>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page19 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 19>
+Package pdftex.def Info: investigacion2.pdf , page19 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [72
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=777, page=20, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 20>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page20 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=747, page=20, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 20>
+Package pdftex.def Info: investigacion2.pdf , page20 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 20>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page20 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 20>
+Package pdftex.def Info: investigacion2.pdf , page20 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2403,24 +2341,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 20>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page20 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 20>
+Package pdftex.def Info: investigacion2.pdf , page20 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [73
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=782, page=21, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 21>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page21 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=752, page=21, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 21>
+Package pdftex.def Info: investigacion2.pdf , page21 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 21>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page21 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 21>
+Package pdftex.def Info: investigacion2.pdf , page21 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2430,24 +2365,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 21>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page21 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 21>
+Package pdftex.def Info: investigacion2.pdf , page21 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [74
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=787, page=22, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 22>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page22 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=757, page=22, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 22>
+Package pdftex.def Info: investigacion2.pdf , page22 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 22>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page22 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 22>
+Package pdftex.def Info: investigacion2.pdf , page22 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2457,24 +2389,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 22>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page22 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 22>
+Package pdftex.def Info: investigacion2.pdf , page22 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [75
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=798, page=23, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 23>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page23 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=762, page=23, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 23>
+Package pdftex.def Info: investigacion2.pdf , page23 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 23>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page23 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 23>
+Package pdftex.def Info: investigacion2.pdf , page23 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2484,24 +2413,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 23>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page23 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 23>
+Package pdftex.def Info: investigacion2.pdf , page23 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [76
 
- <./investigacion/anexosinvestigacion.pdf>]
-<investigacion/anexosinvestigacion.pdf, id=803, page=24, 614.295pt x 794.97pt>
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 24>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page24 used on
- input line 997.
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=767, page=24, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 24>
+Package pdftex.def Info: investigacion2.pdf , page24 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 24>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page24 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 24>
+Package pdftex.def Info: investigacion2.pdf , page24 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
@@ -2511,14 +2437,829 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: investigacion/anexosinvestigacion.pdf Graphic file (type pdf)
-<use investigacion/anexosinvestigacion.pdf, page 24>
-Package pdftex.def Info: investigacion/anexosinvestigacion.pdf , page24 used on
- input line 997.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 24>
+Package pdftex.def Info: investigacion2.pdf , page24 used on input line 997.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [77
 
- <./investigacion/anexosinvestigacion.pdf>] (./cuerpoinforme.aux
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=773, page=25, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 25>
+Package pdftex.def Info: investigacion2.pdf , page25 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 25>
+Package pdftex.def Info: investigacion2.pdf , page25 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 25>
+Package pdftex.def Info: investigacion2.pdf , page25 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[78
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=778, page=26, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 26>
+Package pdftex.def Info: investigacion2.pdf , page26 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 26>
+Package pdftex.def Info: investigacion2.pdf , page26 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 26>
+Package pdftex.def Info: investigacion2.pdf , page26 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[79
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=783, page=27, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 27>
+Package pdftex.def Info: investigacion2.pdf , page27 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 27>
+Package pdftex.def Info: investigacion2.pdf , page27 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 27>
+Package pdftex.def Info: investigacion2.pdf , page27 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[80
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=794, page=28, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 28>
+Package pdftex.def Info: investigacion2.pdf , page28 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 28>
+Package pdftex.def Info: investigacion2.pdf , page28 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 28>
+Package pdftex.def Info: investigacion2.pdf , page28 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[81
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=799, page=29, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 29>
+Package pdftex.def Info: investigacion2.pdf , page29 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 29>
+Package pdftex.def Info: investigacion2.pdf , page29 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 29>
+Package pdftex.def Info: investigacion2.pdf , page29 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[82
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=804, page=30, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 30>
+Package pdftex.def Info: investigacion2.pdf , page30 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 30>
+Package pdftex.def Info: investigacion2.pdf , page30 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 30>
+Package pdftex.def Info: investigacion2.pdf , page30 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[83
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=810, page=31, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 31>
+Package pdftex.def Info: investigacion2.pdf , page31 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 31>
+Package pdftex.def Info: investigacion2.pdf , page31 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 31>
+Package pdftex.def Info: investigacion2.pdf , page31 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[84
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=815, page=32, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 32>
+Package pdftex.def Info: investigacion2.pdf , page32 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 32>
+Package pdftex.def Info: investigacion2.pdf , page32 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 32>
+Package pdftex.def Info: investigacion2.pdf , page32 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[85
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=820, page=33, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 33>
+Package pdftex.def Info: investigacion2.pdf , page33 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 33>
+Package pdftex.def Info: investigacion2.pdf , page33 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 33>
+Package pdftex.def Info: investigacion2.pdf , page33 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[86
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=825, page=34, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 34>
+Package pdftex.def Info: investigacion2.pdf , page34 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 34>
+Package pdftex.def Info: investigacion2.pdf , page34 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 34>
+Package pdftex.def Info: investigacion2.pdf , page34 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[87
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=830, page=35, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 35>
+Package pdftex.def Info: investigacion2.pdf , page35 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 35>
+Package pdftex.def Info: investigacion2.pdf , page35 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 35>
+Package pdftex.def Info: investigacion2.pdf , page35 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[88
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=835, page=36, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 36>
+Package pdftex.def Info: investigacion2.pdf , page36 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 36>
+Package pdftex.def Info: investigacion2.pdf , page36 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 36>
+Package pdftex.def Info: investigacion2.pdf , page36 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[89
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=841, page=37, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 37>
+Package pdftex.def Info: investigacion2.pdf , page37 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 37>
+Package pdftex.def Info: investigacion2.pdf , page37 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 37>
+Package pdftex.def Info: investigacion2.pdf , page37 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[90
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=846, page=38, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 38>
+Package pdftex.def Info: investigacion2.pdf , page38 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 38>
+Package pdftex.def Info: investigacion2.pdf , page38 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 38>
+Package pdftex.def Info: investigacion2.pdf , page38 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[91
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=851, page=39, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 39>
+Package pdftex.def Info: investigacion2.pdf , page39 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 39>
+Package pdftex.def Info: investigacion2.pdf , page39 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 39>
+Package pdftex.def Info: investigacion2.pdf , page39 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[92
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=856, page=40, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 40>
+Package pdftex.def Info: investigacion2.pdf , page40 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 40>
+Package pdftex.def Info: investigacion2.pdf , page40 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 40>
+Package pdftex.def Info: investigacion2.pdf , page40 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[93
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=861, page=41, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 41>
+Package pdftex.def Info: investigacion2.pdf , page41 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 41>
+Package pdftex.def Info: investigacion2.pdf , page41 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 41>
+Package pdftex.def Info: investigacion2.pdf , page41 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[94
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=866, page=42, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 42>
+Package pdftex.def Info: investigacion2.pdf , page42 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 42>
+Package pdftex.def Info: investigacion2.pdf , page42 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 42>
+Package pdftex.def Info: investigacion2.pdf , page42 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[95
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=872, page=43, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 43>
+Package pdftex.def Info: investigacion2.pdf , page43 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 43>
+Package pdftex.def Info: investigacion2.pdf , page43 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 43>
+Package pdftex.def Info: investigacion2.pdf , page43 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[96
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=877, page=44, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 44>
+Package pdftex.def Info: investigacion2.pdf , page44 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 44>
+Package pdftex.def Info: investigacion2.pdf , page44 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 44>
+Package pdftex.def Info: investigacion2.pdf , page44 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[97
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=882, page=45, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 45>
+Package pdftex.def Info: investigacion2.pdf , page45 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 45>
+Package pdftex.def Info: investigacion2.pdf , page45 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 45>
+Package pdftex.def Info: investigacion2.pdf , page45 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[98
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=887, page=46, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 46>
+Package pdftex.def Info: investigacion2.pdf , page46 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 46>
+Package pdftex.def Info: investigacion2.pdf , page46 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 46>
+Package pdftex.def Info: investigacion2.pdf , page46 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[99
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=892, page=47, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 47>
+Package pdftex.def Info: investigacion2.pdf , page47 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 47>
+Package pdftex.def Info: investigacion2.pdf , page47 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 47>
+Package pdftex.def Info: investigacion2.pdf , page47 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[100
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=897, page=48, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 48>
+Package pdftex.def Info: investigacion2.pdf , page48 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 48>
+Package pdftex.def Info: investigacion2.pdf , page48 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 48>
+Package pdftex.def Info: investigacion2.pdf , page48 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[101
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=903, page=49, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 49>
+Package pdftex.def Info: investigacion2.pdf , page49 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 49>
+Package pdftex.def Info: investigacion2.pdf , page49 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 49>
+Package pdftex.def Info: investigacion2.pdf , page49 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[102
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=908, page=50, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 50>
+Package pdftex.def Info: investigacion2.pdf , page50 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 50>
+Package pdftex.def Info: investigacion2.pdf , page50 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 50>
+Package pdftex.def Info: investigacion2.pdf , page50 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[103
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=914, page=51, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 51>
+Package pdftex.def Info: investigacion2.pdf , page51 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 51>
+Package pdftex.def Info: investigacion2.pdf , page51 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 51>
+Package pdftex.def Info: investigacion2.pdf , page51 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[104
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=919, page=52, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 52>
+Package pdftex.def Info: investigacion2.pdf , page52 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 52>
+Package pdftex.def Info: investigacion2.pdf , page52 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 52>
+Package pdftex.def Info: investigacion2.pdf , page52 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[105
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=924, page=53, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 53>
+Package pdftex.def Info: investigacion2.pdf , page53 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 53>
+Package pdftex.def Info: investigacion2.pdf , page53 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 53>
+Package pdftex.def Info: investigacion2.pdf , page53 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[106
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=935, page=54, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 54>
+Package pdftex.def Info: investigacion2.pdf , page54 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 54>
+Package pdftex.def Info: investigacion2.pdf , page54 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 54>
+Package pdftex.def Info: investigacion2.pdf , page54 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[107
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=941, page=55, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 55>
+Package pdftex.def Info: investigacion2.pdf , page55 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 55>
+Package pdftex.def Info: investigacion2.pdf , page55 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 55>
+Package pdftex.def Info: investigacion2.pdf , page55 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[108
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=946, page=56, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 56>
+Package pdftex.def Info: investigacion2.pdf , page56 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 56>
+Package pdftex.def Info: investigacion2.pdf , page56 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 56>
+Package pdftex.def Info: investigacion2.pdf , page56 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[109
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=951, page=57, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 57>
+Package pdftex.def Info: investigacion2.pdf , page57 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 57>
+Package pdftex.def Info: investigacion2.pdf , page57 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 57>
+Package pdftex.def Info: investigacion2.pdf , page57 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[110
+
+ <./investigacion2.pdf>]
+<investigacion2.pdf, id=956, page=58, 614.295pt x 794.97pt>
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 58>
+Package pdftex.def Info: investigacion2.pdf , page58 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 58>
+Package pdftex.def Info: investigacion2.pdf , page58 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: investigacion2.pdf Graphic file (type pdf)
+<use investigacion2.pdf, page 58>
+Package pdftex.def Info: investigacion2.pdf , page58 used on input line 997.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[111
+
+ <./investigacion2.pdf>] (./cuerpoinforme.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -2534,28 +3275,30 @@ Package rerunfilecheck Info: File `cuerpoinforme.out' has not changed.
 (rerunfilecheck)             Checksum: D905BD4F61CBC0803F64118E43907F34;8621.
  ) 
 Here is how much of TeX's memory you used:
- 22934 strings out of 467577
- 429283 string characters out of 5410090
- 889382 words of memory out of 5000000
- 51302 multiletter control sequences out of 15000+600000
+ 23070 strings out of 467577
+ 431738 string characters out of 5410090
+ 889384 words of memory out of 5000000
+ 51404 multiletter control sequences out of 15000+600000
  669914 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,17n,80p,730b,1427s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/type1/public/ne
 wtx/NewTXMI.pfb><d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/t
 ype1/public/tex-gyre/qtmr.pfb><d:/Instalar Programas/textlive/texlive/2025/texm
-f-dist/fonts/type1/public/newtx/txexs.pfb><d:/Instalar Programas/textlive/texli
-ve/2025/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><d:/Instalar Programas/t
-extlive/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsym.pfb><d:/Instalar
- Programas/textlive/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-<d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/type1/public/newt
-x/ztmb.pfb><d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/type1/
-public/newtx/ztmr.pfb><d:/Instalar Programas/textlive/texlive/2025/texmf-dist/f
-onts/type1/public/newtx/ztmri.pfb>
-Output written on cuerpoinforme.pdf (79 pages, 21968374 bytes).
+f-dist/fonts/type1/public/cm-super/sfrm1095.pfb><d:/Instalar Programas/textlive
+/texlive/2025/texmf-dist/fonts/type1/public/newtx/txexs.pfb><d:/Instalar Progra
+mas/textlive/texlive/2025/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><d:/In
+stalar Programas/textlive/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsy
+m.pfb><d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/type1/publi
+c/newtx/txsys.pfb><d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts
+/type1/public/newtx/ztmb.pfb><d:/Instalar Programas/textlive/texlive/2025/texmf
+-dist/fonts/type1/public/newtx/ztmbi.pfb><d:/Instalar Programas/textlive/texliv
+e/2025/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/Instalar Programas/text
+live/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on cuerpoinforme.pdf (113 pages, 21143443 bytes).
 PDF statistics:
- 884 PDF objects out of 1000 (max. 8388607)
- 675 compressed objects within 7 object streams
- 183 named destinations out of 1000 (max. 500000)
- 765 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1050 PDF objects out of 1200 (max. 8388607)
+ 788 compressed objects within 8 object streams
+ 217 named destinations out of 1000 (max. 500000)
+ 935 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,124 +1,62 @@
 \documentclass[12pt]{article}
-\usepackage{setspace}   % paquete para interlineado
-\usepackage{newtxtext,newtxmath} % Times New Roman
 
-%otra opcion para times roman adaptable a versiones
-%\usepackage{mathptmx}
-
-%haber si funciona mas parecido a word
-\setstretch{1.5}  
-%\usepackage[protrusion,expansion]{microtype}
-%\onehalfspacing               % interlineado 1.5
-\usepackage{amsmath} % Para usar \text{}
-\usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
-\usepackage[letterpaper, left=3cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
-\usepackage{graphicx}
-\usepackage{titlesec}
-\usepackage{setspace}
-\usepackage{lipsum}
-\geometry{margin=1in}
-
-
-
-%%%%PARQUETES PARA ESTO
-% antes:
-%... (≤ 15 cm) ...% después:... (\(\leq\) 15 cm) ...
+% ================== CONFIGURACIÓN GENERAL ==================
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{amssymb} % por si usas más símbolos
-% Opción A:
-\DeclareUnicodeCharacter{2265}{\ensuremath{\geq}}
-\DeclareUnicodeCharacter{2264}{\ensuremath{\leq}}
+\usepackage[spanish]{babel}
+\usepackage[letterpaper, left=3cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
 
+% ================== FORMATO DE TEXTO ==================
+\usepackage{setspace}
+\setstretch{1.5}                % interlineado 1.5
+\usepackage{newtxtext,newtxmath} % Times New Roman (texto y matemáticas)
+\usepackage{titlesec}           % control de formato de títulos
+\usepackage{lipsum}             % texto de ejemplo
+\usepackage{xcolor}             % colores (opcional)
 
-%% -------NUEVO %%%%%%%%%%
+% ================== MATEMÁTICAS ==================
+\usepackage{amsmath, mathtools, bm} % evita conflicto con amssymb y newtxmath
+\DeclareUnicodeCharacter{2265}{\ensuremath{\geq}} % ≥
+\DeclareUnicodeCharacter{2264}{\ensuremath{\leq}} % ≤
 
-
-\usepackage{tabularx}
-\usepackage{booktabs}
-\usepackage{array}
-\usepackage{longtable}
-\newcommand{\cbox}{\(\square\)}
-
-
-
-
-%%.......NUEVO-------------%%
-\usepackage{longtable}   % tablas que se parten entre páginas
-
-
-
-
-%%%-------------nuevos-----------%%%%%%%%%%
-% === Paquetes extra para tablas y utilidades ===
+% ================== TABLAS ==================
 \usepackage{tabularx}   % tablas que se ajustan al ancho
-\usepackage{booktabs}   % reglas de tabla profesionales
-\usepackage{array}      % nuevas columnas tipo m{..}, p{..}
-\usepackage{multirow}   % celdas combinadas verticalmente
-\usepackage{xcolor}     % (opcional) para resaltar si lo deseas
-\usepackage{hyperref}   % ya lo usas a veces: enlaces internos/TOC
+\usepackage{booktabs}   % líneas finas de tabla
+\usepackage{array}      % columnas tipo p, m, b
+\usepackage{multirow}   % combinar filas
+\usepackage{longtable}  % tablas que se parten entre páginas
+\newcommand{\cbox}{\(\square\)} % casilla vacía
 
-% === Macros útiles del checklist ===
-\renewcommand{\cbox}{\(\square\)} % redefine si ya existía
-
-
-
-
-
-
-
-%PAQUETE para incluir PDF´s
-\usepackage{pdfpages} % para incluir PDFs
-
-% ---PAQUETE PARA contador para las introducciones ---
-\newcounter{intro}
-\renewcommand{\theintro}{\arabic{intro}} % numeración arábiga: 1,2,3,...
-
-
-% PAQUETE PARA COMENTAR FACILMENTE 
-
-\usepackage{comment}
-
-%%FORZAR LAS IMAGENES CON FLOAT
-
-\usepackage{float} % necesario para usar [H]
-
-
-% ESPACION DE TITULOS*{comando}{margen_izq}{espacio_antes}{espacio_despues}
-%\titlespacing*{\section}
-%{0pt}    % sangría izquierda
-%{3em}    % espacio ANTES del título
-%{0em}    % espacio después del título
-
-
-
-
- % PAQUETE PARA INSTANCIAR  LAS IMAGENES
-  \graphicspath{{./Imagenes}}
- 
-
-%CONFIGURACION DE MI PAGINA numeración:
-%\usepackage{fancyhdr}
-%\pagestyle{fancy}
-%\fancyhf{} % Limpia encabezados/pies
-%\fancyhead[R]{\thepage} % Números arábigos arriba: izq en pares, der en impares
-%\renewcommand{\headrulewidth}{0pt} % Sin línea
-
-%COLOCAR NUMERACION ESQUINA DERECHA PAG 1
-%\fancypagestyle{plain}{%
-%	\fancyhf{}%
-%	\fancyhead[R]{\thepage}%
-%	\renewcommand{\headrulewidth}{0pt}%
-
-
-
-% --- PAQUETES ADICIONALES DE LOSA ---
-  % para listas multinivel (numeración + incisos + viñetas)
-\usepackage{enumitem} 
-
-% que los párrafos  de las secciones dentro de los items usen la misma sangría que el cuerpo SANGRIA A TODOWWW
+% ================== LISTAS Y ENUMERACIONES ==================
+\usepackage{enumitem}
 \setlist[enumerate]{listparindent=\parindent, parsep=0pt}
+
+% ================== IMÁGENES ==================
+\usepackage{graphicx}
+\graphicspath{{./Imagenes/}}
+\usepackage{float}      % para usar [H] en figuras
+
+% ================== PDF Y REFERENCIAS ==================
+\usepackage[hidelinks]{hyperref} % hipervínculos sin color
+\usepackage{pdfpages}            % para incluir PDFs externos
+\usepackage{comment}             % para comentar bloques de texto
+
+% ================== CONTADORES PERSONALIZADOS ==================
+\newcounter{intro}
+\renewcommand{\theintro}{\arabic{intro}}
+
+% (opcional) espacio entre secciones
+% \titlespacing*{\section}{0pt}{3ex plus 1ex minus .2ex}{2ex}
+
+
+%%%%%%%%%%% NECESARIO%%%%%%%%%%%%%%%%
+
+\usepackage{enumitem}
+\setlist[enumerate]{leftmargin=*, itemsep=2pt}
+\setlist[itemize]{leftmargin=*, itemsep=2pt}
+
+
+
 
 \begin{comment}
 	
@@ -188,22 +126,7 @@
  \subsection*{Descripción general}
  La \textbf{losa tradicional} es una placa maciza de concreto reforzado colada \emph{in situ} sobre cimbra. Su rigidez proviene del peralte de la losa y del acero de refuerzo en una o dos direcciones. Es un sistema versátil que se adapta a múltiples geometrías y cargas, a costa de mayor peso propio y demanda de cimbra y curado.
  
- \subsection*{Proceso constructivo resumido}
- \begin{enumerate}[leftmargin=*, itemsep=2pt]
- 	\item \textbf{Encofrado (cimbra y apuntalamiento):} montar cimbra plana, estanca y alineada; apuntalamientos con arriostres y, si aplica, contraflecha.
- 	\item \textbf{Armado de acero:} colocar barras/malla con recubrimientos y traslapes según planos; refuerzos en bordes, apoyos y alrededor de huecos; separadores suficientes.
- 	\item \textbf{Instalaciones embebidas:} fijar y coordinar tuberías/ductos para que no interfieran con el refuerzo ni floten durante el colado.
- 	\item \textbf{Colado y vibrado:} colocar el concreto por paños (\(\leq\)15\,cm), consolidar con vibrador interno sin sobre–vibrar y nivelar con regla/guía láser.
- 	\item \textbf{Juntas:} ubicar juntas de construcción planificadas; preparar el sustrato (rugoso/limpio) y, si se especifica, aplicar lechada/adhesivo.
- 	\item \textbf{Curado:} iniciar de inmediato tras el acabado (membrana de curado, riego o mantas) y mantener continuidad el tiempo especificado.
- 	\item \textbf{Descimbrado:} retirar moldes laterales y luego apuntalamientos solo cuando la resistencia lo permita y según secuencia aprobada.
- \end{enumerate}
  
- \subsection*{Ventajas y desventajas (resumen)}
- \begin{itemize}[leftmargin=*, itemsep=2pt]
- 	\item \textbf{Ventajas:} alta versatilidad geométrica; buen desempeño acústico; compatible con detalles estructurales diversos.
- 	\item \textbf{Desventajas:} mayor peso propio que sistemas aligerados; requiere más cimbra y tiempo; exige buen control de vibrado y curado.
- \end{itemize}
  
  % =====================================================================
  \subsection{Checklist de supervisión}
@@ -320,22 +243,7 @@
  \subsection*{Descripción general}
  El sistema de \textbf{vigueta y bovedilla} está formado por viguetas prefabricadas (pretensadas o de alma abierta) que trabajan como elementos portantes, y piezas de aligeramiento (bovedillas de concreto aligerado, cerámica o poliestireno) que conforman el entrevigado. Sobre el conjunto se vacía una \textbf{capa de compresión} de concreto que integra el diafragma. Requiere modulación estricta, apuntalamiento temporal y seguir el manual del proveedor.
  
- \subsection*{Proceso constructivo resumido}
- \begin{enumerate}[leftmargin=*, itemsep=2pt]
- 	\item \textbf{Recepción y acopio:} revisar rectitud e integridad de viguetas; almacenar bovedillas secas y limpias sobre superficie plana.
- 	\item \textbf{Apoyos y modulación:} trazar ejes; garantizar \textbf{longitud de apoyo} mínima de viguetas; colocar viguetas según separación de catálogo; usar bovedilla como escantillón.
- 	\item \textbf{Apuntalamiento temporal:} montar puntales y líneas de carga continuas, niveladas y arriostradas según tabla del fabricante.
- 	\item \textbf{Armaduras complementarias:} colocar \textbf{malla de compresión}, refuerzo negativo en apoyos, perimetrales y refuerzo sobre claros o huecos.
- 	\item \textbf{Colado de capa:} humedecer bovedillas/viguetas; verter concreto de la capa con \textbf{vibrado ligero} y nivelado; no pisar directamente sobre bovedillas.
- 	\item \textbf{Curado:} iniciar de inmediato y mantener continuidad según especificación.
- 	\item \textbf{Retiro de apuntalamientos:} conforme a resistencia alcanzada y \textbf{tablas del fabricante}.
- \end{enumerate}
- 
- \subsection*{Ventajas y desventajas (resumen)}
- \begin{itemize}[leftmargin=*, itemsep=2pt]
- 	\item \textbf{Ventajas:} rapidez de montaje; menor cimbra frente a losa maciza; buen control de fisuración con capa de compresión y malla.
- 	\item \textbf{Desventajas:} modulación rígida; cuidado en aperturas y cargas puntuales; dependencia de manual y apuntalamiento temporal.
- \end{itemize}
+
  
  % =====================================================================
  \subsection{Checklist de supervisión}
@@ -430,21 +338,7 @@
  \subsection*{Descripción general}
  La \textbf{losa nervada} es un sistema aligerado de concreto reforzado en el que el peso propio se reduce mediante el uso de casetones o bloques de relleno que generan nervios longitudinales y transversales. Puede vaciarse \emph{in situ} con cimbra modular o moldes reutilizables (plásticos, metálicos o de poliestireno). Combina economía de material con alta rigidez y capacidad para cubrir claros medianos a grandes.
  
- \subsection*{Proceso constructivo resumido}
- \begin{enumerate}[leftmargin=*, itemsep=2pt]
- 	\item \textbf{Cimbra y casetones:} instalar cimbra nivelada; fijar casetones o moldes bien anclados para evitar desplazamientos durante el colado.
- 	\item \textbf{Armado:} colocar acero inferior y superior en nervios; malla de temperatura en capa de compresión; refuerzos adicionales en bordes y apoyos.
- 	\item \textbf{Instalaciones embebidas:} coordinar conducciones sin perforar nervios estructurales.
- 	\item \textbf{Colado:} verter concreto por paños; vibrado moderado con aguja fina para evitar flotación de casetones.
- 	\item \textbf{Curado:} aplicar membrana o riego constante; proteger del sol y viento.
- 	\item \textbf{Descimbrado:} retirar moldes cuando la resistencia lo permita, cuidando no dañar aristas o nervios.
- \end{enumerate}
  
- \subsection*{Ventajas y desventajas (resumen)}
- \begin{itemize}[leftmargin=*, itemsep=2pt]
- 	\item \textbf{Ventajas:} menor peso propio; permite claros mayores; buen aislamiento térmico/acústico; moldes reutilizables.
- 	\item \textbf{Desventajas:} cimbra y montaje más complejo; requiere precisión en alineación y vibrado; mayor tiempo de armado inicial.
- \end{itemize}
  
  % =====================================================================
  \subsection{Checklist de supervisión}
@@ -502,21 +396,7 @@
  \subsection*{Descripción general}
  La \textbf{losacero} o losa colaborante es un sistema compuesto formado por una lámina metálica acanalada (deck) que actúa como cimbra y, en algunos casos, como refuerzo a tracción una vez endurecido el concreto. Permite una ejecución rápida, sin cimbra tradicional, y brinda resistencia durante el vaciado y al trabajar compuesta con el concreto mediante conectores de cortante.
  
- \subsection*{Proceso constructivo resumido}
- \begin{enumerate}[leftmargin=*, itemsep=2pt]
- 	\item \textbf{Colocación del deck:} fijar láminas al soporte metálico con pernos, tornillos o soldadura; sellar juntas para evitar fuga de lechada.
- 	\item \textbf{Colocación de conectores:} instalar \textbf{pernos de cortante} según plano y verificar altura/fusión.
- 	\item \textbf{Refuerzo y malla:} disponer malla o varillas superiores según diseño; respetar recubrimientos desde la cresta del deck.
- 	\item \textbf{Colado:} vaciar concreto en dirección perpendicular a las nervaduras; controlar slump y nivelación.
- 	\item \textbf{Curado:} aplicar membrana o método húmedo; proteger del sol y viento.
- 	\item \textbf{Inspección final:} verificar uniones, espesores y comportamiento del diafragma.
- \end{enumerate}
  
- \subsection*{Ventajas y desventajas (resumen)}
- \begin{itemize}[leftmargin=*, itemsep=2pt]
- 	\item \textbf{Ventajas:} rapidez de ejecución; reducción de cimbra; menor peso propio; actúa como diafragma rígido.
- 	\item \textbf{Desventajas:} requiere control de conectores y soldaduras; limita formas irregulares; supervisión estricta de espesores y curado.
- \end{itemize}
  
  % =====================================================================
  \subsection{Checklist de supervisión}
@@ -614,22 +494,7 @@
 	\subsection*{Descripción general}
 	El \textbf{levantado de muros de mampostería} consiste en la construcción de elementos verticales formados por unidades modulares (bloques de concreto, tabiques cerámicos o piedra), unidos mediante mortero estructural o de pega. Los muros pueden ser portantes o de cerramiento y, en muchos casos, trabajan en conjunto con columnas, castillos y vigas de confinamiento para resistir cargas verticales y laterales.
 	
-	\subsection*{Proceso constructivo resumido}
-	\begin{enumerate}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Trazado y replanteo:} marcar ejes, espesores de muro y niveles de desplante conforme planos estructurales y arquitectónicos.
-		\item \textbf{Cimentación y base:} limpiar y humedecer la superficie de apoyo; verificar que esté nivelada y con mortero de asiento fresco.
-		\item \textbf{Colocación de bloques:} asentar las primeras hiladas con nivel y plomada; aplicar mortero con espesor uniforme (1–1.5 cm).
-		\item \textbf{Refuerzos verticales y horizontales:} incorporar \textbf{barras de acero} y \textbf{refuerzo horizontal} (alambre o malla) según planos.
-		\item \textbf{Llenado de celdas y juntas:} compactar mortero o grout en celdas con refuerzo; verificar continuidad de juntas verticales y horizontales.
-		\item \textbf{Elementos de confinamiento:} fundir castillos y vigas de amarre; asegurar la correcta unión muro–concreto.
-		\item \textbf{Curado y limpieza:} mantener humedad de juntas por al menos 3 días; limpiar excedentes de mortero.
-	\end{enumerate}
-	
-	\subsection*{Ventajas y desventajas (resumen)}
-	\begin{itemize}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Ventajas:} buen aislamiento térmico y acústico; fácil ejecución; economía de materiales; buena resistencia a compresión.
-		\item \textbf{Desventajas:} requiere control de plomo y nivel en cada hilada; sensible a defectos de mortero; menor ductilidad frente a sistemas de concreto armado.
-	\end{itemize}
+
 	
 	% =====================================================================
 	\subsection{Checklist de supervisión}
@@ -717,22 +582,7 @@
 	\subsection*{Descripción general}
 	Las \textbf{mochetas} son elementos de concreto armado o de mampostería ubicados a los lados de puertas, ventanas o huecos estructurales, cuya función principal es \textbf{confinar, reforzar y sostener los bordes} del vano. También ayudan a anclar marcos metálicos o de madera y a transmitir las cargas del dintel hacia los muros o columnas. Su correcta ejecución es fundamental para evitar fisuras, asentamientos diferenciales o pérdida de alineación en los vanos.
 	
-	\subsection*{Proceso constructivo resumido}
-	\begin{enumerate}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Trazado:} marcar los límites del vano en muros o columnas; verificar aplomos y dimensiones de los laterales según planos.
-		\item \textbf{Preparación del área:} limpiar la superficie donde se levantará la mochetas; humedecer previamente el muro o encofrado.
-		\item \textbf{Colocación del acero:} disponer varillas verticales de refuerzo y estribos o anillos conforme planos estructurales.
-		\item \textbf{Encofrado:} instalar cimbra alineada y estanca, asegurando la correcta posición de las mochetas respecto al vano.
-		\item \textbf{Colado:} vaciar concreto fluido (f’c especificado), vibrar con aguja fina para eliminar vacíos y obtener buena adherencia con el muro.
-		\item \textbf{Curado y desencofrado:} mantener húmeda la superficie durante al menos 7 días y retirar la cimbra sin dañar las aristas.
-		\item \textbf{Acabado final:} verificar plomo, nivel y ancho uniforme para recibir el marco o acabado arquitectónico.
-	\end{enumerate}
-	
-	\subsection*{Ventajas y desventajas (resumen)}
-	\begin{itemize}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Ventajas:} mejor confinamiento en vanos; proporciona rigidez lateral; facilita la instalación de puertas o ventanas; mejora la estética del acabado.
-		\item \textbf{Desventajas:} requiere precisión en el aplome y alineación; posible fisuración por mal curado o unión deficiente con muros.
-	\end{itemize}
+
 	
 	% =====================================================================
 	\subsection{Checklist de supervisión}
@@ -835,21 +685,7 @@
 	\end{itemize}
 	Estas piezas aseguran la integridad del sistema de muros, evitando fisuras por asentamientos diferenciales y mejorando el comportamiento sísmico del conjunto.
 	
-	\subsection*{Proceso constructivo resumido}
-	\begin{enumerate}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Trazado y replanteo:} marcar ejes y niveles del muro o losa donde se colocará la solera, verificando su alineación.
-		\item \textbf{Colocación del acero:} instalar varillas longitudinales y estribos según planos; garantizar recubrimientos mínimos.
-		\item \textbf{Encofrado o molde:} preparar cimbra alineada y estanca, asegurando la forma rectangular de la sección.
-		\item \textbf{Colado:} vaciar concreto con el f’c especificado; vibrar ligeramente para evitar vacíos.
-		\item \textbf{Curado y desencofrado:} mantener humedad por al menos 7 días y retirar moldes cuando el concreto haya alcanzado resistencia suficiente.
-		\item \textbf{Revisión final:} verificar nivel, plomo y continuidad del elemento antes de continuar con muros o losas.
-	\end{enumerate}
-	
-	\subsection*{Ventajas y desventajas (resumen)}
-	\begin{itemize}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Ventajas:} mejora la estabilidad del muro; distribuye uniformemente cargas; sirve como apoyo y amarre; permite nivelar y controlar alturas.
-		\item \textbf{Desventajas:} requiere cimbra y mano de obra precisa; posibles fisuras por curado deficiente o falta de continuidad con elementos adyacentes.
-	\end{itemize}
+
 	
 	% =====================================================================
 	\subsection{Checklist de supervisión}
@@ -938,21 +774,7 @@
 	\subsection*{Descripción general}
 	Las \textbf{vigas de concreto reforzado} son elementos lineales que transfieren cargas de losas, muros y otros componentes hacia columnas o apoyos, trabajando principalmente a flexión y cortante. Su desempeño depende de un \emph{encofrado} rígido y alineado, un \emph{armado} conforme a planos (acero longitudinal y estribos), un \emph{colado y vibrado} adecuados y un \emph{curado} oportuno para lograr la resistencia especificada.
 	
-	\subsection*{Proceso constructivo resumido}
-	\begin{enumerate}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Trazado y encofrado:} replantear ejes y cotas; montar cimbra alineada, estanca y arriostrada.
-		\item \textbf{Armado:} colocar acero inferior/superior y estribos; respetar recubrimientos y longitudes de anclaje/traslape.
-		\item \textbf{Embebidos y pasos:} coordinar ductos, pernos y mangas sin interferir el refuerzo.
-		\item \textbf{Colado y vibrado:} verter en capas; vibrado interno uniforme; acabado y nivelación de la corona.
-		\item \textbf{Curado y descimbrado:} iniciar curado inmediato; retirar cimbra cuando se alcance la resistencia indicada.
-	\end{enumerate}
-	
-	\subsection*{Ventajas y desventajas (resumen)}
-	\begin{itemize}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Ventajas:} gran capacidad y rigidez; compatibilidad con losas y muros; facilidad para resolver claros y cambios de carga.
-		\item \textbf{Desventajas:} requiere cimbra robusta y mano de obra calificada; riesgo de nidos si el vibrado es deficiente; posibles fisuras por curado inadecuado.
-	\end{itemize}
-	
+
 	% =====================================================================
 	\subsection{Checklist de supervisión}
 	
@@ -1049,21 +871,7 @@
 	\subsection*{Descripción general}
 	Las \textbf{columnas de concreto reforzado} son elementos verticales que transmiten las cargas de las vigas, losas y muros hacia la cimentación. Trabajan principalmente a compresión, pero también resisten flexión y cortante, por lo que requieren una adecuada colocación del acero longitudinal y transversal (estribos), un buen alineamiento y un colado controlado. Son componentes esenciales para la estabilidad y el comportamiento sísmico de la estructura.
 	
-	\subsection*{Proceso constructivo resumido}
-	\begin{enumerate}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Trazado y replanteo:} ubicar los ejes y dimensiones de las columnas conforme planos estructurales; verificar su posición exacta respecto a la cimentación o vigas de arranque.
-		\item \textbf{Armado:} colocar varillas longitudinales, estribos y amarres según plano; respetar recubrimientos, empalmes y verticalidad.
-		\item \textbf{Cimbra:} instalar encofrado firme y alineado, con contravientos y amarres suficientes para evitar fugas o desplazamientos.
-		\item \textbf{Colado:} vaciar concreto con el f’c especificado; vibrar en capas delgadas y uniformes.
-		\item \textbf{Curado y descimbrado:} mantener humedad constante y retirar la cimbra una vez alcanzada la resistencia mínima de diseño.
-		\item \textbf{Control final:} verificar alineación, dimensiones y acabados antes de continuar con vigas o losas.
-	\end{enumerate}
-	
-	\subsection*{Ventajas y desventajas (resumen)}
-	\begin{itemize}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Ventajas:} gran capacidad de carga vertical; buena rigidez estructural; compatibilidad con sistemas de vigas y losas.
-		\item \textbf{Desventajas:} requiere precisión en el armado y alineación; posibles nidos de grava por mal vibrado; fisuras por curado deficiente.
-	\end{itemize}
+
 	
 	% =====================================================================
 	\subsection{Checklist de supervisión}
@@ -1149,23 +957,7 @@
 	\subsection*{Descripción general}
 	La \textbf{zapata aislada} es un elemento de cimentación superficial de concreto reforzado que transmite la carga de una columna o pilar al terreno. Su desempeño depende de: correcta \emph{excavación y preparación de base}, \emph{armado y recubrimientos}, \emph{colado y vibrado} adecuados, y \emph{curado} oportuno, además de un \emph{relleno y compactación} controlados alrededor de la cimentación.
 	
-	\subsection*{Proceso constructivo resumido}
-	\begin{enumerate}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Replanteo y excavación:} marcar ejes y dimensiones; excavar hasta la cota de desplante; verificar estrato competente.
-		\item \textbf{Base y plantilla:} regularizar fondo; colocar \textbf{plantilla} de limpieza (si se especifica); nivelar y compactar.
-		\item \textbf{Armado:} disponer mallas/barras en dos direcciones con separadores para recubrimiento; habilitar pernos o anclajes de columna.
-		\item \textbf{Encofrado (si aplica):} cimbra alineada y estanca para cantos; dejar mirillas para inspección.
-		\item \textbf{Colado y vibrado:} concreto con f’c especificado; verter en capas y vibrar sin segregar; nivelar la corona.
-		\item \textbf{Curado y desencofrado:} iniciar curado inmediato; retirar encofrado cuando la resistencia lo permita.
-		\item \textbf{Relleno:} reponer material en capas delgadas, compactando hasta densidad especificada.
-	\end{enumerate}
-	
-	\subsection*{Ventajas y desventajas (resumen)}
-	\begin{itemize}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Ventajas:} solución económica y rápida para cargas aisladas; construcción sencilla; mantenimiento bajo.
-		\item \textbf{Desventajas:} sensible a variaciones del suelo y al agua; requiere control estricto de nivelación, recubrimientos y compactación del relleno.
-	\end{itemize}
-	
+
 	% =====================================================================
 	\subsection{Checklist de supervisión}
 	
@@ -1274,21 +1066,7 @@
 	Las \textbf{ménsulas} o \textbf{voladizos cortos} son elementos estructurales en voladizo de concreto reforzado que se proyectan desde una columna, muro o viga principal para sostener cargas concentradas, tales como vigas secundarias, balcones, losas, cornisas o apoyos metálicos.  
 	Su diseño está dominado por esfuerzos de flexión y cortante, por lo que requieren un adecuado anclaje del acero dentro del elemento principal, así como una correcta ejecución de cimbra, armado, colado y curado.
 	
-	\subsection*{Proceso constructivo resumido}
-	\begin{enumerate}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Replanteo y preparación:} marcar posición y dimensiones de la ménsula conforme planos; verificar nivel de arranque y ejes.
-		\item \textbf{Armado:} habilitar acero principal (barras superiores y de anclaje) y refuerzo transversal (estribos o ganchos) con el desarrollo especificado.
-		\item \textbf{Encofrado:} instalar cimbra firme y estanca, con apoyos adecuados que soporten la carga del concreto fresco.
-		\item \textbf{Colado:} verter concreto con f’c especificado; vibrar en capas delgadas y asegurar el recubrimiento del acero.
-		\item \textbf{Curado y retiro de cimbra:} mantener humedad continua por al menos 7 días; retirar la cimbra con precaución.
-		\item \textbf{Revisión final:} verificar nivel, dimensiones y acabado superficial antes de colocar cargas o elementos apoyados.
-	\end{enumerate}
-	
-	\subsection*{Ventajas y desventajas (resumen)}
-	\begin{itemize}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Ventajas:} permiten resolver apoyos o voladizos sin columnas adicionales; buena integración con elementos estructurales; estética y funcionalidad.
-		\item \textbf{Desventajas:} alta demanda de refuerzo y anclaje; dificultad en la colocación del acero; riesgo de fisuración si el curado es deficiente.
-	\end{itemize}
+
 	
 	% =====================================================================
 	\subsection{Checklist de supervisión}
@@ -1391,21 +1169,7 @@
 	\subsection*{Descripción general}
 	La \textbf{instalación de tuberías} comprende el trazado, tendido, anclaje, pruebas y protección de redes hidráulicas, sanitarias, pluviales o eléctricas (conduit), ya sean \textbf{embebidas en losa/muro} o \textbf{enterradas en zanja}. La calidad depende de una buena planificación (planos, pendientes, diámetros), correcta sujeción/soporte, sellos estancos en pasos y \textbf{pruebas de presión/estanqueidad} antes del cierre o relleno.
 	
-	\subsection*{Proceso constructivo resumido}
-	\begin{enumerate}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Planificación y trazos:} verificar planos, pendientes, diámetros y rutas; coordinar cruces con estructura y otras instalaciones.
-		\item \textbf{Aperturas y soportes:} habilitar huecos, ranuras o nichos; colocar abrazaderas, colgantes o bancadas de apoyo.
-		\item \textbf{Tendido y uniones:} montar tramos, accesorios y válvulas según especificación (PVC, CPVC, PEAD, galvanizado, conduit).
-		\item \textbf{Pruebas:} realizar \textbf{prueba hidrostática} (hidráulicas) o \textbf{prueba de estanqueidad/aire} (sanitaria/conduit) antes de tapar.
-		\item \textbf{Protección y cierre:} sellar pasos (corta–fuego, antivibración), proteger contra corrosión/UV, cerrar rozas o colar losa/muro.
-		\item \textbf{Para zanjas:} cama de apoyo, relleno por capas y \textbf{compactación} a densidad especificada.
-	\end{enumerate}
 	
-	\subsection*{Ventajas y desventajas (resumen)}
-	\begin{itemize}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Ventajas:} coordinación temprana minimiza retrabajos; pruebas previas evitan fugas; soportes adecuados reducen vibraciones y ruidos.
-		\item \textbf{Desventajas:} cruces no planificados generan cortes en elementos; rellenos sin compactación causan asentamientos; falta de pruebas = reparaciones costosas.
-	\end{itemize}
 	
 	% =====================================================================
 	\subsection{Checklist de supervisión}
@@ -1505,22 +1269,7 @@
 	Generalmente se construyen con una base o fondo (solera), muros cilíndricos o rectangulares y una tapa o losa superior con marco y brocal metálico.  
 	Su correcta ejecución garantiza la hermeticidad, alineación con la red y seguridad del personal de mantenimiento.
 	
-	\subsection*{Proceso constructivo resumido}
-	\begin{enumerate}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Replanteo y excavación:} ubicar el pozo conforme planos (ejes, cotas y pendientes); excavar hasta la profundidad de diseño con taludes o entibación segura.
-		\item \textbf{Base o solera:} nivelar y compactar el fondo; colocar base de concreto pobre o losa de fondo con pendiente hacia el centro.
-		\item \textbf{Muros del pozo:} construir con mampostería de bloque, anillos prefabricados o concreto vaciado en sitio; sellar juntas y prever escalones de acceso.
-		\item \textbf{Conexión de tuberías:} empotrar adecuadamente las entradas y salidas; sellar con mortero o anillo flexible, respetando la pendiente del colector.
-		\item \textbf{Losa de tapa y brocal:} fundir tapa con orificio de acceso; colocar marco y tapa de fundición alineados con nivel de terreno.
-		\item \textbf{Acabados y limpieza:} curar el concreto, sellar grietas y limpiar el interior antes de entrega.
-	\end{enumerate}
-	
-	\subsection*{Ventajas y desventajas (resumen)}
-	\begin{itemize}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Ventajas:} permite mantenimiento y ventilación del sistema; facilita inspecciones y limpieza; estructura duradera y segura.
-		\item \textbf{Desventajas:} requiere control estricto de cotas y pendientes; riesgo de filtraciones si no se sellan bien las juntas; mayor tiempo de ejecución si se colan en sitio.
-	\end{itemize}
-	
+
 	% =====================================================================
 	\subsection{Checklist de supervisión}
 	
@@ -1616,22 +1365,6 @@
 	\subsection*{Descripción general}
 	Los \textbf{pozos de absorción} (o pozos de infiltración) son estructuras verticales que \textbf{disipan y recargan} al subsuelo los caudales de agua (típicamente pluvial o excedentes tratados), mediante paredes y fondo permeables. Su desempeño depende de la \textbf{permeabilidad del estrato}, adecuada \textbf{profundidad y área de infiltración}, y de un \textbf{pretratamiento} que limite el ingreso de sedimentos y grasas.
 	
-	\subsection*{Proceso constructivo resumido}
-	\begin{enumerate}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Estudio y ubicación:} verificar nivel freático, estratos y permeabilidad (prueba de infiltración); definir cota de fondo y diámetro.
-		\item \textbf{Excavación:} realizar pozo vertical con taludes/entibación segura; retirar material suelto; controlar ingreso de agua.
-		\item \textbf{Base y lecho drenante:} colocar \textbf{grava limpia} (granulometría especificada) y, si aplica, \textbf{geotextil} separador.
-		\item \textbf{Cuerpo del pozo:} construir con anillos de concreto perforados, block calado, muro de piedra acomodada o tubo ranurado; garantizar \textbf{permeabilidad lateral}.
-		\item \textbf{Conexiones y pretratamiento:} incorporar caja trampa de sedimentos/grasas, rejillas o filtros antes de la entrada al pozo.
-		\item \textbf{Relleno perimetral:} rellenar el espacio anular con \textbf{grava} (filtro) y envolver con \textbf{geotextil} si está especificado.
-		\item \textbf{Tapa y ventilación:} ejecutar losa o brocal con \textbf{registro} y \textbf{tubo de ventilación}; asegurar acceso para mantenimiento.
-	\end{enumerate}
-	
-	\subsection*{Ventajas y desventajas (resumen)}
-	\begin{itemize}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Ventajas:} reduce descargas a red; promueve recarga del acuífero; obra rápida y de bajo mantenimiento si hay pretratamiento.
-		\item \textbf{Desventajas:} sensible a \textbf{colmatación} por finos; requiere suelo permeable y distancia a cimentaciones/pozos de agua; no apto para efluentes con contaminantes sin tratamiento previo.
-	\end{itemize}
 	
 	% =====================================================================
 	\subsection{Checklist de supervisión}
@@ -1727,22 +1460,7 @@
 	Su correcta construcción garantiza la eficiencia del sistema, la durabilidad de las estructuras y la seguridad ambiental.  
 	Una PTAR puede incluir: rejas, desarenadores, sedimentadores, tanques de aireación, filtros, digestores, clarificadores, pozos, tuberías, cámaras de distribución y obras de descarga.
 	
-	\subsection*{Proceso constructivo resumido}
-	\begin{enumerate}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Replanteo y excavaciones:} trazar alineamientos, cotas y niveles de cada unidad; ejecutar excavaciones con taludes o entibaciones seguras; controlar el agua subterránea.
-		\item \textbf{Cimentaciones:} compactar el terreno y colocar plantilla o base de grava; fundir losas de fondo según planos estructurales.
-		\item \textbf{Muros y estructuras:} levantar muros de concreto armado o prefabricados; verificar espesores, recubrimientos y juntas impermeables.
-		\item \textbf{Impermeabilización:} aplicar aditivos, membranas o sellos en juntas frías, conexiones y superficies expuestas al agua.
-		\item \textbf{Instalaciones hidráulicas y electromecánicas:} colocar tuberías, válvulas, bombas, aireadores, barandas y pasarelas metálicas.
-		\item \textbf{Equipos y pruebas:} instalar equipos de tratamiento (rejas, sopladores, difusores, tableros); realizar pruebas hidráulicas y eléctricas.
-		\item \textbf{Acabados y puesta en marcha:} limpiar tanques, verificar flujo hidráulico, realizar calibración y pruebas de operación.
-	\end{enumerate}
-	
-	\subsection*{Ventajas y desventajas (resumen)}
-	\begin{itemize}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Ventajas:} protege el ambiente y cuerpos receptores; permite reuso del agua; mejora condiciones sanitarias; obra duradera si se ejecuta con control técnico.
-		\item \textbf{Desventajas:} requiere inversión alta y mantenimiento especializado; riesgo de fugas o fallas si no se controla la impermeabilidad y nivelación.
-	\end{itemize}
+
 	
 	% =====================================================================
 	\subsection{Checklist de supervisión}
@@ -1858,23 +1576,7 @@
 	La \textbf{línea de conducción} es el sistema de tuberías encargado de transportar agua desde una fuente (nacimiento, tanque o estación de bombeo) hasta una planta de tratamiento o red de distribución.  
 	Puede ser \textbf{superficial} (sobre terreno o estructuras) o \textbf{enterrada} (bajo suelo o caminos). Su correcta instalación requiere control de pendientes, alineamientos, anclajes, juntas, válvulas y pruebas hidráulicas para asegurar la continuidad y estanqueidad del sistema.
 	
-	\subsection*{Proceso constructivo resumido}
-	\begin{enumerate}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Trazado y replanteo:} definir el eje, cotas y pendientes conforme planos topográficos; señalizar la ruta.
-		\item \textbf{Excavación (líneas enterradas):} abrir zanja con dimensiones y profundidad especificadas; mantener fondo limpio, nivelado y seco.
-		\item \textbf{Cama de apoyo:} colocar capa de arena o grava fina; compactar y nivelar para evitar esfuerzos puntuales en la tubería.
-		\item \textbf{Tendido de tubería:} alinear tramos de tubería (PVC, PEAD, hierro dúctil, acero o similar) y unir mediante el sistema especificado.
-		\item \textbf{Soportes (líneas superficiales):} colocar bancadas, soportes metálicos o de concreto a espaciamientos adecuados.
-		\item \textbf{Pruebas hidráulicas:} realizar pruebas de presión y estanqueidad antes del relleno o cierre definitivo.
-		\item \textbf{Relleno y compactación:} cubrir la tubería con material fino hasta 30 cm sobre la generatriz superior; compactar en capas.
-		\item \textbf{Acabados y señalización:} restituir superficie del terreno o pavimento; colocar hitos o señalización de la línea.
-	\end{enumerate}
-	
-	\subsection*{Ventajas y desventajas (resumen)}
-	\begin{itemize}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Ventajas:} conducción eficiente y segura; adaptable a diferentes materiales y topografías; bajo mantenimiento si está bien instalada.
-		\item \textbf{Desventajas:} riesgo de fugas por juntas defectuosas; asentamientos si no se compacta adecuadamente; exposición al clima en líneas superficiales.
-	\end{itemize}
+
 	
 	% =====================================================================
 	\subsection{Checklist de supervisión}
@@ -1977,23 +1679,7 @@
 	Las \textbf{líneas de distribución} conforman la red que entrega el agua desde tanques o estaciones de bombeo hacia los usuarios finales, integrando \textbf{tuberías principales y secundarias}, válvulas de seccionamiento, hidrantes, ventosas, descargas, y \textbf{acometidas domiciliarias con micromedición}.  
 	Su correcta ejecución requiere una adecuada \textbf{sectorización}, control de pendientes y presiones, uniones estancas, pruebas hidráulicas, \textbf{desinfección} y un relleno/compactación que garantice la durabilidad del sistema.
 	
-	\subsection*{Proceso constructivo resumido}
-	\begin{enumerate}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Trazado y sectorización:} definir ejes, cotas y \textbf{sectores hidráulicos} (válvulas de corte) según planos.
-		\item \textbf{Excavación y cama:} abrir zanja con dimensiones especificadas; fondo limpio y seco; colocar \textbf{cama de apoyo} (arena/grava fina).
-		\item \textbf{Tendido y uniones:} instalar tuberías (PVC, PEAD, hierro dúctil, acero, etc.) y accesorios con el sistema de unión indicado.
-		\item \textbf{Accesorios mayores:} montar válvulas de seccionamiento, hidrantes, ventosas y descargas con sus \textbf{anclajes de empuje}.
-		\item \textbf{Acometidas y micromedición:} ejecutar derivaciones domiciliarias, cajas y medidores conforme normas.
-		\item \textbf{Pruebas y desinfección:} realizar \textbf{prueba hidrostática} y \textbf{cloración/desinfección}, enjuague y muestreo.
-		\item \textbf{Relleno y reposición:} cubrir y compactar por capas; reponer pavimentos y señalizar la red instalada.
-	\end{enumerate}
-	
-	\subsection*{Ventajas y desventajas (resumen)}
-	\begin{itemize}[leftmargin=*, itemsep=2pt]
-		\item \textbf{Ventajas:} servicio continuo y sectorizado; mantenimiento facilitado por válvulas; control de presiones y caudales.
-		\item \textbf{Desventajas:} riesgo de fugas en uniones mal ejecutadas; asentamientos por mala compactación; contaminación si falla la desinfección.
-	\end{itemize}
-	
+
 	% =====================================================================
 	\subsection{Checklist de supervisión}
 	
@@ -2080,17 +1766,716 @@
 	
 	
 	
-	\textbf{me quede en Intalacion de lineas de distribucion}
-	
-	
-	
-	
-	
+
+		
 
 
 
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	
+	
+	
+	
+	\section{Construcción de tanque de distribución}
+	
+	\subsection*{Descripción general}
+	El \textbf{tanque de distribución} es una estructura hidráulica destinada a almacenar agua tratada y distribuirla hacia diferentes sectores de una red.  
+	Generalmente se construye en concreto armado o mampostería reforzada, con cámara de válvulas, ventilación, rebose, drenaje y sistema de medición de nivel.  
+	Su ejecución debe garantizar \textbf{hermeticidad, estabilidad estructural y correcta conexión} con las líneas de entrada y salida.
+	
+		
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Replanteo y excavación}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Ubicación y cotas del tanque conforme planos topográficos y estructurales. & \cbox \\
+		Excavación con taludes o entibación según profundidad; fondo limpio y nivelado. & \cbox \\
+		Verificación de capacidad portante del terreno y control de nivel freático. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Cimentación y losa de fondo}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Colocación de plantilla de concreto pobre o capa de nivelación. & \cbox \\
+		Armado de refuerzo inferior según plano; verificación de recubrimiento. & \cbox \\
+		Vaciado de concreto con f’c especificado; vibrado y curado adecuado. & \cbox \\
+		Instalación de juntas de construcción con banda hidroexpansiva. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Muros del tanque}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Encofrado alineado y arriostrado; verificación de verticalidad y espesor. & \cbox \\
+		Colocación de acero principal y estribos conforme diseño. & \cbox \\
+		Tratamiento de juntas frías con sellador o aditivo impermeable. & \cbox \\
+		Curado continuo del concreto por mínimo 7 días. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Losa de cubierta y acceso}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Armado y encofrado de la losa superior conforme planos estructurales. & \cbox \\
+		Aperturas y \textbf{tapas de acceso} con marco metálico colocadas en posición. & \cbox \\
+		\textbf{Ventilación y rebose} instalados antes del colado final. & \cbox \\
+		Curado adecuado y acabado uniforme de la losa. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Instalaciones hidráulicas y válvulas}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Colocación de tuberías de entrada, salida, rebose y drenaje con sus válvulas respectivas. & \cbox \\
+		Anclajes y soportes ejecutados según planos; sellos impermeables en pasos de muro. & \cbox \\
+		Instalación de \textbf{cámara de válvulas} accesible y segura. & \cbox \\
+		Verificación de operación manual y cierre hermético de válvulas. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Impermeabilización y acabados}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Aplicación de recubrimiento impermeable o aditivo hidrófugo en muros y losa. & \cbox \\
+		Superficies sin grietas, nidos o desprendimientos; acabado liso. & \cbox \\
+		Pendientes internas dirigidas hacia drenaje o válvula de limpieza. & \cbox \\
+		Protección del concreto expuesto con pintura o sellador externo. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{7. Pruebas de estanqueidad y control final}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		\textbf{Prueba de llenado}: llenar el tanque y medir pérdidas de nivel en 24 y 48 horas. & \cbox \\
+		Verificación visual de filtraciones o fugas en juntas y paredes. & \cbox \\
+		Limpieza interior y cloración previa a la puesta en servicio. & \cbox \\
+		Entrega de planos “\textbf{as-built}”, pruebas documentadas y registro fotográfico. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
 
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+	\section{Construcción de tanques de captación de agua potable}
+	
+	\subsection*{Descripción general}
+	Los \textbf{tanques de captación} son estructuras hidráulicas que permiten \textbf{almacenar, regular y distribuir} el agua proveniente de manantiales, nacimientos o sistemas de bombeo antes de su conducción hacia la planta de tratamiento o red de distribución.  
+	Generalmente se construyen en concreto armado, mampostería reforzada o materiales prefabricados, con dispositivos de \textbf{entrada, rebose, limpieza, ventilación y medición de nivel}.  
+	Su correcta ejecución es fundamental para asegurar la \textbf{hermeticidad}, durabilidad y calidad sanitaria del agua captada.
+	
+
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Replanteo y excavación}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Ubicación conforme planos topográficos y estudio hidráulico. & \cbox \\
+		Excavación con taludes o entibación según tipo de suelo y profundidad. & \cbox \\
+		Control del nivel freático y drenaje temporal implementado. & \cbox \\
+		Terreno base nivelado y con densidad de compactación especificada. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Cimentación y losa de fondo}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Colocación de plantilla de concreto pobre o capa de nivelación. & \cbox \\
+		Armado de refuerzo principal, separadores y recubrimiento adecuados. & \cbox \\
+		Colado del concreto f’c especificado con vibrado y curado continuo. & \cbox \\
+		Instalación de juntas de construcción con sellador o banda hidroexpansiva. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Muros perimetrales y divisiones internas}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Encofrado firme, alineado y con los refuerzos verificados. & \cbox \\
+		Concreto colado por capas delgadas; vibrado sin generar segregación. & \cbox \\
+		Tratamiento de juntas frías y curado continuo durante 7 días mínimo. & \cbox \\
+		Verificación de verticalidad, espesor y acabado liso de las paredes. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Losa de cubierta y acceso}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Encofrado, acero de refuerzo y pendientes hacia drenajes verificados. & \cbox \\
+		Instalación de \textbf{tapas de acceso}, ventilaciones y tubos de rebose. & \cbox \\
+		Colado del concreto con curado adecuado y acabado impermeable. & \cbox \\
+		Revisión de espesores y juntas antes del desencofrado. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Instalación de tuberías y válvulas}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Colocación de tuberías de entrada, salida, rebose y drenaje conforme planos. & \cbox \\
+		Sellado impermeable en pasos de muro o losa. & \cbox \\
+		Instalación de válvulas de compuerta y purga con acceso para mantenimiento. & \cbox \\
+		Revisión del anclaje de los tubos y protección contra corrosión. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Impermeabilización y acabados}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Aplicación de sellador o recubrimiento impermeabilizante certificado para agua potable. & \cbox \\
+		Superficies internas pulidas, sin grietas ni poros abiertos. & \cbox \\
+		Curado final con protección frente a la radiación solar. & \cbox \\
+		\textbf{Protección exterior} con pintura o recubrimiento anticorrosivo. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{7. Pruebas, limpieza y desinfección}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		\textbf{Prueba de estanqueidad:} llenar y monitorear pérdidas de nivel durante 24–48 horas. & \cbox \\
+		Limpieza interna con cepillado y enjuague con agua limpia. & \cbox \\
+		\textbf{Desinfección} con solución de hipoclorito de sodio (cloro libre residual ≥ 0.5 mg/L). & \cbox \\
+		Toma de muestra bacteriológica para validación sanitaria. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	\section{Perforación de pozos de agua potable}
+	
+	\subsection*{Descripción general}
+	La \textbf{perforación de pozos de agua potable} comprende las actividades para construir una captación subterránea segura: \emph{permisos y trazado}, \emph{perforación}, \emph{toma de muestras y registro litológico}, \emph{colocación de ademe y filtro}, \emph{empaque granular y sello sanitario}, \emph{desarrollo}, \emph{pruebas de bombeo} y \emph{desinfección}. La calidad del pozo depende del método de perforación, control de verticalidad, selección de filtros y del programa de desarrollo y pruebas.
+	
+
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	\subsubsection*{1. Replanteo, permisos y seguridad del sitio}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Permisos vigentes (ambientales, sanitarios, uso de agua) y servidumbres de acceso. & \cbox \\
+		Ubicación georreferenciada (coordenadas) y cota del terreno confirmadas. & \cbox \\
+		Área cercada y señalizada; manejo de residuos de lodo y recortes. & \cbox \\
+		Plan de seguridad: EPP, bloqueo de equipos, control de derrames. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Perforación y control de calidad}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Método y sarta de perforación acordes a la geología (tricono/martillo DTH/barrena). & \cbox \\
+		Propiedades del \textbf{lodo} (densidad, viscosidad) o uso de aire/espuma controlados. & \cbox \\
+		Control de \textbf{verticalidad} y diámetro del hueco por intervalos. & \cbox \\
+		Registro de nivel freático y caudales durante la perforación. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Muestras y registro litológico}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Toma de \textbf{cuttings/testigos} cada intervalo (p.ej., 1--3 m) correctamente rotulados. & \cbox \\
+		Elaboración de \textbf{registro litológico} con profundidad, granulometría y acuíferos. & \cbox \\
+		Identificación de zonas productivas para definir \textbf{longitud y ubicación} de filtros. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Revestimiento, filtros y empaque granular}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Tubos de \textbf{ademe} (material, diámetro, espesor) libres de deformaciones. & \cbox \\
+		\textbf{Filtro ranurado} (ancho de ranura/slot) acorde a análisis granulométrico. & \cbox \\
+		Colocación de \textbf{grava filtro} limpia y bien graduada en el espacio anular. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Sello sanitario y cabezal}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		\textbf{Sello sanitario} (bentonita/cemento) sobre el empaque hasta superficie. & \cbox \\
+		Cabezal sanitario con tapa hermética, \textbf{respiro} y puerto de muestreo. & \cbox \\
+		Plataforma/brocal de concreto con pendiente y drenaje perimetral. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Desarrollo del pozo}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Método de desarrollo: \emph{air-lift}, pistoneo o bombeo progresivo. & \cbox \\
+		Extracción de finos hasta alcanzar \textbf{claridad} (turbidez meta) estable. & \cbox \\
+		Registro de niveles, caudal y arena producida durante el desarrollo. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{7. Pruebas de bombeo y recuperación}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		\emph{Step test}: escalones de caudal con lectura de abatimiento vs.\ tiempo. & \cbox \\
+		\emph{Prueba a caudal constante}: duración (p.ej., 24 h) y monitoreo de niveles. & \cbox \\
+		Curva de \textbf{recuperación} y estimación de parámetros hidráulicos. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{8. Equipamiento, desinfección y entrega}
+	\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.93\linewidth} >{\centering\arraybackslash}m{0.07\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Selección e instalación de \textbf{bomba}, columna y válvula check según curva de operación. & \cbox \\
+		\textbf{Cloración} del pozo (cálculo de dosis, tiempo de contacto y enjuague). & \cbox \\
+		Ensayos de \textbf{calidad de agua} inicial (físico-químico y microbiológico). & \cbox \\
+		Planos \textit{as-built}, ficha técnica y registro fotográfico. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	\section{Cisternas de agua (enterradas o semienterradas)}
+	
+	\subsection*{Descripción general}
+	Las \textbf{cisternas} son depósitos (generalmente de concreto reforzado o prefabricados) destinados al \textbf{almacenamiento de agua} para consumo o servicios, ubicados \textbf{enterrados o semienterrados} para proteger el recurso y estabilizar la temperatura. Deben garantizar \textbf{hermeticidad}, acceso seguro para mantenimiento, ventilación, rebose y drenaje de limpieza, así como conexiones de entrada/salida con válvulas y medidores.
+	
+	
+	
+	% =====================================================================
+	\subsection{Checklist de supervisión}
+	
+	% === FORMATO DE TABLAS UNIFICADO ===
+	\renewcommand{\arraystretch}{1.2}
+	\small
+	
+	\subsubsection*{1. Replanteo, excavación y seguridad}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X
+			>{\centering\arraybackslash}p{0.12\linewidth}
+		}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Ubicación, ejes y cotas conforme planos topográficos/arquitectónicos. & \cbox \\
+		Excavación con taludes estables o entibación; \textbf{bombeo} si hay agua. & \cbox \\
+		Plataforma base nivelada y con densidad de compactación especificada. & \cbox \\
+		Control de accesos, señalización y EPP (espacio confinado). & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{2. Cimentación y losa de fondo}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X
+			>{\centering\arraybackslash}p{0.12\linewidth}
+		}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Plantilla de concreto pobre o capa de nivelación ejecutada. & \cbox \\
+		Refuerzo inferior colocado (diámetros, separaciones y \textbf{recubrimientos}). & \cbox \\
+		Concreto con f’c y slump especificado; vibrado y curado correctos. & \cbox \\
+		Juntas de construcción con banda hidroexpansiva o sellador. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{3. Muros perimetrales}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X
+			>{\centering\arraybackslash}p{0.12\linewidth}
+		}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Encofrado alineado y arriostrado; espesores y plomos verificados. & \cbox \\
+		Acero vertical y horizontal conforme planos; separadores suficientes. & \cbox \\
+		Tratamiento de \textbf{juntas frías} y paso de tuberías con sellos estancos. & \cbox \\
+		Curado continuo (≥ 7 días) y acabado liso sin nidos. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{4. Losa/tapa y accesos}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X
+			>{\centering\arraybackslash}p{0.12\linewidth}
+		}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Armado y encofrado de losa superior; pendientes hacia registros si aplica. & \cbox \\
+		\textbf{Boca de acceso} con marco y tapa hermética; \textbf{ventilación} instalada. & \cbox \\
+		Instalación de rebose y drenaje de limpieza con válvula accesible. & \cbox \\
+		Escalera fija o grapas internas con pasamanos y protección. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{5. Instalaciones hidráulicas y equipamiento}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X
+			>{\centering\arraybackslash}p{0.12\linewidth}
+		}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Tuberías de \textbf{entrada/salida}, rebose y drenaje conforme planos (diámetros/material). & \cbox \\
+		\textbf{Sellos} en pasos de muro; válvulas de compuerta y check accesibles. & \cbox \\
+		Líneas de succión a bomba con canastilla/filtro; medición de nivel (boya, transmisor). & \cbox \\
+		Protección anticorrosiva en elementos metálicos expuestos. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{6. Impermeabilización interna y protección externa}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X
+			>{\centering\arraybackslash}p{0.12\linewidth}
+		}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		Aplicación de recubrimiento \textbf{apto para agua potable} (epóxico/cementoso). & \cbox \\
+		Sellado de juntas y grietas; superficie sin poros abiertos. & \cbox \\
+		Impermeabilización/perimetral externa si hay \textbf{freático} y control de \textbf{flotación}. & \cbox \\
+		Relleno lateral por capas, compactado, sin dañar muros ni tuberías. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	\subsubsection*{7. Pruebas, limpieza y puesta en servicio}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X
+			>{\centering\arraybackslash}p{0.12\linewidth}
+		}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado}\\
+		\midrule
+		\textbf{Prueba de estanqueidad}: llenado y observación 24–48 h (sin pérdidas). & \cbox \\
+		Limpieza interna y \textbf{desinfección} (cloración y enjuague). & \cbox \\
+		Verificación de operación de válvulas, rebose y drenaje. & \cbox \\
+		Entrega de \textbf{planos as-built} y registro fotográfico. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	
+	\section{Construcción de Pavimentos }
+	
+	\subsection*{a) Replanteo de curvas}
+	El \textbf{replanteo de curvas} garantiza que el trazo geométrico de la carretera se ejecute conforme a planos y rasantes proyectadas.  
+	Las actividades principales incluyen:
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item Ubicación de puntos de control y referencias (PI, PC, PT, estaciones intermedias).
+		\item Verificación de radios, longitudes de curva y tangentes con estación total o GPS.
+		\item Marcado en campo mediante estacas o pintura sobre el terreno.
+		\item Ajuste de alineación horizontal y pendiente transversal conforme al diseño.
+	\end{itemize}
+	\textit{Supervisión:} comprobar precisión del trazo, continuidad, transición suave y correcta orientación de las tangentes.
+	
+	% ----------------------------------------------------
+	\subsection*{b) Estabilización de base, sub-base, sub-rasante y rasante}
+	Este proceso busca otorgar \textbf{resistencia, durabilidad y soporte uniforme} a la estructura del pavimento.  
+	Las etapas comprenden:
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item \textbf{Subrasante:} nivelación, compactación al 95 \% Proctor Modificado, control de humedad y densidad.
+		\item \textbf{Sub-base:} colocación de material granular clasificado, extendido por capas (≤ 20 cm) y compactación.
+		\item \textbf{Base:} material pétreo o estabilizado con cemento o emulsión; control de espesor, gradación y densidad.
+		\item \textbf{Rasante:} verificación de cotas y pendientes transversales según planos.
+	\end{itemize}
+	\textit{Supervisión:} registro de ensayos de densidad, granulometría y control topográfico de cada capa.
+	
+	% ----------------------------------------------------
+	\subsection*{c) Proceso constructivo de pavimento flexible}
+	El \textbf{pavimento flexible} está compuesto por capas bituminosas que distribuyen las cargas hacia las capas inferiores.  
+	Etapas típicas:
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item Imprimación de la base con emulsión asfáltica.
+		\item Colocación de la mezcla asfáltica en caliente (mezcla densa o SMA).
+		\item Compactación con rodillos estáticos y vibratorios hasta alcanzar la densidad de diseño.
+		\item Aplicación de sello o riego de niebla según especificación.
+	\end{enumerate}
+	\textit{Control:} temperatura de mezcla, contenido de ligante, espesor y densidad in situ.
+	
+	% ----------------------------------------------------
+	\subsection*{d) Proceso constructivo de pavimento rígido}
+	El \textbf{pavimento rígido} transmite las cargas a través de la losa de concreto hidráulico, minimizando deformaciones.  
+	Pasos principales:
+	\begin{enumerate}[leftmargin=*, itemsep=2pt]
+		\item Preparación y nivelación de la base estabilizada.
+		\item Colocación de moldes laterales, barras de transferencia y refuerzo (si aplica).
+		\item Vaciado de concreto con f’c ≥ 280 kg/cm²; vibrado y acabado superficial.
+		\item Corte de juntas de contracción, curado y sellado.
+	\end{enumerate}
+	\textit{Supervisión:} control de slump, dosificación, curado, alineación de juntas y acabado antideslizante.
+	
+	% ----------------------------------------------------
+	\subsection*{e) Proceso constructivo de pavimento semi-rígido}
+	El \textbf{pavimento semi-rígido} combina una base estabilizada con cemento y una capa asfáltica, logrando alta capacidad estructural y durabilidad.  
+	Etapas:
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item Mezclado y extendido de la base tratada con cemento (BTC).
+		\item Curado de la BTC (mínimo 7 días) con control de fisuración.
+		\item Aplicación de riego de liga y colocación de mezcla asfáltica de rodadura.
+	\end{itemize}
+	\textit{Control:} contenido de cemento, humedad óptima, curado y espesor final.
+	
+	% ----------------------------------------------------
+	\subsection*{f) Proceso constructivo de afirmado mejorado}
+	El \textbf{afirmado mejorado} se utiliza en caminos rurales y consiste en capas compactadas de material granular seleccionado con adición de estabilizantes.  
+	Pasos generales:
+	\begin{itemize}[leftmargin=*, itemsep=2pt]
+		\item Preparación del terreno natural y escarificado superficial.
+		\item Extendido del material granular (grava-arena) con control de espesor y humedad.
+		\item Compactación en capas de 15–20 cm hasta alcanzar densidad especificada.
+		\item Adición de estabilizantes (cal, cemento o emulsión) si lo requiere el diseño.
+	\end{itemize}
+	\textit{Supervisión:} verificar granulometría, contenido de finos, compactación y pendiente transversal para drenaje.
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	\section{Instalación de artefactos, instalación de equipo eléctrico supervisión de acabados}
+	
+	% --- Formato uniforme de la tabla ---
+	\small
+	\renewcommand{\arraystretch}{1.2}
+	
+	\subsubsection*{Checklist de supervisión}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X
+			>{\centering\arraybackslash}p{0.12\linewidth}
+		}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado} \\
+		\midrule
+		Instalación de piso y azulejo (trazo, nivelación, juntas, adhesivo y boquillas). & \cbox \\
+		Repello, cernido y alisado de muros y cielos (espesores, plomo y acabado). & \cbox \\
+		Instalación de bombas sumergibles y de succión (anclajes, válvulas, pruebas). & \cbox \\
+		Instalación de artefactos de baño (sellos, conexiones AF/AC, pruebas de fugas). & \cbox \\
+		Instalación de transformadores eléctricos (puesta a tierra, protecciones, pruebas). & \cbox \\
+		Entubado eléctrico (conduit, cajas, fijaciones, radios de curvatura, continuidad). & \cbox \\
+		Vibrado del concreto en elementos de acabado expuesto (compactación, sin nidos). & \cbox \\
+		Instalación de techos metálicos (estructura secundaria, fijaciones y sellos). & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	
+	% ====== a) Instalación de piso y azulejo ======
+	\subsubsection*{a) Instalación de piso y azulejo}
+	\small\renewcommand{\arraystretch}{1.2}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X >{\centering\arraybackslash}p{0.12\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado} \\
+		\midrule
+		Superficie limpia, nivelada y humedecida (si aplica). & \cbox \\
+		Alineación y escuadra del trazo (ejes, maestras, cuerdas). & \cbox \\
+		Adhesivo adecuado (tipo, tiempo abierto, espesor). & \cbox \\
+		Colocación y nivelación de piezas (crucetas, mazo de goma). & \cbox \\
+		Cortes en bordes y encuentros (zócalos, nichos, perímetros). & \cbox \\
+		Pendientes en áreas húmedas y hacia desagües. & \cbox \\
+		Boquilla/sellador aplicado y limpieza final. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	% ====== b) Repello, cernido, alisado ======
+	\subsubsection*{b) Repello, cernido y alisado}
+	\small\renewcommand{\arraystretch}{1.2}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X >{\centering\arraybackslash}p{0.12\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado} \\
+		\midrule
+		Preparación del sustrato (picado, limpieza, puente de adherencia). & \cbox \\
+		Guías/maestras de nivel y plomo. & \cbox \\
+		Dosificación del mortero y tamizado de arena. & \cbox \\
+		Espesor por paños y tiempos entre capas. & \cbox \\
+		Acabado con llana (cerrado/alisado) según especificación. & \cbox \\
+		Juntas en encuentros y aristas vivas protegidas. & \cbox \\
+		Curado y protección contra fisuras tempranas. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	% ====== c) Bombas sumergibles y de succión ======
+	\subsubsection*{c) Instalación de bombas sumergibles y de succión}
+	\small\renewcommand{\arraystretch}{1.2}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X >{\centering\arraybackslash}p{0.12\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado} \\
+		\midrule
+		Base/anclajes y accesibilidad para mantenimiento. & \cbox \\
+		Tuberías de succión/impulsión y válvula check/retención. & \cbox \\
+		Cebado (si aplica) y protección contra golpe de ariete. & \cbox \\
+		Alimentación eléctrica, protecciones y tablero de control. & \cbox \\
+		Flotadores/sensores de nivel; arranque/paro automático. & \cbox \\
+		Puesta a tierra y compatibilidad de potencia/caudal. & \cbox \\
+		Prueba de caudal, fugas y vibraciones. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	% ====== d) Artefactos de baño ======
+	\subsubsection*{d) Instalación de artefactos de baño}
+	\small\renewcommand{\arraystretch}{1.2}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X >{\centering\arraybackslash}p{0.12\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado} \\
+		\midrule
+		Ubicación y nivelación (plantillas, pernos, distancias sanitarias). & \cbox \\
+		Conexiones AF/AC y flexibles certificados. & \cbox \\
+		Sellos en pedestales/sanitarios (silicón, cera). & \cbox \\
+		Trampas y ventilación sanitaria operativas. & \cbox \\
+		Pruebas de fugas y descargas. & \cbox \\
+		Accesorios (ducha, grifería, porta rollo, espejos) firmes y alineados. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	% ====== e) Transformadores eléctricos ======
+	\subsubsection*{e) Instalación de transformadores eléctricos}
+	\small\renewcommand{\arraystretch}{1.2}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X >{\centering\arraybackslash}p{0.12\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado} \\
+		\midrule
+		Plataforma/base y anclajes; ventilación/clearances. & \cbox \\
+		Relación de transformación y tensiones nominales correctas. & \cbox \\
+		Conexiones primario/secundario; apriete y polaridad. & \cbox \\
+		Puesta a tierra (electrodo, conductor, unión). & \cbox \\
+		Protecciones (fusibles, interruptor, relés). & \cbox \\
+		Pruebas (megger, continuidad, relación de transformación). & \cbox \\
+		Señalización y barreras de seguridad. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	% ====== f) Entubado eléctrico ======
+	\subsubsection*{f) Entubado eléctrico}
+	\small\renewcommand{\arraystretch}{1.2}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X >{\centering\arraybackslash}p{0.12\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado} \\
+		\midrule
+		Trazado de rutas y separación de servicios (fuerza/datos). & \cbox \\
+		Tipo de conduit (PVC/EMT) y diámetro conforme conductores. & \cbox \\
+		Curvaturas y radios mínimos; uso de cajas en cambios de dirección. & \cbox \\
+		Fijaciones y sujeciones a distancias reglamentarias. & \cbox \\
+		Sellos, reducción de ingreso de agua/polvo. & \cbox \\
+		Guía pasacables y continuidad de ductos. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	% ====== g) Vibrado del concreto ======
+	\subsubsection*{g) Vibrado del concreto}
+	\small\renewcommand{\arraystretch}{1.2}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X >{\centering\arraybackslash}p{0.12\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado} \\
+		\midrule
+		Slump y ventana de colocación dentro de especificación. & \cbox \\
+		Inserción del vibrador vertical, sin tocar armaduras ni moldes. & \cbox \\
+		Tiempo/frecuencia adecuados; solape entre inserciones. & \cbox \\
+		Espesores por capas y recorrido uniforme. & \cbox \\
+		Eliminación de nidos y oquedades; acabado superficial. & \cbox \\
+		Curado inmediato (membrana/agua) y protección. & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	% ====== h) Techos metálicos ======
+	\subsubsection*{h) Instalación de techos metálicos}
+	\small\renewcommand{\arraystretch}{1.2}
+	\begin{tabularx}{\linewidth}{
+			>{\raggedright\arraybackslash}X >{\centering\arraybackslash}p{0.12\linewidth}}
+		\toprule
+		\textbf{Actividad a revisar / ordenar} & \textbf{Estado} \\
+		\midrule
+		Estructura secundaria (correas) alineada y anclada. & \cbox \\
+		Pendiente y dirección del traslape conforme ficha técnica. & \cbox \\
+		Fijaciones (tornillos autotaladrantes con arandela) y separación. & \cbox \\
+		Sellador en cumbreras, limahoyas y perímetros. & \cbox \\
+		Aislamiento termoacústico (si aplica) y barrera de vapor. & \cbox \\
+		Canaletas/bajantes instalados y probados. & \cbox \\
+		Seguridad en altura (línea de vida, arnés). & \cbox \\
+		\bottomrule
+	\end{tabularx}
+	
+	
+	
+	
 
 \end{document}

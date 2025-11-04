@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.3)  3 NOV 2025 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.3)  3 NOV 2025 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -27,6 +27,93 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
 )
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/base/inputenc
+.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/base/fontenc.
+sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/babel/babel
+.sty
+Package: babel 2025/10/22 v25.14 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+\babel@savecnt=\count283
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2050.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2052.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2054.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2055.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2056.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2058.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2083.
+\U@D=\dimen149
+\l@unhyphenated=\language90
+
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/babel/txtba
+bel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count284
+
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/babel/local
+e/es/babel-spanish.tex)
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 4295.
+
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/babel-spani
+sh/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks19
+\es@quotdepth=\count285
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
+on input line 7.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
+ on input line 7.
+
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/geometry/geom
+etry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/graphics/keyv
+al.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/iftex/ifvte
+x.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/iftex/iftex
+.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count286
+\Gm@cntv=\count287
+\c@Gm@tempcnt=\count288
+\Gm@bindingoffset=\dimen150
+\Gm@wd@mp=\dimen151
+\Gm@odd@mp=\dimen152
+\Gm@even@mp=\dimen153
+\Gm@layoutwidth=\dimen154
+\Gm@layoutheight=\dimen155
+\Gm@layouthoffset=\dimen156
+\Gm@layoutvoffset=\dimen157
+\Gm@dimlist=\toks21
+)
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/setspace/sets
 pace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
@@ -47,7 +134,7 @@ Package: expl3 2025-10-24 L3 programming layer (loader)
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/l3backend/l3b
 ackend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count283
+\l__color_backend_stack_int=\count289
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 
@@ -58,7 +145,7 @@ Package: xparse 2025-10-09 L3 Experimental document command parser
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/etoolbox/etoo
 lbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count284
+\etb@tempcnta=\count290
 ))
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor
 .sty
@@ -86,10 +173,6 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/iftex/iftex
-.sty
-Package: iftex 2024/12/12 v1.0g TeX engine tests
-)
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyv
 al.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
@@ -98,12 +181,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 yval.tex
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/xkeyval/xkv
 utils.tex
-\XKV@toks=\toks17
-\XKV@tempa@toks=\toks18
-
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/xkeyval/key
-val.tex))
-\XKV@depth=\count285
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+)
+\XKV@depth=\count291
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/base/textcomp
@@ -114,8 +195,8 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 ring.sty
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/xstring/xst
 ring.tex
-\xs_counta=\count286
-\xs_countb=\count287
+\xs_counta=\count292
+\xs_countb=\count293
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
@@ -132,8 +213,8 @@ LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/kastrup/bin
 hex.tex)
-\ntx@tmpcnta=\count288
-\ntx@cnt=\count289
+\ntx@tmpcnta=\count294
+\ntx@cnt=\count295
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/fontaxes/font
 axes.sty
@@ -143,20 +224,20 @@ Package: fontaxes 2025-05-24 v2.0.1 Font selection axes (deprecated)
 s/figureversions.sty
 Package: figureversions 2025-04-29 v1.0.1 Figure versions
 ))
-\tx@sixem=\dimen149
-\tx@y=\dimen150
-\tx@x=\dimen151
-\tx@tmpdima=\dimen152
-\tx@tmpdimb=\dimen153
-\tx@tmpdimc=\dimen154
-\tx@tmpdimd=\dimen155
-\tx@tmpdime=\dimen156
-\tx@tmpdimf=\dimen157
-\tx@dimA=\dimen158
-\tx@dimAA=\dimen159
-\tx@dimB=\dimen160
-\tx@dimBB=\dimen161
-\tx@dimC=\dimen162
+\tx@sixem=\dimen158
+\tx@y=\dimen159
+\tx@x=\dimen160
+\tx@tmpdima=\dimen161
+\tx@tmpdimb=\dimen162
+\tx@tmpdimc=\dimen163
+\tx@tmpdimd=\dimen164
+\tx@tmpdime=\dimen165
+\tx@tmpdimf=\dimen166
+\tx@dimA=\dimen167
+\tx@dimAA=\dimen168
+\tx@dimB=\dimen169
+\tx@dimBB=\dimen170
+\tx@dimC=\dimen171
 LaTeX Info: Redefining \oldstylenums on input line 902.
 )
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/newtx/newtxma
@@ -179,26 +260,26 @@ Package: amstext 2024/11/17 v2.01 AMS text
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/amsmath/amsge
 n.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen163
+\@emptytoks=\toks24
+\ex@=\dimen172
 ))
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/amsmath/amsbs
 y.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen164
+\pmbraise@=\dimen173
 )
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/amsmath/amsop
 n.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count290
+\inf@bad=\count296
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count291
-\leftroot@=\count292
+\uproot@=\count297
+\leftroot@=\count298
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count293
-\DOTSCASE@=\count294
+\classnum@=\count299
+\DOTSCASE@=\count300
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -208,34 +289,34 @@ LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen165
+\big@size=\dimen174
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count295
+\macc@depth=\count301
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count296
+\c@MaxMatrixCols=\count302
 \dotsspace@=\muskip17
-\c@parentequation=\count297
-\dspbrk@lvl=\count298
-\tag@help=\toks20
-\row@=\count299
-\column@=\count300
-\maxfields@=\count301
-\andhelp@=\toks21
-\eqnshift@=\dimen166
-\alignsep@=\dimen167
-\tagshift@=\dimen168
-\tagwidth@=\dimen169
-\totwidth@=\dimen170
-\lineht@=\dimen171
-\@envbody=\toks22
+\c@parentequation=\count303
+\dspbrk@lvl=\count304
+\tag@help=\toks25
+\row@=\count305
+\column@=\count306
+\maxfields@=\count307
+\andhelp@=\toks26
+\eqnshift@=\dimen175
+\alignsep@=\dimen176
+\tagshift@=\dimen177
+\tagwidth@=\dimen178
+\totwidth@=\dimen179
+\lineht@=\dimen180
+\@envbody=\toks27
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks23
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 )
@@ -243,15 +324,15 @@ LaTeX Info: Redefining \] on input line 2951.
 ernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\tx@cntz=\count302
+\tx@cntz=\count308
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/kastrup/bin
 hex.tex)
-\tx@Isdigit=\count303
-\tx@IsAlNum=\count304
-\tx@tA=\toks24
-\tx@tB=\toks25
-\tx@su=\read2
+\tx@Isdigit=\count309
+\tx@IsAlNum=\count310
+\tx@tA=\toks29
+\tx@tB=\toks30
+\tx@su=\read3
 
 amsthm NOT loaded
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 402.
@@ -275,9 +356,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/minntx/m/it on input line 419.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 420.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/ntxtt/m/n on input line 420.
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 420.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/ntxtt/m/n on input line 420.
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 420.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 422.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 422.
@@ -286,7 +367,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/minntx/m/it --> OT1/minntx/b/it on input line 423.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/ntxtt/m/n --> OT1/ntxtt/b/n on input line 426.
+(Font)                  T1/ntxtt/m/n --> T1/ntxtt/b/n on input line 426.
 LaTeX Font Info:    Redeclaring symbol font `letters' on input line 534.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
 (Font)                  OML/cmm/m/it --> OML/ntxmi/m/it on input line 534.
@@ -335,7 +416,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
 
 (Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 679.
-\tx@sbptoks=\toks26
+\tx@sbptoks=\toks31
 LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 902.
 LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 903.
 LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 904.
@@ -353,79 +434,158 @@ LaTeX Font Info:    Redeclaring math accent \vec on input line 2057.
 LaTeX Info: Redefining \Bbbk on input line 2847.
 LaTeX Info: Redefining \not on input line 2995.
 )
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/base/inputenc
-.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks27
-\inpenc@posthook=\toks28
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/titlesec/titl
+esec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box55
+\beforetitleunit=\skip54
+\aftertitleunit=\skip55
+\ttl@plus=\dimen181
+\ttl@minus=\dimen182
+\ttl@toksa=\toks32
+\titlewidth=\dimen183
+\titlewidthlast=\dimen184
+\titlewidthfirst=\dimen185
 )
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/babel/babel
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum
 .sty
-Package: babel 2025/10/22 v25.14 The multilingual framework for LuaLaTeX, pdfLa
-TeX and XeLaTeX
-\babel@savecnt=\count305
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2050.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2052.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2054.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2055.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2056.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2058.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2083.
-\U@D=\dimen172
-\l@unhyphenated=\language90
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/l3packages/l3
+keys2e/l3keys2e.sty
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count311
+\l__lipsum_a_int=\count312
+\l__lipsum_b_int=\count313
 
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/babel/txtba
-bel.def)
-\bbl@readstream=\read3
-\bbl@dirlevel=\count306
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum
+.ltd.tex))
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/mathtools/mat
+htools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
 
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/babel/local
-e/es/babel-spanish.tex)
-Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 4295.
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/tools/calc.st
+y
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count314
+\calc@Bcount=\count315
+\calc@Adimen=\dimen186
+\calc@Bdimen=\dimen187
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count316
+\calc@Cskip=\skip58
+)
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/mathtools/mhs
+etup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count317
+\l_MT_multwidth_dim=\dimen188
+\origjot=\skip59
+\l_MT_shortvdotswithinadjustabove_dim=\dimen189
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen190
+\l_MT_above_intertext_sep=\dimen191
+\l_MT_below_intertext_sep=\dimen192
+\l_MT_above_shortintertext_sep=\dimen193
+\l_MT_below_shortintertext_sep=\dimen194
+\xmathstrut@box=\box56
+\xmathstrut@dim=\dimen195
+)
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2025/10/21 v1.2g Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup8
+\symboldletters=\mathgroup9
+\symboldsymbols=\mathgroup10
+\symboldlargesymbols=\mathgroup11
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+   defining Unicode char U+2265 (decimal 8805)
+   defining Unicode char U+2264 (decimal 8804)
 
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/babel-spani
-sh/spanish.ldf
-Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks29
-\es@quotdepth=\count307
-Package babel Info: Making " an active character on input line 570.
-Package babel Info: Making . an active character on input line 675.
-Package babel Info: Making < an active character on input line 722.
-Package babel Info: Making > an active character on input line 722.
-))
-LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
-on input line 15.
-LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
- on input line 15.
-
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/geometry/geom
-etry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/iftex/ifvte
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/tools/tabular
 x.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/tools/array.s
+ty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen196
+\ar@mcellbox=\box57
+\extrarowheight=\dimen197
+\NC@list=\toks33
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box58
 )
-\Gm@cnth=\count308
-\Gm@cntv=\count309
-\c@Gm@tempcnt=\count310
-\Gm@bindingoffset=\dimen173
-\Gm@wd@mp=\dimen174
-\Gm@odd@mp=\dimen175
-\Gm@even@mp=\dimen176
-\Gm@layoutwidth=\dimen177
-\Gm@layoutheight=\dimen178
-\Gm@layouthoffset=\dimen179
-\Gm@layoutvoffset=\dimen180
-\Gm@dimlist=\toks30
+\TX@col@width=\dimen198
+\TX@old@table=\dimen199
+\TX@old@col=\dimen256
+\TX@target=\dimen257
+\TX@delta=\dimen258
+\TX@cols=\count318
+\TX@ftn=\toks34
+)
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/booktabs/book
+tabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen259
+\lightrulewidth=\dimen260
+\cmidrulewidth=\dimen261
+\belowrulesep=\dimen262
+\belowbottomsep=\dimen263
+\aboverulesep=\dimen264
+\abovetopsep=\dimen265
+\cmidrulesep=\dimen266
+\cmidrulekern=\dimen267
+\defaultaddspace=\dimen268
+\@cmidla=\count319
+\@cmidlb=\count320
+\@aboverulesep=\dimen269
+\@belowrulesep=\dimen270
+\@thisruleclass=\count321
+\@lastruleclass=\count322
+\@thisrulewidth=\dimen271
+)
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/multirow/mult
+irow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip62
+\multirow@cntb=\count323
+\multirow@dima=\skip63
+\bigstrutjot=\dimen272
+)
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/tools/longtab
+le.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip64
+\LTright=\skip65
+\LTpre=\skip66
+\LTpost=\skip67
+\LTchunksize=\count324
+\LTcapwidth=\dimen273
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@gbox=\box63
+\LT@cols=\count325
+\LT@rows=\count326
+\c@LT@tables=\count327
+\c@LT@chunks=\count328
+\LT@p@ftn=\toks35
+)
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/enumitem/enum
+item.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip68
+\enit@outerparindent=\dimen274
+\enit@toks=\toks36
+\enit@inbox=\box64
+\enit@count@id=\count329
+\enitdp@description=\count330
 )
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/graphics/grap
 hicx.sty
@@ -445,365 +605,17 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 )
-\Gin@req@height=\dimen181
-\Gin@req@width=\dimen182
+\Gin@req@height=\dimen275
+\Gin@req@width=\dimen276
 )
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/titlesec/titl
-esec.sty
-Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box55
-\beforetitleunit=\skip54
-\aftertitleunit=\skip55
-\ttl@plus=\dimen183
-\ttl@minus=\dimen184
-\ttl@toksa=\toks31
-\titlewidth=\dimen185
-\titlewidthlast=\dimen186
-\titlewidthfirst=\dimen187
-)
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum
-.sty
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/l3packages/l3
-keys2e/l3keys2e.sty
-Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
-)
-Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count311
-\l__lipsum_a_int=\count312
-\l__lipsum_b_int=\count313
-
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum
-.ltd.tex))
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/base/fontenc.
-sty
-Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+minntx on input line
- 116.
-
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/newtx/t1minnt
-x.fd
-File: t1minntx.fd 2023/09/09 v1.1 font definition file for T1/minntx
-)
-LaTeX Font Info:    Font shape `T1/minntx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 116.
-)
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/amsfonts/amss
-ymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/amsfonts/amsf
-onts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup8
-\symAMSb=\mathgroup9
-LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 74.
-LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 75.
-LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 76.
-LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
-LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 142.
-)
-LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 52.
-
-LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56
-.
-LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 61
-.
-LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 62.
-
-LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
-
-LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 66.
-LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 69.
-
-LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 72.
-LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
-79.
-LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 80.
-LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \circeq on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \succsim on input line 83.
-LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 84.
-LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 85.
-LaTeX Font Info:    Redeclaring math symbol \multimap on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \therefore on input line 87.
-LaTeX Font Info:    Redeclaring math symbol \because on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \precsim on input line 92.
-LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 93.
-LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 96.
-LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \leqq on input line 100.
-LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
-LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \backprime on input line 103.
-LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 106.
-LaTeX Font Info:    Redeclaring math symbol \geqq on input line 107.
-LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 117.
-LaTeX Font Info:    Redeclaring math symbol \between on input line 118.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 11
-9.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
-20.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
-1.
-LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 122.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 125.
-LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 127.
-LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 129.
-LaTeX Font Info:    Redeclaring math symbol \Rrightarrow on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Lleftarrow on input line 131.
-LaTeX Font Info:    Redeclaring math symbol \veebar on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 137.
-LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \varpropto on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \smallsmile on input line 140.
-LaTeX Font Info:    Redeclaring math symbol \smallfrown on input line 141.
-LaTeX Font Info:    Redeclaring math symbol \Subset on input line 142.
-LaTeX Font Info:    Redeclaring math symbol \Supset on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Cup on input line 144.
-LaTeX Font Info:    Redeclaring math symbol \Cap on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 148.
-LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 150.
-LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 151.
-
-LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 152.
-LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 153.
-LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 154.
-LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 155.
-LaTeX Font Info:    Redeclaring math symbol \lll on input line 156.
-LaTeX Font Info:    Redeclaring math symbol \ggg on input line 158.
-LaTeX Font Info:    Redeclaring math symbol \circledS on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 161.
-LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 162.
-LaTeX Font Info:    Redeclaring math symbol \backsim on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
-LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 167.
-LaTeX Font Info:    Redeclaring math symbol \circledast on input line 168.
-LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 171.
-LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 172.
-LaTeX Font Info:    Redeclaring math symbol \nleq on input line 173.
-LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 174.
-LaTeX Font Info:    Redeclaring math symbol \nless on input line 175.
-LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \nprec on input line 177.
-LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 178.
-LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 180.
-LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
-LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
-LaTeX Font Info:    Redeclaring math symbol \lneq on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \gneq on input line 184.
-LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 185.
-LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 190.
-LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 191.
-LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 192.
-LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 193.
-LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 195.
-LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 196.
-LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 198.
-LaTeX Font Info:    Redeclaring math symbol \nsim on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \ncong on input line 200.
-LaTeX Font Info:    Redeclaring math symbol \diagup on input line 201.
-LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 202.
-LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
-LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 204.
-LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 205.
-LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 206.
-LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
-LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 208.
-LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 210.
-LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 211.
-LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 212.
-LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 213.
-LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
-LaTeX Font Info:    Redeclaring math symbol \nmid on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \nshortmid on input line 217.
-LaTeX Font Info:    Redeclaring math symbol \nshortparallel on input line 218.
-LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 219.
-LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 220.
-LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
-LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 222.
-LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 223
-.
-LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 224.
-
-LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 225.
-LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 226.
-LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 229.
-LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 230.
-LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 231.
-
-LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 232.
-
-LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 233.
-LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 234.
-LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
-LaTeX Font Info:    Redeclaring math symbol \Finv on input line 236.
-LaTeX Font Info:    Redeclaring math symbol \Game on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \eth on input line 240.
-LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 241.
-LaTeX Font Info:    Redeclaring math symbol \beth on input line 242.
-LaTeX Font Info:    Redeclaring math symbol \gimel on input line 243.
-LaTeX Font Info:    Redeclaring math symbol \daleth on input line 244.
-LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 245.
-LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 246.
-LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 248.
-LaTeX Font Info:    Redeclaring math symbol \shortmid on input line 249.
-LaTeX Font Info:    Redeclaring math symbol \shortparallel on input line 250.
-LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
-LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 252.
-LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 253.
-LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 254.
-LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 256.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
-
-LaTeX Font Info:    Redeclaring math symbol \digamma on input line 259.
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
-
-
-! LaTeX Error: Command `\Bbbk' already defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 ...ol{\Bbbk}           {\mathord}{AMSb}{"7C}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
-LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
-)
-   defining Unicode char U+2265 (decimal 8805)
-   defining Unicode char U+2264 (decimal 8804)
-
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/tools/tabular
-x.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/tools/array.s
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/float/float.s
 ty
-Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen188
-\ar@mcellbox=\box56
-\extrarowheight=\dimen189
-\NC@list=\toks32
-\extratabsurround=\skip56
-\backup@length=\skip57
-\ar@cellbox=\box57
-)
-\TX@col@width=\dimen190
-\TX@old@table=\dimen191
-\TX@old@col=\dimen192
-\TX@target=\dimen193
-\TX@delta=\dimen194
-\TX@cols=\count314
-\TX@ftn=\toks33
-)
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/booktabs/book
-tabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen195
-\lightrulewidth=\dimen196
-\cmidrulewidth=\dimen197
-\belowrulesep=\dimen198
-\belowbottomsep=\dimen199
-\aboverulesep=\dimen256
-\abovetopsep=\dimen257
-\cmidrulesep=\dimen258
-\cmidrulekern=\dimen259
-\defaultaddspace=\dimen260
-\@cmidla=\count315
-\@cmidlb=\count316
-\@aboverulesep=\dimen261
-\@belowrulesep=\dimen262
-\@thisruleclass=\count317
-\@lastruleclass=\count318
-\@thisrulewidth=\dimen263
-)
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/tools/longtab
-le.sty
-Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
-\LTleft=\skip58
-\LTright=\skip59
-\LTpre=\skip60
-\LTpost=\skip61
-\LTchunksize=\count319
-\LTcapwidth=\dimen264
-\LT@head=\box58
-\LT@firsthead=\box59
-\LT@foot=\box60
-\LT@lastfoot=\box61
-\LT@gbox=\box62
-\LT@cols=\count320
-\LT@rows=\count321
-\c@LT@tables=\count322
-\c@LT@chunks=\count323
-\LT@p@ftn=\toks34
-)
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/multirow/mult
-irow.sty
-Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip62
-\multirow@cntb=\count324
-\multirow@dima=\skip63
-\bigstrutjot=\dimen265
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count331
+\float@exts=\toks37
+\float@box=\box65
+\@float@everytoks=\toks38
+\@floatcapt=\box66
 )
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/hyperref/hype
 rref.sty
@@ -858,16 +670,16 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 ptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count325
+\c@section@level=\count332
 )
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/stringenc/s
 tringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen266
-\Hy@linkcounter=\count326
-\Hy@pagecounter=\count327
+\@linkdim=\dimen277
+\Hy@linkcounter=\count333
+\Hy@pagecounter=\count334
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/hyperref/pd1e
 nc.def
@@ -879,7 +691,7 @@ Now handling font encoding PD1 ...
 calc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count328
+\Hy@SavedSpaceFactor=\count335
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/hyperref/puen
 c.def
@@ -894,14 +706,14 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count329
+\c@Hy@tempcnt=\count336
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen267
+\XeTeXLinkMargin=\dimen278
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/generic/bitset/bits
 et.sty
@@ -912,9 +724,9 @@ bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count330
-\Field@Width=\dimen268
-\Fld@charsize=\dimen269
+\Fld@menulength=\count337
+\Field@Width=\dimen279
+\Fld@charsize=\dimen280
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -922,17 +734,17 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count331
-\c@Item=\count332
-\c@Hfootnote=\count333
+\Hy@abspage=\count338
+\c@Item=\count339
+\c@Hfootnote=\count340
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/hyperref/hpdf
 tex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count334
-\c@bookmark@seq@number=\count335
+\Fld@listcount=\count341
+\c@bookmark@seq@number=\count342
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/rerunfilechec
 k/rerunfilecheck.sty
@@ -945,84 +757,51 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip64
+\Hy@SectionHShift=\skip69
 )
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/pdfpages/pdfp
 ages.sty
 Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
 
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/tools/calc.st
-y
-Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count336
-\calc@Bcount=\count337
-\calc@Adimen=\dimen270
-\calc@Bdimen=\dimen271
-\calc@Askip=\skip65
-\calc@Bskip=\skip66
-LaTeX Info: Redefining \setlength on input line 86.
-LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count338
-\calc@Cskip=\skip67
-)
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/eso-pic/eso-p
 ic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen272
-\ESO@tempdimb=\dimen273
+\ESO@tempdima=\dimen281
+\ESO@tempdimb=\dimen282
 )
-\AM@pagewidth=\dimen274
-\AM@pageheight=\dimen275
-\AM@fboxrule=\dimen276
+\AM@pagewidth=\dimen283
+\AM@pageheight=\dimen284
+\AM@fboxrule=\dimen285
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/pdfpages/pppd
 ftex.def
 File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count339
-\AM@pagebox=\box63
-\AM@global@opts=\toks35
-\AM@pagecnt=\count340
-\AM@toc@title=\toks36
-\AM@lof@heading=\toks37
-\c@AM@survey=\count341
-\AM@templatesizebox=\box64
+\pdfpages@includegraphics@status=\count343
+\AM@pagebox=\box67
+\AM@global@opts=\toks39
+\AM@pagecnt=\count344
+\AM@toc@title=\toks40
+\AM@lof@heading=\toks41
+\c@AM@survey=\count345
+\AM@templatesizebox=\box68
 )
-\c@intro=\count342
-
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/comment/comme
 nt.sty
 \CommentStream=\write3
  Excluding comment 'comment')
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/float/float.s
-ty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count343
-\float@exts=\toks38
-\float@box=\box65
-\@float@everytoks=\toks39
-\@floatcapt=\box66
-)
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/enumitem/enum
-item.sty
-Package: enumitem 2025/02/06 v3.11 Customized lists
-\enitkv@toks@=\toks40
-\labelindent=\skip68
-\enit@outerparindent=\dimen277
-\enit@toks=\toks41
-\enit@inbox=\box67
-\enit@count@id=\count344
-\enitdp@description=\count345
-) Excluding 'comment' comment. Excluding 'comment' comment.
+\c@intro=\count346
+ Excluding 'comment' comment.
+Excluding 'comment' comment.
 LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
- 143.
+ 81.
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/newtx/t1ntxtl
 f.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 143.
+(Font)              scaled to size 12.0pt on input line 81.
  (./investigacion2.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -1031,89 +810,58 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `investigacion2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 143.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 81.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 143.
+ 81.
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/newtx/omlntxm
 i.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 81.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-143.
+81.
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/newtx/untxexa
 .fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 81.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 143.
+ 81.
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/newtx/lmsntxs
 y.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 81.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 143.
+e 81.
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/newtx/lmxntxe
 xx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/context/base/mkii/s
-upp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count346
-\scratchdimen=\dimen278
-\scratchbox=\box68
-\nofMPsegments=\count347
-\nofMParguments=\count348
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count349
-\MPscratchDim=\dimen279
-\MPnumerator=\count350
-\makeMPintoPDFobject=\count351
-\everyMPtoPDFconversion=\toks43
-)
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/
-epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/latexconfig/e
-pstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-\c@mv@tabular=\count352
-\c@mv@boldtabular=\count353
-LaTeX Info: Command `\dddot' is already robust on input line 143.
-LaTeX Info: Command `\ddddot' is already robust on input line 143.
-LaTeX Info: Redefining \. on input line 143.
-LaTeX Info: Redefining \% on input line 143.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1123,15 +871,15 @@ LaTeX Info: Redefining \% on input line 143.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* h-part:(L,W,R)=(85.35826pt, 457.80486pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=457.80486pt
+* \textheight=652.70622pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -1149,8 +897,39 @@ LaTeX Info: Redefining \% on input line 143.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 143.
-(./investigacion2.out) (./investigacion2.out)
+
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/context/base/mkii/s
+upp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count347
+\scratchdimen=\dimen286
+\scratchbox=\box69
+\nofMPsegments=\count348
+\nofMParguments=\count349
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count350
+\MPscratchDim=\dimen287
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
+\everyMPtoPDFconversion=\toks43
+)
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/
+epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/latexconfig/e
+pstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@mv@tabular=\count353
+\c@mv@boldtabular=\count354
+LaTeX Info: Command `\dddot' is already robust on input line 81.
+LaTeX Info: Command `\ddddot' is already robust on input line 81.
+Package hyperref Info: Link coloring OFF on input line 81.
+ (./investigacion2.out) (./investigacion2.out)
 \@outlinefile=\write4
 \openout4 = `investigacion2.out'.
 
@@ -1171,159 +950,153 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 172.
+(Font)              scaled to size 12.0pt on input line 110.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 172.
+(Font)              scaled to size 20.74pt on input line 110.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 179.
+(Font)              scaled to size 17.28pt on input line 117.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 179.
+(Font)              scaled to size 17.28pt on input line 117.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 188.
+(Font)              scaled to size 14.4pt on input line 126.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 188.
+(Font)              scaled to size 14.4pt on input line 126.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 189.
-LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
-e 196.
+(Font)              scaled to size 12.0pt on input line 127.
 
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/newtx/ot1minn
-tx.fd
-File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
-)
-LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 196.
-LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 196.
-LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 196.
-LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 12.0pt on input line 196.
-LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.8pt on input line 196.
-LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 196.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 196.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.8pt on input line 196.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 196.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 196.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 196.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 196.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-196.
-
+tx.fd)
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/newtx/untxmia
-.fd
-File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
-)
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 12.0pt on input line 196.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.8pt on input line 196.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 196.
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-196.
-
+.fd)
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/newtx/untxsym
-.fd
-File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
-)
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 12.0pt on input line 196.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.8pt on input line 196.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 196.
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-196.
-
+.fd)
 (d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/newtx/untxsyc
-.fd
-File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-)
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 196.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.8pt on input line 196.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 196.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 12.0pt on input line 196.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.8pt on input line 196.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 196.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 196
-.
+.fd)
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 145--145
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
 
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa
-.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 196
-.
 
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb
-.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+Overfull \hbox (23.99998pt too wide) in alignment at lines 145--145
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 145--146
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 158--158
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 158--158
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 158--159
+[][] 
+ []
+
+[1
 
 {d:/Instalar Programas/textlive/texlive/2025/texmf-var/fonts/map/pdftex/updmap/
 pdftex.map}{d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/enc/dv
 ips/newtx/ntx-ec-tlf.enc}]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 222--222
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 171--171
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 222--222
+Overfull \hbox (23.99998pt too wide) in alignment at lines 171--171
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 222--223
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 171--172
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 235--235
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 184--184
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 235--235
+Overfull \hbox (23.99998pt too wide) in alignment at lines 184--184
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 235--236
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 184--185
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 248--248
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 197--197
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 248--248
+Overfull \hbox (23.99998pt too wide) in alignment at lines 197--197
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 248--249
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 197--198
 [][] 
  []
 
 [2]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 261--261
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 208--208
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 208--208
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 208--209
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 219--219
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 219--219
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 219--220
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 230--230
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 230--230
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 230--231
+[][] 
+ []
+
+[3]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 261--261
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
@@ -1338,7 +1111,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 261--262
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 274--274
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 274--274
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
@@ -1353,97 +1126,127 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 274--275
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 285--285
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 286--286
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 285--285
+Overfull \hbox (23.99998pt too wide) in alignment at lines 286--286
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 285--286
-[][] 
- []
-
-[3]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 296--296
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 296--296
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 296--297
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 307--307
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 307--307
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 307--308
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 286--287
 [][] 
  []
 
 [4]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 353--353
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 298--298
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 353--353
+Overfull \hbox (23.99998pt too wide) in alignment at lines 298--298
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 353--354
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 298--299
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 366--366
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 310--310
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 366--366
+Overfull \hbox (23.99998pt too wide) in alignment at lines 310--310
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 366--367
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 310--311
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 320--320
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 320--320
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 320--321
 [][] 
  []
 
 [5]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 378--378
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 330--330
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 378--378
+Overfull \hbox (23.99998pt too wide) in alignment at lines 330--330
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 378--379
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 330--331
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 390--390
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 356--356
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 356--356
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 356--357
+[][] 
+ []
+
+[6]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 368--368
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 368--368
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 368--369
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 379--379
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 379--379
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 379--380
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 390--390
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
@@ -1457,449 +1260,523 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 390--391
 [][] 
  []
 
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 402--402
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 402--402
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 402--403
-[][] 
- []
-
-[6]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 412--412
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 412--412
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 412--413
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 422--422
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 422--422
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 422--423
-[][] 
- []
-
 [7]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 462--462
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 414--414
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 462--462
+Overfull \hbox (23.99998pt too wide) in alignment at lines 414--414
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 462--463
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 414--415
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 474--474
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 425--425
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 474--474
+Overfull \hbox (23.99998pt too wide) in alignment at lines 425--425
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 474--475
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 425--426
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 436--436
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 436--436
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 436--437
 [][] 
  []
 
 [8]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 485--485
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 447--447
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 485--485
+Overfull \hbox (23.99998pt too wide) in alignment at lines 447--447
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 485--486
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 496--496
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 496--496
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 496--497
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 447--448
 [][] 
  []
 
 [9]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 534--534
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 534--534
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 534--535
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 545--545
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 545--545
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 545--546
-[][] 
- []
-
-[10]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 556--556
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 556--556
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 556--557
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 567--567
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 567--567
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 567--568
-[][] 
- []
-
-[11]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.612 ...ado de muros de mampostería estructural}
-                                                   [12]
+l.492 ...ado de muros de mampostería estructural}
+                                                  
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.1.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.635 	\subsection{Checklist de supervisión}
+l.500 	\subsection{Checklist de supervisión}
                                              
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 647--647
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 512--512
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 647--647
+Overfull \hbox (23.99998pt too wide) in alignment at lines 512--512
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 647--648
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 512--513
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 659--659
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 524--524
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 659--659
+Overfull \hbox (23.99998pt too wide) in alignment at lines 524--524
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 659--660
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 524--525
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 671--671
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 536--536
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 671--671
+Overfull \hbox (23.99998pt too wide) in alignment at lines 536--536
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 671--672
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 536--537
 [][] 
  []
 
-[13]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 683--683
+[10]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 548--548
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 683--683
+Overfull \hbox (23.99998pt too wide) in alignment at lines 548--548
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 683--684
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 548--549
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 695--695
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 560--560
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 695--695
+Overfull \hbox (23.99998pt too wide) in alignment at lines 560--560
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 695--696
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 560--561
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 706--706
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 571--571
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 706--706
+Overfull \hbox (23.99998pt too wide) in alignment at lines 571--571
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 706--707
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 571--572
 [][] 
  []
 
-[14]
+[11]
 pdfTeX warning (ext4): destination with the same identifier (name{section.2}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.715 ...on{Construcción de mochetas de concreto}
-                                                   [15]
+l.580 ...on{Construcción de mochetas de concreto}
+                                                  
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.2.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.738 	\subsection{Checklist de supervisión}
+l.588 	\subsection{Checklist de supervisión}
                                              
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 750--750
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 600--600
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 750--750
+Overfull \hbox (23.99998pt too wide) in alignment at lines 600--600
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 750--751
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 600--601
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 762--762
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 612--612
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 762--762
+Overfull \hbox (23.99998pt too wide) in alignment at lines 612--612
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 762--763
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 612--613
 [][] 
  []
 
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 774--774
+[12]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 624--624
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 774--774
+Overfull \hbox (23.99998pt too wide) in alignment at lines 624--624
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 774--775
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 624--625
 [][] 
  []
 
-[16]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 786--786
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 636--636
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 786--786
+Overfull \hbox (23.99998pt too wide) in alignment at lines 636--636
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 786--787
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 636--637
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 798--798
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 648--648
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 798--798
+Overfull \hbox (23.99998pt too wide) in alignment at lines 648--648
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 798--799
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 648--649
 [][] 
  []
 
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 810--810
+[13]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 660--660
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 810--810
+Overfull \hbox (23.99998pt too wide) in alignment at lines 660--660
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 810--811
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 660--661
 [][] 
  []
 
-[17]
+
 pdfTeX warning (ext4): destination with the same identifier (name{section.3}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.827 ...strucción de soleras de concreto armado}
-                                                   [18]
+l.677 ...strucción de soleras de concreto armado}
+                                                  
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.3.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.855 	\subsection{Checklist de supervisión}
+l.691 	\subsection{Checklist de supervisión}
                                              
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 867--867
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 703--703
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 867--867
+Overfull \hbox (23.99998pt too wide) in alignment at lines 703--703
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 867--868
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 703--704
 [][] 
  []
 
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 879--879
+[14]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 715--715
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 879--879
+Overfull \hbox (23.99998pt too wide) in alignment at lines 715--715
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 879--880
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 715--716
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 890--890
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 726--726
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 890--890
+Overfull \hbox (23.99998pt too wide) in alignment at lines 726--726
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 890--891
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 726--727
 [][] 
  []
 
-[19]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 902--902
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 738--738
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 902--902
+Overfull \hbox (23.99998pt too wide) in alignment at lines 738--738
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 902--903
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 738--739
+[][] 
+ []
+
+[15]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 749--749
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 749--749
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 913--913
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 749--750
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 760--760
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 760--760
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 760--761
+[][] 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.4}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.772 	\section{Vigas de concreto reforzado}
+                                            
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.4.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.779 	\subsection{Checklist de supervisión}
+                                             
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 792--792
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 792--792
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 792--793
+[][] 
+ []
+
+[16]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 805--805
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 805--805
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 805--806
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 816--816
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 816--816
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 816--817
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 827--827
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 827--827
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 827--828
+[][] 
+ []
+
+[17]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 839--839
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 839--839
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 839--840
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 850--850
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 850--850
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 850--851
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 861--861
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 861--861
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 861--862
+[][] 
+ []
+
+[18]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 888--888
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 888--888
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 888--889
+[][] 
+ []
+
+
+(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/newtx/ts1ntxt
+lf.fd)
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 901--901
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 901--901
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 901--902
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 913--913
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
@@ -1913,557 +1790,378 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 913--914
 [][] 
  []
 
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 924--924
+[19{d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/enc/dvips/tex-
+gyre/q-ts1.enc}]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 925--925
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 924--924
+Overfull \hbox (23.99998pt too wide) in alignment at lines 925--925
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 924--925
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 925--926
 [][] 
  []
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{section.4}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.936 	\section{Vigas de concreto reforzado}
-                                             [20]
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.4.
-1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.957 	\subsection{Checklist de supervisión}
-                                             
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 970--970
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 936--936
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 970--970
+Overfull \hbox (23.99998pt too wide) in alignment at lines 936--936
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 970--971
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 936--937
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 948--948
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 948--948
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 948--949
+[][] 
+ []
+
+[20]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 974--974
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 974--974
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 974--975
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 985--985
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 985--985
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 985--986
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 997--997
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 997--997
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 997--998
 [][] 
  []
 
 [21]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 983--983
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1009--1009
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 983--983
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1009--1009
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 983--984
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1009--1010
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 994--994
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1021--1021
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 994--994
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1021--1021
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 994--995
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1021--1022
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1005--1005
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1032--1032
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1005--1005
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1032--1032
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1005--1006
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1032--1033
 [][] 
  []
 
 [22]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1017--1017
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1043--1043
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1017--1017
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1043--1043
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1017--1018
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1043--1044
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1028--1028
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1055--1055
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1028--1028
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1055--1055
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1028--1029
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1039--1039
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1039--1039
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1039--1040
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1055--1056
 [][] 
  []
 
 [23]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1080--1080
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1084--1084
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1080--1080
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1084--1084
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1080--1081
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1084--1085
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1097--1097
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1097--1097
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1097--1098
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1109--1109
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1109--1109
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1109--1110
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1121--1121
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1121--1121
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1121--1122
 [][] 
  []
 
 [24]
-(d:/Instalar Programas/textlive/texlive/2025/texmf-dist/tex/latex/newtx/ts1ntxt
-lf.fd)
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1093--1093
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1133--1133
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1093--1093
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1133--1133
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1093--1094
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1133--1134
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1105--1105
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1145--1145
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1105--1105
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1145--1145
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1105--1106
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1145--1146
 [][] 
  []
 
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1117--1117
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1117--1117
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1117--1118
-[][] 
- []
-
-[25{d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/enc/dvips/tex-
-gyre/q-ts1.enc}]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1128--1128
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1128--1128
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1128--1129
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1140--1140
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1140--1140
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1140--1141
-[][] 
- []
-
-[26]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1182--1182
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1182--1182
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1182--1183
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1193--1193
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1193--1193
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1193--1194
-[][] 
- []
-
-[27]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1205--1205
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1205--1205
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1205--1206
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1217--1217
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1217--1217
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1217--1218
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1229--1229
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1229--1229
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1229--1230
-[][] 
- []
-
-[28]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1240--1240
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1240--1240
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1240--1241
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1251--1251
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1251--1251
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1251--1252
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1263--1263
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1263--1263
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1263--1264
-[][] 
- []
-
-[29]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1306--1306
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1306--1306
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1306--1307
-[][] 
- []
-
-[30]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1319--1319
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1319--1319
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1319--1320
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1331--1331
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1331--1331
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1331--1332
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1343--1343
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1343--1343
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1343--1344
-[][] 
- []
-
-[31]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1355--1355
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1355--1355
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1355--1356
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1367--1367
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1367--1367
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1367--1368
-[][] 
- []
-
-[32]
+[25]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1389 ...alación de tuberías (hidrosanitarias)}
-                                                   [33]
+l.1167 ...alación de tuberías (hidrosanitarias)}
+                                                  
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.1.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1411 	\subsection{Checklist de supervisión}
+l.1175 	\subsection{Checklist de supervisión}
                                               
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1423--1423
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1187--1187
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1423--1423
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1187--1187
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1423--1424
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1187--1188
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1434--1434
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1198--1198
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1434--1434
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1198--1198
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1434--1435
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1198--1199
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 1436.
+(Font)              scaled to size 12.0pt on input line 1200.
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1446--1446
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1210--1210
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1446--1446
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1210--1210
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1446--1447
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1210--1211
 [][] 
  []
 
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1458--1458
+[26]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1222--1222
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1458--1458
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1222--1222
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1458--1459
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1222--1223
 [][] 
  []
 
-[34]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1470--1470
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1234--1234
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1470--1470
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1234--1234
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1470--1471
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1234--1235
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1482--1482
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1246--1246
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1482--1482
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1246--1246
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1482--1483
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1246--1247
 [][] 
  []
 
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1493--1493
+[27]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1257--1257
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1493--1493
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1257--1257
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1493--1494
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1257--1258
 [][] 
  []
 
@@ -2472,466 +2170,466 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.2}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1501 	\section{Construcción de pozos de visita}
-                                                   [35]
+l.1265 	\section{Construcción de pozos de visita}
+                                                  
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.2.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1525 	\subsection{Checklist de supervisión}
+l.1274 	\subsection{Checklist de supervisión}
                                               
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1537--1537
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1286--1286
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1537--1537
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1286--1286
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1537--1538
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1286--1287
 [][] 
  []
 
-[36]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1548--1548
+[28]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1297--1297
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1548--1548
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1297--1297
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1548--1549
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1297--1298
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1560--1560
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1309--1309
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1560--1560
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1309--1309
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1560--1561
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1309--1310
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1321--1321
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1572--1572
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1321--1321
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1572--1573
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1321--1322
 [][] 
  []
 
-[37]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1584--1584
+[29]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1333--1333
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1584--1584
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1333--1333
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1584--1585
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1333--1334
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1596--1596
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1345--1345
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1596--1596
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1345--1345
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1596--1597
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1345--1346
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1608--1608
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1357--1357
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1608--1608
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1357--1357
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1608--1609
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1357--1358
 [][] 
  []
 
-[38]
+[30]
 pdfTeX warning (ext4): destination with the same identifier (name{section.3}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1614 ...on{Construcción de pozos de absorción}
-                                                   [39]
+l.1363 ...on{Construcción de pozos de absorción}
+                                                  
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.3.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1637 	\subsection{Checklist de supervisión}
+l.1370 	\subsection{Checklist de supervisión}
                                               
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1648--1648
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1381--1381
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1648--1648
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1381--1381
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1648--1649
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1381--1382
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1659--1659
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1392--1392
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1659--1659
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1392--1392
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1659--1660
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1392--1393
 [][] 
  []
 
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1670--1670
+[31]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1403--1403
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1670--1670
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1403--1403
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1670--1671
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1403--1404
 [][] 
  []
 
-[40]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1681--1681
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1414--1414
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1681--1681
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1414--1414
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1681--1682
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1414--1415
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1692--1692
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1425--1425
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1692--1692
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1425--1425
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1692--1693
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1425--1426
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1703--1703
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1436--1436
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1703--1703
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1436--1436
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1703--1704
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1436--1437
 [][] 
  []
 
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1714--1714
+[32]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1447--1447
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1714--1714
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1447--1447
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1714--1715
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1447--1448
 [][] 
  []
 
-[41]
+
 pdfTeX warning (ext4): destination with the same identifier (name{section.4}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1723 ... tratamiento de aguas residuales (PTAR)}
-                                                   [42]
+l.1456 ... tratamiento de aguas residuales (PTAR)}
+                                                  
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.4.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1748 	\subsection{Checklist de supervisión}
+l.1466 	\subsection{Checklist de supervisión}
                                               
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1760--1760
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1478--1478
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1760--1760
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1478--1478
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1760--1761
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1478--1479
 [][] 
  []
 
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1772--1772
+[33]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1490--1490
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1772--1772
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1490--1490
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1772--1773
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1490--1491
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1784--1784
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1502--1502
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1784--1784
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1502--1502
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1784--1785
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1502--1503
 [][] 
  []
 
-[43]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1796--1796
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1514--1514
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1796--1796
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1514--1514
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1796--1797
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1514--1515
 [][] 
  []
 
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1808--1808
+[34]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1526--1526
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1808--1808
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1526--1526
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1808--1809
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1526--1527
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1820--1820
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1538--1538
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1820--1820
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1538--1538
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1820--1821
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1538--1539
 [][] 
  []
 
-[44]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1832--1832
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1550--1550
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1832--1832
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1550--1550
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1832--1833
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1550--1551
 [][] 
  []
 
-[45]
+[35] [36]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1855 ... de conducción superficial y enterrada}
-                                                   [46]
+l.1573 ... de conducción superficial y enterrada}
+                                                  
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.1.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1880 	\subsection{Checklist de supervisión}
+l.1582 	\subsection{Checklist de supervisión}
                                               
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1891--1891
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1593--1593
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1891--1891
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1593--1593
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1891--1892
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1593--1594
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1903--1903
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1605--1605
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1903--1903
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1605--1605
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1903--1904
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1605--1606
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1916--1916
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1618--1618
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1916--1916
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1618--1618
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1916--1917
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1618--1619
 [][] 
  []
 
-[47]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1928--1928
+[37]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1630--1630
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1928--1928
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1630--1630
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1928--1929
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1630--1631
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1940--1940
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1642--1642
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1940--1940
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1642--1642
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1940--1941
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1642--1643
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1952--1952
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1654--1654
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1952--1952
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1654--1654
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1952--1953
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1654--1655
 [][] 
  []
 
-[48]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 1964--1964
+[38]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1666--1666
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 1964--1964
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1666--1666
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1964--1965
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1666--1667
 [][] 
  []
 
@@ -2940,119 +2638,594 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.2}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1974 ...nstalación de líneas de distribución}
-                                                   [49]
+l.1676 ...nstalación de líneas de distribución}
+                                                  
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.2.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1998 	\subsection{Checklist de supervisión}
+l.1684 	\subsection{Checklist de supervisión}
                                               
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 2009--2009
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1695--1695
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 2009--2009
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1695--1695
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 2009--2010
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1695--1696
 [][] 
  []
 
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 2020--2020
+[39]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1706--1706
  []|\T1/ntxtlf/b/n/12 Estado| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in alignment at lines 2020--2020
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1706--1706
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 2020--2021
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1706--1707
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1717--1717
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1717--1717
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1717--1718
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1729--1729
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1729--1729
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1729--1730
+[][] 
+ []
+
+[40]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1740--1740
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1740--1740
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1740--1741
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1751--1751
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1751--1751
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1751--1752
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1762--1762
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1762--1762
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1762--1763
+[][] 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.3}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1782 ...onstrucción de tanque de distribución}
+                                                   [41]
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.3.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1791 	\subsection{Checklist de supervisión}
+                                              
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1802--1802
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1802--1802
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1802--1803
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1814--1814
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1814--1814
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1814--1815
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1826--1826
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1826--1826
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1826--1827
+[][] 
+ []
+
+[42]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1838--1838
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1838--1838
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1838--1839
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1850--1850
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1850--1850
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1850--1851
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1862--1862
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1862--1862
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1862--1863
+[][] 
+ []
+
+[43]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1874--1874
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1874--1874
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1874--1875
+[][] 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.4}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1889 ...e tanques de captación de agua potable}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.4.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1899 	\subsection{Checklist de supervisión}
+                                              
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1911--1911
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1911--1911
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1911--1912
+[][] 
+ []
+
+[44]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1923--1923
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1923--1923
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1923--1924
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1935--1935
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1935--1935
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1935--1936
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1947--1947
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1947--1947
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1947--1948
+[][] 
+ []
+
+[45]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1959--1959
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1959--1959
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1959--1960
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1971--1971
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1971--1971
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1971--1972
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 1983--1983
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 1983--1983
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1983--1984
+[][] 
+ []
+
+[46]
+pdfTeX warning (ext4): destination with the same identifier (name{section.5}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1993 ...n{Perforación de pozos de agua potable}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.5.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2000 	\subsection{Checklist de supervisión}
+                                              
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 2012--2012
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 2012--2012
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2012--2013
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 2024--2024
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 2024--2024
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2024--2025
+[][] 
+ []
+
+[47]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 2035--2035
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 2035--2035
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2035--2036
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 2046--2046
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 2046--2046
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2046--2047
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 2057--2057
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 2057--2057
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2057--2058
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 2068--2068
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 2068--2068
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2068--2069
+[][] 
+ []
+
+[48]
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 2079--2079
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 2079--2079
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2079--2080
+[][] 
+ []
+
+
+Overfull \hbox (3.41031pt too wide) in paragraph at lines 2091--2091
+ []|\T1/ntxtlf/b/n/12 Estado| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 2091--2091
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2091--2092
+[][] 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.6}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2099 ...s de agua (enterradas o semienterradas)}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.6.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2107 	\subsection{Checklist de supervisión}
+                                              
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 2111.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2126--2127
+[][] 
+ []
+
+[49]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2141--2142
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2156--2157
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2171--2172
 [][] 
  []
 
 [50]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 2031--2031
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 2031--2031
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2186--2187
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 2031--2032
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2201--2202
 [][] 
  []
 
 
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 2043--2043
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 2043--2043
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 2043--2044
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 2054--2054
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 2054--2054
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 2054--2055
-[][] 
- []
-
-
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 2065--2065
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 2065--2065
-[][] 
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 2065--2066
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2216--2217
 [][] 
  []
 
 [51]
-Overfull \hbox (2.5737pt too wide) in paragraph at lines 2076--2076
- []|\T1/ntxtlf/b/n/12 Estado| 
- []
-
-
-Overfull \hbox (23.99998pt too wide) in alignment at lines 2076--2076
+pdfTeX warning (ext4): destination with the same identifier (name{section.7}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2225 	\section{Construcción de Pavimentos }
+                                              
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 2236.
+ [52]
+LaTeX Info: Symbol \texttwosuperior not provided by
+            font family ntxtlf in TS1 encoding.
+            Default family used instead on input line 2269.
+ [53{d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/enc/dvips/cm-
+super/cm-super-ts1.enc}]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2326--2327
 [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 2076--2077
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2352--2353
 [][] 
  []
 
-[52] (./investigacion2.aux
+[54]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2370--2371
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2388--2389
+[][] 
+ []
+
+[55]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2405--2406
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2423--2424
+[][] 
+ []
+
+[56]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2440--2441
+[][] 
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2457--2458
+[][] 
+ []
+
+[57]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2475--2476
+[][] 
+ []
+
+[58] (./investigacion2.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -3061,29 +3234,30 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `investigacion2.out' has not changed.
-(rerunfilecheck)             Checksum: 9DA03934C446938104D546316CF5D43F;9131.
+(rerunfilecheck)             Checksum: 52DD33F2E3CC456DF3F81E4702500270;11688.
  ) 
 Here is how much of TeX's memory you used:
- 18237 strings out of 467577
- 284893 string characters out of 5410090
- 789014 words of memory out of 5000000
- 46617 multiletter control sequences out of 15000+600000
- 667965 words of font info for 83 fonts, out of 8000000 for 9000
+ 18725 strings out of 467577
+ 294334 string characters out of 5410090
+ 803328 words of memory out of 5000000
+ 47195 multiletter control sequences out of 15000+600000
+ 704754 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,522b,659s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/type1/public/am
-sfonts/symbols/msam10.pfb><d:/Instalar Programas/textlive/texlive/2025/texmf-di
-st/fonts/type1/public/tex-gyre/qtmr.pfb><d:/Instalar Programas/textlive/texlive
-/2025/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/Instalar Programas/text
-live/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Instalar Pro
-gramas/textlive/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb><d:/
-Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/type1/public/newtx/zt
-mr.pfb><d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/type1/publ
-ic/newtx/ztmri.pfb>
-Output written on investigacion2.pdf (52 pages, 258926 bytes).
+ 75i,9n,79p,565b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/type1/public/te
+x-gyre/qtmr.pfb><d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1095.pfb><d:/Instalar Programas/textlive/texlive/2025/
+texmf-dist/fonts/type1/public/newtx/txsym.pfb><d:/Instalar Programas/textlive/t
+exlive/2025/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/Instalar Programa
+s/textlive/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Instal
+ar Programas/textlive/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmbi.pf
+b><d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/type1/public/ne
+wtx/ztmr.pfb><d:/Instalar Programas/textlive/texlive/2025/texmf-dist/fonts/type
+1/public/newtx/ztmri.pfb>
+Output written on investigacion2.pdf (58 pages, 265271 bytes).
 PDF statistics:
- 544 PDF objects out of 1000 (max. 8388607)
- 471 compressed objects within 5 object streams
- 178 named destinations out of 1000 (max. 500000)
- 305 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 485 PDF objects out of 1000 (max. 8388607)
+ 404 compressed objects within 5 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 385 words of extra memory for PDF output out of 10000 (max. 10000000)
 
