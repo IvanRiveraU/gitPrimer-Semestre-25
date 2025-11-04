@@ -20,6 +20,12 @@
 \geometry{margin=1in}
 
 
+%%%%%%%% PARA VINCULOSs%%%%%
+\usepackage[hidelinks]{hyperref}
+\usepackage{pdfpages}
+
+
+
 %PAQUETE para incluir PDF´s
 \usepackage{pdfpages} % para incluir PDFs
 
@@ -41,14 +47,27 @@
 	\includepdf{scanerD/oficiofirmadoD}
 	
 	
-		%-------------INFORME ------------
+	
+	%%-------------FINIQUITO-------------
+		\includepdf{scanerD/finiquitodocencia}
+	
+	%%-------------BITACORA ESCANEADA----
+	
+		\includepdf[
+	pages=-,
+	pagecommand={\thispagestyle{empty}}
+	]{bitacoradocencia/bitacoradocencia}
+	
+	%-------------CUERPO DEL INFORME NORMAL
+	
 	\includepdf[
 	pages=-,
 	pagecommand={\thispagestyle{empty}}
 	]{cuerpoinformeD/cuerpoinformeD}
+	
 
 
 	
-	
+		
 	
 \end{document}
