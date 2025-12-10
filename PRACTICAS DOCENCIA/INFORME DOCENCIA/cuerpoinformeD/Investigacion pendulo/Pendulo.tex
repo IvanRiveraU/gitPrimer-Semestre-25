@@ -1,0 +1,186 @@
+
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+
+
+
+\begin{document}
+	
+	\begin{center}
+		\LARGE \textbf{Guía de Desafío: "La Danza de los Péndulos con IA"}
+	\end{center}
+	\vspace{0.1cm}
+	
+	\section*{Física del Péndulo: \\  1.1 ¿Cuál es la ecuación de movimiento para la posición angular $\theta(t)$ de un péndulo simple para ángulos pequeños?}
+	
+	
+	
+	\vspace{0.2cm}
+	
+	
+	\section{Análisis de la Ecuación de Movimiento: Solución para Ángulos Pequeños}
+	
+	Basado en el análisis profundo y la integración de los recursos proporcionados (OpenStax, EHU, UCM, Khan Academy y los videos de física universitaria), se presenta la respuesta técnica y fundamentada para la investigación. Esta explicación desglosa la ecuación, su origen físico y las condiciones matemáticas que la hacen válida.
+	
+	Para un péndulo simple idealizado, cuando las oscilaciones son pequeñas (régimen lineal), la posición angular $\theta(t)$ está dada por:
+	
+	\begin{equation}
+		\theta(t) = \theta_{max} \cos\left(\sqrt{\frac{g}{L}} \cdot t\right)
+		\label{eq:movimiento_pendulo}
+	\end{equation}
+	
+	\subsection{1. Desglose de las Variables (Análisis Dimensional)}
+	Según los textos de OpenStax y la Guía UCM, cada término tiene un significado físico estricto:
+	
+	\begin{description}
+		\item[$\theta(t)$ (Posición Angular):] Es el ángulo del hilo respecto a la vertical en un instante $t$. Su valor oscila entre $+\theta_{max}$ y $-\theta_{max}$.
+		
+		\item[$\theta_{max}$ (Amplitud):] Es el desplazamiento angular máximo inicial. Representa la condición inicial del sistema suponiendo que se suelta el péndulo desde el reposo en $t=0$.
+		
+		\item[$\cos$ (Función Armónica):] La función coseno dicta la naturaleza periódica y repetitiva del movimiento.
+		
+		\item[$\sqrt{g/L}$ (Frecuencia Angular Natural, $\omega$):] Este término es el "motor" del oscilador.
+		\begin{itemize}
+			\item \textbf{$g$ (Gravedad):} Actúa como la fuerza restauradora. A mayor gravedad, más rápida es la oscilación (numerador).
+			\item \textbf{$L$ (Longitud):} Representa la inercia rotacional. A mayor longitud, más lenta es la oscilación (denominador).
+		\end{itemize}
+		
+		\item[$t$ (Tiempo):] La variable independiente que hace evolucionar el sistema.
+	\end{description}
+	
+	\subsection{2. Fundamentación Física y Matemática (Origen de la Ecuación)}
+	Para que el modelo sea funcional, es crucial entender el origen de la fórmula, basándonos en la deducción matemática de la EHU y los diagramas de fuerzas de Khan Academy.
+	
+	
+	
+	\subsubsection*{A. La Ecuación Diferencial (El "Motor" Matemático)}
+	El movimiento no empieza con el coseno, sino con la Segunda Ley de Newton para la rotación ($\tau = I \alpha$). La fuerza que mueve al péndulo es la componente del peso tangencial a la trayectoria:
+	\begin{equation}
+		F_t = -mg \sin(\theta)
+	\end{equation}
+	Esto lleva a la ecuación diferencial no lineal:
+	\begin{equation}
+		\frac{d^2\theta}{dt^2} = -\frac{g}{L} \sin(\theta)
+	\end{equation}
+	
+	\subsubsection*{B. La Aproximación de Ángulo Pequeño (La Clave del Modelo)}
+	Aquí se aplica la restricción de "ángulos pequeños". Como explican los recursos técnicos (César Izquierdo, OpenStax), si $\theta < 15^\circ$ (aprox. $0.26$ rad), entonces matemáticamente:
+	\begin{equation}
+		\sin(\theta) \approx \theta
+	\end{equation}
+	Esto transforma la ecuación compleja en una Ecuación de Movimiento Armónico Simple (MAS):
+	\begin{equation}
+		\frac{d^2\theta}{dt^2} + \frac{g}{L} \theta = 0
+	\end{equation}
+	
+	\subsubsection*{C. La Solución Integral}
+	La solución matemática a esta ecuación diferencial lineal es una combinación de senos o cosenos. Dado que el péndulo suele soltarse desde un extremo ($v_0=0$), la solución correcta es el Coseno:
+	\begin{equation}
+		\theta(t) = \theta_{max} \cos(\omega t)
+	\end{equation}
+	Sustituyendo $\omega = \sqrt{g/L}$, obtenemos la fórmula final (\ref{eq:movimiento_pendulo}).
+	
+	\subsection{3. Validación y Comportamiento del Modelo}
+	Según los datos de validación del laboratorio de la UCM, esta ecuación implica tres realidades físicas que el modelo debe respetar:
+	
+	\begin{itemize}
+		\item \textbf{Isocronismo:} El periodo $T$ es independiente de la amplitud $\theta_{max}$ (en régimen de ángulos pequeños). El péndulo tarda lo mismo en oscilar $2^\circ$ que $5^\circ$.
+		\item \textbf{Independencia de la Masa:} La variable $m$ no aparece en la ecuación final. Un péndulo de plomo oscila igual que uno de madera si $L$ es constante.
+		\item \textbf{Relación con el Periodo:} La ecuación confirma que el periodo es:
+		\begin{equation}
+			T = \frac{2\pi}{\omega} = 2\pi \sqrt{\frac{L}{g}}
+		\end{equation}
+	\end{itemize}
+	
+
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+	
+	
+		\section*{Física del Péndulo: \\  1.2 El secreto de la Ola: Para que los péndulos bailen en forma de "serpiente" luego se vuelvan a juntar, sus longitudes no son aleatorias. Investigar Pendulum wave lengths formula o Como calcular longitudes para pendulum wave }
+	
+	
+	\section{Introducción y Fundamento Físico}
+	Basado en los principios de dinámica del péndulo simple establecidos en la literatura técnica (OpenStax, EHU), sabemos que el periodo de oscilación $T$ para amplitudes pequeñas es independiente de la masa y depende exclusivamente de la longitud $L$ y la gravedad $g$.
+	
+	La ecuación fundamental del periodo es:
+	\begin{equation}
+		T = 2\pi \sqrt{\frac{L}{g}}
+	\end{equation}
+	
+	Despejando para la longitud $L$, obtenemos la relación base para el diseño:
+	\begin{equation}
+		L = \frac{g T^2}{4\pi^2}
+		\label{eq:longitud_base}
+	\end{equation}
+	
+	\section{Principio de la Onda de Péndulo (Aliasing Temporal)}
+	Para generar el efecto visual de "onda viajera" o "serpiente" que converge y diverge, no se deben variar las longitudes de manera lineal. El principio físico requiere una \textbf{cuantización lineal de las frecuencias}.
+	
+	Se define un tiempo de ciclo total $t_{ciclo}$ (tiempo de sincronización) en el cual todos los péndulos del sistema completan un número entero de oscilaciones y regresan a la fase inicial simultáneamente.
+	
+	Sean las variables del sistema:
+	\begin{itemize}
+		\item $t_{ciclo}$: Tiempo total del ciclo de la coreografía (ej. 60 segundos).
+		\item $N$: Número base de oscilaciones del péndulo más largo durante $t_{ciclo}$.
+		\item $n$: Índice del péndulo ($n = 0, 1, 2, \dots, k$).
+		\item $T_n$: Periodo del péndulo $n$.
+	\end{itemize}
+	
+	La condición de diseño dicta que el péndulo $n$ debe realizar $N + n$ oscilaciones exactas en el tiempo $t_{ciclo}$. Por lo tanto, el periodo requerido para el péndulo $n$ es:
+	
+	\begin{equation}
+		T_n = \frac{t_{ciclo}}{N + n}
+		\label{eq:periodo_n}
+	\end{equation}
+	
+	\section{Derivación de la Ecuación de Longitud}
+	Sustituyendo la Ecuación (\ref{eq:periodo_n}) en la Ecuación (\ref{eq:longitud_base}), obtenemos la fórmula maestra para calcular la longitud de cada péndulo en la serie:
+	
+	\begin{equation}
+		L_n = \frac{g}{4\pi^2} \left( \frac{t_{ciclo}}{N + n} \right)^2
+	\end{equation}
+	
+	Reordenando los términos para facilitar el cálculo computacional:
+	
+	\begin{equation} \label{eq:formula_final}
+		\boxed{L_n = g \left( \frac{t_{ciclo}}{2\pi (N + n)} \right)^2}
+	\end{equation}
+	
+	Donde:
+	\begin{itemize}
+		\item $L_n$: Longitud del hilo para el péndulo $n$ [metros].
+		\item $g$: Aceleración de la gravedad ($\approx 9.81 \, m/s^2$).
+		\item $N + n$: Frecuencia total de oscilaciones en el ciclo para el péndulo actual.
+	\end{itemize}
+	
+	\section{Ejemplo Numérico para Validación del Modelo}
+	Para implementar un modelo funcional (simulación o prototipo) con los siguientes parámetros estándar:
+	\begin{itemize}
+		\item Ciclo de sincronización: $t_{ciclo} = 60 \, s$
+		\item Oscilaciones base (péndulo más largo): $N = 51$
+		\item Gravedad: $g = 9.81 \, m/s^2$
+	\end{itemize}
+	
+	\subsection*{Cálculo para el Péndulo 0 (Más largo)}
+	$$ n = 0 \rightarrow \text{Oscilaciones} = 51 $$
+	$$ L_0 = 9.81 \left( \frac{60}{2\pi (51)} \right)^2 \approx 0.3474 \, m $$
+	
+	\subsection*{Cálculo para el Péndulo 1}
+	$$ n = 1 \rightarrow \text{Oscilaciones} = 52 $$
+	$$ L_1 = 9.81 \left( \frac{60}{2\pi (52)} \right)^2 \approx 0.3342 \, m $$
+	
+
+	
+\end{document}
