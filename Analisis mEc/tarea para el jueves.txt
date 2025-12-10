@@ -1,0 +1,15 @@
+Para la proxima semana del dia jueves resumen de lo que vimos en los video 
+
+digital, subir a drive, por grupo 
+
+de lo que vimos en los videos 
+
+vamos a generar una base de datos de información, y se lo vamos a proporcionar a gemini, 
+
+
+Marcando parametros y eso se conoce como alucinaciones,
+
+La investigación de los puendulos, junto con la investigacion de  que es phyton y cuales son las librerias de python, se lo vamos a compartir al llm, y vamos a pedir que una la teoria con el codigo y que el genere el codigo a partir qeu la información que le proporcionemos 
+
+
+
