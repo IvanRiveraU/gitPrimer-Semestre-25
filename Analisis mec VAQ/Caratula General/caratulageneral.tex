@@ -1,0 +1,55 @@
+\documentclass[12pt,letterpaper]{article}
+
+% --- PAQUETES ---
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{mathptmx}   % Fuente Times New Roman
+\usepackage{geometry}   % Configuración de márgenes
+
+% Márgenes estándar (1 pulgada = 2.54cm)
+\geometry{
+	left=2.54cm,
+	right=2.54cm,
+	top=2.54cm,
+	bottom=2.54cm
+}
+
+\begin{document}
+	
+	% Quitamos el número de página en la carátula
+	\thispagestyle{empty}
+	
+	% --- ENCABEZADO (Izquierda) ---
+	\begin{flushleft}
+		\Large % <--- TAMAÑO AUMENTADO (Antes era normal)
+		\textbf{Universidad de San Carlos de Guatemala}\\
+		\textbf{Centro Universitario de Occidente}\\
+		\textbf{División de Ciencias de la Ingeniería}\\
+		\textbf{Curso: Análisis Mecánico}\\
+		\textbf{Docente: Ing. Oscar Maldonado}\\
+		
+		
+	\end{flushleft}
+	
+	% Espacio vertical flexible (Reducido a 3cm para dar espacio a la letra grande)
+	\vspace*{5cm} 
+	
+	% --- TÍTULO (Centrado) ---
+	\begin{center}
+		\Huge % <--- TAMAÑO MÁXIMO (Antes era \large)
+		\textbf{ Hoja de Trabajo}
+	\end{center}
+	
+	% Relleno vertical para empujar el nombre al fondo de la página
+	\vfill 
+	
+	% --- PIE DE PÁGINA (Derecha) ---
+	\begin{flushright}
+		\Large % <--- TAMAÑO AUMENTADO (Antes era normal)
+		\textbf{ Marlon Ivan Carreto Rivera 201230088}
+	\end{flushright}
+	
+	% Un pequeño margen inferior extra si es necesario
+	\vspace{1cm}
+	
+\end{document}
