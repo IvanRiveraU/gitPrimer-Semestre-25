@@ -1,0 +1,145 @@
+\documentclass[a4paper,11pt]{article}
+
+% --- Paquetes de Idioma y Codificación ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish, es-tabla]{babel} % Ajusta el idioma a español
+
+% --- Paquetes Matemáticos ---
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+% --- Paquetes de Formato y Estilo ---
+\usepackage{geometry}
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\usepackage{parskip} % Espaciado entre párrafos
+\usepackage{hyperref} % Para enlaces y referencias
+\usepackage{xcolor}   % Para colores en código
+\usepackage{pdfpages}
+
+% --- Formato para Código (opcional pero recomendado) ---
+\newcommand{\code}[1]{\texttt{\color{blue!60!black}#1}}
+
+% --- Título del Documento ---
+
+\begin{document}
+	
+	\includepdf[pages=-]{caratula/caratula.pdf}
+	
+	
+	\begin{center}
+		\LARGE \textbf{Guía de Desafío: \\ "La Danza de los Péndulos con IA"}
+	\end{center}
+	\vspace{0.1cm}
+	
+		\begin{center}
+		\LARGE \textbf{Fase 1: Investigación}
+	\end{center}
+	\vspace{0.1cm}
+	
+	\section{Física del Péndulo: Fundamentos y Ecuaciones}
+	
+	El estudio del péndulo simple combina principios fundamentales de la mecánica clásica con aproximaciones matemáticas que permiten su modelado computacional.
+	
+	\subsection{La Ecuación de Movimiento y la Aproximación de Ángulos Pequeños}
+	
+	\textbf{Pregunta de la guía de desafío:} Física del Péndulo: \\  ¿Cuál es la ecuación de movimiento para la posición angular $\theta(t)$ de un péndulo simple para ángulos pequeños (Pista: Involucra coseno, gravedad g, longitud L,  y tiempo t)?
+	
+
+	El movimiento de un péndulo simple está gobernado por la interacción entre la gravedad y la inercia. Cuando se separa un péndulo de su posición de equilibrio, la fuerza restauradora es la componente tangencial del peso, dada por:
+	\begin{equation}
+		F = -mg \sin(\theta)
+	\end{equation}
+	
+	Sin embargo, la ecuación diferencial que resulta de este planteamiento es no lineal y compleja de resolver analíticamente sin funciones elípticas. Para simplificar el problema y modelarlo computacionalmente en una primera aproximación, utilizamos la \textbf{aproximación de ángulos pequeños}.
+	
+	\textbf{Fundamento Matemático:} Si el ángulo de oscilación $\theta$ es pequeño (generalmente $\theta < 10^\circ$ o $15^\circ$), podemos usar la expansión en serie de Taylor para la función seno, asumiendo que $\sin(\theta) \approx \theta$ (con $\theta$ en radianes).
+	
+	\textbf{Resultado:} Esta simplificación linealiza el sistema, transformándolo en un Oscilador Armónico Simple (M.A.S.). Bajo esta condición, la posición angular en función del tiempo se describe mediante la ecuación:
+	
+	\begin{equation}
+		\theta(t) = \theta_0 \cdot \cos(\omega t + \phi)
+	\end{equation}
+	
+	Donde:
+	\begin{itemize}
+		\item $\theta(t)$: Es el ángulo en el tiempo $t$.
+		\item $\theta_0$: Es la amplitud inicial (ángulo máximo desde donde se suelta).
+		\item $\omega$: Es la frecuencia angular natural del sistema.
+	\end{itemize}
+	
+	\textbf{Contexto en el código:}
+	El script implementado utiliza esta forma simplificada asumiendo que el péndulo se suelta desde el reposo (velocidad inicial cero), implicando que la fase $\phi$ es cero. La frecuencia angular se define intrínsecamente por la geometría del péndulo y la gravedad:
+	\begin{equation}
+		\omega = \sqrt{\frac{g}{L}}
+	\end{equation}
+	
+	En la programación, esto se traduce directamente a la línea: \code{theta\_t = theta0 * np.cos(w * t)}, calculando la posición exacta para cada instante de tiempo discretizado.
+	
+	\subsection{El Fenómeno de la Ola y la Distribución de Longitudes}
+	
+	\textbf{Pregunta de la guía desafío} El secreto de la Ola: Para que los péndulos bailen en forma de "serpiente" luego se vuelvan a juntar, sus longitudes no son aleatorias. Investigar Pendulum wave lengths formula o Como calcular longitudes para pendulum wave.
+	
+	
+	El patrón visual hipnótico observado en simulaciones de múltiples péndulos (conocido como \textit{Pendulum Wave}) surge de la diferencia en los períodos de oscilación de cada péndulo individual. Sabemos que el periodo $T$ (tiempo en dar una oscilación completa) es:
+	
+	\begin{equation}
+		T = 2\pi \sqrt{\frac{L}{g}}
+	\end{equation}
+	
+	Esto implica una relación de proporcionalidad directa con la raíz cuadrada de la longitud ($T \propto \sqrt{L}$). Por lo tanto, péndulos con longitudes distintas oscilarán a frecuencias distintas, desfasándose progresivamente con el tiempo.
+	
+	\textbf{Tu Simulación Específica (Distribución Lineal):}
+	En experimentos estrictos de ``Ondas de Péndulo'', las longitudes se ajustan para que las frecuencias sean múltiplos exactos. Sin embargo, en el código actual optamos por una distribución lineal de longitudes.
+	
+	\textbf{Fórmula Implementada:}
+	\begin{equation}
+		L_i = L_{min} + \frac{(L_{max} - L_{min})}{N - 1} \cdot i
+	\end{equation}
+	Donde $N$ es el número de péndulos. En Python, esto se logra eficientemente con \code{np.linspace(1.0, 2.0, num\_pendulos)}. Aunque esta distribución no garantiza una sincronización cíclica perfecta, genera un efecto de desfase progresivo estético, donde la ``ola'' visual parece viajar, romperse y devolverse debido a que las velocidades angulares relativas ($\omega$) decrecen a medida que aumenta $L$.
+	
+	\section{Herramientas Computacionales en Python para Física}
+	
+	La implementación de simulaciones físicas requiere herramientas que permitan cálculo numérico eficiente y visualización dinámica. Python ofrece un ecosistema robusto para este fin.
+	
+	\subsection{NumPy: El Motor Matemático}
+	\textit{Librería:} \code{import numpy as np}
+	
+	NumPy (\textit{Numerical Python}) es el estándar para computación científica. Su uso en este código es fundamental debido a la \textbf{Vectorización}.
+	
+	\begin{itemize}
+		\item \textbf{Por qué lo usamos:} En lugar de calcular la posición de cada péndulo individualmente dentro de un bucle \code{for} (computacionalmente lento en Python puro), NumPy permite operar sobre arreglos completos (\textit{arrays}).
+		\item \textbf{Aplicación en el código:} Cuando ejecutamos \code{w = np.sqrt(g / longitudes)}, NumPy calcula la raíz cuadrada para todas las longitudes simultáneamente. Del mismo modo, funciones como \code{np.cos()} actúan sobre todo el vector a la vez, optimizando el tiempo de ejecución.
+	\end{itemize}
+	
+	\subsection{Matplotlib: Visualización de Datos}
+	\textit{Librería:} \code{import matplotlib.pyplot as plt}
+	
+	Matplotlib traduce los arreglos numéricos en representaciones gráficas. Para una simulación física correcta, es vital configurar el ``lienzo'' adecuadamente:
+	
+	\begin{enumerate}
+		\item \textbf{Relación de Aspecto (Aspect Ratio):} Es crucial mantener una proporción 1:1. Sin esto, la trayectoria circular del péndulo se distorsionaría viéndose elíptica.
+		\item \textbf{Transformación de Coordenadas:} El código maneja la actualización constante de las coordenadas $(x, y)$ transformadas desde coordenadas polares:
+		\begin{align}
+			x &= L \cdot \sin(\theta) \\
+			y &= -L \cdot \cos(\theta)
+		\end{align}
+	\end{enumerate}
+	
+	
+	[Image of simple pendulum free body diagram]
+	
+	
+	\subsection{Animación y Renderizado en la Nube (Google Colab)}
+	\textit{Librerías:} \code{matplotlib.animation}, \code{IPython.display}
+	
+	La animación física presenta un reto particular en entornos \textit{headless} (sin monitor físico) como Google Colab.
+	
+	\begin{itemize}
+		\item \textbf{Lógica del Movimiento (FuncAnimation):} Esta clase actúa como el ``reloj'' de la simulación, llamando repetidamente a una función de actualización (\textit{update function}) que recalcula la física para $t + \Delta t$.
+		\item \textbf{La Solución (IPython.display.HTML):} Dado que \code{plt.show()} no funciona en servidores remotos de la misma manera que en un escritorio local, debemos ``renderizar'' la animación convirtiéndola a HTML5/JavaScript (\code{to\_jshtml}). Esto compila los cuadros generados y los incrusta directamente en el notebook, permitiendo una visualización fluida e interactiva.
+	\end{itemize}
+	
+\end{document}

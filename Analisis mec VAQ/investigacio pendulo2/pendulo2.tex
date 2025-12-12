@@ -1,0 +1,160 @@
+\documentclass[12pt, a4paper]{article}
+
+% Paquetes para codificación e idioma
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish, es-tabla]{babel}
+
+% Paquetes para matemáticas y símbolos
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{physics} % Útil para notación de derivadas y vectores
+
+\usepackage{pdfpages}
+
+% Paquetes para formato y diseño
+\usepackage{geometry}
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\usepackage{parskip} % Espacio entre párrafos en lugar de sangría
+
+\title{\textbf{Investigación Onda de Péndulos \\ (Pendulum Wave)}}
+\author{}
+\date{}
+
+\begin{document}
+	
+		\includepdf[pages=-]{caratula/caratula.pdf}
+	
+	\maketitle
+	
+	\section{Introducción al Sistema Físico}
+	
+	El sistema de estudio consiste en un conjunto discreto de $N$ péndulos simples independientes, suspendidos de un eje común horizontal. Aunque los péndulos no están acoplados mecánicamente (no existen resortes ni fuerzas de fricción entre ellos), se manifiesta un acoplamiento visual o ``efecto de onda'' debido a la relación matemática precisa entre las longitudes de sus cuerdas y sus periodos de oscilación natural.
+	
+	\section{Dinámica del Péndulo Simple Ideal}
+	
+	Para comprender el comportamiento del sistema conjunto, primero se debe modelar el comportamiento individual de cada oscilador. Se asume un modelo de Péndulo Simple Ideal bajo las siguientes hipótesis:
+	
+	\begin{itemize}
+		\item La masa oscilante es una partícula puntual de masa $m$.
+		\item La cuerda es inextensible y de masa despreciable.
+		\item El sistema es conservativo (se desprecia la resistencia del aire y la fricción en el pivote).
+		\item El movimiento se restringe a un plano vertical bidimensional.
+	\end{itemize}
+	
+	\subsection{Ecuación de Movimiento (Derivación por Torque)}
+	
+	Aplicando la Segunda Ley de Newton en su forma rotacional ($\tau = I \alpha$) sobre el punto de pivote:
+	
+	\begin{equation}
+		\tau_{neto} = -mgL \sin(\theta)
+	\end{equation}
+	
+	Donde:
+	\begin{itemize}
+		\item $\tau$ es el torque restaurador.
+		\item $L$ es la longitud de la cuerda.
+		\item $\theta$ es el desplazamiento angular respecto a la vertical.
+	\end{itemize}
+	
+	El signo negativo indica que el torque se opone al desplazamiento angular. El momento de inercia $I$ de una masa puntual a una distancia $L$ es $I = mL^2$. La aceleración angular es $\alpha = \frac{d^2\theta}{dt^2}$. Sustituyendo en la ecuación de movimiento:
+	
+	\begin{equation}
+		-mgL \sin(\theta) = (mL^2) \frac{d^2\theta}{dt^2}
+	\end{equation}
+	
+	Simplificando la masa $m$ y una longitud $L$, obtenemos la ecuación diferencial no lineal que rige el movimiento:
+	
+	\begin{equation}
+		\frac{d^2\theta}{dt^2} + \frac{g}{L} \sin(\theta) = 0
+	\end{equation}
+	
+	\section{Linealización y el Régimen de Pequeñas Oscilaciones}
+	
+	La ecuación anterior no tiene una solución analítica simple en términos de funciones elementales (su solución exacta involucra integrales elípticas de primera especie). Sin embargo, para propósitos de esta simulación, restringimos el sistema al régimen de pequeñas oscilaciones.
+	
+	\subsection{Aproximación de Taylor}
+	
+	Si el ángulo inicial $\theta_0$ es pequeño (típicamente $\theta < 15^\circ$ o $\approx 0.26$ rad), podemos expandir la función seno en una serie de Taylor alrededor de 0:
+	
+	\begin{equation}
+		\sin(\theta) = \theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \dots
+	\end{equation}
+	
+	Despreciando los términos de orden superior ($\theta^3$ y superiores), asumimos que $\sin(\theta) \approx \theta$.
+	
+	\subsection{Ecuación del Oscilador Armónico Simple}
+	
+	Sustituyendo la aproximación en la ecuación diferencial original, el sistema se linealiza:
+	
+	\begin{equation}
+		\frac{d^2\theta}{dt^2} + \frac{g}{L} \theta = 0
+	\end{equation}
+	
+	Esta es la ecuación diferencial estándar del Movimiento Armónico Simple (MAS). Su solución general es:
+	
+	\begin{equation}
+		\theta(t) = \theta_0 \cos(\omega t + \phi)
+	\end{equation}
+	
+	Donde la frecuencia angular natural ($\omega$) está determinada exclusivamente por la geometría del péndulo y la gravedad, independiente de la masa:
+	
+	\begin{equation}
+		\omega = \sqrt{\frac{g}{L}}
+	\end{equation}
+	
+	Y el Periodo ($T$), el tiempo necesario para completar una oscilación completa, es:
+	
+	\begin{equation}
+		T = \frac{2\pi}{\omega} = 2\pi \sqrt{\frac{L}{g}}
+	\end{equation}
+	
+	\section{Fenomenología de la Onda de Péndulo (Pendulum Wave)}
+	
+	La característica distintiva de la ``Onda de Péndulo'' no es el movimiento de un solo péndulo, sino la fase relativa entre múltiples péndulos. 
+	
+	Para generar los patrones visuales de ondas viajeras y estacionarias, las longitudes $L_n$ de los péndulos no se eligen aleatoriamente. Se seleccionan de tal manera que, tras un intervalo de tiempo macroscópico $T_{ciclo}$, todos los péndulos vuelvan a sincronizarse exactamente en su posición inicial.
+	
+	\subsection{Relación Frecuencia-Longitud}
+	
+	Sea $\Gamma$ el periodo global del ciclo de la danza de péndulos. Para que el péndulo $n$ complete exactamente $k_n$ oscilaciones en ese tiempo $\Gamma$, su periodo $T_n$ debe cumplir:
+	
+	\begin{equation}
+		T_n = \frac{\Gamma}{k_n}
+	\end{equation}
+	
+	Sustituyendo la ecuación del periodo del péndulo simple ($T = 2\pi\sqrt{L/g}$):
+	
+	\begin{equation}
+		2\pi \sqrt{\frac{L_n}{g}} = \frac{\Gamma}{k_n}
+	\end{equation}
+	
+	Despejando para la longitud $L_n$:
+	
+	\begin{equation}
+		L_n = g \left( \frac{\Gamma}{2\pi k_n} \right)^2
+	\end{equation}
+	
+	Esto demuestra que para obtener el efecto visual deseado, las longitudes no deben variar linealmente, sino que deben ajustarse cuadráticamente con respecto al inverso de la frecuencia entera deseada. Esta sutil diferencia en las frecuencias ($\Delta \omega$) entre péndulos adyacentes es lo que causa el desfase progresivo (\textit{phase shifting}), creando la ilusión de una onda que viaja, se fragmenta en caos y se reorganiza.
+	
+	\section{Implementación Computacional y Transformación de Coordenadas}
+	
+	Para la simulación computacional y la visualización gráfica en un plano cartesiano 2D, es necesario transformar las coordenadas generalizadas (polares) del sistema lagrangiano a coordenadas cartesianas.
+	
+	Dado un origen $(0,0)$ en el punto de pivote, la posición de la masa $n$-ésima $(x_n, y_n)$ en el tiempo $t$ viene dada por:
+	
+	\begin{align}
+		x_n(t) &= L_n \cdot \sin(\theta_n(t)) \\
+		y_n(t) &= -L_n \cdot \cos(\theta_n(t))
+	\end{align}
+	
+	Donde $\theta_n(t)$ es la solución analítica derivada en la sección 3.2:
+	
+	\begin{equation}
+		\theta_n(t) = \theta_{max} \cdot \cos\left(\sqrt{\frac{g}{L_n}} \cdot t\right)
+	\end{equation}
+	
+	Esta formulación permite calcular la posición exacta de cada partícula en cualquier instante $t$ sin necesidad de integración numérica iterativa (como el método de Euler o Runge-Kutta), reduciendo el error computacional y el costo de procesamiento.
+	
+\end{document}

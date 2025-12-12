@@ -1,0 +1,179 @@
+\documentclass[a4paper,11pt]{article}
+
+% Paquetes de idioma y codificación
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+
+% Paquetes para matemáticas y símbolos
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+% Paquetes para formato y diseño
+\usepackage{geometry}
+\geometry{left=2.5cm, right=2.5cm, top=3cm, bottom=3cm}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+% Configuración de enlaces
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+
+% Título del documento
+\title{\textbf{Documento de Contexto Técnico: \\ Simulación de Onda de Péndulos}}
+\author{Corpus de Conocimiento para IA}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	
+	\begin{abstract}
+		Este documento constituye un "Corpus de Conocimiento" o "Contexto Maestro". Su propósito es doble: servir para el \textit{fine-tuning} de modelos especializados en simulaciones físicas y proporcionar un contexto avanzado para \textit{Prompt Engineering} (Few-Shot / Chain-of-Thought). El objetivo es permitir que un modelo de IA deduzca lógicamente el código de simulación basándose en principios exactos.
+	\end{abstract}
+	
+	\tableofcontents
+	\vspace{1cm}
+	
+	\section{Marco Teórico y Físico}
+	
+	\subsection{El Péndulo Simple y la Aproximación de Ángulos Pequeños}
+	El sistema base para esta simulación es el péndulo simple idealizado: una masa puntual suspendida de una cuerda sin masa e inextensible de longitud $L$, oscilando bajo la influencia de la gravedad $g$.
+	
+	La ecuación diferencial que rige el movimiento es no lineal:
+	\begin{equation}
+		\frac{d^2\theta}{dt^2} + \frac{g}{L} \sin(\theta) = 0
+	\end{equation}
+	
+	Sin embargo, el código a replicar utiliza la \textbf{Aproximación de Ángulos Pequeños}. Para ángulos iniciales pequeños ($\theta < 20^\circ$ o $\approx 0.35$ rad), se asume que $\sin(\theta) \approx \theta$. Esto linealiza la ecuación diferencial convirtiéndola en un Oscilador Armónico Simple:
+	\begin{equation}
+		\frac{d^2\theta}{dt^2} + \frac{g}{L} \theta = 0
+	\end{equation}
+	
+	La solución analítica exacta para esta aproximación, utilizada en el script, es:
+	\begin{equation}
+		\theta(t) = \theta_0 \cos(\omega t)
+	\end{equation}
+	
+	Donde:
+	\begin{itemize}
+		\item $\theta(t)$ es el ángulo en el tiempo $t$.
+		\item $\theta_0$ es la amplitud inicial.
+		\item $\omega$ es la frecuencia angular natural, definida como:
+		\begin{equation}
+			\omega = \sqrt{\frac{g}{L}}
+		\end{equation}
+	\end{itemize}
+	
+	\subsection{Transformación de Coordenadas Polares a Cartesianas}
+	Para graficar el péndulo en una pantalla (espacio 2D), se deben convertir las coordenadas angulares $(\theta, L)$ a cartesianas $(x, y)$:
+	\begin{align}
+		x &= L \cdot \sin(\theta) \\
+		y &= -L \cdot \cos(\theta)
+	\end{align}
+	\textit{Nota: El signo negativo en $y$ se debe a que el punto de reposo del péndulo está "abajo" del origen en la gráfica.}
+	
+	\subsection{El Efecto ``Pendulum Wave'' (Onda de Péndulo)}
+	La simulación no es de un solo péndulo, sino de un conjunto de $N$ péndulos. La belleza visual (patrones de serpiente, caos y reordenamiento) surge porque el periodo de oscilación depende de la raíz cuadrada de la longitud:
+	\begin{equation}
+		T = 2\pi \sqrt{\frac{L}{g}}
+	\end{equation}
+	
+	Al definir un arreglo de longitudes $L$ linealmente espaciadas (usando \texttt{np.linspace}), cada péndulo tiene una frecuencia ligeramente diferente a su vecino. Esto provoca un desfase progresivo que crea patrones visuales de ondas viajeras.
+	
+	\section{Marco Computacional y Librerías (Python)}
+	Para replicar el código, la IA debe comprender la función específica de cada librería en el contexto de Google Colab.
+	
+	\subsection{NumPy (\texttt{import numpy as np})}
+	Es el motor de cálculo vectorial. En lugar de usar bucles \texttt{for} lentos para calcular la posición de cada péndulo en cada milisegundo, el código aprovecha la vectorización:
+	\begin{itemize}
+		\item \texttt{np.linspace(start, stop, num)}: Genera el vector de longitudes de las cuerdas.
+		\item \texttt{np.arange(start, stop, step)}: Crea el vector de tiempo discreto.
+		\item \texttt{np.sqrt()} y \texttt{np.cos()}: Funciones universales (ufuncs) que operan sobre arrays completos instantáneamente.
+	\end{itemize}
+	
+	\subsection{Matplotlib Pyplot (\texttt{import matplotlib.pyplot as plt})}
+	Encargado de la estructura estática de la visualización:
+	\begin{itemize}
+		\item \texttt{fig, ax = plt.subplots()}: Crea el lienzo y los ejes.
+		\item \texttt{ax.plot()}: Inicialmente se usa para crear objetos vacíos (líneas y puntos) que luego serán animados. Es crucial guardar las referencias a estos objetos (\texttt{lines}, \texttt{masses}) para modificarlos después.
+	\end{itemize}
+	
+	\subsection{Matplotlib Animation}
+	El núcleo de la dinámica (\texttt{from matplotlib.animation import FuncAnimation}). Funciona bajo el concepto de "Blitting" (redibujado optimizado):
+	\begin{itemize}
+		\item \textbf{Función \texttt{update(frame)}}: Es el "game loop". Recibe el número de cuadro actual, calcula las nuevas coordenadas $(x, y)$ usando la física descrita arriba y actualiza los datos de los objetos gráficos usando \texttt{.set\_data()}.
+		\item \textbf{Eficiencia}: Al usar \texttt{lines[i].set\_data()}, se evita borrar y crear la gráfica completa en cada cuadro, lo cual es vital para una animación fluida.
+	\end{itemize}
+	
+	\subsection{Integración en Google Colab}
+	Google Colab es un entorno web estático por defecto. Se usa \texttt{from IPython.display import HTML}.
+	\begin{itemize}
+		\item \texttt{ani.to\_jshtml()}: Convierte la animación de Python en código JavaScript/HTML interactivo.
+		\item \texttt{HTML(...)}: Renderiza ese bloque dentro de la celda del notebook, permitiendo controles de "Play/Pause".
+	\end{itemize}
+	
+	\newpage
+	
+	\section{Instrucción de Síntesis (El Prompt Final)}
+	Este es el bloque diseñado para ser entregado a la IA. Combina la teoría y la técnica para forzar la generación exacta del código.
+	
+	\begin{tcolorbox}[colback=gray!10, colframe=black, title=\textbf{INSTRUCCIÓN DEL SISTEMA}]
+		\textbf{ROL:} Eres un Asistente Experto en Desarrollo de Software Científico y Física Computacional.
+		
+		\textbf{OBJETIVO:}
+		Generar un script de Python ejecutable en Google Colab que simule el fenómeno de "Pendulum Wave" (Onda de Péndulo) utilizando múltiples osciladores armónicos simples.
+		
+		\textbf{ESPECIFICACIONES DEL CÓDIGO (Constraints):}
+		
+		\begin{itemize}
+			\item \textbf{Entorno:} El código debe ser compatible con Jupyter Notebooks / Google Colab.
+			\item \textbf{Lógica Matemática:}
+			\begin{itemize}
+				\item No uses integración numérica (como Runge-Kutta). Usa la solución analítica para pequeñas oscilaciones: $\theta(t) = \theta_0 \cos(\sqrt{g/L} \cdot t)$.
+				\item Debes simular entre 1 y 15 péndulos. Define \texttt{num\_pendulos = 10} como variable fija, asegurando con \texttt{max(1, min(15, ...))} que se mantenga en rango.
+				\item Genera las longitudes $L$ en un rango de 1.0 a 2.0.
+				\item Parámetros: $g=9.81$, $t_{max}=20$, $dt=0.02$, $\theta_0=0.35$ rad.
+			\end{itemize}
+			
+			\item \textbf{Pre-cálculo:} Calcula todas las posiciones angulares \texttt{thetas} antes de iniciar la animación para mejorar el rendimiento.
+			
+			\item \textbf{Visualización (Matplotlib):}
+			\begin{itemize}
+				\item Configura el canvas con xlim (-2.5, 2.5) y ylim (-2.5, 0.5).
+				\item Dibuja un soporte fijo en (0,0).
+				\item Genera colores distintos para cada péndulo usando \texttt{plt.cm.viridis}.
+				\item Crea objetos \texttt{line} (para la cuerda) y \texttt{mass} (para la esfera) vacíos inicialmente.
+			\end{itemize}
+			
+			\item \textbf{Animación (FuncAnimation):}
+			\begin{itemize}
+				\item Crea una función \texttt{update(frame)} que iterativamente actualice las coordenadas $(x, y)$ de cada péndulo:
+				\[ x = L \sin(\theta) \]
+				\[ y = -L \cos(\theta) \]
+				\item Usa \texttt{set\_data} para actualizar las gráficas.
+				\item La función debe retornar una lista combinada de líneas y masas.
+			\end{itemize}
+			
+			\item \textbf{Renderizado Web:}
+			\begin{itemize}
+				\item Cierra la figura estática con \texttt{plt.close()}.
+				\item Muestra la animación final convirtiéndola a JavaScript HTML (\texttt{ani.to\_jshtml()}) y renderizándola con \texttt{IPython.display.HTML}.
+			\end{itemize}
+		\end{itemize}
+		
+		\textbf{SALIDA ESPERADA:}
+		Proporciona únicamente el bloque de código Python completo, comentado y listo para copiar y pegar.
+	\end{tcolorbox}
+	
+	\section*{¿Cómo usar esto?}
+	Si copias y pegas todo el contenido anterior (desde "Marco Teórico" hasta el final del "Prompt") en una IA avanzada, le estarás dando una "clase magistral" sobre tu código. La IA no solo escribirá el código, sino que entenderá por qué funciona, permitiéndote luego pedirle modificaciones complejas como: "Ahora añade rozamiento con el aire" o "Cambia la gravedad a la de la Luna", y la IA sabrá exactamente qué fórmula matemática ajustar.
+	
+\end{document}

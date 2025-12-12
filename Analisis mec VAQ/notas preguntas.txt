@@ -1,0 +1,1 @@
+cada pendulo debe completar un numero entero de oscilaciones diferente dentro de ese mismo periodo total
