@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.2)  17 DEC 2025 23:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.2)  17 DEC 2025 23:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./caratula.tex
-(caratula.tex
+**./caratulaeditable.tex
+(caratulaeditable.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -152,13 +152,13 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 )
-(caratula.aux
+(caratulaeditable.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 8.
 )
-\openout1 = `caratula.aux'.
+\openout1 = `caratulaeditable.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
@@ -217,7 +217,7 @@ LaTeX Info: Redefining \% on input line 17.
 [1
 
 {C:/Users/Ivan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fil
-es/MiKTeX/fonts/enc/dvips/base/8r.enc}] (caratula.aux
+es/MiKTeX/fonts/enc/dvips/base/8r.enc}] (caratulaeditable.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -228,14 +228,14 @@ L3 programming layer <2025-08-13>
  ) 
 Here is how much of TeX's memory you used:
  2651 strings out of 468132
- 45147 string characters out of 5440761
- 461365 words of memory out of 5000000
+ 45243 string characters out of 5440761
+ 461389 words of memory out of 5000000
  31297 multiletter control sequences out of 15000+600000
  631896 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,65p,253b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,5n,65p,261b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb>
-Output written on caratula.pdf (1 page, 15725 bytes).
+Output written on caratulaeditable.pdf (1 page, 15728 bytes).
 PDF statistics:
  12 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
