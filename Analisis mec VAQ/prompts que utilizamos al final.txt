@@ -1,0 +1,9 @@
+en base al documento generar un prompt, para una funcion o script en lenguaje phyton que calcule la posicion de un pendulo simple  usando la formula del pendulo que se comporto como un oscilador armonico simple ademas que use la aproximacion de angulos pequeños segun la formula del documento 
+
+ahora quiero que en la simulacion sean 15 pendulos, que calcule las longitudes utilizando una distribucion lineal linscape de 1 a 2, en lugar una frecuencia armonica compleja 
+
+ahora convierte la grafica estatica en una animacion que corra en tiempo t, el codigo lo usar en google colab asi que utiliza la libreria iptho.display y para la animacion emplea el metodo to_jshtml() de la libreria matplotlid, la animación no la realices tan rapida para que se visualice bien el movimiento de los pendulos.
+
+El codigo esta bien, pero necesito que se inicie en elangulo 0 el movimiento, que se tarde 2 segundos en iniciar el movimiento inicial, y al finalizar se llegue a la posición inicial. por lo cual brindame el codigo corregido con lo antes mencionado.
+
+El codigo esta bien, ahora has que el tiempo de la animación sea proporcional al periodo de oscilación del pendulo para que vuelva a su posición incial.

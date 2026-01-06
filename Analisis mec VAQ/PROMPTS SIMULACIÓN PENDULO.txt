@@ -1,0 +1,69 @@
+Vamos a desarrollar paso a paso una simulación de Pendulum Wave en Google Colab. El objetivo es crear una animación donde varios péndulos con longitudes calculadas se sincronicen cada 120 segundos. Estructuraremos el proyecto en 4 celdas de código independientes que se comunican entre sí. Por favor, espera a que te pida cada celda para generarla, manteniendo la coherencia de las variables y funciones que definamos
+__________________________________________________________________________________________________________________________________________
+Celda 1 (Motor Físico)
+
+"Genera la Celda 1. Define el motor físico con la función calculate_pendulum_position(theta_max, L, g, t).
+
+Requisitos:
+
+Importa numpy como np.
+
+Usa la aproximación de ángulos pequeños: $\theta(t) = \theta_{max} \cdot \sin(\sqrt{g/L} \cdot t)$.
+
+La función debe devolver x = L * np.sin(theta) y y = -L * np.cos(theta).
+
+Esto asegura que en $t=0$, el péndulo esté en el punto de equilibrio vertical."
+
+_________________________________________________________________________________________________________________________________________
+
+Celda 2 (Longitudes)
+
+"Genera la Celda 2. Define generate_pendulum_wave_lengths(n_pendulums, T_total=120, g=9.81, k=15).
+
+Requisitos:
+
+Cada péndulo $i$ debe realizar $k + i$ oscilaciones en el tiempo T_total.
+
+Calcula el periodo como $T = T\_total / (k + i)$.
+
+Deriva la longitud usando $L = g \cdot (T / (2\pi))^2$.
+
+Retorna un array de NumPy con todas las longitudes calculadas."
+
+________________________________________________________________________________________________________________________________________
+
+Celda 3 (Renderizado)
+
+"Genera la Celda 3. Define create_pendulum_wave_animation(lengths, theta_max, T_sim, fps=30).
+
+Requisitos:
+
+
+
+Importa matplotlib.pyplot y FuncAnimation.
+
+Usa np.linspace(0, T_sim, frames, endpoint=True) para que el último frame sea exactamente el final del tiempo pedido.
+
+Configura los ejes (xlim y ylim) de forma dinámica: el ancho basado en max(lengths) * sin(theta_max) y el alto basado en la longitud máxima.
+
+Retorna el objeto de animación y usa plt.close() para evitar duplicados en la salida."
+
+________________________________________________________________________________________________________________________________________
+
+Celda 4 (Interfaz Interactiva)
+
+"Genera la Celda 4. Crea una interfaz usando ipywidgets.interact.
+
+Requisitos:
+
+
+
+Usa un IntSlider para n_pendulums de 5 a 40.
+
+Dentro de la función de interacción, llama a las funciones de las celdas anteriores.
+
+Fija T_sim = 10 segundos para el renderizado (para que sea rápido en Colab) pero mantén la física basada en el ciclo de 120s.
+
+Usa continuous_update=False en el slider para que solo procese al soltar el ratón.
+
+Muestra el resultado con display(HTML(anim.to_jshtml()))."
